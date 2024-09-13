@@ -8,3 +8,51 @@ html {
     font-size: 62.5%;
 }
 
+#top-nav {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#bot-nav {
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid #413b26;
+}
+
+#bot-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+}   
+
+#top-nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+} 
