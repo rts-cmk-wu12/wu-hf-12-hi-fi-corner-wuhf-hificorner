@@ -10,6 +10,9 @@
     --grey-colour: #e1e1e1
     --yellow-colour: #ffc439
 }
+:root{
+    --common-font: Museo Sans Rounded;
+}
 
 /* fonts */
 
