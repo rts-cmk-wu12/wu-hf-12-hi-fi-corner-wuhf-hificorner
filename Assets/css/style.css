@@ -104,3 +104,33 @@ body {
     margin-left: 10px; /* Space between payment logos */
     height: 30px; /* Set a uniform height for logos */
 }
+
+.footer-payment {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center all icons */
+    gap: 15px; /* Space between payment icons */
+}
+
+.footer-payment i {
+    font-size: 25px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 5px; /* Space between social media icons */
+}
+
+.social-media-icons i {
+    font-size: 10px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+    background-color: #a68f5b; /* Background color for circular effect */
+    border-radius: 50%; /* Make icons circular */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-media-icons i:hover {
+    background-color: #d4b86d; /* Change background color on hover */
+}
+
