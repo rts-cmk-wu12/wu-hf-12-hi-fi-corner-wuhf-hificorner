@@ -1,0 +1,16 @@
+.shop__frontpage__gallery{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.shop__frontpage__gallery__section{
+    width: 25%;
+    height: 25%;
+    background-color:rgb(220, 165, 64);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
