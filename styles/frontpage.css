@@ -1,0 +1,175 @@
+@import url(style.css);
+
+#wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+}
+.hero__centerDiv{
+    grid-column: 1/2;
+    place-self: center;
+    grid-row: 1/2;
+    width: 194px;
+    
+   
+}
+.hero__img{
+grid-column: 1/-1;
+grid-row: 1/-1;
+}
+.hero__text{
+    padding-top: 0.3rem;
+    grid-column: 1/-1;
+    grid-row: 2/3;  
+    color: white;
+}
+.hero__textBox{
+    height: 198px;
+    padding: 0.5rem;
+    align-content: end;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5rem;
+}
+/*Nu  til det næste som er news-message*/
+.news-message{
+    background-image: url(/images/hero-image-frontPagetest.JPG);
+    
+}
+.news-message__heading{
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+/*Nu kommer vi til product-show*/
+.product-show{
+    display: grid;
+    padding: 1rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.product-show__arrows{
+    display: grid;
+    grid-row: 2/-1;
+    z-index: 2;
+    align-self: center;
+    
+    grid-column: 1/-1;
+    font-size: 3rem;
+    padding: 0 2rem;
+    color: rgb(190, 113, 72);
+    
+    grid-template-columns: repeat(2,1fr);
+}
+
+.product-show__next{
+    justify-self: end;
+    
+}
+.product-show__productName{
+    grid-row: 1/-1;
+    padding: 1rem 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.product-show__productImg{
+    grid-row: 2/-1;
+    max-width: 50%;
+    place-self: center;
+    grid-column: 1/-1;
+}
+/*Nu kommer vi til social-and-news*/
+.social-and-news__socials{
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    z-index: -2;
+   
+}
+.social-and-news__social{
+ display: grid;
+ 
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr;   
+}
+.social-and-news__socialImg{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    z-index: 2;
+   filter: brightness(10%);
+}
+.social-and-news__logo{
+    grid-column: 1/-1;
+   place-self: center;
+   z-index: 3;
+   font-size: 10rem;
+    grid-row: 1/-1;
+    color: aliceblue;
+}
+/*Nu kommer vi til newsBox idenfor social-and-news__social */
+.social-and-news__newsBox{
+    display: grid;
+    background-color: black;
+    
+}
+.social-and-news__news{
+    text-align: center;
+    padding: 3rem 0;
+    
+   
+}
+.social-and-news__heading{
+   
+    border:  1px solid rgb(255, 255, 255);
+    padding: 0.5rem;
+    max-width: fit-content;
+    margin: 0 auto;
+    color: rgb(133, 113, 0);
+
+}
+.social-and-news__text{
+    color: white;
+    padding-top: 1rem;
+}
+
+/*Her kommer media queiryes*/
+@media only screen and (min-width: 600px) {
+    #wrapper{
+        max-width: 100%;
+    }
+    /*css kode etil heroen*/
+    .hero__img{
+        filter: brightness(70%);
+        z-index: -1;
+
+    }
+    /*Nu kommer vi til news-messeage*/
+    .news-message{
+        background-image: url(/images/hero-image\-frontPage.JPG);
+        
+    }
+    .news-message__heading{
+        padding: 1rem;
+        font-size: 3rem;
+        max-width: 80%;
+        margin: 0 auto;
+        color: white;
+    }
+
+    /*Nu kommmer css til produktShow*/
+    .product-show{
+        display: grid;
+        padding: 1rem 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .product-show__arrows{
+       
+        font-size: 5rem;
+        
+    }
+  }
