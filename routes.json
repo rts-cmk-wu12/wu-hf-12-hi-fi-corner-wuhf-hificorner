@@ -1,0 +1,4 @@
+{
+    "/products/category/:category": "/products?category=:category",
+    "/products/producer/:producer": "/products?producer=:producer"
+}
