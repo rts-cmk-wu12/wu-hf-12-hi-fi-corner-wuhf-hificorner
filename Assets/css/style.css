@@ -56,3 +56,51 @@ html {
     text-transform: uppercase;
     font-size: 1rem;
 } 
+=======
+body {
+    font-family: Arial, sans-serif; /* Use a clean font */
+    background-color: #f7f7f7; /* Light background for contrast */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background-color: #b69a6a; /* Match the footer background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding for space */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Stack address and links vertically */
+}
+
+.footer-address p {
+    margin-bottom: 5px; /* Space between address lines */
+}
+
+.footer-links {
+    display: flex;
+    align-items: center; /* Center links vertically */
+}
+
+.footer-links a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px; /* Space between links */
+}
+
+.footer-links span {
+    color: #fff; /* Color for separator */
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center; /* Center payment logos */
+}
+
+.footer-payment img {
+    margin-left: 10px; /* Space between payment logos */
+    height: 30px; /* Set a uniform height for logos */
+}
