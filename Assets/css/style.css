@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a clean font */
+    background-color: #f7f7f7; /* Light background for contrast */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background-color: #b69a6a; /* Match the footer background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding for space */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Stack address and links vertically */
+}
+
+.footer-address p {
+    margin-bottom: 5px; /* Space between address lines */
+}
+
+.footer-links {
+    display: flex;
+    align-items: center; /* Center links vertically */
+}
+
+.footer-links a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 15px; /* Space between links */
+}
+
+.footer-links span {
+    color: #fff; /* Color for separator */
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center; /* Center payment logos */
+}
+
+.footer-payment img {
+    margin-left: 10px; /* Space between payment logos */
+    height: 30px; /* Set a uniform height for logos */
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center all icons */
+    gap: 15px; /* Space between payment icons */
+}
+
+.footer-payment i {
+    font-size: 25px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 5px; /* Space between social media icons */
+}
+
+.social-media-icons i {
+    font-size: 10px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+    background-color: #a68f5b; /* Background color for circular effect */
+    border-radius: 50%; /* Make icons circular */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-media-icons i:hover {
+    background-color: #d4b86d; /* Change background color on hover */
+}
+
