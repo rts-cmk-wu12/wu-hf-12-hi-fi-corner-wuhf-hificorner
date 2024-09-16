@@ -41,15 +41,33 @@ grid-row: 1/-1;
 }
 /*Nu  til det næste som er news-message*/
 .news-message{
-    background-image: url(/images/hero-image-frontPagetest.JPG);
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-template-rows: repeat(1,1fr);
+   background-color: rgb(160, 146, 103);
+   max-height: 400px;
+   
+
+    
+}
+.news-message__img{
+    mix-blend-mode: multiply;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    max-height: 100%;
+    overflow: hidden;
     
 }
 .news-message__heading{
     padding: 1rem;
+    z-index: 3;
     font-family: 'Museo Sans Rounded 300';
     font-size: 1.3rem;
+    align-self: center;
     text-align: center;
     color: white;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
 }
 /*Nu kommer vi til product-show*/
 .product-show{
@@ -160,10 +178,7 @@ grid-row: 1/-1;
 
     }
     /*Nu kommer vi til news-messeage*/
-    .news-message{
-        background-image: url(/images/hero-image\-frontPage.JPG);
-        
-    }
+    
     .news-message__heading{
         padding: 3rem 1rem;
         font-size: 3rem;

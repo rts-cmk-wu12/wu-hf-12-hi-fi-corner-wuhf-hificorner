@@ -15,6 +15,9 @@ img{
  
 header{
     font-family: 'Roboto', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
  
 .topnav{
