@@ -12,14 +12,15 @@ img {
     display: block;
 }
 
-.wrapper{
-    max-width: 1458px; 
+#wrapper{
+    max-width: 1458px;
+    margin: 0 auto;
 }
 
 /*-------------Icons style--------*/
 
 .headeritems{
-    background-color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.548);
     display: flex;
    /* justify-content: flex-end;*/
     gap: 30px;

@@ -1,17 +1,18 @@
 /* colors */
 
 :root{
-
-    --black-colour: #000000
-    --gold-colour: #9b8d67
-    --footer-gold-colour: #9b8d67
-    --white-colour: #ffffff
-    --pink-colour: #c0ab9f
-    --grey-colour: #e1e1e1
-    --yellow-colour: #ffc439
+    --button-blue-color: #1697f1;
+    --black-colour: #000000;
+    --gold-colour: #9b8d67;
+    --footer-gold-colour: #9b8d67;
+    --white-colour: #ffffff;
+    --pink-colour: #c0ab9f;
+    --grey-colour: #e1e1e1;
+    --yellow-colour: #ffc439;
+    --brown-color: #685225;
 }
 :root{
-    --common-font: Museo Sans Rounded;
+    --common-font: font-family: 'Museo Sans Rounded 500';
 }
 
 /* fonts */
