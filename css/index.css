@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper{
+    max-width: 1458px; 
+}
+
+/*------------------speaker section---------------*/
+
+body {
+    background-image: url(/images/speakers/close-up-speaker.jpg);
+}
+
+.speaker_logocontainer{
+   
+}

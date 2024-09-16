@@ -19,7 +19,7 @@ img {
 /*-------------Icons style--------*/
 
 .headeritems{
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.189);
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -51,9 +51,6 @@ img {
     
     
  }
-
-
- /*-------------------single view produckt header----------*/
 
 
 
