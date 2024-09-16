@@ -4,7 +4,4 @@ const response = await fetch(API_URL + 'products');
 const productData = await response.json();
 
 console.log(productData);
-
-productData.forEach((product) => {
-    console.log(product.product_name);
-})
+console.log(productData.length);
