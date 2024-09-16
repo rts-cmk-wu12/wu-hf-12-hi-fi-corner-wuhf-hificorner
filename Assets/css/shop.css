@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background for the entire page */
+    color: #fff; /* White text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top Navigation */
+#top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+
+#top-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem; /* Adjust font size */
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    width: 100%; 
+}
+
+/* Grid Items */
+.grid-item {
+    position: relative;
+    overflow: hidden; 
+}
+
+.grid-item a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.grid-item figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.4rem; /* Adjust font size */
+    text-align: center; /* Center align text */
+    text-transform: uppercase; /* Uppercase text */
+    text-decoration: underline; /* Add underline to text */
+}
+
+/* Button */
+button.shop-now {
+    width: 100%;
+    color: #fff;
+    border: none;
+    margin-top: 8rem;
+    padding: 15px 0; /* Adjust padding to match the image height */
+    cursor: pointer;
+    background-color: #5c5237; /* Button color */
+    font-size: 1.6rem; /* Button text size */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Ensure the button height matches the image height */
+}
+
+.button-item {
+    background-color: #a39161;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #b69a6a; /* Footer background color */
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff; /* Link color */
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icons i {
+    font-size: 2rem; /* Adjust icon size */
+    color: #fff; /* Icon color */
+}
