@@ -1,0 +1,9 @@
+{
+    "products":[
+        {
+            "name": "creek classic cd",
+            "price": "100kr",
+            "image": "creek_classic_cd.jpg"
+        }
+    ]
+}
