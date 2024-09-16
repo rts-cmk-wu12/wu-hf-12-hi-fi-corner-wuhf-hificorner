@@ -1,10 +1,36 @@
 .homepage-speaker{
-    z-index: -1;
+   background-image: url("../homepagespeaker.jpg");
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .frontpage-header{
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.362);
+}
+.frontpage-header a{
+    color: white;
 }
 .frontpage-nav{
-    z-index: 1;
+    background-color: black;
+}
+.frontpage-nav a{
+    color: #d7d7d7;
+    text-decoration: none;
+}
+.frontpage-nav a:hover{
+    color: #9d7a40;
+}
+
+.header-icons{
+    width: 25px;
+    height: auto;
+    color: white;
+    margin-left: 40px;
+}
+.icon-link{
+    display: flex;
+    justify-content: right;
+}
+.wavylines-box{
 }
