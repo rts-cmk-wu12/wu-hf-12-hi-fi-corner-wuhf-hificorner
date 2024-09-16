@@ -8,6 +8,12 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: Arial, sans-serif; /* Use a clean font */
+    background-color: #f7f7f7; /* Light background for contrast */
+}
+
+/* Top Navigation */
 #top-nav {
     display: flex;
     list-style: none;
@@ -18,8 +24,25 @@ html {
     justify-content: flex-end;
 }
 
+#top-nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+}
+
+#top-nav a,
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* Bottom Navigation */
 #bot-nav {
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: center;
     list-style: none;
@@ -33,71 +56,49 @@ html {
     list-style: none;
     padding: 1rem;
     gap: 2rem;
-}   
-
-#top-nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2rem;
-    color: white;
 }
 
-#top-nav a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1rem;
-} 
-=======
-body {
-    font-family: Arial, sans-serif; /* Use a clean font */
-    background-color: #f7f7f7; /* Light background for contrast */
-}
-
+/* Footer */
 .footer {
     display: flex;
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Center items vertically */
-    background-color: #b69a6a; /* Match the footer background color */
-    color: #fff; /* Text color */
-    padding: 20px; /* Add padding for space */
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    background-color: #b69a6a;
+    color: #fff;
+    padding: 20px;
 }
 
 .footer-content {
     display: flex;
-    flex-direction: column; /* Stack address and links vertically */
+    gap: 2rem;
 }
 
-.footer-address p {
-    margin-bottom: 5px; /* Space between address lines */
+.footer-address pre {
+    margin-bottom: 5px;
+    line-height: 1rem;
+    color: black;
 }
 
 .footer-links {
     display: flex;
-    align-items: center; /* Center links vertically */
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footer-links a {
     color: #fff; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin-right: 15px; /* Space between links */
 }
 
 .footer-links span {
-    color: #fff; /* Color for separator */
+    color: #fff;
+    margin: 0 10px;
 }
 
 .footer-payment {
     display: flex;
     align-items: center; /* Center payment logos */
+    justify-content: center; /* Center all icons */
+    gap: 15px; /* Space between payment icons */
 }
 
 .footer-payment img {
@@ -105,32 +106,32 @@ body {
     height: 30px; /* Set a uniform height for logos */
 }
 
-.footer-payment {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center all icons */
-    gap: 15px; /* Space between payment icons */
-}
-
 .footer-payment i {
     font-size: 25px; /* Adjust icon size */
     color: #fff; /* Icon color */
 }
 
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Social Media Icons */
 .social-media-icons {
     display: flex;
-    gap: 5px; /* Space between social media icons */
+    gap: 5px;
 }
 
 .social-media-icons i {
-    font-size: 10px; /* Adjust icon size */
-    color: #fff; /* Icon color */
-    background-color: #a68f5b; /* Background color for circular effect */
-    border-radius: 50%; /* Make icons circular */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f7f7f7;
 }
-
-.social-media-icons i:hover {
-    background-color: #d4b86d; /* Change background color on hover */
-}
-
