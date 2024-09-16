@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="js/fetch-products.js" type="module"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <nav class="products-path" id="products-path">
         <a href="#?category=all" class="products-path__home">home</a>
@@ -14,11 +16,7 @@
     <div class="products-wrapper">
         <aside class="products-filter">
             <ul class="products-filter__categories" id="products-filter__categories">
-                <li>example</li>
-                <li>example</li>
-                <li>example</li>
-                <li>example</li>
-                <li>example</li>
+                
             </ul>
 
             <section class="products-filter__shop-by" id="products-filter__shop-by">
@@ -31,10 +29,7 @@
                 </ul>
                 <h3 class="products__under-heading">manufacturer</h3>
                 <ul class="shop-by__producer-list" id="shop-by__producer-list">
-                    <li>example</li>
-                    <li>example</li>
-                    <li>example</li>
-                    <li>example</li>
+
                 </ul>
             </section>
         </aside>
@@ -45,44 +40,36 @@
                 <div class="products-display__left">
                     <p class="products-display__text">sort by:</p>
                     <select name="sorter" id="products-sorter">
-                        <option>price: ascending</option>
-                        <option>price: descending</option>
+                        <option>Price: Ascending</option>
+                        <option>Price: Descending</option>
                     </select>
                     <p class="products-display__text">view as:</p>
-                    <img src="Icons/gridbox-icon.svg" alt="gridbox-icon" class="products-display__icon">
-                    <img src="Icons/flexbox-icon.svg" alt="flexbox-icon" class="products-display__icon">
+                    <img src="Icons/gridbox-icon.svg" alt="gridbox-icon" class="products-display__icon" id="product-display__grid">
+                    <img src="Icons/flexbox-icon.svg" alt="flexbox-icon" class="products-display__icon" id="product-display__flex">
                 </div>
                 <div class="products-display__right">
                     <p class="products-display__items-text" id="products-display__items-text">items</p>
                     <p class="products-display__text">show:</p>
                     <select name="limiter" id="products-limiter">
+                        <option>34</option>
                         <option>10</option>
                         <option>25</option>
-                        <option>34</option>
                     </select>
                 </div>
             </div>
 
-            <main>
-                <article class="product">
-                    <img src="images/cd_players/creek_classic_cd.jpg" alt="cd" class="product__image">
-                    <p class="product__name">product name here</p>
-                    <p class="product__price">£money</p>
-                    <button class="product__button">add to cart</button>
-                </article>
+            <main class="products-main grid" id="products-main">
             </main>
         </section>
 
         <aside class="products-producer">
-            <h3 class="products__under-heading">manufacturer</h3>
+            <h3 class="products-producer__under-heading">manufacturer</h3>
             <ul class="products-producer__list">
-                <li>example</li>
-                <li>example</li>
-                <li>example</li>
-                <li>example</li>
-                <li>example</li>
+                <li class="products-producer__list-item">example</li>
             </ul>
+            <button class="products-producer__button">view all</button>
         </aside>
     </div>
 </body>
+
 </html>
