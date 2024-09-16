@@ -1,0 +1,10 @@
+.homepage-speaker{
+    z-index: -1;
+}
+
+.frontpage-header{
+    z-index: 1;
+}
+.frontpage-nav{
+    z-index: 1;
+}
