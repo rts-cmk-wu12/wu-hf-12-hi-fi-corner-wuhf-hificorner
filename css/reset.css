@@ -8,6 +8,6 @@ html {
     font-family: var(--common-font);
 }
 
-p + p {
-    margin-top: 1lh;
+button {
+    cursor: pointer;
 }
