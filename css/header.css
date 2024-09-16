@@ -5,9 +5,45 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper{
+    max-width: 1458px; 
+}
+
+/*-------------Icons style--------*/
+
 .headeritems{
     background-color: lightgrey;
+    display: flex;
+   /* justify-content: flex-end;*/
+    gap: 30px;
+   max-height: 3em;
+   max-width: 1458em;
+   list-style: none;
 }
+
+.header_img{
+    max-width: 3em;
+}
+
+ .header__item--last1{
+    display: flex;
+    background-color: cyan;
+    color: white;
+    height: 2em;
+    width: 8em;
+    justify-content: center;
+    
+ }
+
+/*------------------menu style----------*/
+
 .menu{
     background-color: black;
     display: flex;
