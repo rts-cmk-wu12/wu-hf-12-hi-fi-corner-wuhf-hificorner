@@ -59,6 +59,7 @@ viewAllProducersBtn.addEventListener('click', () => {
         productsProducersElement.appendChild(viewLessProducersBtn)
         viewLessProducersBtn.innerHTML = 'View less'
         viewLessProducersBtn.classList.add('products-producer__button')
+        viewLessProducersBtn.style.display="block"
 })
 
 viewLessProducersBtn.addEventListener('click', () => {
