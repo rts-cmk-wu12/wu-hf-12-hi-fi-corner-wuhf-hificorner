@@ -1,38 +1,53 @@
-.frontpage__images__large{
+.frontpage__images__large {
     min-width: 100%;
     max-height: 10%vh;
+    margin-top: 20em;
 }
-#frontpage__nav {
 
-    background-color: black;
-  margin-top: 40px;
-  height: 50px;
-  
-  
-   
-  
-  }
-  
-  #frontpage__nav  ul {
+/* Vi skal bruge en unik nav til Frontpagen, da den skal have et hul over sig i toppen, som ikke går igen på de andre sider */
+nav {
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    height: 50px;
+    z-index: 100;
+
+}
+.nav__ul__1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style:none;
+    color: white;
+}
+.nav__ul__2 {
     list-style: none;
     display: flex;
     justify-content: space-around;
-  
-  }
-  #frontpage__nav  li{
- font-size: 11px;
+    z-index: 101;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.nav__ul__2 li {
+    font-size: 11px;
     text-align: center;
-    margin-top: 10px;
-  }
-  
-  
-  
-  #frontpage__nav a {
+    
+   
+}
+
+.nav__ul__1 li:nth-child(4) {
+    background-color: rgb(66, 66, 164);
+    display: flex;
+   
+}
+
+
+.nav__ul__2 a {
     text-decoration: none;
     color: white;
-  
-  
-  }
-  #frontpage__nav {
+}
+
+.golden_li {
     color: gold;
-  }
+}
