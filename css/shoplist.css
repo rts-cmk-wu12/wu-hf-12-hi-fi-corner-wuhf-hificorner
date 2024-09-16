@@ -28,12 +28,12 @@
     color: var(--gold-colour);
     list-style: none;
     text-transform: capitalize;
+    
 }
 
 .products-filter__shop-by {
     background-color: var(--grey-colour);
-    padding: 1rem;
-    padding-top: 2rem;
+    padding: 2rem 4rem 1rem 1rem;
     text-transform: capitalize;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,7 @@
 .products__under-heading {
     font-size: 1em;
     text-transform: uppercase;
+    margin-top: 1rem;
 }
 
 .shop-by__price-list, .shop-by__producer-list {
@@ -114,4 +115,16 @@
     font-size: 1em;
     text-transform: capitalize;
     margin-top: 0.5rem;
+}
+
+.products-producer__button:hover {
+    text-decoration: underline;
+}
+
+.filter-item {
+    cursor: pointer;
+}
+
+.filter-item:hover {
+    text-decoration: underline;
 }
