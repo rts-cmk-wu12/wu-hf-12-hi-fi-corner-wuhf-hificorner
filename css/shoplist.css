@@ -5,8 +5,16 @@
 
 .products-path__home {
     color: var(--gold-colour);
-    text-decoration: none;
     text-transform: capitalize;
+    cursor: pointer;
+}
+
+.products-path__filter {
+    text-transform: capitalize;
+}
+
+.products-path__home:hover {
+    text-decoration: underline;
 }
 
 .products-wrapper {
