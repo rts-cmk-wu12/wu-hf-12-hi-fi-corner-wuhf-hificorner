@@ -19,6 +19,7 @@ header {
     justify-content: right;
     padding-right: 1em;
     background-color: rgba(0, 0, 0, 0.595);
+    border-bottom: solid 1px #413a27;
     align-items: center;
     display: flex;
     gap: 2em;
