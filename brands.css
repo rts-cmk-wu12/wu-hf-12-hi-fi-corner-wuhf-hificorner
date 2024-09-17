@@ -1,0 +1,96 @@
+@import url(style.css);
+
+.header_brands{
+    background-color: black;
+}
+
+.topnav{
+    border-bottom: solid 1px #413a27;
+}
+
+
+.brands_main{
+    background-image: url('brandsbilleder/højtaler.jpg');
+        background-size: cover;
+        font-family: 'Museo Sans', sans-serif;
+        background-position: center;
+}
+
+.brands_main h2{
+    color: white;
+    font-family: 'Museo Sans', sans-serif;
+}
+
+.brands_top{
+   
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands_top_text{
+   font-family: 'Museo Sans', sans-serif;
+   font-weight: 200;
+    padding-top: 4em;
+    color: white;
+}
+
+.brands_hifi_logo{
+    width: 100%;
+    padding-bottom: 4em;
+}
+
+
+  
+ .brands_section {
+   background: linear-gradient(to top, #000000, #333333);
+    border: solid 20px white;
+    margin: auto;
+    width: 90%;
+    padding: 1.5rem;
+ }
+
+
+ .link_brand{
+    color: #9e8b5d;
+ }
+
+ .brands_section_flex {
+   
+    display: flex;
+ }
+  
+ .top_text_brand {
+    color: #9e8b5d;
+ }
+
+  
+ .brands_logos img {
+    width: 100%;
+    height: 100%;
+ }
+
+ .brands_logos p {
+   color: #9e8b5d;
+ }
+  
+ .top_text_large {
+    font-size: 1.75rem;
+ }
+  
+ .brand_text_section p{
+    padding: 1em;
+    color: white;
+ }
+  
+ .brand_text_section a, h4 {
+    padding-left: 0.5em;
+ }
+  
+ .brand_text_section {
+    background-image: url();
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+ }
