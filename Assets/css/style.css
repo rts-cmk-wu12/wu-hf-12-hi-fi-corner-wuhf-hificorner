@@ -9,19 +9,32 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif; /* Use a clean font */
-    background-color: #f7f7f7; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
 }
 
-/* Top Navigation */
+header {
+    background-image: url('/assets/img/hifi-frontpage.png');
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 500px;
+}
+
 #top-nav {
     display: flex;
     list-style: none;
     padding: 1rem;
-    gap: 1rem;
+    gap: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: flex-end;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s;
 }
 
 #top-nav-links {
@@ -30,6 +43,22 @@ body {
     list-style: none;
     gap: 2rem;
     color: white;
+    font-size: 1.6em;
+}
+
+.newsletter-button {
+    background: linear-gradient(#1696F1, #21ACF5);
+    color: white;
+    padding: 0.25rem .5rem;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-button span {
+    margin: .25rem;
+    color: black;
 }
 
 #top-nav a,
@@ -38,9 +67,13 @@ body {
     color: white;
     text-transform: uppercase;
     font-size: 1rem;
+    transition: all 0.2s;
 }
 
-/* Bottom Navigation */
+.nav-link:hover {
+    color: #b69a6a;
+}
+
 #bot-nav {
     background-color: rgba(0, 0, 0, 1);
     display: flex;
@@ -58,7 +91,62 @@ body {
     gap: 2rem;
 }
 
-/* Footer */
+#announcement {
+    background-image: url('/assets/img/hifi-bottom.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-size: 4rem;
+    color: white;
+    font-weight: 50;
+    width: 75%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -75,8 +163,8 @@ body {
 
 .footer-address pre {
     margin-bottom: 5px;
-    line-height: 1rem;
     color: black;
+    font-weight: bold;
 }
 
 .footer-links {
@@ -87,6 +175,7 @@ body {
 
 .footer-links a {
     color: #fff; /* Link color */
+    font-weight: bold;
 }
 
 .footer-links span {
