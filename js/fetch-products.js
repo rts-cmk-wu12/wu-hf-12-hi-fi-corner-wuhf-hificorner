@@ -1,6 +1,6 @@
 const API_URL = 'http://localhost:3000/';
 
-const response = await fetch(API_URL + 'products');
+const response = await fetch(API_URL + 'products?_sort=price');
 const productData = await response.json();
 
 console.log(productData);
@@ -11,7 +11,7 @@ const ProducerFilterContainerElement = document.querySelector('#shop-by__produce
 const ProducerContainerElement = document.querySelector('#products-producer__list');
 const productGridElement = document.querySelector('#product-display__grid');
 const productFlexElement = document.querySelector('#product-display__flex');
-const itemsElement = document.querySelector('#products-display__items-text')
+const itemsElement = document.querySelector('#products-display__items-text');
 
 productGridElement.addEventListener('click', () => {
     productsContainerElement.classList.replace('flex', 'grid')
@@ -48,13 +48,13 @@ const viewLessProducersBtn = document.createElement('button');
 function displayLists() {
     categoryFilterContainerElement.innerHTML = uniqueCategories.map(category => `<li class="filter-item">${category}</li>`).join('');
     ProducerFilterContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="filter-item">${producer}</li>`).join('');
-    ProducerContainerElement.innerHTML = limitedProducers.map(producer => `<li class="filter-item products-producer__list-item">${producer}</li>`).join('');
+    ProducerContainerElement.innerHTML = limitedProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
 }
 
 displayLists();
 
 viewAllProducersBtn.addEventListener('click', () => {
-        ProducerContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="filter-item products-producer__list-item">${producer}</li>`).join('');
+        ProducerContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
         viewAllProducersBtn.style.display="none"
         productsProducersElement.appendChild(viewLessProducersBtn)
         viewLessProducersBtn.innerHTML = 'View less'
