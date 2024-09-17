@@ -21,7 +21,7 @@ body{
 .textbox{
     position: absolute;
    
-    bottom: 75px;
+    bottom: 65px;
     left: 50px;
     z-index: 10;
 
