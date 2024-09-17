@@ -27,6 +27,7 @@ main {
 .shop__frontpage__gallery__section__link {
     position: relative;
     text-decoration: underline;
+    color: white;
 }
 
 .shop__frontpage__gallery__section__image {

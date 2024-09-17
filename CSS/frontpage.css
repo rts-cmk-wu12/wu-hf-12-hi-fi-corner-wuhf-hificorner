@@ -3,7 +3,7 @@
     max-height: 600px;
 }
 
-/* Vi skal bruge en unik nav til Frontpagen, da den skal have et hul over sig i toppen, som ikke går igen på de andre sider */
+/* Vi skal bruge en unik nav til Frontpagen, da den skal have et hul over sig i toppen. Det går ikke igen på de andre sider */
 
 nav {
     width: 100vw;
@@ -33,7 +33,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 0.3em;
-    gap: 0.2EM;
+    gap: 0.2em;
     border-radius: 5%;
 }
 
