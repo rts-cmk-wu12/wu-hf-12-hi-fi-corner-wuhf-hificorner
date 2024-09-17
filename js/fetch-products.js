@@ -7,7 +7,7 @@ console.log(productData);
 
 const productsContainerElement = document.querySelector('#products-main');
 const categoryFilterContainerElement = document.querySelector('#products-filter__categories');
-const ProducerFilterContainerElement = document.querySelector('#shop-by__producer-list');
+const producerFilterContainerElement = document.querySelector('#shop-by__producer-list');
 const producerContainerElement = document.querySelector('#products-producer__list');
 const productGridElement = document.querySelector('#product-display__grid');
 const productFlexElement = document.querySelector('#product-display__flex');
