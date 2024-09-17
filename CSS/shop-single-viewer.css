@@ -72,17 +72,40 @@ nav {
 }
 
 /* Resten af sidens CSS, placeholders sættes i, indtil vi har JSON i hus */
-.shop-single-page-wrapper {
+#shop-single-page-top-wrapper{
+    
+    margin: 2em 1em 0 1em;
+}
+#shop-single-page-top-wrapper img{
+    height: 200px;
+    width: 100%;
+}
+
+#shop-single-page-wrapper {
     height: 100vh;
     width: 100vw;
     display: flex;
-    gap: 2em;
+    margin-top: 3em;
+    justify-content: space-around;
+}
+#shop-single-page-wrapper-left {
+    height: 100vh;
+    width: 45%;
 }
 
-.shop-single-page-wrapper-right {
+#shop-single-page-wrapper-right {
     height: 100vh;
+    width: 45%;
 }
 
-.shop-single-page-wrapper-left {
-    height: 100vh;
+
+h1{
+    color: rgb(179, 117, 17);
+}
+h2{
+    color: rgb(179, 117, 17);
+}
+#shop-single-page-wrapper-right-price{
+    display: flex;
+    justify-content: space-between;
 }
