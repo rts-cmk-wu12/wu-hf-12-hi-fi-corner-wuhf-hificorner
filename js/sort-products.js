@@ -4,7 +4,7 @@ let productFilter = 'products/home';
 const productsContainerElement = document.querySelector('#products-main');
 const categoryFilterContainerElement = document.querySelector('#products-filter__categories');
 const priceFilterContainerElement = document.querySelector('#shop-by__price-list');
-const ProducerFilterContainerElement = document.querySelector('#shop-by__producer-list');
+const producerFilterContainerElement = document.querySelector('#shop-by__producer-list');
 const itemsElement = document.querySelector('#products-display__items-text');
 const categoryHeading = document.querySelector('#category-heading');
 const productNavigationContainerElement = document.querySelector('#products-path');
@@ -42,8 +42,6 @@ limiterSelecter.addEventListener('change', (e) => {
     fetchProducts()
 })
 
-
-
 categoryFilterContainerElement.addEventListener('click', (e) => {
     productFilter = `products/category/${e.target.innerHTML}`
     categoryHeading.innerHTML = e.target.innerHTML;
@@ -55,16 +53,18 @@ categoryFilterContainerElement.addEventListener('click', (e) => {
 })
 
 priceFilterContainerElement.addEventListener('click', (e) => {
-    productFilter = `products/price/lowest/${e.target.children[0].innerHTML}/highest/${e.target.lastChild.innerHTML}`
-    categoryHeading.innerHTML = 'all';
-    productNavigationContainerElement.innerHTML = `
-    <span class="products-path__home">home</span>
-    <span> / </span>
-    <span class="products-path__filter">${e.target.innerHTML}</span>`
-    fetchProducts()
+    if (e.target.classList.contains("filter-item")) {
+        productFilter = `products/price/lowest/${e.target.children[0].innerHTML}/highest/${e.target.lastChild.innerHTML}`
+        categoryHeading.innerHTML = 'all';
+        productNavigationContainerElement.innerHTML = `
+        <span class="products-path__home">home</span>
+        <span> / </span>
+        <span class="products-path__filter">${e.target.innerHTML}</span>`
+        fetchProducts()
+    }
 })
 
-ProducerFilterContainerElement.addEventListener('click', (e) => {
+producerFilterContainerElement.addEventListener('click', (e) => {
     productFilter = `products/producer/${e.target.innerHTML}`
     categoryHeading.innerHTML = 'all';
     productNavigationContainerElement.innerHTML = `

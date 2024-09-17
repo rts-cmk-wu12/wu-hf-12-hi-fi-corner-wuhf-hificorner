@@ -8,7 +8,7 @@ console.log(productData);
 const productsContainerElement = document.querySelector('#products-main');
 const categoryFilterContainerElement = document.querySelector('#products-filter__categories');
 const ProducerFilterContainerElement = document.querySelector('#shop-by__producer-list');
-const ProducerContainerElement = document.querySelector('#products-producer__list');
+const producerContainerElement = document.querySelector('#products-producer__list');
 const productGridElement = document.querySelector('#product-display__grid');
 const productFlexElement = document.querySelector('#product-display__flex');
 const itemsElement = document.querySelector('#products-display__items-text');
@@ -47,8 +47,8 @@ const viewLessProducersBtn = document.createElement('button');
 
 function displayLists() {
     categoryFilterContainerElement.innerHTML = uniqueCategories.map(category => `<li class="filter-item">${category}</li>`).join('');
-    ProducerFilterContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="filter-item">${producer}</li>`).join('');
-    ProducerContainerElement.innerHTML = limitedProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
+    producerFilterContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="filter-item">${producer}</li>`).join('');
+    producerContainerElement.innerHTML = limitedProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
 }
 
 displayLists();
