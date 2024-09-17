@@ -1,3 +1,4 @@
+
 {
     "products": [
       {
@@ -6,8 +7,8 @@
         "productType": ["amplifier", "hifi"],
         "price": "429",     
         "manufacturer": "marantz"
-
       },
+      
       {
         "id": 2,
         "name":"s300",
