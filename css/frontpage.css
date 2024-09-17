@@ -3,25 +3,46 @@ body{
 }
 .frontpage__pics{
     display: grid;
-    grid-auto-flow: column;
+   
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, auto);
-    width: 700px;
+    width: 1050px;
     margin: 0 auto; 
     
 }
-.speakers,.amplifers,.turntables,.shopbybrand{
-   
-    background-image: url("/images/dummypic.jpg");
-    background-size: contain;
 
-    color: white;
-    height: 15rem;
-    width: 15rem;
-    
+.frontpage__pics_box{
+    position: relative;
 }
+.frontpage__pics_box2{
+    position: relative;
+    background-color: var(--secondary_higtlight);
+}
+.textbox{
+    position: absolute;
+   
+    bottom: 75px;
+    left: 50px;
+    z-index: 10;
+
+}
+.textbox2{
+    background-color: var(--yellow);
+    position: absolute; 
+    bottom: 55px;
+    left: 65px;
+    z-index: 10;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+}
+.textbox2 p{
+    position: relative;
+    top: 10px;
+}
+
 .pics p{
 }
-.frontpage__pics img{
-max-width: 175px;
+.textbox img{
+max-width: 200px;
 }
