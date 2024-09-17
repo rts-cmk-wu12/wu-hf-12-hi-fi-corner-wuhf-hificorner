@@ -19,6 +19,34 @@ body {
 
 /* Top Navigation */
 #top-nav {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+#top-nav-links {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-size: 1.6em;
+    top: end;
+}
+
+#top-nav {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -37,6 +65,11 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-size: 1.4rem; /* Adjust font size */
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
 }
 
 /* Grid Container */
@@ -64,7 +97,6 @@ body {
     height: auto;
     display: block;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
-    border-radius: 5px; /* Slightly rounded corners */
 }
 
 .grid-item figcaption {
@@ -81,7 +113,7 @@ body {
 
 /* Button */
 button.shop-now {
-    width: 100%;
+    width: 90%;
     color: #fff;
     border: none;
     margin-top: 8rem;
@@ -94,6 +126,7 @@ button.shop-now {
     justify-content: center;
     align-items: center;
     height: auto; /* Ensure the button height matches the image height */
+    padding-inline: 2rem;
 }
 
 .button-item {
