@@ -116,8 +116,38 @@ h1 {
 }
 
 
+.media-wrapper {
+    display: flex;
+    justify-content: center;
+}
 
+.media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    color: white;
+    padding: 1rem;
+    width: 33.33%;
+    transition: background-color 0.3s;  
+}
 
+.media-icon:nth-child(1) {
+    background-image: url('/assets/img/facebook-background.jpg');
+}
+
+.media-icon:nth-child(2) {
+    background-image: url('/assets/img/blogger-background.jpg');
+}
+.media-icon:nth-child(3) {
+    background-image: url('/assets/img/twitter-backgorund.jpg');
+}
+
+.media-wrapper i {
+    font-size: 14rem;
+}
 
 
 
@@ -157,11 +187,11 @@ h1 {
 
 .footer-content {
     display: flex;
-    gap: 2rem;
+    gap: 3.5rem;
 }
 
 .footer-address pre {
-    margin-bottom: 5px;
+    font-size: 1.1rem;
     color: black;
     font-weight: bold;
 }
