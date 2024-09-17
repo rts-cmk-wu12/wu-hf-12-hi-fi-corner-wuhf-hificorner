@@ -1,1 +1,70 @@
 @import url(style.css);
+@import url(/museo-sans-rounded-webfont/fonts.css);
+
+#wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/*Nu kommer stylingen til produktet*/
+.productBox{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+}
+.product{
+    padding: 0 1rem;
+    font-family: 'Museo Sans Rounded 100';
+}
+.product__image{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.product__imageDiv{
+    border: 1px solid rgba(0, 0, 0, 0.502);
+    height: 250px;
+    margin: 0 auto;
+    width: 200px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    
+}
+.product__name{
+    padding-top: 1rem;
+    text-align: center;
+    
+}
+.product__price{
+    text-align: center;
+    padding-top: 0.5rem;
+    color: rgb(165, 144, 98);
+    font-size: 1.5rem;
+    font-family: 'Museo Sans Rounded 300';
+}
+.product__link{
+    background-color: rgb(160, 146, 120);
+    text-decoration: none;
+    padding: 1rem;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    font-family: 'Museo Sans Rounded 500';
+}
+@media only screen and (min-width: 600px) {
+    #wrapper{
+        max-width: 100%;
+    }
+    .productBox{
+        grid-template-columns: repeat(3,1fr);
+      
+    }
+}

@@ -21,7 +21,12 @@ data.forEach(product => {
     image.classList.add("product__image")
     //putter imageDiv ind i produtDiv
     //for at finde frem til det rigtige billede bliver koden lidt mærkelig men det er fordi at billeder er delt op i forskellige mapper
+    //denne if tjekker om billederne er et array eller ej
+    if(typeof product.image == "object" ){
+        image.setAttribute("src", "images/produktbilleder/" + product.category + "/" + product.image[0])
+    }else{
     image.setAttribute("src", "images/produktbilleder/" + product.category + "/" + product.image)
+}
     imageDiv.appendChild(image)
     //nu kommer vi til produktet navnet
     const productName = document.createElement("h2")
@@ -31,10 +36,18 @@ data.forEach(product => {
 
     //nu kommer det til prisen på prduktet
     const productPrice = document.createElement("p")
-    productPrice.textContent = product.price
+    productPrice.textContent = product.price + "kr."
     productPrice.classList.add("product__price")
     productDiv.appendChild(productPrice)
+    //nu tilføjer vi linket til knappen
+    const productLink = document.createElement("a")
+    productLink.textContent = "view more"
+    productLink.classList.add("product__link")
+    productLink.setAttribute("href", "hifi-shop-single-product-view?name=" + product.name)
+    productDiv.appendChild(productLink)
 
+    
+   
 
 
     
