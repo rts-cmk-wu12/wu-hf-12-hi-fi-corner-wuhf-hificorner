@@ -54,7 +54,7 @@ function displayLists() {
 displayLists();
 
 viewAllProducersBtn.addEventListener('click', () => {
-        ProducerContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
+        producerContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
         viewAllProducersBtn.style.display="none"
         productsProducersElement.appendChild(viewLessProducersBtn)
         viewLessProducersBtn.innerHTML = 'View less'
