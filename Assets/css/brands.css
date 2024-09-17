@@ -1,0 +1,246 @@
+:root{
+    --primary-yellow : #b69a6a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* ---------------------------------------------------nav-------------------------------------------------- */
+
+#top-nav {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+#top-nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-size: 1.6em;
+}
+
+#top-nav a,
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: #b69a6a;
+}
+
+#bot-nav {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid #413b26;
+}
+
+#bot-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.active{
+    color: var(--primary-yellow);
+}
+
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.top-logobox{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* -------------------------------------------------------main-------------------------------------------- */
+body{ 
+    background-color: black;
+    background-image: url(/Assets/img/brand/greenbackground.jpg);
+    z-index: -1;
+    background-size: cover;
+}
+
+.brand-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.brand-text{
+    color: var(--primary-yellow);
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 15px;
+   
+}
+
+.top-box{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(56, 56, 56));
+    width: 50%;
+    height: 330px;
+}
+
+.bottom-box{
+    background-image: url(/Assets/img/brand/speaker.jpeg);
+    width: 50%;
+}
+
+h3{
+    color: var(--primary-yellow);
+    font-size: 23px;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.bottom-box-text{
+    color: white;
+    margin: 20px;
+    font-size: 13px;
+}
+
+.go-to-shop{
+    color: var(--primary-yellow);
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
+/*------------------------------------------------ footer -----------------------------------------------*/
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    background-color: #b69a6a;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links a {
+    color: #fff; /* Link color */
+    font-weight: bold;
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center; /* Center payment logos */
+    justify-content: center; /* Center all icons */
+    gap: 15px; /* Space between payment icons */
+}
+
+.footer-payment img {
+    margin-left: 10px; /* Space between payment logos */
+    height: 30px; /* Set a uniform height for logos */
+}
+
+.footer-payment i {
+    font-size: 25px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.social-media-icons i {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f7f7f7;
+}
