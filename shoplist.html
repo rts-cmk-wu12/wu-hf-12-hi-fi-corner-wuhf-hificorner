@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
-    <script src="js/fetch-products.js" type="module"></script>
+    <script type="module" src="js/fetch-products.js"></script>
+    <script type="module" src="js/sort-products.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <nav class="products-path" id="products-path">
-        <a href="#?category=all" class="products-path__home">home</a>
+        <span class="products-path__home">home</span>
     </nav>
     <div class="products-wrapper">
         <aside class="products-filter">
@@ -35,7 +36,7 @@
         </aside>
 
         <section>
-            <h1 class="category-heading" id="category-heading">category</h1>
+            <h1 class="category-heading" id="category-heading">all</h1>
             <div class="products-display">
                 <div class="products-display__left">
                     <p class="products-display__text">sort by:</p>
@@ -52,8 +53,9 @@
                     <p class="products-display__text">show:</p>
                     <select name="limiter" id="products-limiter">
                         <option>34</option>
-                        <option>10</option>
                         <option>25</option>
+                        <option>10</option>
+                        <option>5</option>
                     </select>
                 </div>
             </div>
