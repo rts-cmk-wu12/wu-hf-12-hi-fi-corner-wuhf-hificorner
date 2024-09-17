@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi-fi Corner</title>
     <link rel="stylesheet" href="/Css/style.css">
+    
 </head>
-<body class="homepage-speaker" alt="speaker">
+<body>
+    <img src="/homepagespeaker.jpg" alt="" class="homepage-speaker">
     <header class="frontpage-header icon-link">
-        <a href="" ><img class="header-icons" src="/icons8-gps-100.png" alt="location"></a>
-        <a href="" ><img class="header-icons" src="/icons8-phone-100.png" alt="Telephone"></a>
-        <a href="" ><img class="header-icons" src="/icons8-envelope-100.png" alt="Message"></a>
+        <a href="#" ><img class="header-icons" src="/icons8-gps-100.png" alt="location"></a>
+        <a href="#" ><img class="header-icons" src="/icons8-phone-100.png" alt="Telephone"></a>
+        <a href="#" ><img class="header-icons" src="/icons8-envelope-100.png" alt="Message"></a>
         <button></button>
     </header>
     <nav class="frontpage-nav">
@@ -25,11 +27,15 @@
 </body>
     <main>
         <div class="wavylines-box">
-            <img src="/Wavy lines.jpg" class="wavyimage" alt="wavy lines">
-            <p class="white-text">
-                Our edinburgh showroom has now moved
-                to stunning new premises on joppa road
-            </p>
+            <div class="slideshow-container">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <img src="/Wavy lines.jpg" class="wavyimage" alt="wavy lines">
+                    <p class="white-text">
+                            Our edinburgh showroom has now moved
+                            to stunning new premises on joppa road
+                    </p>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            </div>
         </div>
     </main>
 </html>
