@@ -1,10 +1,65 @@
 //jeg starter med at tage fat i min div, hvor elementer skal placeres i
 const divBox = document.querySelector(".productBox")
+const PshownItems = document.querySelector("#shownItems")
+const alreadyShown = document.querySelector("#alreadyShown")
+const categoryPriceList = document.querySelector(".categoryPriceList")
+
+
+//her tager jeg fat i lsit itemsne som skal vises
+const under200Item = document.querySelector("#under200")
+const under300Item = document.querySelector("#under300")
+const under500Item = document.querySelector("#under500")
+const under1000Item = document.querySelector("#under1000")
+const under2000Item = document.querySelector("#under2000")
+const under3000Item = document.querySelector("#under3000")
+const under4000Item = document.querySelector("#under4000")
+//her tager jeg fat i alle list items med manufactor
+const creekItem = document.querySelector("#creek")
+const expItem = document.querySelector("#exp")
+const exposureItem = document.querySelector("#exposure")
+const parasoundItem = document.querySelector("#parasound")
+const manleyItem = document.querySelector("#manley")
+const projectItem = document.querySelector("#project")
+const borsendorfItem = document.querySelector("#borsendorf")
+const eposItem = document.querySelector("#epos")
+const harbethItem = document.querySelector("#harbeth")
+const proItem = document.querySelector("#pro")
+const jolidaItem = document.querySelector("#jolida")
+
+
+
+
 
 //nu fetcher jeg alle prdukterne
 
 const response =  await fetch("http://localhost:3000/products");
 const data = await response.json();
+
+//laver sygt mange varibler, det lidt rodet, men med nærmere eftertanke, ville det godt kunne optimeres
+//her laver jeg variabler for
+let creek = 0;
+let exp = 0;
+let exposure = 0;
+let parasound = 0;
+let manley = 0;
+let project = 0;
+let bosendorf = 0;
+let epos = 0;
+let harbeth = 0;
+let pro = 0;
+let jolida = 0;
+
+//her laver jeg nogle variabler hvor jeg deler alle elementer op via pris
+let under100 = 0;
+let under200 = 0;
+let under300 = 0;
+let under500 = 0;
+let under1000 = 0;
+let under2000 = 0
+let under3000 = 0
+let under4000 = 0
+let mellem100og300 = 0;
+let mellem500og1000 = 0;
 
 data.forEach(product => {
     //her laver jeg en div som skal omkrandse hele prodktet
@@ -46,9 +101,94 @@ data.forEach(product => {
     productLink.setAttribute("href", "hifi-shop-single-product-view?name=" + product.name)
     productDiv.appendChild(productLink)
 
+    //her tjekker vi får priser
+    if(product.price < 4000){
+        under4000++
+    }
+     if(product.price < 3000){
+        under3000++
+       
+    }
+    if(product.price < 2000){
+        under2000++
+        
+    }
+    if(product.price < 1000){
+        under1000++
+        
+    }
+    if(product.price < 500){
+        under500++
+        
+    }
+    if(product.price < 300){
+        under300++
+    }
+    if(product.price < 200){
+        under200++
+    }
+    //Her tjekker den for hvilket firma produket kommer fra
+    if(product.company == "creek"){
+        creek++
+    }
+    if(product.company == "exp"){
+        exp++
+    }
+    if(product.company == "exppsure"){
+        exposure++
+    }
+    if(product.company == "parasound"){
+        parasound++
+    }
+    if(product.company == "manley"){
+        manley++
+    }
+    if(product.company == "project"){
+        project++
+    }
+    if(product.company == "bosendorf"){
+        bosendorf++
+    }
+    if(product.company == "epos"){
+        epos++
+    }
+    if(product.company == "harbeth"){
+        harbeth++
+    }
+    if(product.company == "pro"){
+        pro++
+    }
+    if(product.company == "jolida"){
+        jolida++
+    }
     
-   
+
 
 
     
 });
+console.log(creek)
+
+//her viser jeg alle valuesne på  company listerne
+creekItem.textContent = creek
+expItem.textContent = exp
+exposureItem.textContent = exposure
+parasoundItem.textContent = parasound
+manleyItem.textContent = manley
+projectItem.textContent = project
+bosendorfItem.textContent = bosendorf
+eposfItem.textContent = epos
+
+//her viser jeg alle valuesne på listerne
+under200Item.textContent = under200
+under300Item.textContent = under300
+under500Item.textContent = under500
+under1000Item.textContent = under1000
+under2000Item.textContent = under2000
+under3000Item.textContent = under3000
+under4000Item.textContent = under4000
+// nu laver jeg koden som skrive
+console.log(under500)
+// her sker alle ekstra ting, som at indsætte navne og dataer
+PshownItems.textContent = data.length + "item(s)"
+alreadyShown.textContent =  data.length

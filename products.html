@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <script src="js-files/fetchProducts.js" type="module"></script>
 </head>
 <body>
@@ -29,10 +31,100 @@
         </nav>
     </header>
      <main>
+<article class="productSelec">
+    <section class="categorySelect">
+        <div class="categoryListDiv">
+       <ul class="categoryList">
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">Alle produkter</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">cd-afspillere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">dvd-afspillere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">effektforstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">forforstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">hojtalere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">int-forstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">pladespillere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="">roer-forstaerkere</a></li>
+       </ul>
+    </div>
+    <div class="categoryfilter">
+        <h2 class="categorySelect__heading" >SHOP BY</h2>
+        <p class="categoryfilter__text">Filter</p>
+        <p class="categoryfilter__text">PRICE</p>
+        <ul class="categoryPriceList">
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 200(<span id="under200"></span>)</a></li>
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 300(<span id="under300"></span>)</a></li>
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 500(<span id="under500"></span>)</a></li>
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 1000(<span id="under1000"></span>)</a></li>
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 2000(<span id="under2000"></span>)</a></li>
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 3000(<span id="under3000"></span>)</a></li>
+            <li class="categoryPriceList__listItem"><a class="categoryPriceList" href="">Under 4000(<span id="under4000"></span>)</a></li>
+        </ul>
+        <p class="categoryfilter__text">Manufactor</p>
+        <ul class="categorymanufactor">
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">creek(<span id="creek"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">Exp(<span id="exp"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">Exposure(<span id="exposure"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">paraSound(<span id="parasound"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">manley(<span id="manley"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">project(<span id="project"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">bosendorf(<span id="bosendorf"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">epos(<span id="epos"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">harbeth(<span id="harbeth"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">Pro(<span id="pro"></span>)</a></li>
+            <li class="categorymanufactor__listItem"> <a class="categorymanufactor__link" href="">jolida(<span id="jolida"></span>)</a></li>
 
+
+
+
+
+
+
+
+
+
+        </ul>
+
+
+    </div>
+
+    </section>
+    <section class="productSelec__topBox">
+        <h1 class="productSelec__heading">Alle produkter</h1>
+        <form class="sortData">
+            <div class="sortData__sortBy">
+            <label for="sortBy">SORT BY:</label><select name="sortBy" id="sortBy">
+                <option value="">Price</option>
+                <option value="highPricd">Price: high to low</option>
+                <option value="lowPrice">Price: low tio high</option>
+                <option value="alfhabethic">Alfhabethic</option>
+               
+              </select>
+            </div>
+              <div class="sortData__viewAs">
+              <label for="viewAs">VIEW AS:</label> <button class="sortData__viewAsWindows selectet"><i class="fa-brands fa-windows"></i></button>
+              <button class="sortData__viewAsList"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="sortData__items">
+                <p id="shownItems"></p>
+                <label for="show">SHOW:</label>
+                <select name="show" id="show">
+                    <option id="alreadyShown" value="5">--Please choose an option--</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="all">all</option>
+                   
+                  </select>
+            </div>
+        </form>
+    </section>
+
+    
      <div class="productBox">
 
      </div>
+    </article>
 
 
 
