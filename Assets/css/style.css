@@ -92,11 +92,10 @@ header {
 }
 
 #announcement {
-    background-image: url('/assets/img/hifi-bottom.png');
+    background-image: url('/assets/img/hifi-frontpage_magic-Photoroo.png');
     background-size: cover;
     background-position: center;
-    min-height: 400px;
-
+    min-height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
