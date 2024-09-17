@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Museo Sans Rounded 500';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 500'), url('MuseoSansRounded500.woff') format('woff');
+    }
 body {
     background-color: var(--black-colour);
     font-family: 'Museo Sans Rounded 500';
@@ -9,20 +15,30 @@ img {
     height: 234px;
 }
 
+.current-website{
+    color: var(--gold-colour);
+}
+
+.header-line{
+    width: 1458px;
+    color: var(--gold-colour);
+    border-bottom: solid;
+    display: grid;
+    margin: 0 auto;
+    
+}
 
 .link-to-shoplist{
-    display: flex;
-    position: absolute;
-    width: 234px;
-    height: 234px;
-    font-size: 20px;
-    color: var(--white-colour);
-    padding: 25px;
-    margin-left: 20px;
+   display: grid;
+   text-align: center;
+   grid-template-columns: repeat(4, 16fr);
+   position: absolute;
+   color: var(--white-colour);
 }
 
 .grid-item {
     display: grid;
+    align-items: center;
     margin: 0 auto;
     width: 234px;
     height: 234px;
