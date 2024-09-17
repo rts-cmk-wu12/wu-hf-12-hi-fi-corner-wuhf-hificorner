@@ -36,13 +36,14 @@ body{
     height: 45px;
     text-align: center;
 }
-.textbox2 p{
+.textbox2 a{
     position: relative;
     top: 10px;
 }
 
 .pics p{
 }
-.textbox img{
-max-width: 200px;
+.frontpage__pics_box img{
+
+height: 262.5px;
 }
