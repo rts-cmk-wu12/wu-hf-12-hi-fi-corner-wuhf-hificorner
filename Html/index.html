@@ -5,37 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi-fi Corner</title>
     <link rel="stylesheet" href="/Css/style.css">
+    <script src="/js/slideshow.js" defer></script>
     
 </head>
 <body>
-    <img src="/homepagespeaker.jpg" alt="" class="homepage-speaker">
+    <img src="/Backgroundimages/homepagespeaker.jpg" alt="" class="homepage-speaker">
+    <div class="header-box">
     <header class="frontpage-header icon-link">
-        <a href="#" ><img class="header-icons" src="/icons8-gps-100.png" alt="location"></a>
-        <a href="#" ><img class="header-icons" src="/icons8-phone-100.png" alt="Telephone"></a>
-        <a href="#" ><img class="header-icons" src="/icons8-envelope-100.png" alt="Message"></a>
-        <button></button>
-    </header>
-    <nav class="frontpage-nav">
-        <a href="index.html">Home</a>
-        <a href="#">About Us</a>
-        <a href="brands.html">Brands</a>
-        <a href="#">Blog</a>
-        <a href="#">Events</a>
-        <a href="shop.html">Shop</a>
-        <a href="#">Contact Us</a>
-    </nav>
-</body>
+            <a href="#" ><img class="header-icons" src="/iconsimage/icons8-gps-100.png" alt="location"></a>
+            <a href="#" ><img class="header-icons" src="/iconsimage/icons8-phone-100.png" alt="Telephone"></a>
+                <a href="#" ><img class="header-icons" src="/iconsimage/icons8-envelope-100.png" alt="Message"></a>
+                <button class="message-button"><img class="message-button-icon" src="/iconsimage/icons8-envelope-30.png" alt="">| Message</button>
+        </header>
+        <nav class="frontpage-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="brands.html">Brands</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    </body>
     <main>
         <div class="wavylines-box">
-            <div class="slideshow-container">
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <img src="/Wavy lines.jpg" class="wavyimage" alt="wavy lines">
-                    <p class="white-text">
-                            Our edinburgh showroom has now moved
-                            to stunning new premises on joppa road
-                    </p>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <img src="/Backgroundimages/Wavylines.jpg" alt="wavylines">
+            <p class="white-text">
+                Our edinburgh showroom has now moved
+                to stunning new premises on joppa road
+            </p>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="/Produktbilleder/Produktbilleder/cd_afspillere/creek_classic_cd.jpg" class="slide-picture" alt="">
+                <p class="text">
+                    Creek Cd Classic
+                </p>
             </div>
+            <div class="mySlides fade">
+                <img src="/Produktbilleder/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg" class="slide-picture" alt="">
+                <p class="text">
+                    Creek Destiny Cd
+                </p>
+            </div>
+            <div class="mySlides fade">
+                <img src="/Produktbilleder/Produktbilleder/cd_afspillere/creek_evo_cd.jpg" class="slide-picture" alt="">
+                <p class="text">
+                    Creek evo Cd
+                </p>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </main>
-</html>
+        <footer>
+
+        </footer>
+    </html>
