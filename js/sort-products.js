@@ -11,14 +11,27 @@ const productNavigationContainerElement = document.querySelector('#products-path
 const priceSorterSelecter = document.querySelector('#products-sorter');
 const limiterSelecter = document.querySelector('#products-limiter');
 
+let sort = 'price';
 let order = 'asc';
 let limit = '34';
 priceSorterSelecter.addEventListener('change', (e) => {
     if (e.target.value == 'Price: Ascending') {
+        sort = 'price';
         order = 'asc';
         fetchProducts()
     }
-    else {
+    else if (e.target.value == 'Price: Descending') {
+        sort = 'price';
+        order = 'desc';
+        fetchProducts()
+    }
+    else if (e.target.value == 'Name: Ascending') {
+        sort = 'product_name';
+        order = 'asc';
+        fetchProducts()
+    }
+    else if (e.target.value == 'Name: Descending') {
+        sort = 'product_name';
         order = 'desc';
         fetchProducts()
     }
@@ -27,7 +40,6 @@ priceSorterSelecter.addEventListener('change', (e) => {
 limiterSelecter.addEventListener('change', (e) => {
     limit = e.target.value;
     fetchProducts()
-
 })
 
 
@@ -73,7 +85,7 @@ productNavigationContainerElement.addEventListener('click', (e) => {
 })
 
 async function fetchProducts() {
-    const response = await fetch(API_URL + productFilter + `&_sort=price&_order=${order}&_limit=${limit}`);
+    const response = await fetch(API_URL + productFilter + `&_sort=${sort}&_order=${order}&_limit=${limit}`);
     const productData = await response.json();
 
 
