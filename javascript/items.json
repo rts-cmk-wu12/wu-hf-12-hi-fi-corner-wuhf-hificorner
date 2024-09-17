@@ -26,7 +26,7 @@
             "name": "EXPOSURE 2010S",
             "price": "£320.00",
             "category": "cd_players",
-            "img": "/images/Produktbilleder/cd_afspillere/Exp_2010S_CD.jpg"
+            "img": "/images/Produktbilleder/cd_afspillere/Exp_2010S_CD.gif"
         },
         
         {
@@ -121,14 +121,14 @@
             "name": "BöSENDORFER VSS",
             "price": "£230.00",
             "category": "speakers",
-            "img": "/images/Produktbilleder/hojtalere/boesendorfer_vcs_wall.jpg"
+            "img": "/images/Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif"
         },
         {
             "id": 18,
             "name": "EPOS M5",
             "price": "£500.00",
             "category": "speakers",
-            "img": "/images/Produktbilleder/hojtalere/epos_m5.jpg"
+            "img": "/images/Produktbilleder/hojtalere/epos_m5.gif"
         },
         {
             "id": 19,
