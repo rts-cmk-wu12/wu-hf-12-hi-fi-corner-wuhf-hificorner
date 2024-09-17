@@ -3,38 +3,52 @@
     font-style: normal;
     font-weight: normal;
     src: local('Museo Sans Rounded 500'), url('MuseoSansRounded500.woff') format('woff');
-    }
-body {
-    background-color: var(--black-colour);
-    font-family: 'Museo Sans Rounded 500';
 }
 
-img {
+
+.menu__link:hover {
+    color: var(--gold-colour);
+}
+
+body {
+    background-color: var(--black-colour);
+}
+
+#grid-item-image {
     display: block;
     width: 234px;
     height: 234px;
 }
 
-.current-website{
+.current-website {
     color: var(--gold-colour);
 }
 
-.header-line{
+.header-line {
     width: 1458px;
     color: var(--gold-colour);
-    border-bottom: solid;
+    border-bottom: solid thin;
     display: grid;
     margin: 0 auto;
-    
+    margin-bottom: 10px;
 }
 
-.link-to-shoplist{
-   display: grid;
-   text-align: center;
-   grid-template-columns: repeat(4, 16fr);
-   position: absolute;
-   color: var(--white-colour);
+.to-shoplist-link {
+    width: 234px;
 }
+
+.link-to-shoplist {
+    display: flex;
+    /* display: grid;
+   grid-template-columns: repeat(4, 16fr); */
+    position: absolute;
+    color: var(--white-colour);
+    width: 234px;
+    height: 234px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .grid-item {
     display: grid;
@@ -79,4 +93,10 @@ img {
     color: var(--white-colour);
     font-size: 20px;
     font-weight: bold;
+}
+
+footer{
+    width: 1458px;
+    height: 61px;
+    background-color: var(--gold-colour);
 }

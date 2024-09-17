@@ -6,8 +6,7 @@
 
 img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 
@@ -23,12 +22,10 @@ header{
 /*-------------Icons style--------*/
 
 .headeritems {
-    background-color: rgba(0, 0, 0, 0.548);
+    color: var(--white-colour);
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    max-height: 3em;
-    max-width: 1458em;
     list-style: none;
 }
 
