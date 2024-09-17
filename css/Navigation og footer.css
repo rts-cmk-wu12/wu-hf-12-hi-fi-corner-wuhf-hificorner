@@ -1,0 +1,63 @@
+@import url(variabler.css);
+
+nav {
+    align-items: center;
+    display: grid;
+    background-color: black;
+    height: 50px;
+
+}
+
+.nav_list {
+    display: grid;
+    grid-auto-flow: column;
+    width: 33%;
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+.nav_list :hover {
+    color: var(--yellow);
+}
+
+.nav_list_item {
+    list-style: none;
+    color: aliceblue;
+
+}
+
+.header_div {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: end;
+    justify-content: end;
+    align-items: center;
+   
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--opacity_black);
+    padding-left: 25px;
+height: 65px;
+}
+
+
+.header_div a {
+    color: white;
+}
+
+.header_div_items {
+    margin-right: 25px;
+}
+
+.header_div input {
+    width: 115%;
+    height: 65%;
+}
+
+.fa-user,
+.fa-cart-shopping {
+    margin-right: 5px;
+}
