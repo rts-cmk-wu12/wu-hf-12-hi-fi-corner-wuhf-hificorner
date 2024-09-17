@@ -3,7 +3,4 @@
 @import url(index.css);
 @import url(reset.css);
 @import url(hero.css);
-
-.white-text{
-    color: white;
-}
+@import url(slideshow.css);
