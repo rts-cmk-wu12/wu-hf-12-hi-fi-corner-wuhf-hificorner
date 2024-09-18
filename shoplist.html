@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
+    <script type="module" src="js/fetch-products.js"></script>
+    <script type="module" src="js/sort-products.js"></script>
     <script defer src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
     <script src="js/fetch-products.js" type="module"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="wrapper">
+  <div class="wrapper">
         <header>
             <div class="headeritems1">
 <img class="headeritems1_logo" src="https://placehold.jp/24/cc9999/993333/logo.png" alt="logo">
 
-                <form class="headeritems1__form" action="search.html" method="get"><input class="headeritems__input" type="search"
-                        placeholder="Search entire store here...."><i
+                <form class="headeritems1__form"><input class="headeritems__input" type="search"
+                        placeholder="Search entire store here...." id="product-search-input"><i
                         class="fas fa-search"></i></form>
-
+                <ul class="headeritems1__list">
                 <li class="header__item2 header__item2--last2"><img class="header_img"
                         src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
 
@@ -36,27 +38,87 @@
                 <li class="header__item2 header__item2--last"><img class="header_img"
                         src="Icons/envelope-svgrepo-com.svg" alt="envelope">
                 </li>
+            </ul>
             </div>
             <hr class="header_line">
 
             <nav>
                 <ul class="menu">
-                    <li class="menu__item"><a class="menu__link" href="">HOME</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">ABOUT US</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">BRANDS</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">BLOG</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">EVENTS</a></li>
-                    <li class="menu__item"><a class="menu__link" href=""><span>SHOP</span></a></li>
-                    <li class="menu__item"><a class="menu__link" href="">CONTACT US</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+                    <li class="menu__item"><a class="menu__link" href="brands.html">BRANDS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#" aria-current="page">SHOP</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">CONTACT US</a></li>
 
                 </ul>
             </nav>
-
-
-
-
         </header>
+    </div>
+  
+    <nav class="products-path" id="products-path">
+        <span class="products-path__home">home</span>
+    </nav>
+    <div class="products-wrapper">
+        <aside class="products-filter">
+            <ul class="products-filter__categories" id="products-filter__categories">
+                
+            </ul>
 
+            <section class="products-filter__shop-by" id="products-filter__shop-by">
+                <h2 class="shop-by__heading">shop by</h2>
+                <h3 class="products__under-heading">price</h3>
+                <ul class="shop-by__price-list" id="shop-by__price-list">
+                    <li class="filter-item">£<span>0</span> - £<span>250</span></li>
+                    <li class="filter-item">£<span>40</span> - £<span>100</span></li>
+                    <li class="filter-item">£<span>100</span> - £<span>250</span></li>
+                </ul>
+                <h3 class="products__under-heading">manufacturer</h3>
+                <ul class="shop-by__producer-list" id="shop-by__producer-list">
+
+                </ul>
+            </section>
+        </aside>
+
+        <section>
+            <h1 class="category-heading" id="category-heading">all</h1>
+            <div class="products-display">
+                <div class="products-display__left">
+                    <p class="products-display__text">sort by:</p>
+                    <select name="sorter" id="products-sorter">
+                        <option>Price: Ascending</option>
+                        <option>Price: Descending</option>
+                        <option>Name: A-Z</option>
+                        <option>Name: Z-A</option>
+                    </select>
+                    <p class="products-display__text">view as:</p>
+                    <img src="Icons/gridbox-icon.svg" alt="gridbox-icon" class="products-display__icon" id="product-display__grid">
+                    <img src="Icons/flexbox-icon.svg" alt="flexbox-icon" class="products-display__icon" id="product-display__flex">
+                </div>
+                <div class="products-display__right">
+                    <p class="products-display__items-text" id="products-display__items-text">items</p>
+                    <p class="products-display__text">show:</p>
+                    <select name="limiter" id="products-limiter">
+                        <option>34</option>
+                        <option>25</option>
+                        <option>10</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-main grid" id="products-main">
+            </div>
+        </section>
+
+        <aside class="products-producer" id="products-producer">
+            <h3 class="products-producer__under-heading">manufacturer</h3>
+            <ul class="products-producer__list" id="products-producer__list">
+            
+            </ul>
+            <button class="products-producer__button" id="products-producer__button">view all</button>
+        </aside>
     </div>
 
 </body>

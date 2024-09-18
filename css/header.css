@@ -7,27 +7,38 @@
 
 img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 
-.wrapper{
-    max-width: 1458px; 
+#wrapper {
+    max-width: 1458px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    height: 120px;
 }
 
 /*-------------Icons style--------*/
 
+
 .headeritems{
     background-color: rgba(211, 211, 211, 0.189);
+    color: var(--white-colour);
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-   max-height: 3em;
-   max-width: 1458em;
-   list-style: none;
+    list-style: none;
+
 }
 
+.header_img {
+    width: 3em;
+}
+
+.header__item--last1 {
 .header_img{
     max-width: 2em;
     margin-bottom: 0.5em;
@@ -56,26 +67,28 @@ img {
 
 /*------------------menu style----------*/
 
-.menu{
+.menu {
     background-color: black;
     display: flex;
     justify-content: center;
-    
     list-style: none;
     gap: 27px;
     height: 3em;
     padding-top: 1em;
 }
+
 .menu__item {
     display: flex;
-        
-}
-.menu__link{
-    text-decoration: none;
-    color: white;
-    font-size: smaller;
-}
-span{
-    color: goldenrod;
+
 }
 
+.menu__link {
+    font-family: 'Museo Sans Rounded 500';
+    text-decoration: none;
+    color: var(--white-colour);
+    font-size: smaller;
+}
+
+[aria-current="page"] {
+    color: var(--gold-colour);
+}
