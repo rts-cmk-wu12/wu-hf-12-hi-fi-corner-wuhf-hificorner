@@ -1,0 +1,75 @@
+{
+  "amplifiers": [
+    {
+      "id": 1,
+      "name": "Creek A50i",
+      "price": "5000",
+      "manufacturer": "Creek",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "speakers": [
+    {
+      "id": 1,
+      "name": "Klipsch RP600M",
+      "price": "2500",
+      "manufacturer": "Klipsch",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "turntables": [
+    {
+      "id": 1,
+      "name": "Pro-Ject Debut III",
+      "price": "2000",
+      "manufacturer": "Pro-Ject",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "cd-players": [
+    {
+      "id": 1,
+      "name": "Marantz CD6007",
+      "price": "3000",
+      "manufacturer": "Marantz",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "streamers": [
+    {
+      "id": 1,
+      "name": "Bluesound Node 2i",
+      "price": "3500",
+      "manufacturer": "Bluesound",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "name": "AudioQuest Rocket 33",
+      "price": "1500",
+      "manufacturer": "AudioQuest",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "furniture": [
+    {
+      "id": 1,
+      "name": "Sanus Ultimate Series",
+      "price": "4500",
+      "manufacturer": "Sanus",
+      "photo": "path/to/photo.jpg"
+    }
+  ],
+  "headphones": [
+    {
+      "id": 1,
+      "name": "Bose QuietComfort 35 II",
+      "price": "2500",
+      "manufacturer": "Bose",
+      "photo": "path/to/photo.jpg"
+    }
+  ]
+}
+
