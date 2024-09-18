@@ -129,35 +129,8 @@
             "stromforbrug": "18W",
             "skaermtype": "OLED",
             "mediekontroller": "Fjernbetjening, App",
-            "kompatible_regioner": "Region 0 (Multizone)",
-            "company": "exp",
-            "billedoplosning": "720p via HDMI",
-            "videoudgange": [
-                "HDMI",
-                "Composite Video",
-                "Component Video"
-            ],
-            "lydudgange": [
-                "Stereo RCA",
-                "HDMI"
-            ],
-            "formater": [
-                "DVD",
-                "CD",
-                "MP3",
-                "DivX",
-                "AVI",
-                "JPEG"
-            ],
-            "funktioner": [
-                "USB og SD-kortlæser",
-                "Multiformat-afspilning",
-                "OSD"
-            ],
-            "stromforbrug": "18W",
-            "skaermtype": "OLED",
-            "mediekontroller": "Fjernbetjening, App",
             "kompatible_regioner": "Region 0 (Multizone)"
+            
         },
         {
             "name": "creek classic",
