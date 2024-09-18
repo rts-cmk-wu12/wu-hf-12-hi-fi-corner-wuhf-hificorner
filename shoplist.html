@@ -7,10 +7,55 @@
     <title>Shop</title>
     <script type="module" src="js/fetch-products.js"></script>
     <script type="module" src="js/sort-products.js"></script>
+    <script defer src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
+    <script src="js/fetch-products.js" type="module"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <div class="wrapper">
+        <header>
+            <div class="headeritems1">
+<img class="headeritems1_logo" src="https://placehold.jp/24/cc9999/993333/logo.png" alt="logo">
+
+                <form class="headeritems1__form" action="search.html" method="get"><input class="headeritems__input" type="search"
+                        placeholder="Search entire store here...."><i
+                        class="fas fa-search"></i></form>
+
+                <li class="header__item2 header__item2--last2"><img class="header_img"
+                        src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
+
+                <li class="header__item2 header__item2--last2"><img class="header_img"
+                        src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</li>
+
+
+                <li class="header__item2 header__item2--last"><img class="header_img"
+                        src="Icons/location-pin-svgrepo-com.svg" alt="loction">
+                </li>
+                <li class="header__item2 header__item2--last"><img class="header_img"
+                        src="Icons/telephone-svgrepo-com.svg" alt="telephone">
+                </li>
+                <li class="header__item2 header__item2--last"><img class="header_img"
+                        src="Icons/envelope-svgrepo-com.svg" alt="envelope">
+                </li>
+            </div>
+            <hr class="header_line">
+
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">ABOUT US</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">BRANDS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">BLOG</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">EVENTS</a></li>
+                    <li class="menu__item"><a class="menu__link" href=""><span>SHOP</span></a></li>
+                    <li class="menu__item"><a class="menu__link" href="">CONTACT US</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+  
     <nav class="products-path" id="products-path">
         <span class="products-path__home">home</span>
     </nav>
@@ -74,6 +119,7 @@
             <button class="products-producer__button" id="products-producer__button">view all</button>
         </aside>
     </div>
+
 </body>
 
 </html>
