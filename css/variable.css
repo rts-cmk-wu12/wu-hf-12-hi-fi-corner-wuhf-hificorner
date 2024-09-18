@@ -1,6 +1,7 @@
 /* colors */
 
 :root{
+    --button-blue-color: #1697f1;
     --black-colour: #000000;
     --gold-colour: #9b8d67;
     --footer-gold-colour: #9b8d67;
@@ -8,49 +9,6 @@
     --pink-colour: #c0ab9f;
     --grey-colour: #e1e1e1;
     --yellow-colour: #ffc439;
+    --brown-color: #685225;
     --common-font: "Museo Sans Rounded";
-}
-
-/* fonts */
-
-@font-face {
-    font-family: 'Museo Sans Rounded 500';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 500'), url('MuseoSansRounded500.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Museo Sans Rounded 100';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 100'), url('MuseoSansRounded100.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Museo Sans Rounded 300';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 300'), url('MuseoSansRounded300.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Museo Sans Rounded 700';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 700'), url('MuseoSansRounded700.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Museo Sans Rounded 900';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 900'), url('MuseoSansRounded900.woff') format('woff');
-}
-    
-@font-face {
-    font-family: 'Museo Sans Rounded 1000';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Museo Sans Rounded 1000'), url('MuseoSansRounded1000.woff') format('woff');
 }
