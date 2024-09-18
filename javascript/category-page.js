@@ -18,12 +18,12 @@ function showHide() {
 
 // Fetch Data
 
-
-const response = await fetch('json/items.json');
+const API_URL = "http://localhost:3000/"
+const response = await fetch(API_URL + 'items');
 const product = await response.json();
 const productList = document.querySelector('#product-list');
 console.log(product);
-product.items.forEach(function(product){
+product.forEach(function(product){
     console.log(product.name);
     const productDiv = document.createElement('div');
             productDiv.classList.add('product');
