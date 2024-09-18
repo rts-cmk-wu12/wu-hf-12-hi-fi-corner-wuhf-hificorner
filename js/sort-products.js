@@ -1,4 +1,10 @@
+const params = new URLSearchParams(window.location.search);
+const chosenCategory = params.get('category');
+
 const API_URL = 'http://localhost:3000/';
+let sort = 'price';
+let order = 'asc';
+let limit = '34';
 let productFilter = 'products/home';
 
 const productsContainerElement = document.querySelector('#products-main');
@@ -11,9 +17,18 @@ const productNavigationContainerElement = document.querySelector('#products-path
 const priceSorterSelecter = document.querySelector('#products-sorter');
 const limiterSelecter = document.querySelector('#products-limiter');
 
-let sort = 'price';
-let order = 'asc';
-let limit = '34';
+if (chosenCategory) {
+    categoryHeading.innerHTML = chosenCategory;
+    if (chosenCategory !== 'all') {
+        productFilter = `products/category/${chosenCategory}`;
+        productNavigationContainerElement.innerHTML = `
+        <span class="products-path__home">home</span>
+        <span> / </span>
+        <span class="products-path__filter">${chosenCategory}</span>`
+    }
+    fetchProducts()
+}
+
 priceSorterSelecter.addEventListener('change', (e) => {
     if (e.target.value == 'Price: Ascending') {
         sort = 'price';
@@ -25,12 +40,12 @@ priceSorterSelecter.addEventListener('change', (e) => {
         order = 'desc';
         fetchProducts()
     }
-    else if (e.target.value == 'Name: Ascending') {
+    else if (e.target.value == 'Name: A-Z') {
         sort = 'product_name';
         order = 'asc';
         fetchProducts()
     }
-    else if (e.target.value == 'Name: Descending') {
+    else if (e.target.value == 'Name: Z-A') {
         sort = 'product_name';
         order = 'desc';
         fetchProducts()
@@ -87,7 +102,6 @@ productNavigationContainerElement.addEventListener('click', (e) => {
 async function fetchProducts() {
     const response = await fetch(API_URL + productFilter + `&_sort=${sort}&_order=${order}&_limit=${limit}`);
     const productData = await response.json();
-
 
     productsContainerElement.textContent = '';
     productData.forEach((product) => {
