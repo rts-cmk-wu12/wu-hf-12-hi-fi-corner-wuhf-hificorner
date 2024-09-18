@@ -6,6 +6,81 @@
     margin: 0 auto;
 }
 
+#searchinput input{
+    font-family: 'Museo Sans Rounded 100';
+    width: 24em;
+}
+
+#searchinput{
+    height: 1.5em;
+    width: 20em;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0.2em;
+    background-color: white;
+}
+
+#searchinput button, input{
+    background-color: white;
+    color: grey;
+    border: none;
+}
+
+#searchinput :focus{
+    outline: none;
+}
+
+.topnav_search {
+    height: 3em;
+    justify-content: space-between;
+    padding-right: 1em;
+    background-color: black;
+    border-bottom: solid 1px #413a27;
+    align-items: center;
+    display: flex;
+    gap: 2em;
+}
+
+.topnav_right{
+    align-items: center;
+    display: flex;
+    gap: 2em;
+}
+
+.topnav_right_icon_text {
+    font-size: 12px;
+}
+
+.topnav_search p {
+    color: white;
+}
+
+.topnav_black_line {
+    color: black;
+}
+
+.topnav_button {
+    font-size: 10px;
+    color: white;
+    padding: 0.5em;
+    background-color: #1ba4f3;
+    border: none;
+    border-radius: 5px;
+}
+
+.topnav_logo{
+    padding-left: 0.2em;
+    width: 45px;
+}
+
+
+
+
+
+
+
 /*Nu kommer stylingen til produktet*/
 .productBox{
     padding-top: 1rem;
