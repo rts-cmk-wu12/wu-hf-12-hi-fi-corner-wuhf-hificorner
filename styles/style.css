@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-/*DENNE FIL SKAL SLETTES DA DER ALLEREDE FINDES EN VERSION I VORES MERGE*/
 /*Her impoterer vi vores fonts*/
 @import url(/museo-sans-rounded-webfont/fonts.css);
-=======
->>>>>>> 3f9b01adbad6f5fd6063078fd6b9ab8161f7e5bf
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +20,7 @@ header {
     height: 3em;
     justify-content: right;
     padding-right: 1em;
-    background-color: rgba(0, 0, 0, 0.595);
+    background-color: black;
     border-bottom: solid 1px #413a27;
     align-items: center;
     display: flex;
