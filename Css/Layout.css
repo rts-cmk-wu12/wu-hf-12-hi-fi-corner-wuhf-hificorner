@@ -59,25 +59,3 @@ body .container a {
     padding-block: 5rem;
     color: white;  
 }
-
-footer {
-    background-color: #a39161; /* Dark background */
-    color: #D1C6A8; /* Light gold color */
-    padding: 20px;
-    text-align: left; /* Align text to the left */
-}
-.footer-address {
-    margin: 10px 0;
-    font-size: 12px;
-}
-.payment-icons {
-    margin-top: 10px;
-    display: flex;
-    gap: 2rem;
-    justify-content: end;
-
-}
-.payment-icons img {
-    height: 30px; /* Adjust icon size */
-    margin: 0 5px;
-}

@@ -57,10 +57,12 @@ background-image: url(../Backgroundimages/Wavylines.jpg);
 display: flex;
 justify-content: center;
 align-items: center;
-min-height: 486px;
+min-height: 455px;
+border: none;
+
 background-repeat: no-repeat;
 background-color: hsl(51.4deg 27.7% 44.89%);
-   background-blend-mode: overlay;
+background-blend-mode: overlay;
 }
 
 .white-text{
