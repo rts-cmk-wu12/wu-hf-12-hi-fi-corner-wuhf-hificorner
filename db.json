@@ -5,7 +5,7 @@
         "description": "A vintage-style CD player with modern functionality, offering crisp audio and multiple playback options.",
         "price": 89.99,
         "producer": "Classic Audio Co.",
-        "category": "cd player",
+        "category": "cd players",
         "image": "/images/cd_players/creek_classic_cd.jpg"
       },
       {
@@ -13,7 +13,7 @@
         "description": "Lightweight and compact, this portable CD player is perfect for on-the-go music lovers.",
         "price": 49.99,
         "producer": "Classic Audio Co.",
-        "category": "cd player",
+        "category": "cd players",
         "image": "/images/cd_players/creek_Destiny_CD.jpg"
       },
       {
@@ -21,7 +21,7 @@
         "description": "High-fidelity CD player designed for audiophiles seeking unmatched sound quality and durability.",
         "price": 149.99,
         "producer": "Elite Sound Inc.",
-        "category": "cd player",
+        "category": "cd players",
         "image": "/images/cd_players/creek_evo_cd.jpg"
       },
       {
@@ -29,7 +29,7 @@
         "description": "A modern CD player with wireless connectivity and built-in Bluetooth speakers.",
         "price": 129.99,
         "producer": "Elite Sound Inc.",
-        "category": "cd player",
+        "category": "cd players",
         "image": "/images/cd_players/Exp_2010S_CD.gif"
       },
       {
@@ -37,7 +37,7 @@
         "description": "A high-definition DVD player that supports 4K video output and Dolby audio.",
         "price": 99.99,
         "producer": "Home Theatre Systems",
-        "category": "dvd player",
+        "category": "dvd players",
         "image": "/images/dvd_players/creek_classic.jpg"
       },
       {
@@ -45,7 +45,7 @@
         "description": "Space-saving, compact DVD player with HDMI output for crystal-clear viewing.",
         "price": 59.99,
         "producer": "Home Theatre Systems",
-        "category": "dvd player",
+        "category": "dvd players",
         "image": "/images/dvd_players/exposure_2010S.jpg"
       },
       {
@@ -53,7 +53,7 @@
         "description": "A versatile player that supports both Blu-ray and DVD formats for high-quality entertainment.",
         "price": 129.99,
         "producer": "Entertainment Hub",
-        "category": "dvd player",
+        "category": "dvd players",
         "image": "/images/dvd_players/parasound_d200.jpg"
       },
       {
@@ -61,7 +61,7 @@
         "description": "Play DVDs from any region with this versatile, multi-region DVD player.",
         "price": 79.99,
         "producer": "Entertainment Hub",
-        "category": "dvd player",
+        "category": "dvd players",
         "image": "/images/dvd_players/parasound_halod3.jpg"
       },
       {
@@ -69,7 +69,7 @@
         "description": "Enhance your sound with rich reverb effects, perfect for live performances and recording.",
         "price": 69.99,
         "producer": "Sonic Gear",
-        "category": "effect booster",
+        "category": "effect boosters",
         "image": "/images/effect_boosters/manley_mahi.jpg"
       },
       {
@@ -77,7 +77,7 @@
         "description": "Add intense distortion effects to your sound, ideal for rock and metal music.",
         "price": 74.99,
         "producer": "Sonic Gear",
-        "category": "effect booster",
+        "category": "effect boosters",
         "image": "/images/effect_boosters/manley_neoclassic300b.jpg"
       },
       {
@@ -85,7 +85,7 @@
         "description": "Create lush, swirling soundscapes with this versatile chorus effect booster.",
         "price": 79.99,
         "producer": "Melody Masters",
-        "category": "effect booster",
+        "category": "effect boosters",
         "image": "/images/effect_boosters/manley_snapper.jpg"
       },
       {
@@ -93,7 +93,7 @@
         "description": "Produce captivating echoes and delays for your music with this easy-to-use booster.",
         "price": 89.99,
         "producer": "Melody Masters",
-        "category": "effect booster",
+        "category": "effect boosters",
         "image": "/images/effect_boosters/parasound_haloa23.jpg"
       },
       {
@@ -101,7 +101,7 @@
         "description": "Increase your strength and endurance with this potent FOR booster.",
         "price": 39.99,
         "producer": "Power Performance Labs",
-        "category": "for booster",
+        "category": "for boosters",
         "image": "/images/for_boosters/Creek_OBH_22_Passive_Preamp.jpg"
       },
       {
@@ -109,7 +109,7 @@
         "description": "Boost your energy levels with this all-natural FOR booster supplement.",
         "price": 29.99,
         "producer": "Power Performance Labs",
-        "category": "for booster",
+        "category": "for boosters",
         "image": "/images/for_boosters/parasound_classic7100.jpg"
       },
       {
@@ -117,7 +117,7 @@
         "description": "Maximize your workout endurance with this advanced FOR booster formula.",
         "price": 34.99,
         "producer": "Athlete’s Choice",
-        "category": "for booster",
+        "category": "for boosters",
         "image": "/images/for_boosters/parasound_halop3.jpg"
       },
       {
@@ -125,7 +125,7 @@
         "description": "Unleash your inner power with this high-performance FOR booster.",
         "price": 44.99,
         "producer": "Athlete’s Choice",
-        "category": "for booster",
+        "category": "for boosters",
         "image": "/images/for_boosters/Project_prebox.jpg"
       },
       {
@@ -133,7 +133,7 @@
         "description": "Sharpen your cognitive abilities with this brain-enhancing INT booster.",
         "price": 49.99,
         "producer": "NeuroLabs",
-        "category": "int booster",
+        "category": "int boosters",
         "image": "/images/int_boosters/creek_a50I.jpg"
       },
       {
@@ -141,7 +141,7 @@
         "description": "Enhance your memory retention with this advanced INT booster supplement.",
         "price": 42.99,
         "producer": "NeuroLabs",
-        "category": "int booster",
+        "category": "int boosters",
         "image": "/images/int_boosters/creek_classic5350SE.jpg"
       },
       {
@@ -149,7 +149,7 @@
         "description": "Improve your concentration and focus with this powerful INT booster.",
         "price": 39.99,
         "producer": "Clarity Health",
-        "category": "int booster",
+        "category": "int boosters",
         "image": "/images/int_boosters/creek_destinyamp.jpg"
       },
       {
@@ -157,7 +157,7 @@
         "description": "Unlock your creative potential with this unique INT booster formula.",
         "price": 54.99,
         "producer": "Clarity Health",
-        "category": "int booster",
+        "category": "int boosters",
         "image": "/images/int_boosters/manley_snapper.jpg"
       },
       {
@@ -165,7 +165,7 @@
         "description": "Increase your overall brainpower and mental acuity with this INT booster.",
         "price": 59.99,
         "producer": "Genius Labs",
-        "category": "int booster",
+        "category": "int boosters",
         "image": "/images/int_boosters/Manley_Stingray.jpg"
       },
       {
@@ -173,7 +173,7 @@
         "description": "A retro-style record player with modern features for the ultimate vinyl experience.",
         "price": 119.99,
         "producer": "Retro Audio",
-        "category": "record player",
+        "category": "record players",
         "image": "/images/record_players/Pro_ject_Debut_3_bl.jpg",
         "variant": [
             {
@@ -195,7 +195,7 @@
         "description": "A high-fidelity record player designed for true audiophiles.",
         "price": 199.99,
         "producer": "Modern Audio Solutions",
-        "category": "record player",
+        "category": "record players",
         "image": "/images/record_players/Pro_ject_rpm_5.jpg"
       },
       {
@@ -203,7 +203,7 @@
         "description": "A versatile record player with built-in speakers, radio, and CD player.",
         "price": 179.99,
         "producer": "AllPlay Audio",
-        "category": "record player",
+        "category": "record players",
         "image": "/images/record_players/Pro_ject_rpm10.jpg"
       },
       {
@@ -211,7 +211,7 @@
         "description": "Regenerate your cells and revitalize your body with this advanced ROER booster.",
         "price": 69.99,
         "producer": "Health Innovations",
-        "category": "roer booster",
+        "category": "roer boosters",
         "image": "/images/roer_boosters/jolida_JD102b.jpg"
       },
       {
@@ -219,7 +219,7 @@
         "description": "Boost your body’s resistance against ailments with this ROER booster.",
         "price": 59.99,
         "producer": "Health Innovations",
-        "category": "roer booster",
+        "category": "roer boosters",
         "image": "/images/roer_boosters/jolida_JD202a.jpg"
       },
       {
@@ -227,7 +227,7 @@
         "description": "Speed up your recovery with this specially formulated ROER booster.",
         "price": 64.99,
         "producer": "Rapid Recoveries Inc.",
-        "category": "roer booster",
+        "category": "roer boosters",
         "image": "/images/roer_boosters/jolida_JD300b.jpg"
       },
       {
@@ -235,7 +235,7 @@
         "description": "Improve overall vitality and energy levels with this ROER booster.",
         "price": 74.99,
         "producer": "Rapid Recoveries Inc.",
-        "category": "roer booster",
+        "category": "roer boosters",
         "image": "/images/roer_boosters/jolida_JD302b.jpg"
       },
       {
@@ -243,7 +243,7 @@
         "description": "Enhance physical strength and endurance with this powerful ROER booster.",
         "price": 79.99,
         "producer": "Max Health Ltd.",
-        "category": "roer booster",
+        "category": "roer boosters",
         "image": "/images/roer_boosters/jolida_JD502b.jpg"
       },
       {

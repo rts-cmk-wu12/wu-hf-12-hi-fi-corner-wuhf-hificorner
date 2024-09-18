@@ -1,4 +1,5 @@
 
+
 .menu__link:hover {
     color: var(--gold-colour);
 }
@@ -12,6 +13,7 @@ body {
     width: 234px;
     height: 234px;
 }
+
 
 .current-website {
     color: var(--gold-colour);
@@ -85,10 +87,4 @@ body {
     color: var(--white-colour);
     font-size: 20px;
     font-weight: bold;
-}
-
-footer{
-    width: 1458px;
-    height: 61px;
-    background-color: var(--gold-colour);
 }

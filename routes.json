@@ -1,7 +1,6 @@
 {
     "/products/category/:category": "/products?category=:category",
     "/products/producer/:producer": "/products?producer=:producer",
-    "/products/price/:order": "/products?_sort=price&_order=:order",
-    "/products/price/lowest/:low/highest/:high": "/products?price_gte=:low&price_lte=:high",
-    "/products/show/:limit": "/products?_limit=:limit"
+    "/products/home&_sort=:sort&_order=:order&_limit=:limit": "/products?_sort=:sort&_order=:order&_limit=:limit",
+    "/products/price/lowest/:low/highest/:high": "/products?price_gte=:low&price_lte=:high"
 }
