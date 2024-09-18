@@ -34,13 +34,28 @@ img {
 .headeritems1__form {
     background-color:white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
     height: 25px;
     width: 300px;
     margin-top: 0.5em;
+    padding-inline: 0.2rem;
 }
+
+.headeritems__input {
+    border: none;
+    background: none;
+    padding-block: 0.15rem;
+    width: 100%;
+}
+
+.headeritems__input::placeholder {
+    color: var(--grey-colour);
+}
+
 .fa-search{
     color: lightgray;
-    margin-left: 7em;
 
 }
 .headeritems1_logo{
@@ -73,4 +88,8 @@ img {
     text-decoration: none;
     color: white;
     font-size: smaller;
+}
+
+[aria-current="page"] {
+    color: var(--gold-colour);
 }

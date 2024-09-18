@@ -78,7 +78,7 @@ img {
     color: white;
     font-size: smaller;
 }
-span{
-    color: goldenrod;
-}
 
+[aria-current="page"] {
+    color: var(--gold-colour);
+}
