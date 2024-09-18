@@ -1,5 +1,5 @@
 body{
-   /* background-color: black; */
+    background-color: black; 
 }
 .frontpage__pics{
     display: grid;
@@ -16,29 +16,58 @@ body{
 }
 .frontpage__pics_box2{
     position: relative;
-    background-color: var(--secondary_higtlight);
+    background-color: var( --primary_hihglight);
 }
+
 .textbox{
     position: absolute;
-   
-    bottom: 65px;
+    color: white;
+    font-size: 25px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    
+    bottom: 100px;
+    left: 75px;
+    z-index: 10;
+    text-decoration: underline;
+}
+.tv{
+    position: absolute;
+    bottom: 100px;
+    left: 105px;
+    z-index: 10;
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.ceiling, .outlet{
+    position: absolute;
+    bottom: 100px;
     left: 50px;
     z-index: 10;
-
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.ebay{
+    color: black;
 }
 .textbox2{
-    background-color: var(--yellow);
+    background-color: #5c5237;
     position: absolute; 
-    bottom: 55px;
-    left: 65px;
+    bottom: 85px;
+    left: 30px;
     z-index: 10;
-    width: 125px;
-    height: 45px;
+    width: 200px;
+    height: 65px;
     text-align: center;
 }
 .textbox2 a{
     position: relative;
-    top: 10px;
+    top: 20px;
+    color:white ;
+    font-size: 25px;
+    
 }
 
 .pics p{
