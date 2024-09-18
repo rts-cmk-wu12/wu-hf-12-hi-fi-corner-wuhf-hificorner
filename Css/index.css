@@ -57,10 +57,12 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-}
-.wavyimage{
-width: 100%;
-overflow: hidden;
+min-height: 455px;
+border: none;
+
+background-repeat: no-repeat;
+background-color: hsl(51.4deg 27.7% 44.89%);
+background-blend-mode: overlay;
 }
 .white-text{
     position: absolute;
