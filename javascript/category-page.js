@@ -30,7 +30,7 @@ product.items.forEach(function(product){
 
             productDiv.innerHTML = `
                 <img src="${product.img}" alt="${product.name}">
-                <h5>${product.name}</h5>
+                <p>${product.name}</p>
                  <p>$${product.price}</p>
                 <button onclick="addToCart(${product.id})">Add to Cart</button>
             `;
