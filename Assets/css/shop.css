@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 
-/* Top Navigation */
+/*========= Top Navigation ============*/
 #top-nav {
     display: flex;
     list-style: none;
@@ -34,6 +34,14 @@ body {
     text-decoration: none;
     font-size: 1rem;
     transition: all 0.2s;
+}
+#top-nav a.active {
+    color: #99905f;
+}
+
+.idigator-line {
+    border: solid 1px rgba(128, 128, 128, 0.308);
+    margin-top: 10px;
 }
 
 #top-nav-links {
@@ -72,11 +80,10 @@ header {
     padding: 1rem;
 }
 
-/* Grid Container */
+/*======== Grid Container ==========*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
     width: 100%; 
 }
 
@@ -113,27 +120,30 @@ header {
 
 /* Button */
 button.shop-now {
-    width: 90%;
+    width: 70%;
     color: #fff;
     border: none;
     margin-top: 8rem;
     padding: 15px 0; /* Adjust padding to match the image height */
     cursor: pointer;
-    background-color: #5c5237; /* Button color */
-    font-size: 1.6rem; /* Button text size */
+    background-color: #5c5237; 
+    font-size: 1.6rem; 
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto; /* Ensure the button height matches the image height */
     padding-inline: 2rem;
+    position: absolute;
+    left: 32px;
 }
 
 .button-item {
     background-color: #a39161;
+    position: relative;
 }
 
-/* Footer */
+/*============= Footer ===============*/
 .footer {
     width: 100%;
     display: flex;
@@ -174,7 +184,7 @@ button.shop-now {
     gap: 3rem;
 }
 
-/* Social Media Icons */
+/*============= Social Media Icons ==============*/
 .social-media-icons {
     display: flex;
     gap: 10px;
