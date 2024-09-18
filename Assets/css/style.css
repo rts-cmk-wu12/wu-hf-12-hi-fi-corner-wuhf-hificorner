@@ -49,7 +49,7 @@ header {
 .newsletter-button {
     background: linear-gradient(#1696F1, #21ACF5);
     color: white;
-    padding: 0.25rem .5rem;
+    padding: 0.25rem 0.5rem;
     border: none;
     border-radius: 2.5px;
     cursor: pointer;
@@ -57,7 +57,7 @@ header {
 }
 
 .newsletter-button span {
-    margin: .25rem;
+    margin: 0.25rem;
     color: black;
 }
 
@@ -115,7 +115,6 @@ h1 {
     text-transform: uppercase;
 }
 
-
 .media-wrapper {
     display: flex;
     justify-content: center;
@@ -131,7 +130,7 @@ h1 {
     color: white;
     padding: 1rem;
     width: 33.33%;
-    transition: background-color 0.3s;  
+    transition: background-color 0.3s;
 }
 
 .media-icon:nth-child(1) {
@@ -141,6 +140,7 @@ h1 {
 .media-icon:nth-child(2) {
     background-image: url('/assets/img/blogger-background.jpg');
 }
+
 .media-icon:nth-child(3) {
     background-image: url('/assets/img/twitter-backgorund.jpg');
 }
@@ -149,38 +149,75 @@ h1 {
     font-size: 14rem;
 }
 
+#promotions {
+    background-color: #111111;
+}
 
+.promo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+}
 
+.promo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+    width: 20%;
+    transition: background-color 0.3s;
+}
 
+.promobutton {
+    text-decoration: none;
+    color: #a29061;
+    border: #a29061 1.9px solid;
+    padding: 0.3rem 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    --hover: #a29061;
+    text-transform: uppercase;
+}
 
+.promo-info {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
 
+.promobutton:hover,
+.promobutton:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    transition: 0.25s;
+}
 
+.promobutton {
+    background: none;
+    border: 2px solid;
+    padding: .5em 2em;
+    font: inherit;
+    margin: 0.5em;
+    line-height: 1;
+    transition: 0.25s;
+    font-size: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.promobutton:hover,
+.promobutton:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
 
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start;
     background-color: #b69a6a;
     color: #fff;
     padding: 20px;
@@ -204,7 +241,7 @@ h1 {
 }
 
 .footer-links a {
-    color: #fff; /* Link color */
+    color: #fff;
     font-weight: bold;
 }
 
@@ -215,19 +252,19 @@ h1 {
 
 .footer-payment {
     display: flex;
-    align-items: center; /* Center payment logos */
-    justify-content: center; /* Center all icons */
-    gap: 15px; /* Space between payment icons */
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .footer-payment img {
-    margin-left: 10px; /* Space between payment logos */
-    height: 30px; /* Set a uniform height for logos */
+    margin-left: 10px;
+    height: 30px;
 }
 
 .footer-payment i {
-    font-size: 25px; /* Adjust icon size */
-    color: #fff; /* Icon color */
+    font-size: 25px;
+    color: #fff;
 }
 
 .footer-info {
@@ -235,7 +272,6 @@ h1 {
     gap: 3rem;
 }
 
-/* Social Media Icons */
 .social-media-icons {
     display: flex;
     gap: 5px;
