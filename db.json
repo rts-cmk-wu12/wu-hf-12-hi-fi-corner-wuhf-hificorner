@@ -1,8 +1,8 @@
 {
     "products": [
         {
-            "name": "creek classic cd",
-            "price": 100,
+            "name": "Creek classic cd",
+            "price": 1000,
             "category": "cd-afspillere",
             "image": "creek_classic_cd.jpg",
             "description": "Oplev uovertruffen lydkvalitet med denne avancerede CD-afspiller, som sikrer krystalklare toner og dyb bass. Den stilfulde, kompakte design passer perfekt ind i ethvert rum, og med sin intuitive fjernbetjening kan du nemt navigere gennem dine yndlingsalbumer",
@@ -32,8 +32,8 @@
             "kompatible_regioner": "Region 1, 2, 3, 4, 5, 6"
         },
         {
-            "name": "creek Destiny CD",
-            "price": 200,
+            "name": "Creek Destiny CD",
+            "price": 800,
             "category": "cd-afspillere",
             "image": "creek_Destiny_CD.jpg",
             "description": "Giv din musik en klassisk touch med denne vintage-inspirerede CD-afspiller, der kombinerer retro æstetik med moderne teknologi. Med et analoge rørforstærker-system leverer den en varm, fyldig lyd, uanset om du nyder jazz eller rock, i et elegant gammeldags design.",
@@ -67,7 +67,7 @@
             "kompatible_regioner": "Region 1, 2, 3, 4"
         },
         {
-            "name": "creek evo cd",
+            "name": "Creek evo cd",
             "price": 250,
             "category": "cd-afspillere",
             "image": "creek_evo_cd.jpg",
@@ -129,38 +129,11 @@
             "stromforbrug": "18W",
             "skaermtype": "OLED",
             "mediekontroller": "Fjernbetjening, App",
-            "kompatible_regioner": "Region 0 (Multizone)",
-            "company": "exp",
-            "billedoplosning": "720p via HDMI",
-            "videoudgange": [
-                "HDMI",
-                "Composite Video",
-                "Component Video"
-            ],
-            "lydudgange": [
-                "Stereo RCA",
-                "HDMI"
-            ],
-            "formater": [
-                "DVD",
-                "CD",
-                "MP3",
-                "DivX",
-                "AVI",
-                "JPEG"
-            ],
-            "funktioner": [
-                "USB og SD-kortlæser",
-                "Multiformat-afspilning",
-                "OSD"
-            ],
-            "stromforbrug": "18W",
-            "skaermtype": "OLED",
-            "mediekontroller": "Fjernbetjening, App",
             "kompatible_regioner": "Region 0 (Multizone)"
+            
         },
         {
-            "name": "creek classic",
+            "name": "Creek classic",
             "price": 500,
             "category": "dvd-afspillere",
             "image": "creek_classic.jpg",
@@ -188,7 +161,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "exposure 2010S",
+            "name": "Exposure 2010S",
             "price": 600,
             "category": "dvd-afspillere",
             "image": "exposure_2010S.jpg",
@@ -216,7 +189,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "parasound d200",
+            "name": "Parasound d200",
             "price": 650,
             "category": "dvd-afspillere",
             "image": "parasound_d200.jpg",
@@ -244,7 +217,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "parasound halod3",
+            "name": "Parasound halod3",
             "price": 650,
             "category": "dvd-afspillere",
             "image": "parasound_halod3.jpg",
@@ -273,7 +246,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "manley mahi",
+            "name": "Manley mahi",
             "price": 650,
             "category": "effektforstaerkere",
             "image": "manley_mahi.jpg",
@@ -302,8 +275,8 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "manley neoclassic300b",
-            "price": 802,
+            "name": "Manley neoclassic300b",
+            "price": 302,
             "category": "effektforstaerkere",
             "image": "manley_neoclassic300b.jpg",
             "description": "Denne high-end effektforstærker er udstyret med et dual-mono design, som betyder, at hver kanal har sin egen dedikerede forstærkerkreds. Dette design sikrer en overlegen stereo-separation og minimal crosstalk, hvilket giver en uovertruffen lydkvalitet. Den leverer en kraftfuld og dynamisk lyd med rig bas og klar diskant. Med avanceret kølingsteknologi og højkvalitets komponenter, er denne forstærker bygget til at levere exceptionel præstation og langvarig pålidelighed.",
@@ -330,7 +303,7 @@
         },
         {
             "name": "manley snapper",
-            "price": 820,
+            "price": 150,
             "category": "effektforstaerkere",
             "image": "manley_snapper.jpg",
             "description": "Denne rør-effektforstærker kombinerer klassisk rørteknologi med moderne funktionalitet. Den leverer en varm, fyldig lyd med en rig klangkarakteristik, som rørforstærkere er kendt for. Den har en elegant design med eksponerede rør, der giver et visuelt indtryk af vintage charme. Med indbyggede sikkerhedsfunktioner og en kraftfuld udgangseffekt, kan den drive en bred vifte af højttalere og tilføre en autentisk varme til din musikoplevelse.",
@@ -358,7 +331,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "parasound haloa23",
+            "name": "Parasound haloa23",
             "price": 420,
             "category": "effektforstaerkere",
             "image": "parasound_haloa23.jpg",
@@ -415,7 +388,7 @@
             "kompatible_regioner": "Iphone"
         },
         {
-            "name": "parasound classic7100",
+            "name": "Parasound classic7100",
             "price": 1020,
             "category": "forforstaerkere",
             "image": "parasound_classic7100.jpg",
@@ -442,7 +415,7 @@
             "kompatible_regioner": "Ipad"
         },
         {
-            "name": "parasound halop3",
+            "name": "Parasound halop3",
             "price": 1220,
             "category": "forforstaerkere",
             "image": "parasound_halop3.jpg",
@@ -497,7 +470,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "boesendorfer vcs wall",
+            "name": "Boesendorfer vcs wall",
             "price": 1530,
             "category": "hojtalere",
             "image": "boesendorfer_vcs_wall.gif",
@@ -526,7 +499,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "epos m5",
+            "name": "Epos m5",
             "price": 1430,
             "category": "hojtalere",
             "image": "epos_m5.gif",
@@ -534,7 +507,7 @@
             "company": "epos"
         },
         {
-            "name": "harbeth hl7es2",
+            "name": "Harbeth hl7es2",
             "price": 1340,
             "category": "hojtalere",
             "image": "harbeth_hl7es2.jpg",
@@ -561,7 +534,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "harbeth monitor30",
+            "name": "Harbeth monitor30",
             "price": 1370,
             "category": "hojtalere",
             "image": "harbeth_monitor30.jpg",
@@ -569,7 +542,7 @@
             "company": "harbeth"
         },
         {
-            "name": "harbeth p3es2",
+            "name": "Harbeth p3es2",
             "price": 1270,
             "category": "hojtalere",
             "image": "harbeth_p3es2.jpg",
@@ -596,7 +569,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "creek a50I",
+            "name": "Creek a50I",
             "price": 1070,
             "category": "int-forstaerkere",
             "image": "creek_a50I.jpg",
@@ -622,7 +595,7 @@
             "kompatible_regioner": "Iphone 12 + 13"
         },
         {
-            "name": "creek classic5350SE",
+            "name": "Creek classic5350SE",
             "price": 800,
             "category": "int-forstaerkere",
             "image": "creek_classic5350SE.jpg",
@@ -649,7 +622,7 @@
             "kompatible_regioner": "Ipad pro 12 + 14"
         },
         {
-            "name": "creek destinyamp",
+            "name": "Creek destinyamp",
             "price": 900,
             "category": "int-forstaerkere",
             "image": "creek_destinyamp.jpg",
@@ -677,7 +650,7 @@
             "kompatible_regioner": "Macbook air M2"
         },
         {
-            "name": "manley snapper",
+            "name": "Manley snapper",
             "price": 1000,
             "category": "int-forstaerkere",
             "image": "manley_snapper.jpg",
@@ -801,7 +774,7 @@
             "kompatible_regioner": "Iphone"
         },
         {
-            "name": "jolida JD102b",
+            "name": "Jolida JD102b",
             "price": "2300",
             "category": "roer-forstaerkere",
             "image": "jolida_JD102b.jpg",
@@ -827,7 +800,7 @@
             "kompatible_regioner": "Windows, macos"
         },
         {
-            "name": "jolida JD202a",
+            "name": "Jolida JD202a",
             "price": "2100",
             "category": "roer-forstaerkere",
             "image": "jolida_JD202a.jpg",
@@ -854,7 +827,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "jolida JD300b",
+            "name": "Jolida JD300b",
             "price": "1800",
             "category": "roer-forstaerkere",
             "image": "jolida_JD300b.jpg",
@@ -883,7 +856,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "jolida JD302b",
+            "name": "Jolida JD302b",
             "price": "1800",
             "category": "roer-forstaerkere",
             "image": "jolida_JD302b.jpg",
@@ -911,7 +884,7 @@
             "kompatible_regioner": "Ikke relevant"
         },
         {
-            "name": "jolida JD502b",
+            "name": "Jolida JD502b",
             "price": "1700",
             "category": "roer-forstaerkere",
             "image": "jolida_JD502b.jpg",
