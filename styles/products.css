@@ -1,0 +1,199 @@
+@import url(style.css);
+@import url(/museo-sans-rounded-webfont/fonts.css);
+
+#wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#searchinput input{
+    font-family: 'Museo Sans Rounded 100';
+    width: 24em;
+}
+
+#searchinput{
+    height: 1.5em;
+    width: 20em;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0.2em;
+    background-color: white;
+}
+
+#searchinput button, input{
+    background-color: white;
+    color: grey;
+    border: none;
+}
+
+#searchinput :focus{
+    outline: none;
+}
+
+.topnav_search {
+    height: 3em;
+    justify-content: space-between;
+    padding-right: 1em;
+    background-color: black;
+    border-bottom: solid 1px #413a27;
+    align-items: center;
+    display: flex;
+    gap: 2em;
+}
+
+.topnav_right{
+    align-items: center;
+    display: flex;
+    gap: 2em;
+}
+
+.topnav_right_icon_text {
+    font-size: 12px;
+}
+
+.topnav_search p {
+    color: white;
+}
+
+.topnav_black_line {
+    color: black;
+}
+
+.topnav_button {
+    font-size: 10px;
+    color: white;
+    padding: 0.5em;
+    background-color: #1ba4f3;
+    border: none;
+    border-radius: 5px;
+}
+
+.topnav_logo{
+    padding-left: 0.2em;
+    width: 45px;
+}
+
+
+
+
+
+
+
+/*Nu kommer stylingen til produktet*/
+.productBox{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    
+    
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+}
+.product{
+    padding: 0 1rem;
+    font-family: 'Museo Sans Rounded 100';
+}
+.product__image{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.product__imageDiv{
+    border: 1px solid rgba(0, 0, 0, 0.502);
+    height: 250px;
+    margin: 0 auto;
+    width: 200px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    
+}
+.product__name{
+    padding-top: 1rem;
+    text-align: center;
+    
+}
+.product__price{
+    text-align: center;
+    padding-top: 0.5rem;
+    color: rgb(165, 144, 98);
+    font-size: 1.5rem;
+    font-family: 'Museo Sans Rounded 300';
+}
+.product__link{
+    background-color: rgb(160, 146, 120);
+    text-decoration: none;
+    padding: 1rem;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    font-family: 'Museo Sans Rounded 500';
+}
+@media only screen and (min-width: 600px) {
+    #wrapper{
+        max-width: 100%;
+    }
+    .productBox{
+        grid-template-columns: repeat(3,1fr);
+        grid-column: 2/3;
+      
+    }
+    .productSelec{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+    }
+    .productSelec__topBox{
+        grid-column: 2/3;
+    }
+    .productSelec__heading{
+        font-family: 'Museo Sans Rounded 300';
+        padding:  1rem 0;
+
+    }
+    /*Nu kommer css'en til sortering boksen*/
+    .sortData{
+        font-family: 'Museo Sans Rounded 500';
+        display: grid;
+        grid-template-columns: 0.8fr 1fr 1fr;
+        background-color: rgb(187, 187, 187);
+        padding: 1rem;
+        grid-template-rows: repeat(2,1fr);
+    }
+    #sortBy{
+        border-radius: 1px;
+       
+
+    }
+    .sortData__viewAs{
+        display: flex;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        align-items: end;
+        gap: 1rem;
+    }
+    /*Her styler jeg knapperne*/
+    .sortData__viewAs button{
+        background-color: transparent;
+        border: none;
+       
+        align-self: center;
+        font-size: 1rem;
+    }
+    .sortData__viewAs button.selectet{
+        color: rgb(160, 146, 120);
+    }
+    .sortData__items{
+     display: flex;   
+     grid-column: 3/4;
+     gap: 1rem;
+     justify-content: end;
+    }
+    .sortData__items p{
+        font-weight: 800;
+    }
+}
