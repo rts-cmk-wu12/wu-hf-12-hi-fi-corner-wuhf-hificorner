@@ -1,0 +1,76 @@
+body{
+    background-color: black; 
+}
+.frontpage__pics{
+    display: grid;
+   
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    width: 1050px;
+    margin: 0 auto; 
+    
+}
+
+.frontpage__pics_box{
+    position: relative;
+}
+.frontpage__pics_box2{
+    position: relative;
+    background-color: var( --primary_hihglight);
+}
+
+.textbox{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    
+    bottom: 100px;
+    left: 75px;
+    z-index: 10;
+
+}
+.tv{
+    position: absolute;
+    bottom: 100px;
+    left: 105px;
+    z-index: 10;
+    color: black;
+    font-size: 25px;
+}
+.ceiling, .outlet{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    z-index: 10;
+    color: white;
+    font-size: 25px;
+}
+.ebay{
+    color: black;
+}
+.textbox2{
+    background-color: #5c5237;
+    position: absolute; 
+    bottom: 85px;
+    left: 30px;
+    z-index: 10;
+    width: 200px;
+    height: 65px;
+    text-align: center;
+}
+.textbox2 a{
+    position: relative;
+    top: 19px;
+    color:white ;
+    font-size: 25px;
+}
+
+.pics p{
+}
+.frontpage__pics_box img{
+width: 262.5px;
+height: 100%;
+
+}
