@@ -5,6 +5,9 @@ const alreadyShown = document.querySelector("#alreadyShown")
 const categoryPriceList = document.querySelector(".categoryPriceList")
 
 
+
+
+
 //her tager jeg fat i lsit itemsne som skal vises
 const under200Item = document.querySelector("#under200")
 const under300Item = document.querySelector("#under300")
@@ -20,7 +23,7 @@ const exposureItem = document.querySelector("#exposure")
 const parasoundItem = document.querySelector("#parasound")
 const manleyItem = document.querySelector("#manley")
 const projectItem = document.querySelector("#project")
-const borsendorfItem = document.querySelector("#borsendorf")
+const boesendorferItem = document.querySelector("#boesendorfer")
 const eposItem = document.querySelector("#epos")
 const harbethItem = document.querySelector("#harbeth")
 const proItem = document.querySelector("#pro")
@@ -30,10 +33,7 @@ const jolidaItem = document.querySelector("#jolida")
 
 
 
-//nu fetcher jeg alle prdukterne
 
-const response =  await fetch("http://localhost:3000/products");
-const data = await response.json();
 
 //laver sygt mange varibler, det lidt rodet, men med nærmere eftertanke, ville det godt kunne optimeres
 //her laver jeg variabler for
@@ -43,7 +43,7 @@ let exposure = 0;
 let parasound = 0;
 let manley = 0;
 let project = 0;
-let bosendorf = 0;
+let boesendorfer = 0;
 let epos = 0;
 let harbeth = 0;
 let pro = 0;
@@ -61,7 +61,27 @@ let under4000 = 0
 let mellem100og300 = 0;
 let mellem500og1000 = 0;
 
+//her laver jeg search params
+const params = new URLSearchParams(window.location.search );
+const lessThanPrice = params.get("price")
+const trueCompany = params.get("company")
+//nu fetcher jeg alle prdukterne
+
+const response =  await fetch("http://localhost:3000/products");
+const data = await response.json();
+
+console.log(trueCompany)
+
 data.forEach(product => {
+
+    //her tjekker den for om den er over den valgte price eller firma
+     if(lessThanPrice !== null || trueCompany !== null){
+
+     
+    if(Number(product.price) < Number(lessThanPrice) || product.company == trueCompany){
+       
+    
+
     //her laver jeg en div som skal omkrandse hele prodktet
     const productDiv = document.createElement("article")
     productDiv.classList.add("product")
@@ -100,7 +120,7 @@ data.forEach(product => {
     productLink.classList.add("product__link")
     productLink.setAttribute("href", "hifi-shop-single-product-view?name=" + product.name)
     productDiv.appendChild(productLink)
-
+    }}
     //her tjekker vi får priser
     if(product.price < 4000){
         under4000++
@@ -134,7 +154,7 @@ data.forEach(product => {
     if(product.company == "exp"){
         exp++
     }
-    if(product.company == "exppsure"){
+    if(product.company == "exposure"){
         exposure++
     }
     if(product.company == "parasound"){
@@ -146,8 +166,8 @@ data.forEach(product => {
     if(product.company == "project"){
         project++
     }
-    if(product.company == "bosendorf"){
-        bosendorf++
+    if(product.company == "boesendorfer"){
+        boesendorfer++
     }
     if(product.company == "epos"){
         epos++
@@ -164,7 +184,7 @@ data.forEach(product => {
     
 
 
-
+console.log(product)
     
 });
 console.log(creek)
@@ -176,8 +196,11 @@ exposureItem.textContent = exposure
 parasoundItem.textContent = parasound
 manleyItem.textContent = manley
 projectItem.textContent = project
-bosendorfItem.textContent = bosendorf
-eposfItem.textContent = epos
+boesendorferItem.textContent = boesendorfer
+eposItem.textContent = epos
+harbethItem.textContent = harbeth
+proItem.textContent = pro
+jolidaItem.textContent = jolida
 
 //her viser jeg alle valuesne på listerne
 under200Item.textContent = under200
@@ -192,3 +215,11 @@ console.log(under500)
 // her sker alle ekstra ting, som at indsætte navne og dataer
 PshownItems.textContent = data.length + "item(s)"
 alreadyShown.textContent =  data.length
+
+//her tager jeg fat i min sotby option input
+const sortBy = document.querySelector("#sortBy")
+sortBy.addEventListener("input", sortByFunc)
+
+function sortByFunc(){
+    console.log(sortBy.value)
+}
