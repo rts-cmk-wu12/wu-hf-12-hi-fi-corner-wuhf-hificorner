@@ -1,5 +1,5 @@
 
-body {
+shop-background {
     background-color: black;
 }
 .container {
@@ -33,7 +33,7 @@ body {
     vertical-align: bottom;
 }
 
-a {
+body .container a {
     color: white;
     bottom: 6rem;
     position: absolute;
@@ -44,7 +44,7 @@ a {
     
 }
 
-button {
+.shop-now{
     background-color: #685225; 
     width: 10rem; 
     border: none;

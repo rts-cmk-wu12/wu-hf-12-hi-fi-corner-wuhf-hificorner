@@ -1,27 +1,25 @@
-
 .homepage-speaker{
    background-image: url("/Backgroundimages/homepagespeaker.jpg");
-    overflow: hidden;
-    position: relative;
-    vertical-align: bottom;
+   height: 500px;
+   width: auto;
+
 }
 
-
-.frontpage-header{
+.icon-header-box{
     display: flex;
     background-color: rgba(0, 0, 0, 0.362);
     width: 100%;
-    position: absolute;
     top: 0px;
     height: 40px;
     align-items: center;
+    justify-content: right;
 }
-.frontpage-header a{
+.icon-header-box a{
     color: white;
+    
 }
 .frontpage-nav{
     background-color: black;
-    position: absolute;
     top: 35px;
     width: 100%;
 }
@@ -46,6 +44,7 @@
     height: auto;
     color: white;
     margin-left: 40px;
+
 }
 .icon-link{
     display: flex;
@@ -53,20 +52,20 @@
     
 }
 .wavylines-box{
-position: relative;
+background-image: url(../Backgroundimages/Wavylines.jpg);
 display: flex;
 justify-content: center;
 align-items: center;
+min-height: 486px;
+background-repeat: no-repeat;
+background-color: hsl(51.4deg 27.7% 44.89%);
+   background-blend-mode: overlay;
 }
-.wavyimage{
-width: 100%;
-overflow: hidden;
-}
+
 .white-text{
-    position: absolute;
     font-size: 42px;
     width: 750px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
 }
 .message-button{
