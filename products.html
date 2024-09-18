@@ -20,12 +20,12 @@
         </div>
         <nav class="navbar">
             <ul class="navbar_list">
-               <li><a class="navbar_active" href="#">HOME</a></li>
+               <li><a  href="index.html">HOME</a></li>
                 <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">BRANDS</a></li>
+                <li><a href="brands.html">BRANDS</a></li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">EVENTS</a></li>
-                <li><a href="shop-frontpage.html">SHOP</a></li>
+                <li><a class="navbar_active" href="shop-frontpage.html">SHOP</a></li>
                 <li><a href="#">CONTACT US</a></li>
             </ul>
         </nav>
@@ -35,15 +35,15 @@
     <section class="categorySelect">
         <div class="categoryListDiv">
        <ul class="categoryList">
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">Alle produkter</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">cd-afspillere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">dvd-afspillere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">effektforstaerkere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">forforstaerkere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">hojtalere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">int-forstaerkere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">pladespillere</a></li>
-        <li class="categoryList__listItem"><a class="categoryList__Link" href="">roer-forstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?">Alle produkter</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=cd-afspillere">cd-afspillere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=dvd-afspillere">dvd-afspillere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=effektforstaerkere">effektforstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=forforstaerkere">forforstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=hojtalere">hojtalere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=int-forstaerkere">int-forstaerkere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=pladespillere">pladespillere</a></li>
+        <li class="categoryList__listItem"><a class="categoryList__Link" href="products.html?category=roer-forstaerkere">roer-forstaerkere</a></li>
        </ul>
     </div>
     <div class="categoryfilter">
@@ -93,10 +93,10 @@
         <form class="sortData">
             <div class="sortData__sortBy">
             <label for="sortBy">SORT BY:</label><select name="sortBy" id="sortBy">
-                <option value="">Price</option>
-                <option value="highPricd">Price: high to low</option>
-                <option value="lowPrice">Price: low tio high</option>
-                <option value="alfhabethic">Alfhabethic</option>
+                <option value="">Select</option>
+                <option value="?_sort=price&_order=asc">Price: low to high</option>
+                <option value="?_sort=price&_order=desc">Price: high to low</option>
+                <option value="?_sort=name&_order=asc">Alfhabethic</option>
                
               </select>
             </div>
