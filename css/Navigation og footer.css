@@ -11,7 +11,6 @@ nav {
 .nav_list {
     display: grid;
     grid-auto-flow: column;
-    width: 33%;
     margin: 0 auto;
     list-style: none;
 
@@ -24,7 +23,11 @@ nav {
 .nav_list_item {
     list-style: none;
     color: aliceblue;
-
+    text-transform: uppercase;
+    padding: .5rem;
+}
+.highlight{
+    color: var(--secondary_higtlight);
 }
 
 .header_div {
