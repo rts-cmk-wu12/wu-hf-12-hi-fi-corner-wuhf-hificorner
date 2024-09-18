@@ -37,14 +37,34 @@ header{
 }
 
 .header__item--last1 {
-    display: flex;
-    background-color: cyan;
-    color: white;
-    height: 2em;
-    width: 8em;
-    justify-content: center;
-
+.header_img{
+    max-width: 2em;
+    margin-bottom: 0.5em;
 }
+
+
+
+ .header__item--last1{
+    display: flex;
+    background-color: #169;
+    color: white;
+    height: 1.7em;
+    width: 7em;
+    margin-right: 0.3em;
+    margin-top: 0.6em;
+    margin-bottom: em;
+    /*font-size: large;*/
+    border-radius: 3%;
+    align-items: center;
+    gap: 1em;
+    
+    
+ }
+
+
+ /*-------------------single view produckt header----------*/
+
+
 
 /*------------------menu style----------*/
 
@@ -68,5 +88,8 @@ header{
     text-decoration: none;
     color: var(--white-colour);
     font-size: smaller;
-    
+}
+
+[aria-current="page"] {
+    color: var(--gold-colour);
 }
