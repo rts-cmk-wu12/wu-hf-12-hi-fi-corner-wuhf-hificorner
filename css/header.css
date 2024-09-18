@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ img {
 
 #wrapper {
     max-width: 1458px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -27,10 +29,11 @@ header{
     justify-content: flex-end;
     gap: 30px;
     list-style: none;
+
 }
 
 .header_img {
-    max-width: 3em;
+    width: 3em;
 }
 
 .header__item--last1 {
@@ -61,7 +64,9 @@ header{
 }
 
 .menu__link {
+    font-family: 'Museo Sans Rounded 500';
     text-decoration: none;
-    color: white;
+    color: var(--white-colour);
     font-size: smaller;
+    
 }
