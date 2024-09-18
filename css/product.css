@@ -40,6 +40,8 @@
     margin-top: 1rem;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--black-colour);
 }
 
 .product__price {

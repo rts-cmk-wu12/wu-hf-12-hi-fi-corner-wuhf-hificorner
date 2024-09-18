@@ -3,7 +3,7 @@
     margin-block: 1rem;
 }
 
-.products-path__home {
+.products-path__link {
     color: var(--gold-colour);
     text-transform: capitalize;
     cursor: pointer;
@@ -13,7 +13,7 @@
     text-transform: capitalize;
 }
 
-.products-path__home:hover {
+.products-path__link:hover {
     text-decoration: underline;
 }
 
