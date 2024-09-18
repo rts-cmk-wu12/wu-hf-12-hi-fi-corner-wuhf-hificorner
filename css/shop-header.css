@@ -73,7 +73,7 @@ img {
 
 
 .header_line{
-    color: rgba(211, 211, 211, 0.432);
+    color: var(--gold-colour);
 }
 /*------------------menu style----------*/
 
