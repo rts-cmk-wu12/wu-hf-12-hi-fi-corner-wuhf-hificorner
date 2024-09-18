@@ -19,7 +19,7 @@ function showHide() {
 // Fetch Data
 
 
-const response = await fetch('json/items.json');
+const response = await fetch('./javascript/items.json');
 const product = await response.json();
 const productList = document.querySelector('#product-list');
 console.log(product);
