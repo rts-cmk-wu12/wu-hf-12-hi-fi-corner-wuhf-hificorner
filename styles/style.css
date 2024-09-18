@@ -1,44 +1,42 @@
 /*DENNE FIL SKAL SLETTES DA DER ALLEREDE FINDES EN VERSION I VORES MERGE*/
 /*Her impoterer vi vores fonts*/
 @import url(/museo-sans-rounded-webfont/fonts.css);
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-img{
+
+img {
     max-width: 100%;
     width: 100%;
     display: block;
 }
- 
-header{
+
+header {
     font-family: 'Roboto', sans-serif;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
 }
- 
-.topnav{
+
+.topnav {
     height: 3em;
     justify-content: right;
     padding-right: 1em;
     background-color: rgba(0, 0, 0, 0.595);
+    border-bottom: solid 1px #413a27;
     align-items: center;
     display: flex;
     gap: 2em;
 }
- 
-.topnav p{
+
+.topnav p {
     color: white;
 }
- 
-.topnav_black_line{
+
+.topnav_black_line {
     color: black;
 }
- 
-.topnav_button{
+
+.topnav_button {
     font-size: 10px;
     color: white;
     padding: 0.5em;
@@ -46,8 +44,8 @@ header{
     border: none;
     border-radius: 5px;
 }
- 
-.navbar{
+
+.navbar {
     font-size: 13px;
     justify-content: center;
     align-items: center;
@@ -55,64 +53,67 @@ header{
     height: 4em;
     display: flex;
 }
- 
-.navbar_list{
+
+.navbar_list {
     list-style: none;
     display: flex;
     gap: 2em;
 }
- 
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: white;
 }
- 
-.navbar .navbar_active{
+
+.navbar .navbar_active {
     color: #958153;
 }
+
 footer {
     list-style: none;
     padding: 1em;
     font-family: 'Roboto', sans-serif;
     background-color: #a39161;
 }
- 
+
+
+
 .footer_container {
     display: flex;
     justify-content: space-between;
 }
- 
+
 .footer_container a {
     color: white;
     font-size: 12px;
 }
- 
+
 .footer_container_left {
     display: flex;
     gap: 4em;
-   
+
 }
- 
+
 .footer_container_left ul {
+    font-weight: 600;
     list-style: none;
     font-size: 10px;
 }
- 
-.footer_container_right{
+
+.footer_container_right {
     display: flex;
     gap: 15em;
 }
- 
+
 .footer_container_right_payments {
     gap: 0.5em;
     display: flex;
     width: 45px;
     height: 20px;
 }
- 
-.footer_container_right_socials a{
+
+.footer_container_right_socials a {
     border-radius: 50%;
-   
     padding: 0.5em;
     border: 1px solid white;
 }
