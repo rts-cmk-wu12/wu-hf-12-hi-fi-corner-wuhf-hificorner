@@ -59,3 +59,57 @@ body .container a {
     padding-block: 5rem;
     color: white;  
 }
+
+footer {
+    background-color: #a39161; 
+    color: #D1C6A8; 
+    padding: 20px;
+    text-align: left; 
+}
+
+.footer-img {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+
+footer .footer-img img {
+   
+    width: 2rem;
+}
+
+.footer-payment {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+    gap: 3px;
+    top: 1.5rem;
+}
+
+.footer-address {
+    margin: 10px 0;
+    font-size: 12px;
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 18rem;
+    gap: 5px;
+}
+footer a {
+    color: white;
+}
+.payment-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+
+}
+.payment-icons img {
+    height: 30px; 
+    margin: 0 5px;
+} 
