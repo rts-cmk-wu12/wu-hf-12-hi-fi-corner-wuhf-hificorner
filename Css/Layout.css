@@ -1,14 +1,15 @@
-
-body {
+.shop-background {
     background-color: black;
 }
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0; /* Remove margin */
-    padding-inline: 20rem;
-    padding-block: 5rem;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
 }
+
+
 .item {
     text-align: center;
     position: relative;
@@ -33,18 +34,17 @@ body {
     vertical-align: bottom;
 }
 
-a {
+body .container a {
     color: white;
     bottom: 6rem;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-   left: 2rem;
-    
+    left: 2rem; 
 }
 
-button {
+.shop-bth {
     background-color: #685225; 
     width: 10rem; 
     border: none;
@@ -52,23 +52,55 @@ button {
     height: 2rem;
 
 }
-.shop-nov {
+.shop-now {
     text-align: center;
     margin-top: 2px;
-    background-color: #a39161;
+    background-color: var(--primary-color);
     padding-block: 5rem;
     color: white;  
 }
 
 footer {
-    background-color: #a39161; /* Dark background */
-    color: #D1C6A8; /* Light gold color */
+    background-color: #a39161; 
+    color: #D1C6A8; 
     padding: 20px;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
 }
+
+.footer-img {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+
+footer .footer-img img {
+   
+    width: 2rem;
+}
+
+.footer-payment {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+    gap: 3px;
+    top: 1.5rem;
+}
+
 .footer-address {
     margin: 10px 0;
     font-size: 12px;
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 18rem;
+    gap: 5px;
+}
+footer a {
+    color: white;
 }
 .payment-icons {
     margin-top: 10px;
@@ -78,6 +110,6 @@ footer {
 
 }
 .payment-icons img {
-    height: 30px; /* Adjust icon size */
+    height: 30px; 
     margin: 0 5px;
-}
+} 
