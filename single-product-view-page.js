@@ -2,7 +2,7 @@ const params = new URLSearchParams( window.location.search );
 
 const productname = params.get("name");
 
-const response = await fetch('data.json');
+const response = await fetch('db.json');
 const data = await response.json();
 
 function getProductByName (name, products) {
