@@ -14,7 +14,7 @@ img {
 .headeritems1{
     background-color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 30px;
    max-height: 3em;
    max-width: 1458em;
@@ -65,6 +65,9 @@ img {
 
 .headeritems1__list {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 
