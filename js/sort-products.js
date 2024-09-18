@@ -16,6 +16,7 @@ const categoryHeading = document.querySelector('#category-heading');
 const productNavigationContainerElement = document.querySelector('#products-path');
 const priceSorterSelecter = document.querySelector('#products-sorter');
 const limiterSelecter = document.querySelector('#products-limiter');
+const searchInput = document.querySelector('#product-search-input');
 
 if (chosenCategory) {
     categoryHeading.innerHTML = chosenCategory;
@@ -99,8 +100,8 @@ productNavigationContainerElement.addEventListener('click', (e) => {
     }
 })
 
-async function fetchProducts() {
-    const response = await fetch(API_URL + productFilter + `&_sort=${sort}&_order=${order}&_limit=${limit}`);
+async function fetchProducts(query = '') {
+    const response = await fetch(API_URL + productFilter + `&_sort=${sort}&_order=${order}&_limit=${limit}&q=` + query);
     const productData = await response.json();
 
     productsContainerElement.textContent = '';
@@ -121,3 +122,7 @@ async function fetchProducts() {
 
     itemsElement.innerHTML = `${productData.length} Item(s)`
 }
+
+searchInput.addEventListener('input', (e) => {
+    fetchProducts(e.target.value);
+})
