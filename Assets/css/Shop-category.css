@@ -1,0 +1,76 @@
+/*========= Top Navigation ============*/
+#top-nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+
+#top-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem; /* Adjust font size */
+    transition: all 0.2s;
+}
+
+#top-nav a.active {
+    color: #99905f;
+}
+
+/*============= Footer ===============*/
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #b69a6a; /* Footer background color */
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff; /* Link color */
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icons i {
+    font-size: 2rem; /* Adjust icon size */
+    color: #fff; /* Icon color */
+}
