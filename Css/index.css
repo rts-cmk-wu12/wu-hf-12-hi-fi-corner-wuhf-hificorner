@@ -91,3 +91,27 @@ background-blend-mode: overlay;
     
 }
 
+/*----------------------Socails and info container----------------------*/
+
+.frontpage-infomation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.frontpage-info{
+}
+.social-speakerbackground-grid{
+    display: grid;
+}
+.social-speakerbackground, .socials-facebook{
+ grid-row: 1;
+ grid-column: 1;
+}
+.socials-facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-record-player{
+    
+}
