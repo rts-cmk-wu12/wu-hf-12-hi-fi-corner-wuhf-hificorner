@@ -1,10 +1,19 @@
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+
+nextButton.addEventListener('click', nextSlide)
+prevButton.addEventListener('click', prevSlide);
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function nextSlide(){
+  showSlides(slideIndex += 1)
 }
+function prevSlide(){
+  showSlides(slideIndex -= 1)
+}
+
 
 // Thumbnail image controls
 function currentSlide(n) {
