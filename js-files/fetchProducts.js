@@ -5,7 +5,14 @@ const alreadyShown = document.querySelector("#alreadyShown")
 const categoryPriceList = document.querySelector(".categoryPriceList")
 
 
-
+//her tager jeg fat i selector med id'et "show"
+const show = document.querySelector("#show")
+show.addEventListener("input", function(){
+    console.log(this.value)
+    window.open("products.html?limit=" + this.value, "_self");
+    
+    
+})
 
 
 //her tager jeg fat i lsit itemsne som skal vises
@@ -68,6 +75,7 @@ const trueCompany = params.get("company")
 const trueCategory = params.get("category")
 let newFetch = params.get("newFetch")
 let order = params.get("_order")
+let limit = params.get("limit")
 console.log(order)
 
 //her tjekker vi om der skal sorteres i de forskellige
@@ -79,12 +87,20 @@ if(newFetch == null){
 }else{
     order = "&_order=" + order
 }
+
+// her senere hen, har jeg også lavet en med limit, så der gør jeg det samme som i newfetch
+if(limit == null){
+    limit = ""
+}else{
+    limit = "?_limit=" + limit
+}
+
  console.log(order)
 
 //nu fetcher jeg alle prdukterne
  console.log("ny")
 
-const response =  await fetch("http://localhost:3000/products" + newFetch + order);
+const response =  await fetch("http://localhost:3000/products" + newFetch + order + limit);
 const data = await response.json();
 console.log(response)
 console.log("erer")
