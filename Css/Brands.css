@@ -1,1 +1,177 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #ece8d7;
+    background-color: #000;
+}
+.icon-header-box{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 100%;
+    top: 0px;
+    height: 40px;
+    align-items: center;
+    justify-content: right;
+}
+.icon-header-box a{
+    color: white;
+   
+}.frontpage-nav{
+    background-color: black;
+    width: 100%;
+}
+.frontpage-nav a{
+    margin: 10px;
+    color: #d7d7d7;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.frontpage-nav a:hover{
+    color: #9d7a40;
+}
+.frontpage-nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    list-style-type: none;
+}
+ 
+.header-icons{
+    width: 25px;
+    height: auto;
+    color: white;
+    margin-left: 40px;
+ 
+}
 
+ 
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.big-image {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight:lighter
+}
+
+.logo-container {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.brands {
+    margin: 0 auto;
+    margin-left: 7em;
+    margin-right: 7em;
+    
+    padding: 20px 20px;
+    background-color: #fff
+}
+.brand-logos img{
+  width: 400px;
+  
+}
+
+.brands-continer {
+  background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+
+} 
+.brand-names{
+ padding-left: 20px;
+}
+.brand-description{
+    background-image: url(black-background-with-speaker.avif);
+    padding-right: 20px;
+}
+h2{
+    color: #9d7a40;
+}
+.more-brands{
+    color: #9d7a40;
+    text-decoration-line: none;
+}
+footer {
+    background-color: #a39161;
+    color: #D1C6A8;
+    padding: 20px;
+    text-align: left;
+}
+ 
+.footer-img {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+ 
+footer .footer-img img {
+   
+    width: 2rem;
+}
+ 
+.footer-payment {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+    gap: 3px;
+    top: 1.5rem;
+}
+ 
+.footer-address {
+    margin: 10px 0;
+    font-size: 12px;
+    color: black;
+}
+ 
+.footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 18rem;
+    gap: 5px;
+}
+footer a {
+    color: white;
+}
+.payment-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+ 
+}
+.payment-icons img {
+    height: 30px;
+    margin: 0 5px;
+}
+ 
+.shop-header-underline {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 100%;
+    top: 0px;
+    height: 40px;
+    align-items: center;
+    justify-content: right;
+    border-bottom: solid 1px var(--primary-color);
+    padding: 1rem;
+}
+ 
