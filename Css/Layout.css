@@ -61,7 +61,7 @@ body .container a {
 }
 
 footer {
-    background-color: #a39161; 
+    background-color: var(--primary-color);
     color: #D1C6A8; 
     padding: 20px;
     text-align: left; 
