@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     height: 50px;
+    list-style-type: none;
 }
 
 .header-icons{
