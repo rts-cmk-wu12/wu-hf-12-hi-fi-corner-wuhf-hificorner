@@ -25,8 +25,6 @@
 
 .link-to-shoplist {
     display: flex;
-    /* display: grid;
-   grid-template-columns: repeat(4, 16fr); */
     position: absolute;
     color: var(--white-colour);
     width: 234px;
@@ -48,7 +46,7 @@
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(4, 16fr);
-    width: 821px;
+    width: 935px;
 }
 
 

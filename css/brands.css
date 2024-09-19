@@ -1,0 +1,33 @@
+.grid-container-brands{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45em;
+}
+
+.brands-body{
+    background-color: var(--black-colour);
+}
+
+.top-brands-header{
+    color: var(--white-colour);
+}
+
+.hifi-logo-header{
+    color: var(--white-colour);
+    margin-top: 75px;
+    margin-left: 10px;
+    font-size: 45px;
+
+}
+
+.hifi-link-text{
+    color: var(--white-colour);
+    letter-spacing: 1.5px;
+}
+
+.hifi-logo{
+    width: 173px;
+    height: 186px;
+    border-style: solid;
+    color: var(--white-colour);
+}

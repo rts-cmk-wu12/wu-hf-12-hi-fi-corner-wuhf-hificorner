@@ -6,7 +6,9 @@ img {
 }
 
 .wrapper{
-    max-width: 1458px; 
+    max-width: 1458px;
+    margin: 0 auto;
+    
 }
 
 /*-------------Icons style--------*/
@@ -21,8 +23,8 @@ img {
    list-style: none;
 }
 .header_img{
-    max-width: 2em;
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .header__item2--last2{
