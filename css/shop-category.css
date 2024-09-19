@@ -1,9 +1,11 @@
 @import url(variabler.css);
+p{
+    cursor: pointer;
+}
 body{
     background-color: black;
 }
 main{
-    max-width: 1400px;
     padding:2em;
     background-color: white;
 }
@@ -19,6 +21,7 @@ main{
     grid-column: 2/ span 3;
 }
 
+
 .category-page__left {
     height: fit-content;
 }
@@ -33,12 +36,79 @@ main{
     list-style: none;
     color: var(--primary_hihglight);
     line-height: 2rem;
+    text-transform: uppercase;
 }.category-page__left_ul_li:hover{
     text-decoration: underline;
 }
+
 .category-page__left-shop_by{
     background-color: var(--primary_gray);
+    margin-top: 1rem;
+    padding: 1rem;
 }
+.category-page__left-headline{
+    color: var(--primary_hihglight);
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.category-page__left-filter{
+    margin-bottom: .5rem;
+
+}
+.category-page__left__ul-shop_by-price{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    
+}
+.category-page__left__li-shop_by-price{
+    list-style: none;
+    color: var(--primary_hihglight);
+    line-height: 1.3rem;
+}.category-page__left__li-shop_by-price:hover{
+    text-decoration: underline;
+}
+
+.category-page__left__ul-shop_by-manufacturer{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.category-page__left__li-shop_by-manufacturer{
+    list-style: none;
+    color: var(--primary_hihglight);
+    line-height: 1.3rem;
+    text-transform: capitalize;
+    
+}.category-page__left__li-shop_by-manufacturer:hover{
+    text-decoration: underline;
+
+}
+
+
+.category-page__search{
+    height:70px;
+    background-color:var(--primary_gray) ;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+}
+.category-page__search-view_as{
+    display: flex;
+}
+
+.grid_icon-gold, .row_icon-white{
+    height: 1rem;
+    width: auto;
+    margin: .2rem;
+    cursor: pointer;
+}
+
+.category-page__show{
+    display: flex;
+    
+}
+
 .category-page__heading{
 font-weight: bold;
 margin-bottom: 1em;
@@ -46,10 +116,6 @@ margin-bottom: 1em;
 }
 .page-name{
     margin-bottom: 1.5em;
-}
-.category-page__search{
-    height:70px;
-    background-color:var(--primary_gray) ;
 }
 #cursor{
     cursor: default;
