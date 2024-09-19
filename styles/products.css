@@ -95,6 +95,7 @@
 }
 .product{
     padding: 0 1rem;
+   
     font-family: 'Museo Sans Rounded 100';
 }
 .product__image{
@@ -113,6 +114,7 @@
 }
 .product__name{
     padding-top: 1rem;
+    font-size: 1rem;
     text-align: center;
     
 }
@@ -140,9 +142,15 @@
     #wrapper{
         max-width: 100%;
     }
+    main{
+        width: 95%;
+        margin: 0 auto;
+    }
     .productBox{
         grid-template-columns: repeat(3,1fr);
         grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 10rem;
       
     }
     /*Her kommer css stylingen til productbox når den skal vises som en liste*/
@@ -161,9 +169,11 @@
     .productSelec{
         display: grid;
         grid-template-columns: 0.5fr 1fr 0.5fr;
+        gap: 1rem;
     }
     .productSelec__topBox{
         grid-column: 2/3;
+        grid-row: 1/2;
     }
     .productSelec__heading{
         font-family: 'Museo Sans Rounded 300';
@@ -172,10 +182,11 @@
     }
     /*Nu kommer css'en til sortering boksen*/
     .sortData{
+       
         font-family: 'Museo Sans Rounded 500';
         display: grid;
         grid-template-columns: 0.8fr 1fr 1fr;
-        background-color: rgb(187, 187, 187);
+        background-color: rgb(197, 197, 197);
         padding: 1rem;
         grid-template-rows: repeat(2,1fr);
     }
@@ -210,5 +221,98 @@
     }
     .sortData__items p{
         font-weight: 800;
+    }
+     /*Dette er stylingen til boksene ude i venstre side*/
+     .categorySelect{
+        padding-top: 1rem;
+        font-family: 'Museo Sans Rounded 500';
+     }
+    .categoryListDiv{
+        padding-bottom: 2rem;
+       padding-left: 2rem;
+       background-color: rgb(197, 197, 197);
+    }
+    .categoryList{
+        list-style: none;
+        
+    }
+   
+    .categoryList__Link{
+        text-decoration: none;
+        
+        color: rgb(164, 147, 114);
+    }
+    .categoryList__listItem{
+        padding-top: 0.5rem;
+    }
+    .categoryList__listItem a.selectedCat{
+        color: black;
+    }
+    /*Nu kommer css til den anden boks, den nedenunder*/
+    .categoryfilter{
+        padding-bottom: 2rem;
+        margin-top: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        background-color: rgb(197, 197, 197);
+    }
+    .categorySelect__heading{
+        color: rgb(160, 146, 120);
+        font-size: 1rem;
+    }
+    .categoryfilter__text{
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+    }
+    .categoryPriceList__listItem{
+        padding-top: 0.3rem;
+    }
+    .categoryPriceList{
+        list-style: none;
+       
+        text-decoration: none;
+        color: rgb(160, 146, 120);
+    }
+/*Css koden til den nederste del*/
+     .categorymanufactor__listItem{
+        list-style: none;
+        padding-top: 0.3rem;
+     }
+     .categorymanufactor__link{
+        color: rgb(160, 146, 120);
+        text-decoration: none;
+     }
+
+    .manufactor-rigth{
+        padding-top: 1rem;
+        grid-column: 3/4;
+        grid-row: 1/2;
+      
+    }
+    .manufactor-rigth__heading{
+        color: rgb(160, 148, 106);
+        font-family: 'Museo Sans Rounded 500';
+        font-size: 1rem;
+    }
+    .manufactor-rigth__list{
+        list-style: none;
+        font-family: 'Museo Sans Rounded 500';
+       
+        color: rgb(83, 81, 60);
+       
+    }
+    .manufactor-rigth__listItem{
+        padding-top: 0.7rem;
+        padding-left: 1rem;
+        cursor: pointer;
+    }
+    .manufactor-rigth__listItem:last-of-type{
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        
+    }
+    .manufactor-rigth__link{
+        color: rgb(160, 146, 120);
+        text-decoration: none;
     }
 }
