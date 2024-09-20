@@ -80,6 +80,13 @@ let newFetch = params.get("newFetch")
 let order = params.get("_order")
 let limit = params.get("limit")
 
+//her tager jeg fat i headingen som jeg så ændrer til den valgte kategori
+if(trueCategory == null){
+document.querySelector(".productSelec__heading").textContent = "Alle produkter"
+}else{
+    document.querySelector(".productSelec__heading").textContent = trueCategory
+
+}
 
 //her tjekker vi om der skal sorteres i de forskellige
 if(newFetch == null){
