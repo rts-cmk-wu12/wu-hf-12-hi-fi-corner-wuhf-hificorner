@@ -13,12 +13,7 @@ img {
 
 #wrapper {
     max-width: 1458px;
-    height: 1000px;
     margin: 0 auto;
-}
-
-header{
-    height: 120px;
 }
 
 /*-------------Icons style--------*/
@@ -29,14 +24,14 @@ header{
     justify-content: flex-end;
     gap: 30px;
     list-style: none;
-
+    background-color: black;
 }
 
 .header_img {
     width: 3em;
 }
 
-.header__item--last1 {
+
 .header_img{
     max-width: 2em;
     margin-bottom: 0.5em;

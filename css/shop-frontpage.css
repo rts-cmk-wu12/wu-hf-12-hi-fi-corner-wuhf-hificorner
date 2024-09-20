@@ -31,6 +31,7 @@
     height: 234px;
     align-items: center;
     justify-content: center;
+    font-family: 'Museo Sans Rounded 500';
 }
 
 
@@ -67,7 +68,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    font-weight: bolder;
 }
 
 #shop-frontpage-button span {
@@ -76,4 +76,5 @@
     margin-top: 15px;
     color: var(--white-colour);
     font-size: 20px;
+    font-family: 'Museo Sans Rounded 500';
 }

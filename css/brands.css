@@ -5,7 +5,7 @@
 }
 
 .brands-body{
-    background-color: var(--black-colour);
+    background-image: url(/images/brandsbg.jpg);
 }
 
 .top-brands-header{
@@ -30,4 +30,64 @@
     height: 186px;
     border-style: solid;
     color: var(--white-colour);
+}
+
+.top-brands-header{
+    display: grid;
+    text-align: center;
+    margin-top: 3.5em;
+    margin-left: 5em;
+}
+.brands-sub-text{
+    color: var(--white-colour);
+    margin: 30px;
+    font-family: 'Museo Sans Rounded 100';
+}
+
+.grid-container-brands-logos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1400px;
+    height: 425px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.brands-container{
+    margin-top: 3em;
+    background-color: var(--white-colour);
+}
+
+.stock-brands{
+    
+    height: 375px;
+}
+
+.brands-image{
+    height: 300px;
+}
+
+.brands-sub-header{
+    font-family: 'Museo Sans Rounded 500';
+    color: var(--gold-colour);
+    margin: 30px;
+}
+.brands-sub{
+    background-image: url(/images/brandsbg.jpg);
+}
+
+.brands-sub-link{
+    color: var(--gold-colour);
+    margin: 30px;
+    font-family: 'Museo Sans Rounded 500';
+}
+
+.stock-brands-text{
+    color: var(--gold-colour);
+    margin: 30px;
+    font-family: 'Museo Sans Rounded 100';
+}
+
+.brands-div{
+    height: 345px;
 }
