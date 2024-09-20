@@ -1,5 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const chosenCategory = params.get('category');
+const chosenProducer = params.get('producer')
 
 const API_URL = 'http://localhost:3000/';
 let sort = 'price';
@@ -27,6 +28,11 @@ if (chosenCategory) {
         <span> / </span>
         <span class="products-path__filter">${chosenCategory}</span>`
     }
+    fetchProducts()
+}
+
+if (chosenProducer) {
+    productFilter = `products/producer/${chosenProducer}`;
     fetchProducts()
 }
 
