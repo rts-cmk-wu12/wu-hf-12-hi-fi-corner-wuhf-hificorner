@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audio Shop</title>
-    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/Shop-category.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -15,29 +15,114 @@
 </head>
 <body>
     <header>
-        <div id="top-nav"></div>
-        <div id="top-nav-links">
-          <i class="fa-solid fa-location-dot"></i>
-          <i class="fa-solid fa-phone"></i>
-          <i class="fa-solid fa-envelope"></i>
-        </div>
-        <a class="newsletter-button" href="#">
-      </div>
-      <div class="idigator-line"></div>
-        <div id="top-nav">
-            <nav>
-                <ul>
-                    <li><a class="nav-link" href="/home.html">Home</a></li>
-                    <li><a class="nav-link" href="#About-us">About Us</a></li>
-                    <li><a class="nav-link" href="#Brands">Brands</a></li>
-                    <li><a class="nav-link" href="#Blog">Blog</a></li>
-                    <li><a class="nav-link" href="#Events">Events</a></li>
-                    <li><a class="nav-link active" href="shop.html">Shop</a></li>
-                    <li><a class="nav-link" href="#Contact-us">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+        <section class="header-container">
+            <div class="logo">
+                <img src="Assets/img/Shop images/logo.png" alt="Logo" />
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search entire store here..." />
+            </div>
+            <div class="icon-links">
+                <i class="fa-solid fa-user" title="Account">account</i>
+                <i class="fa-solid fa-cart-shopping" title="Cart">cart</i>
+                <i class="fa-solid fa-map-marker-alt" title="Location"></i>
+                <i class="fa-solid fa-phone" title="Phone"></i>
+                <i class="fa-solid fa-envelope" title="Email"></i>
+            </div>
+        </section>
+        <nav id="top-nav">
+            <ul>
+                <li><a class="nav-link" href="/home.html">Home</a></li>
+                <li><a class="nav-link" href="#About-us">About Us</a></li>
+                <li><a class="nav-link" href="#Brands">Brands</a></li>
+                <li><a class="nav-link" href="#Blog">Blog</a></li>
+                <li><a class="nav-link" href="#Events">Events</a></li>
+                <li><a class="nav-link active" href="shop.html">Shop</a></li>
+                <li><a class="nav-link" href="#Contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h2>FILTER</h2>
+                    <ul>
+                        <li>
+                            <strong>PRICE</strong>
+                            <ul>
+                                <li>£0.00 - £199.99</li>
+                                <li>£200.00 - £399.99</li>
+                                <li>£400.00 - £599.99</li>
+                                <li>£600.00 - £799.99</li>
+                                <li>£800.00 - £999.99</li>
+                                <li>£1000.00 - £1499.99</li>
+                                <li>£1500.00 - £1999.99</li>
+                                <li>£2000.00 - £2999.99</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h2>MANUFACTURER</h2>
+                    <ul>
+                        <li>Arcam</li>
+                        <li>Astell and Kern</li>
+                        <li>ATC</li>
+                        <li>Audiolab</li>
+                        <li>Casio Electronics</li>
+                        <li>Classé</li>
+                        <li>Denon</li>
+                        <li>Devialet</li>
+                        <li>Marantz</li>
+                        <li>Rotel</li>
+                        <li>Yamaha</li>
+                        <!-- Add more manufacturers as needed -->
+                    </ul>
+                </div>
+            </aside>
+            
+            <section class="main-content">
+                <h1>Amplifiers</h1>
+                <div class="sort-filter">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort">
+                        <option value="price">Price</option>
+                    </select>
+                    <label for="view">View as:</label>
+                    <button id="grid-view"><i class="fas fa-th"></i></button>
+                    <button id="list-view"><i class="fas fa-list"></i></button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="Assets/img/Shop images/product1.png" alt="Yamaha R-N402 Network HiFi Receiver" />
+                        <h3>Yamaha R-N402 Network HiFi Receiver</h3>
+                        <p class="price"><span class="old-price">£429.00</span> £329.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Assets/img/Shop images/product2.png" alt="Rotel A10 Stereo Amplifier" />
+                        <h3>Rotel A10 Stereo Amplifier</h3>
+                        <p class="price">£389.95</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Assets/img/Shop images/product3.png" alt="Marantz PM6006 UK Edition Integrated Amplifier" />
+                        <h3>Marantz PM6006 UK Edition Integrated Amplifier</h3>
+                        <p class="price"><span class="old-price">£469.00</span> £429.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="Assets/img/Shop images/product4.png" alt="Yamaha A-S701 Stereo Amplifier" />
+                        <h3>Yamaha A-S701 Stereo Amplifier</h3>
+                        <p class="price">£579.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 
     <footer class="footer">
         <div class="footer-content">
