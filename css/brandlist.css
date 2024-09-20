@@ -1,5 +1,6 @@
 
 .background{
+    background-image: url(/images/background/speaker.jpg); 
     background-size: contain;
 }
 .backdrop{
