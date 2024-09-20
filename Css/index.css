@@ -108,6 +108,20 @@ background-blend-mode: overlay;
 }
 
 .frontpage-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.frontpage-info h2{
+    border: solid white 2px;
+    color: var(--primary-color);
+    width: 125px;
+}
+.frontpage-info p {
+    width: 300px;
+    font-family: 'Museo Sans Rounded 100'
 }
 .social-speakerbackground-grid, .social-headphonebackground-grid, .social-recordplayer-background-grid{
     display: grid;
