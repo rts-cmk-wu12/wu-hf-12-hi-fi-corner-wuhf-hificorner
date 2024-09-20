@@ -4,7 +4,7 @@ const PshownItems = document.querySelector("#shownItems")
 const alreadyShown = document.querySelector("#alreadyShown")
 const categoryPriceList = document.querySelector(".categoryPriceList")
 
-
+let countItems = 0
 //her tager jeg fat i selector med id'et "show"
 const show = document.querySelector("#show")
 show.addEventListener("input", function(){
@@ -223,8 +223,8 @@ under4000Item.textContent = under4000
 // nu laver jeg koden som skrive
 
 // her sker alle ekstra ting, som at indsætte navne og dataer
-PshownItems.textContent = data.length + "item(s)"
-alreadyShown.textContent =  data.length
+PshownItems.textContent = countItems + "item(s)"
+alreadyShown.textContent =  countItems
 
 //her tager jeg fat i min sotby option input
 const sortBy = document.querySelector("#sortBy")
@@ -255,6 +255,7 @@ console.log(categories)
 //her functionene der indsætter produktet
 
 function insertProduct(product){
+    countItems++
      //her laver jeg en div som skal omkrandse hele prodktet
      const productDiv = document.createElement("article")
      productDiv.classList.add("product")
