@@ -2,10 +2,17 @@
   "amplifiers": [
     {
       "id": 1,
+      "photo": "Produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
       "name": "Creek A50i",
       "price": "5000",
-      "manufacturer": "Creek",
-      "photo": "path/to/photo.jpg"
+      "manufacturer": "Creek"
+    },
+    {
+      "id": 2,
+      "name": "Marantz PM6006",
+      "price": "4000",
+      "manufacturer": "Marantz",
+      "photo": "Produktbilleder/forforstaerkere/parasound_classic7100.jpg"
     }
   ],
   "speakers": [
@@ -14,7 +21,14 @@
       "name": "Klipsch RP600M",
       "price": "2500",
       "manufacturer": "Klipsch",
-      "photo": "path/to/photo.jpg"
+      "photo": "Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif"
+    },
+    {
+      "id": 2,
+      "name": "Bowers & Wilkins 606",
+      "price": "3000",
+      "manufacturer": "Bowers & Wilkins",
+      "photo": "Produktbilleder/hojtalere/epos_m5.gif"
     }
   ],
   "turntables": [
@@ -23,7 +37,14 @@
       "name": "Pro-Ject Debut III",
       "price": "2000",
       "manufacturer": "Pro-Ject",
-      "photo": "path/to/photo.jpg"
+      "photo": "Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Audio-Technica AT-LP120XUSB",
+      "price": "2500",
+      "manufacturer": "Audio-Technica",
+      "photo": "Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg"
     }
   ],
   "cd-players": [
@@ -32,7 +53,14 @@
       "name": "Marantz CD6007",
       "price": "3000",
       "manufacturer": "Marantz",
-      "photo": "path/to/photo.jpg"
+      "photo": "Produktbilleder/cd_afspillere/creek_classic_cd.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cambridge Audio CXC",
+      "price": "3500",
+      "manufacturer": "Cambridge Audio",
+      "photo": "Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
     }
   ],
   "streamers": [
@@ -41,6 +69,13 @@
       "name": "Bluesound Node 2i",
       "price": "3500",
       "manufacturer": "Bluesound",
+      "photo": "path/to/photo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sonos Port",
+      "price": "4500",
+      "manufacturer": "Sonos",
       "photo": "path/to/photo.jpg"
     }
   ],
@@ -51,6 +86,13 @@
       "price": "1500",
       "manufacturer": "AudioQuest",
       "photo": "path/to/photo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Monster Cable Classic",
+      "price": "800",
+      "manufacturer": "Monster",
+      "photo": "path/to/photo.jpg"
     }
   ],
   "furniture": [
@@ -59,6 +101,13 @@
       "name": "Sanus Ultimate Series",
       "price": "4500",
       "manufacturer": "Sanus",
+      "photo": "path/to/photo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "VTI A/V Rack",
+      "price": "3500",
+      "manufacturer": "VTI",
       "photo": "path/to/photo.jpg"
     }
   ],
@@ -69,8 +118,13 @@
       "price": "2500",
       "manufacturer": "Bose",
       "photo": "path/to/photo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sony WH-1000XM4",
+      "price": "3000",
+      "manufacturer": "Sony",
+      "photo": "path/to/photo.jpg"
     }
   ]
 }
-
-h
