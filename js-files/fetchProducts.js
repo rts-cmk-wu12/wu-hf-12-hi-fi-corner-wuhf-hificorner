@@ -8,7 +8,7 @@ const categoryPriceList = document.querySelector(".categoryPriceList")
 //her tager jeg fat i selector med id'et "show"
 const show = document.querySelector("#show")
 show.addEventListener("input", function(){
-    console.log(this.value)
+   
     window.open("products.html?limit=" + this.value, "_self");
     
     
@@ -39,7 +39,10 @@ const jolidaItem = document.querySelector("#jolida")
 
 
 
-
+//her tager jeg fat i den knap jeg trykkker på, så man kan se den valgte
+const categoryList__Link = document.querySelectorAll(".categoryList__Link")
+const categoryPriceListItem = document.querySelectorAll(".categoryPriceList")
+const categorymanufactor__link = document.querySelectorAll(".categorymanufactor__link")
 
 
 //laver sygt mange varibler, det lidt rodet, men med nærmere eftertanke, ville det godt kunne optimeres
@@ -76,11 +79,11 @@ const trueCategory = params.get("category")
 let newFetch = params.get("newFetch")
 let order = params.get("_order")
 let limit = params.get("limit")
-console.log(order)
+
 
 //her tjekker vi om der skal sorteres i de forskellige
 if(newFetch == null){
-    console.log("der")
+    
     newFetch = ""
     order = ""
     
@@ -95,21 +98,20 @@ if(limit == null){
     limit = "?_limit=" + limit
 }
 
- console.log(order)
+ 
 
 //nu fetcher jeg alle prdukterne
- console.log("ny")
+
 
 const response =  await fetch("http://localhost:3000/products" + newFetch + order + limit);
 const data = await response.json();
-console.log(response)
-console.log("erer")
+
 
 data.forEach(product => {
 
     //her tjekker den for om den er over den valgte price eller firma
      if(lessThanPrice !== null || trueCompany !== null || trueCategory !== null){
-console.log(product.company == trueCompany)
+(product.company == trueCompany)
      
     if(Number(product.price) < Number(lessThanPrice) || product.company == trueCompany || product.category == trueCategory ){
        
@@ -185,10 +187,10 @@ console.log(product.company == trueCompany)
     
 
 
-console.log(product)
+
     
 });
-console.log(creek)
+
 
 //her viser jeg alle valuesne på  company listerne
 creekItem.textContent = creek
@@ -212,7 +214,7 @@ under2000Item.textContent = under2000
 under3000Item.textContent = under3000
 under4000Item.textContent = under4000
 // nu laver jeg koden som skrive
-console.log(under500)
+
 // her sker alle ekstra ting, som at indsætte navne og dataer
 PshownItems.textContent = data.length + "item(s)"
 alreadyShown.textContent =  data.length
@@ -222,6 +224,16 @@ const sortBy = document.querySelector("#sortBy")
 sortBy.addEventListener("input", sortByFunc)
 //her kører vi en sortby function
 function sortByFunc(){
+    const categories = [lessThanPrice,trueCompany,trueCategory, "price", "company", "category"]
+
+for(let i  = 0; i < 3 ; i++){
+console.log(categories[i])
+if(categories[i] !== null){
+     window.open("products.html?newFetch=" + sortBy.value+"&"+ categories[i+3] +"=" + categories[i], "_self")
+     return
+}
+}
+console.log(categories)
     window.open("products.html?newFetch=" + sortBy.value, "_self");
 }
 
@@ -252,9 +264,9 @@ function insertProduct(product){
      //for at finde frem til det rigtige billede bliver koden lidt mærkelig men det er fordi at billeder er delt op i forskellige mapper
      //denne if tjekker om billederne er et array eller ej
      if(typeof product.image == "object" ){
-         image.setAttribute("src", "images/produktbilleder/" + product.category + "/" + product.image[0])
+         image.setAttribute("src", "images/" + product.image[0])
      }else{
-     image.setAttribute("src", "images/produktbilleder/" + product.category + "/" + product.image)
+     image.setAttribute("src", "images/"  + product.image)
  }
      imageDiv.appendChild(image)
      //nu kommer vi til produktet navnet
@@ -276,3 +288,56 @@ function insertProduct(product){
      productDiv.appendChild(productLink)
 
 }
+
+
+
+//hernede laver jeg en foreach, der skal ændre farverne på den valgte knap
+categoryList__Link.forEach(element =>{
+   
+    if(element.textContent == trueCategory ){
+        element.classList.add("selectedCat")
+    }else if(trueCategory == null){
+        categoryList__Link[0].classList.add("selectedCat")
+
+    }else{
+        element.classList.remove("selectedCat")
+    }
+})
+
+// her foregår det på priserne
+
+categoryPriceListItem.forEach(element =>{
+      
+      //her bliver jeg nødt til at splitte textcontent op, da den består af mere end bare tal
+      let textcontetSplited = element.textContent.split(' ');
+      //nu bliver jeg nødt til at splite den igen, fordi at der ikke er mellemrum mellem " " og ( 
+        textcontetSplited = textcontetSplited[1].split("(")
+    
+    if(textcontetSplited[0] == lessThanPrice){
+        element.classList.add("selectedPrice")
+    }else if(lessThanPrice == null){
+        categoryPriceListItem[0].classList.add("selectedPrice")
+
+    }else{
+        element.classList.remove("selectedPrice")
+    }
+})
+
+//nu gør vi det også med manufactor, man ville godt kunnne rode lidt op i koden, så man ikke skal gentage sig selv igen, det gør jeg hvis vi får mere tid
+categorymanufactor__link.forEach(element =>{
+   // her bliver jeg igen nød til at splitte ordet op
+   let textcontetSplited = element.textContent.split('(');
+   
+    if(textcontetSplited[0] == trueCompany ){
+        element.classList.add("selectedManu")
+    }else if(trueCompany == null){
+        categorymanufactor__link[0].classList.add("selectedManu")
+
+    }else{
+        element.classList.remove("selectedManu")
+    }
+})
+
+
+//hernede sammensætter jeg sorteringen, med alle kategorier
+

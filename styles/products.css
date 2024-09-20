@@ -158,6 +158,15 @@
       grid-template-columns: 1fr;
     }
     .productBoxList .product{
+        height: 200px;
+        overflow: hidden;
+      }
+    .productBoxList a.product__link{
+        height: 30px;
+        padding: 0.4rem;
+        align-self: center;
+    }
+    .productBoxList .product{
      display: flex;
      width: 500px;
     }
@@ -273,10 +282,16 @@
         text-decoration: none;
         color: rgb(160, 146, 120);
     }
+    .categoryPriceList__listItem .selectedPrice{
+        color: #413a27;
+    }
 /*Css koden til den nederste del*/
      .categorymanufactor__listItem{
         list-style: none;
         padding-top: 0.3rem;
+     }
+     .categorymanufactor__listItem .selectedManu{
+        color: #413a27;
      }
      .categorymanufactor__link{
         color: rgb(160, 146, 120);
@@ -315,4 +330,5 @@
         color: rgb(160, 146, 120);
         text-decoration: none;
     }
+    
 }
