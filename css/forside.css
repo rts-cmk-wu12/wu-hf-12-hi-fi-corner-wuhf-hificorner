@@ -1,21 +1,32 @@
 .hero{
     background-image: url('/images/background/speaker.jpg');
-    height: 500px;
+    height: 750px;
     object-fit: cover;
 }
 
 .wavy_lines{
     background-image: url('/images/background/wavy_lines.jpg');
-height: 500px;
+    min-height: 500px;
     display: grid;
     align-items: center;
 }
+a, .fa-cart-shopping, .fa-user{
+    color: aliceblue;
+}
+
 
 .wavy_lines_title{
  margin: 0 auto;
 
 font-size: 43px;
 
+}
+.main_top_image--hifi_logo{
+    display: grid;
+    margin: 0 auto;
+    width: 250px;
+    align-self: center;
+    margin-top: 50px;
 }
 /* slider */
 .gallery-grid, .slider-grid{
@@ -40,7 +51,7 @@ font-size: 43px;
         grid-area: 1/1/2/-1;
         overflow: hidden;
         order: 1;
-       height: 650px;
+       height: 750px;
     
     }
     .slider img{
@@ -86,3 +97,31 @@ font-size: 43px;
     .fa-chevron-right,.fa-chevron-left{
         margin-top: 150px;
     }
+
+    .sociale-medier{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    }
+    .sociale-medier-div{
+        width: 100%;
+        display: grid;
+        
+
+    }
+ .sociale-medier-div img{
+   width:100% ; 
+ }
+ .buttons{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    margin: 0 auto;
+    gap: 100px;
+ }
+
+.buttons div{
+    width: 100%;
+    text-align: center;
+}
