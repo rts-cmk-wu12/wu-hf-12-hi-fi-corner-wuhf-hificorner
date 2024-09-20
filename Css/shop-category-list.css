@@ -1,7 +1,34 @@
+
+.aside-overskrift {
+    padding-inline: 1.5rem; 
+    color: red;
+    padding-block:2rem ;
+}
+
 .a-list {
-    width: 20rem;
     text-decoration: none;
-    padding: 25px;
+    padding: 13px;
     display: block;
     color: var(--primary-color);
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+
+.left-box-1 {
+    width: 22rem;
+    text-decoration: none;
+    display: block;
+    color: var(--primary-color);
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+
+.left-box-2{
+    margin-top: 5rem;
+    width: 22rem;
+    text-decoration: none;
+    display: block;
+    color: var(--primary-color);
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
 }
