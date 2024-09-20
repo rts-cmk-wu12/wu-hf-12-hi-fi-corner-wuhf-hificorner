@@ -1,5 +1,12 @@
 /* Nav'erne er forskellige på alle sider, men det her er den kode som går igen mest */
 
+h1{
+    font-size: 1.2em
+}
+h2{
+    font-size: 1em;
+}
+
 nav {
     width: 100vw;
     height: 50px;
@@ -99,6 +106,15 @@ nav {
     width: 45%;
     padding-left: 30px;
 }
+#shop-single-page-wrapper-left-image-preview{
+    width: 470px;
+    min-height: 400px;
+    height: auto;
+    border: 1px solid rgb(238, 237, 237) ;
+}
+#shop-single-page-wrapper-left-image-preview-image{
+    margin: 0 auto;
+}
 
 #shop-single-page-wrapper-right {
     width: 45%;
@@ -128,6 +144,9 @@ h2 {
     width: 90%;
     margin-top: 2em;
 }
+#shop-single-page-wrapper-right-buttons a{
+    cursor: pointer;
+}
 
 #shop-single-page-wrapper-right-buttons a {
     background-color: rgb(131, 113, 7);
@@ -142,6 +161,7 @@ h2 {
     margin-top: 1em;
     padding: 2%;
 }
+
 
 label {
     font-weight: 800;
@@ -199,6 +219,7 @@ label {
     background-color: rgb(131, 113, 7);
     color: white;
     padding: 5%;
+    cursor: pointer;
 
 }
 
@@ -242,4 +263,13 @@ label {
 
 #shop-single-page-wrapper-bottom{
     padding: 0 30px 0 30px;
+    width: 600px;
+}
+.shop-single-page-wrapper-bottom-information{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 0.5em;
+}
+.shop-single-page-wrapper-bottom-information{
+    
 }
