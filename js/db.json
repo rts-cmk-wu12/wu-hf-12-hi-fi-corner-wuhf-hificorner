@@ -2,41 +2,46 @@
     "products":[
         {
             "id": "1",
-            "name": "creek classic cd",
+            "name": "Creek classic cd",
             "brandname": "Creek",
-	        "kategory": "cd afspiller",
+            "category": "Amplifiers",
+	        "sub-category": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "2",
-            "name": "creek Destiny CD",
+            "name": "Creek destiny cd",
             "brandname": "Creek",
-	        "kategory": "cd afspiller",
+            "category": "Amplifiers",
+	        "sub-category": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "3",
-            "name": "creek evo cd",
+            "name": "Creek evo cd",
             "brandname": "Creek",
-	        "kategory": "cd afspiller",
+            "category": "Amplifiers",
+	        "sub-category": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "4",
-            "name": "Exp 2010S CD",
+            "name": "Exp 2010S cd",
             "brandname": "Creek",
-	        "kategory": "cd afspiller",
+            "category": "Amplifiers",
+	        "sub-category": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "5",
-            "name": "manley mahi",
-            "brandname": "",
-	        "kategory": "",
+            "name": "Manley mahi",
+            "brandname": "Manley",
+            "category": "Amplifiers",
+	        "sub-category": "effektforstaerkere",
             "description": "",
 	        "Price": ""
         },
@@ -44,7 +49,8 @@
             "id": "6",    
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
@@ -52,232 +58,233 @@
             "id": "7",      
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "8",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "9",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "10",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "11",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
-            "id": "12",
-            
+            "id": "12", 
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "13",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "14",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "15",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "16",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "17",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "18",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "19",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "20",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "21",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "22",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "23",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "24",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "25",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "26",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "27",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "28",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "29",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "30",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "31",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "32",
-            
             "name": "",
             "brandname": "",
-	        "kategory": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
             "description": "",
 	        "Price": ""
         }
