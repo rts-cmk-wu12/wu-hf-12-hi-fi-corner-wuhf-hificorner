@@ -2,39 +2,39 @@
     "products":[
         {
             "id": "1",
-            "name": "Creek Classic Cd",
+            "name": "creek classic cd",
             "brandname": "Creek",
-	        "kategory": "",
+	        "kategory": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "2",
-            "name": "",
-            "brandname": "",
-	        "kategory": "",
+            "name": "creek Destiny CD",
+            "brandname": "Creek",
+	        "kategory": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "3",
-            "name": "",
-            "brandname": "",
-	        "kategory": "",
+            "name": "creek evo cd",
+            "brandname": "Creek",
+	        "kategory": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "4",
-            "name": "",
-            "brandname": "",
-	        "kategory": "",
+            "name": "Exp 2010S CD",
+            "brandname": "Creek",
+	        "kategory": "cd afspiller",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "5",
-            "name": "",
+            "name": "manley mahi",
             "brandname": "",
 	        "kategory": "",
             "description": "",
