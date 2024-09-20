@@ -38,7 +38,7 @@ header{
     width: 3em;
 }
 
-.header__item--last1 {
+.header__item--last1 
 .header_img{
     max-width: 2em;
     margin-bottom: 0.5em;
@@ -48,14 +48,12 @@ header{
 
  .header__item--last1{
     display: flex;
-    background-color: #169;
-    color: white;
+    background-color: var(--button-blue-color);
+    color: var(--white-colour);
     height: 1.7em;
     width: 7em;
     margin-right: 0.3em;
     margin-top: 0.6em;
-    margin-bottom: em;
-    /*font-size: large;*/
     border-radius: 3%;
     align-items: center;
     gap: 1em;
@@ -68,7 +66,7 @@ header{
 /*------------------menu style----------*/
 
 .menu {
-    background-color: black;
+    background-color: var(--black-colour);
     display: flex;
     justify-content: center;
     list-style: none;
