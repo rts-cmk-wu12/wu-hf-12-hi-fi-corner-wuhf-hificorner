@@ -4,6 +4,8 @@
             "id": 1,
             "name": "CREEK CLASSIC",
             "price": "£290.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "cd_players",
             "img": "/images/Produktbilleder/cd_afspillere/creek_classic_cd.jpg"
         },
@@ -11,6 +13,8 @@
             "id": 2,
             "name": "CREEK DESTINY",
             "price": "£950.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "cd_players",
             "img": "/images/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
         },
@@ -18,6 +22,8 @@
             "id": 3,
             "name": "CREEK EVOEVOLUTION",
             "price": "£290.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "cd_players",
             "img": "/images/Produktbilleder/cd_afspillere/creek_evo_cd.jpg"
         }, 
@@ -25,6 +31,8 @@
             "id": 4,
             "name": "EXPOSURE 2010S",
             "price": "£320.00",
+            "brand": "exposure",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "cd_players",
             "img": "/images/Produktbilleder/cd_afspillere/Exp_2010S_CD.gif"
         },
@@ -33,6 +41,8 @@
             "id": 5,
             "name": "CREEK CLASSIC",
             "price": "£450.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "dvd_players",
             "img": "/images/Produktbilleder/dvdafspillere/creek_classic.jpg"
         },
@@ -40,6 +50,8 @@
             "id": 6,
             "name": "EXPOSURE 2010S",
             "price": "£1 250.00",
+            "brand": "exposure",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "dvd_players",
             "img": "/images/Produktbilleder/dvdafspillere/exposure_2010S.jpg"
         },
@@ -47,6 +59,8 @@
             "id": 7,
             "name": "PARASOUND D200",
             "price": "£300.00",
+            "brand": "parasound",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "dvd_players",
             "img": "/images/Produktbilleder/dvdafspillere/parasound_d200.jpg"
         },
@@ -54,6 +68,8 @@
             "id": 8,
             "name": "PARASOUND HALO D3",
             "price": "£225.00",
+            "brand": "parasound",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "dvd_players",
             "img": "/images/Produktbilleder/dvdafspillere/parasound_halod3.jpg"
         },
@@ -62,6 +78,8 @@
             "id": 9,
             "name": "MANLEY MAHI",
             "price": "£5 000.00",
+            "brand": "manley",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "power_amplifiers",
             "img": "/images/Produktbilleder/effektforstaerkere/manley_mahi.jpg"
         },
@@ -69,6 +87,8 @@
             "id": 10,
             "name": "MANLEY NEO CLASSIC 300b",
             "price": "£13 500.00",
+            "brand": "manley",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "power_amplifiers",
             "img": "/images/Produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg"
         },
@@ -76,6 +96,8 @@
             "id": 11,
             "name": "MANLEY SNAPPER",
             "price": "£8 100.00",
+            "brand": "manley",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "power_amplifiers",
             "img": "/images/Produktbilleder/effektforstaerkere/manley_snapper.jpg"
         },
@@ -83,6 +105,8 @@
             "id": 12,
             "name": "PARASOUND HALO A 23",
             "price": "£1 500.00",
+            "brand": "parasound",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "power_amplifiers",
             "img": "/images/Produktbilleder/effektforstaerkere/parasound_haloa23.jpg"
         },
@@ -91,6 +115,8 @@
             "id": 13,
             "name": "CREEK OBH 22 PASSIVE",
             "price": "£295.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "preamplifiers",
             "img": "/images/Produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
         },
@@ -98,6 +124,8 @@
             "id": 14,
             "name": "PARASOUND CLASSIC 7100",
             "price": "£675.00",
+            "brand": "parasound",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "preamplifiers",
             "img": "/images/Produktbilleder/forforstaerkere/parasound_classic7100.jpg"
         },
@@ -105,13 +133,17 @@
             "id": 15,
             "name": "PARASOUND HALO P3",
             "price": "£640.00",
+            "brand": "parasound",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "preamplifiers",
             "img": "/images/Produktbilleder/forforstaerkere/parasound_halop3.jpg"
         },
         {
             "id": 16,
-            "name": "PROJECT PRE BOX",
+            "name": "PRO-JECT PRE BOX",
             "price": "£620.00",
+            "brand": "pro-ject",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "preamplifiers",
             "img": "/images/Produktbilleder/forforstaerkere/Project_prebox.jpg"
         },
@@ -120,13 +152,17 @@
             "id": 17,
             "name": "BöSENDORFER VSS",
             "price": "£230.00",
+            "brand": "bösendorfer",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "speakers",
             "img": "/images/Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif"
         },
         {
             "id": 18,
-            "name": "EPOS M5",
+            "name": "EXPOSURE M5",
             "price": "£500.00",
+            "brand": "exposure",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "speakers",
             "img": "/images/Produktbilleder/hojtalere/epos_m5.gif"
         },
@@ -134,6 +170,8 @@
             "id": 19,
             "name": "HARBETH H17 ES2",
             "price": "£11 225.00",
+            "brand": "harbeth",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "speakers",
             "img": "/images/Produktbilleder/hojtalere/harbeth_hl7es2.jpg"
         },
@@ -141,6 +179,8 @@
             "id": 20,
             "name": "HARBETH MONITER 30",
             "price": "£2 420.00",
+            "brand": "harbeth",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "speakers",
             "img": "/images/Produktbilleder/hojtalere/harbeth_monitor30.jpg"
         },
@@ -148,6 +188,8 @@
             "id": 21,
             "name": "HARBETH P3 ES2",
             "price": "£1 600.00",
+            "brand": "harbeth",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "speakers",
             "img": "/images/Produktbilleder/hojtalere/harbeth_p3es2.jpg"
         },
@@ -156,6 +198,8 @@
             "id": 22,
             "name": "CREEK A50I",
             "price": "£400.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "turntables",
             "img": "/images/Produktbilleder/int_forstaerkere/creek_a50I.jpg"
         },
@@ -163,6 +207,8 @@
             "id": 23,
             "name": "CREEK DESTINY AMP",
             "price": "£1 800.00",
+            "brand": "creek",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "turntables",
             "img": "/images/Produktbilleder/int_forstaerkere/creek_destinyamp.jpg"
         },
@@ -170,6 +216,8 @@
             "id": 24,
             "name": "MANLEY SNAPPER",
             "price": "£8 100.00",
+            "brand": "manley",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "turntables",
             "img": "/images/Produktbilleder/int_forstaerkere/manley_snapper.jpg"
         },
@@ -177,42 +225,54 @@
             "id": 25,
             "name": "MANLEY STINGRAY",
             "price": "£7 350.00",
+            "brand": "manley",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "turntables",
             "img": "/images/Produktbilleder/int_forstaerkere/Manley_Stingray.jpg"
         },
         
         {
             "id": 26,
-            "name": "PRO JECT DEBUT 3 BLUE",
+            "name": "PRO-JECT DEBUT 3 BLUE",
             "price": "£380.00",
+            "brand": "pro-ject",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "record_players",
             "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg"
         },
         {
             "id": 27,
-            "name": "PRO JECT DEBUT 3 RED",
+            "name": "PRO-JECT DEBUT 3 RED",
             "price": "£380.00",
+            "brand": "pro-ject",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "record_players",
             "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg"
         },
         {
             "id": 28,
-            "name": "PRO JECT DEBUT 3 YELLOW",
+            "name": "PRO-JECT DEBUT 3 YELLOW",
             "price": "£380.00",
+            "brand": "pro-ject",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "record_players",
             "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
         },
         {
             "id": 29,
-            "name": "PRO JECT RPM10",
+            "name": "PRO-JECT RPM10",
             "price": "£3 200.00",
+            "brand": "pro-ject",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "record_players",
             "img": "/images/Produktbilleder/pladespillere/Pro_ject_rpm10.jpg"
         },
         {
             "id": 30,
-            "name": "PRO JECT RPM5",
+            "name": "PRO-JECT RPM5",
             "price": "£1 400.00",
+            "brand": "pro-ject",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "record_players",
             "img": "/images/Produktbilleder/pladespillere/Pro_ject_rpm_5.jpg"
         },
@@ -221,6 +281,8 @@
             "id": 31,
             "name": "JOLIDA JD102B",
             "price": "£3 000.00",
+            "brand": "jolida",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "router_amplifier",
             "img": "/images/Produktbilleder/roer_forstaerkere/jolida_JD102b.jpg"
         },
@@ -228,6 +290,8 @@
             "id": 32,
             "name": "JOLIDA JD202A",
             "price": "£560.00",
+            "brand": "jolida",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "router_amplifier",
             "img": "/images/Produktbilleder/roer_forstaerkere/jolida_JD202a.jpg"
         },
@@ -235,6 +299,8 @@
             "id": 33,
             "name": "JOLIDA JD300B",
             "price": "£850.00",
+            "brand": "jolida",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "router_amplifier",
             "img": "/images/Produktbilleder/roer_forstaerkere/jolida_JD300b.jpg"
         },
@@ -242,6 +308,8 @@
             "id": 34,
             "name": "JOLIDA JD302B",
             "price": "£700.00",
+            "brand": "jolida",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "router_amplifier",
             "img": "/images/Produktbilleder/roer_forstaerkere/jolida_JD302b.jpg"
         },
@@ -249,6 +317,8 @@
             "id": 35,
             "name": "JOLIDA JD502B",
             "price": "£830.00",
+            "brand": "jolida",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "router_amplifier",
             "img": "/images/Produktbilleder/roer_forstaerkere/jolida_JD502b.jpg"
         }
