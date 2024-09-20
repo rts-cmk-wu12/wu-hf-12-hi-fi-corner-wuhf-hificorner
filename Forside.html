@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hifi-Corner</title>
@@ -12,42 +9,66 @@
     <link rel="stylesheet" href="/css/front-page.css">
 
     <script src="https://kit.fontawesome.com/3f51aff7a3.js" crossorigin="anonymous"></script>
-    <script src="javascript/information.js" type="module"></script>
+    
+  
+   <script src="javascript/information.js" type="module"></script>
     <script src="javascript/galleri.js" type="module"></script>
     
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="header__top">
-            <img src="images/hifilogo.jpg" alt="logo">
-            <div class="header_div">
-                <form  action="newsletter.html" method="get"> </form>
-                <label class="form__label" for="email"> </label>
-                <input class="navform" type="text" id="email" name="search" placeholder="Search entire store here" >
-                <i class="fa-solid fa-magnifying-glass header_div_items"></i>
-                </form>
-                <i  class="fa-solid fa-user "></i>
-                <a class="header_div_items" href="">account</a>
-                <i class="fa-solid fa-cart-shopping "></i>
-                <a class="header_div_items" href="">cart</a>
-                <a href=""><i class="fa-solid fa-location-dot header_div_items"></i></a>
-                <a href=""><i class="fa-solid fa-phone header_div_items"></i></a>
-                <a href=""><i class="fa-solid fa-envelope header_div_items"></i></a>
-            </div>
+
+    <div class="hero">
+    <header>
+        <div class="header__top">
+        <img src="images/hifilogo.jpg" alt="logo">
+        <div class="header_div">
+            <form action="newsletter.html" method="get"> </form>
+            <label class="form__label" for="email"> </label>
+            <input class="navform" type="text" id="email" name="search" placeholder="Search entire store here">
+            <i class="fa-solid fa-magnifying-glass header_div_items" aria-hidden="true"></i>
+            
+            <i class="fa-solid fa-user " aria-hidden="true"></i>
+            <a class="header_div_items" href="">account</a>
+            <i class="fa-solid fa-cart-shopping " aria-hidden="true"></i>
+            <a class="header_div_items" href="">cart</a>
+            <a href=""><i class="fa-solid fa-location-dot header_div_items" aria-hidden="true"></i></a>
+            <a href=""><i class="fa-solid fa-phone header_div_items" aria-hidden="true"></i></a>
+            <a href=""><i class="fa-solid fa-envelope header_div_items" aria-hidden="true"></i></a>
         </div>
-            <nav>
+    </div>
+        <nav>
+
+            <ul class="nav_list">
+                <li> <a class="nav_list_item highlight" href="">home</a></li>
+                <li> <a class="nav_list_item" href="">about us</a></li>
+                <li> <a class="nav_list_item" href="brandlist.html">brands</a></li>
+                <li> <a class="nav_list_item" href="">blog</a></li>
+                <li> <a class="nav_list_item" href="">events</a></li>
+                <li> <a class="nav_list_item" href="shop-frontpage.html">shop</a></li>
+                <li> <a class="nav_list_item" href="">contact us</a></li>
+            </ul>
+        </nav>
+      
+    </header></div>
+    
+    <main id="main">
+<div class="wavy_lines">
+   
+   
+    <h2 class="wavy_lines_title">OUR Edinburg showroom has now moved to stunning premisis on joppa road</h2>
+</div>
+<div class="gallery-grid">
 
     <div class="slider-grid">
 
         <div class="slider">
 <p class="caption"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium officia rem labore
         earum nihil, temporibus.</p>
-            <img class="slide slide--active" src="images/background/home_cinema.jpg" alt="Lorem ipsum">
+            <img class="slide" src="images/background/home_cinema.jpg" alt="Lorem ipsum">
             <!-- slide 1 ends -->
 
-            <img class="slide" src="/images/background/amplifiers.jpg" alt="Lorem ipsum20">
+            <img class="slide slide--active" src="/images/background/amplifiers.jpg" alt="Lorem ipsum20">
             <!-- slide 2 ends -->
             <img class="slide" src="/images/background/headphones.jpg" alt="Lorem ipsum22">
             <!-- slide 3 ends -->
@@ -55,11 +76,17 @@
             <!-- slide 4 ends -->
         </div>
         <!-- slider ends -->
-        <div id="back"><i class="fas fa-chevron-left"></i></div>
-        <div id="next"><i class="fas fa-chevron-right"></i></div>
+        <div id="back"><i class="fas fa-chevron-left" aria-hidden="true"></i></div>
+        <div id="next"><i class="fas fa-chevron-right" aria-hidden="true"></i></div>
     </div>
     <!-- slider grid ends -->
     
+
+</div>
+<!-- gallery grid ends -->
+  
+            
+        
     </main>
 
     <footer>
@@ -70,34 +97,34 @@
                 <p>Falkrik 14 Cow Wynd FK1 1PU</p>
             </div>
             <div class="footer__link">
-                <a class="border-right" href="">Returns & Refunds</a>
+                <a class="border-right" href="">Returns &amp; Refunds</a>
                 <a href="">Privicy Policy</a>
             </div>
         </div>
         <div class="footer__right">
             <div class="footer__payment-icons-container">
-                <i class="fa-brands fa-cc-mastercard"></i>
-                <i class="fa-brands fa-cc-paypal"></i>
-                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard" aria-hidden="true"></i>
+                <i class="fa-brands fa-cc-paypal" aria-hidden="true"></i>
+                <i class="fa-brands fa-cc-visa" aria-hidden="true"></i>
             </div>
             <div class="footer__social-icons-container">
                 <div class=" footer__social-icon">
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
                 </div>
                 <div class=" footer__social-icon">
-                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-youtube" aria-hidden="true"></i>
                 </div>
                 <div class=" footer__social-icon">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-twitter" aria-hidden="true"></i>
                 </div>
                 <div class=" footer__social-icon">
-                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
                 </div>
             </div>
 
         </div>
     </footer>
 
-</body>
 
-</html>
+
+</body></html>
