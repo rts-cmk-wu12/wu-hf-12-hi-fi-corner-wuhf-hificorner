@@ -2,8 +2,13 @@
 const params = new URLSearchParams(window.location.search);
 const category = params.get('category');
 
+// Opdater kategori-navn i HTML'en
+document.getElementById('category-name').textContent = category;
+
 // URL til din JSON-server baseret på kategorien
 const url = `http://localhost:3000/${category}`;
+
+
 
 // Funktion til at hente og vise data
 async function fetchData() {
@@ -11,17 +16,22 @@ async function fetchData() {
     const response = await fetch(url);
     const data = await response.json();
 
-    // Vælg et element i HTML'en hvor du vil vise dataene
+    // Tjek om data er et array eller et objekt
+    let categoryProducts = Array.isArray(data) ? data : data[category];
+
+    console.log("Modtagne produkter:", categoryProducts);
+
     const productContainer = document.getElementById('product-list');
+    productContainer.innerHTML = '';
 
     // Gå gennem hvert produkt og tilføj det til HTML'en
-    data.forEach(product => {
+    categoryProducts.forEach(product => {
       const productElement = document.createElement('div');
       productElement.innerHTML = `
+       <img src="${product.photo}" alt="${product.name}">
         <h2>${product.name}</h2>
         <p>Pris: ${product.price}</p>
         <p>Producent: ${product.manufacturer}</p>
-        <img src="${product.photo}" alt="${product.name}">
       `;
       productContainer.appendChild(productElement);
     });
@@ -30,8 +40,18 @@ async function fetchData() {
   }
 }
 
-// Kald fetchData funktionen for at hente og vise produkterne
+// Kald fetchData for at hente data, når siden indlæses
 fetchData();
+
+
+
+
+
+
+
+
+
+
 
 
 
