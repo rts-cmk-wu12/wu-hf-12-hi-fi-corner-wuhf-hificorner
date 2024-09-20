@@ -1,0 +1,116 @@
+.shop-background {
+    background-color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+
+.item {
+    text-align: center;
+    position: relative;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove space under images */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+body .container a {
+    color: white;
+    bottom: 6rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 2rem; 
+}
+
+.shop-bth {
+    background-color: #685225; 
+    width: 10rem; 
+    border: none;
+    width: 7rem;
+    height: 2rem;
+
+}
+.shop-now {
+    text-align: center;
+    margin-top: 2px;
+    background-color: var(--primary-color);
+    padding-block: 5rem;
+    color: white;  
+}
+
+footer {
+    background-color: #a39161; 
+    color: #D1C6A8; 
+    padding: 20px;
+    text-align: left; 
+}
+
+.footer-img {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+
+footer .footer-img img {
+   
+    width: 2rem;
+}
+
+.footer-payment {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+    gap: 3px;
+    top: 1.5rem;
+}
+
+.footer-address {
+    margin: 10px 0;
+    font-size: 12px;
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 18rem;
+    gap: 5px;
+}
+footer a {
+    color: white;
+}
+.payment-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+
+}
+.payment-icons img {
+    height: 30px; 
+    margin: 0 5px;
+} 
+

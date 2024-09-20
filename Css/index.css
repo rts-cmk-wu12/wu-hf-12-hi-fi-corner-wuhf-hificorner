@@ -25,7 +25,8 @@
 }
 .icon-header-box a{
     color: white;
-    
+    width: 10px;
+    margin-right: 50px;
 }
 .frontpage-nav{
     background-color: black;
@@ -71,7 +72,7 @@ min-height: 455px;
 border: none;
 
 background-repeat: no-repeat;
-background-color: hsl(51.4deg 27.7% 44.89%);
+background-color: hsl(51.4deg 40.7% 30.89%);
 background-blend-mode: overlay;
 }
 
@@ -80,6 +81,7 @@ background-blend-mode: overlay;
     width: 750px;
     text-transform: uppercase;
     text-align: center;
+    color: #fefefc;
 }
 .message-button{
   display: flex;
@@ -108,7 +110,39 @@ background-blend-mode: overlay;
 }
 
 .frontpage-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 257px;
+    text-transform: uppercase;
+    
 }
+.frontpage-info h2{
+    border: solid white 2px;
+    color: var(--primary-color);
+    font-family:  'Museo Sans Rounded';
+    width: 150px;
+    margin-bottom: 10px
+}
+.frontpage-info p {
+    width: 300px;
+    font-family: 'Museo Sans Rounded';
+    font-weight: 100;
+
+}
+.frontpage-info article{
+    height: 100px;
+    margin: 20px;
+}
+
+.frontpage-info div{
+    display: flex;
+    justify-content: center;
+}
+
 .social-speakerbackground-grid, .social-headphonebackground-grid, .social-recordplayer-background-grid{
     display: grid;
 }
