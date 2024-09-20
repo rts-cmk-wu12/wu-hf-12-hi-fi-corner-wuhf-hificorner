@@ -13,10 +13,20 @@ img {
 }
 
 .wrapper{
-    max-width: 1458px; 
+    max-width: 1200px; 
 }
 
+
+
+
+
+
 /*------------------speaker section---------------*/
+body.index, .speaker {
+    background-image: url(../images/logo/hifi-logo1.png);
+   
+   background-repeat: no-repeat;  
+}
 
 .frontpage__body {
     background-image: url(../images/logo/Hi-Fi_slider1.jpg);
@@ -29,20 +39,23 @@ img {
     color: white;
     text-align: center;
     position: relative;*/
+   height: 100vh; 
+    background-position-x: center;
+    display: block;
+
 }
+
+
+
 
 .showroom{
     display: grid;
-    grid-template: 1fr/1fr;
-   /* justify-items: center;
-    align-items: center; */
-    
-    
+    grid-template: 1fr/1fr; 
+   
 }
 
 .showroom_img,.showroom_writing{
     grid-area:  1/1/2/-1;
-
 }
 
 .showroom_writing{
@@ -55,9 +68,41 @@ img {
 /*-------------sounds------------*/
 
 .sounds{
-    height: 500px;
+    
+    position: relative;
+    
     background-color: white;
 }
+
+.mySlides {
+    display: none ;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+
+   margin-top: -230px;
+    padding: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+ 
 
 
 

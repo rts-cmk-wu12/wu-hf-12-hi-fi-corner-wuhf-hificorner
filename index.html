@@ -5,26 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="js/slider.js" defer></script>
 
-    <title>Document</title>
+    <title>Front-page</title>
 </head>
 
-<body class="frontpage__body">
+<body class="index">
     <div id="wrapper">
         <header>
-            <ul class="headeritems">
 
-                <li class="header__item1 header__item--last"><img class="header_img"
-                        src="Icons/location-pin-svgrepo-com.svg" alt="loction">
-                </li>
-                <li class="header__item1 header__item--last"><img class="header_img"
-                        src="Icons/telephone-svgrepo-com.svg" alt="telephone">
-                </li>
-                <li class="header__item1 header__item--last"><img class="header_img"
-                        src="Icons/envelope-svgrepo-com.svg" alt="envelope">
-                </li>
-                <li class="header__item1 header__item--last1"><img class="header_img header_img--blue"
-                        src="Icons/envelope-svgrepo-com (1).svg" alt="small envelope">Subscribe</li>
+
+            <div class="headeritems">
+                <ul class="headeritems1__list">
+                    <li class="header__item1 header__item--last"><img class="header_img"
+                            src="Icons/location-pin-svgrepo-com.svg" alt="loction">
+                    </li>
+                    <li class="header__item1 header__item--last"><img class="header_img"
+                            src="Icons/telephone-svgrepo-com.svg" alt="telephone">
+                    </li>
+                    <li class="header__item1 header__item--last"><img class="header_img"
+                            src="Icons/envelope-svgrepo-com.svg" alt="envelope">
+                    </li>
+                    <li class="header__item1 header__item--last1"><img class="header_img header_img--blue"
+                            src="Icons/envelope-svgrepo-com (1).svg" alt="small envelope">Subscribe</li>
+
+                </ul>
 
             </ul>
 
@@ -40,14 +46,15 @@
 
                 </ul>
             </nav>
-            <section class="speaker">
-                <img src="images/logo/Hi-Fi_slider1.jpg" alt="logo">
 
-            </section>
+
         </header>
         <main>
 
+            <div class="speaker">
 
+
+            </div>
 
             <!----------------show room--------------------------->
 
@@ -66,21 +73,37 @@
             <!----------------sounds---------------------->
 
             <section class="sounds">
+                <img src="images/logo/hifi-slider.png" style="width:100%">
 
-                <article class="container flex">
-                    <div class="imagewindow">
-                        <button class="button prev"></button>
-                        <div class="imageroll flex">
-                            <img src="" class="img" />
-                            <img src="" class="img" />
-                            <img src="" class="img" />
-                            <img src="" class="img" />
-                        </div>
-                        <button class="button next"></button>
-                    </div>
-                </article>
+
+                <div class="mySlides">
+
+                    <img src="images/logo/hifi-slider.png" style="width:100%">
+
+                </div>
+
+                <div class="mySlides">
+
+                    <img src="images/logo/hifi-slider.png" style="width:100%">
+
+                </div>
+
+                <div class="mySlides">
+
+                    <img src="images/logo/hifi-slider.png" style="width:100%">
+
+                </div>
+
+                <!-- Next and previous buttons -->
+                <div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
 
             </section>
+
             <!-- -----------Social media ------------ -->
 
             <section class="social-media">
@@ -127,7 +150,9 @@
 
             </section>
 
-            <footer> <!-- Footer starter -->
+            <!-- Footer starter -->
+
+            <footer>
                 <div class="footer_info">
                     <section class="footer_address">
                         <p>
