@@ -1,0 +1,7 @@
+.a-list {
+    width: 20rem;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    color: var(--primary-color);
+}
