@@ -6,16 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hifi-Corner</title>
     <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="/css/forside.css">
+
+    <link rel="stylesheet" href="/css/front-page.css">
+
     <script src="https://kit.fontawesome.com/3f51aff7a3.js" crossorigin="anonymous"></script>
     <script src="javascript/information.js" type="module"></script>
+    <script src="javascript/galleri.js" type="module"></script>
+    
 </head>
 
 <body>
 
+    <div class="hero">
+    <header>
+        <div class="header__top">
+        <img src="images/hifilogo.jpg" alt="logo">
+        <div class="header_div">
+            <form  action="newsletter.html" method="get"> </form>
+            <label class="form__label" for="email"> </label>
+            <input class="navform" type="text" id="email" name="search" placeholder="Search entire store here" >
+            <i class="fa-solid fa-magnifying-glass header_div_items"></i>
+            </form>
+            <i  class="fa-solid fa-user "></i>
+            <a class="header_div_items" href="">account</a>
+            <i class="fa-solid fa-cart-shopping "></i>
+            <a class="header_div_items" href="">cart</a>
+            <a href=""><i class="fa-solid fa-location-dot header_div_items"></i></a>
+            <a href=""><i class="fa-solid fa-phone header_div_items"></i></a>
+            <a href=""><i class="fa-solid fa-envelope header_div_items"></i></a>
+        </div>
+    </div>
+        <nav>
 
+            <ul class="nav_list">
+                <li> <a class="nav_list_item highlight" href="">home</a></li>
+                <li> <a class="nav_list_item" href="">about us</a></li>
+                <li> <a class="nav_list_item" href="brandlist.html">brands</a></li>
+                <li> <a class="nav_list_item" href="">blog</a></li>
+                <li> <a class="nav_list_item" href="">events</a></li>
+                <li> <a class="nav_list_item" href="shop-frontpage.html">shop</a></li>
+                <li> <a class="nav_list_item" href="">contact us</a></li>
+            </ul>
+        </nav>
+      
+    </header></div>
+    
     <main id="main">
+<div class="wavy_lines">
+   
+   
+    <h2 class="wavy_lines_title" >OUR Edinburg showroom has now moved to stunning premisis on joppa road</h2>
+</div>
+<div class="gallery-grid">
 
+    <div class="slider-grid">
 
+        <div class="slider">
+<p class="caption"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium officia rem labore
+        earum nihil, temporibus.</p>
+            <img class="slide slide--active" src="images/background/home_cinema.jpg" alt="Lorem ipsum">
+            <!-- slide 1 ends -->
+
+            <img class="slide" src="/images/background/amplifiers.jpg" alt="Lorem ipsum20">
+            <!-- slide 2 ends -->
+            <img class="slide" src="/images/background/headphones.jpg" alt="Lorem ipsum22">
+            <!-- slide 3 ends -->
+            <img class="slide" src="/images/background/speaker.jpg" alt="halahala">
+            <!-- slide 4 ends -->
+        </div>
+        <!-- slider ends -->
+        <div id="back"><i class="fas fa-chevron-left"></i></div>
+        <div id="next"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    <!-- slider grid ends -->
+    
+
+</div>
+<!-- gallery grid ends -->
+  
+            
+        
     </main>
 
     <footer>
@@ -50,8 +122,10 @@
                     <i class="fa-brands fa-square-instagram"></i>
                 </div>
             </div>
+
         </div>
     </footer>
+
 </body>
 
 </html>

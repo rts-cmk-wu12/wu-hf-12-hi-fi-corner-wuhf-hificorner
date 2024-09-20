@@ -1,0 +1,88 @@
+.hero{
+    background-image: url('/images/background/speaker.jpg');
+    height: 500px;
+    object-fit: cover;
+}
+
+.wavy_lines{
+    background-image: url('/images/background/wavy_lines.jpg');
+height: 500px;
+    display: grid;
+    align-items: center;
+}
+
+.wavy_lines_title{
+ margin: 0 auto;
+
+font-size: 43px;
+
+}
+/* slider */
+.gallery-grid, .slider-grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    }
+    
+    .gallery-grid{
+       max-width: 98.9vw;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 7em 0 3.5em;
+    }
+    
+    .slider-grid{
+        grid-column: 2/3;
+        grid-template-columns: repeat(1, auto);
+    }
+    .slider{
+        width: 98.9vw;
+        grid-area: 1/1/2/-1;
+        overflow: hidden;
+        order: 1;
+       height: 500px;
+    
+    }
+    .slider img{
+        /* object-fit: cover; */
+        width: 80%;
+         /* height: 100%;  */
+        margin: 0 auto;
+    }
+    .slide{
+        display: none;
+        
+    }
+    .slide--active{
+        display: block;
+        order: 2;
+       
+    }
+    .caption{
+        font-size: 20px;
+        line-height: 1.6;
+        align-self: end;
+        width: 14.6em;
+        grid-column: 3/4;
+    }
+    
+    #next,#back{
+        grid-area: 1/1/2/-1;
+        font-size: 4.5em;
+        margin: 0.5em;
+        cursor: pointer;
+        color: #eba101;
+        order: 3;
+    }
+    
+    #next{
+        justify-self: end;
+    }
+    
+    #back{
+        justify-self: start;
+    }
+   
+    .fa-chevron-right,.fa-chevron-left{
+        margin-top: 150px;
+    }
