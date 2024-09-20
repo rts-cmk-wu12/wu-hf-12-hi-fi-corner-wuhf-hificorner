@@ -98,6 +98,7 @@
     color: var(--white-colour);
     text-transform: uppercase;
     padding: 0.3rem 0.8rem;
+    font-size: 0.8em;
 }
 
 .product-information__variants {
@@ -135,7 +136,7 @@
     background-color: var(--grey-colour);
     width: fit-content;
     padding: 0.3rem;
-    padding-right: 8rem;
+    width: 10rem;
     text-transform: capitalize;
 }
 
@@ -226,7 +227,7 @@
     padding: 0.3rem;
     padding-block: 0.5rem;
     text-align: left;
-    width: 20%;
+    width: 35%;
 }
 
 .table__data {
@@ -239,6 +240,10 @@
 .table__data-link {
     color: var(--gold-colour);
     text-decoration: none;
+}
+
+.table__data-link:hover {
+    text-decoration: underline;
 }
 
 .product-contact {
