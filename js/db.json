@@ -5,232 +5,232 @@
             "name": "Creek classic cd",
             "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "cd afspiller",
+	        "sub-category": "CD Players",
             "description": "",
-	        "Price": ""
+	        "Price": "£1,234"
         },
         {
             "id": "2",
             "name": "Creek destiny cd",
             "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "cd afspiller",
+	        "sub-category": "CD Players",
             "description": "",
-	        "Price": ""
+	        "Price": "£5,678"
         },
         {
             "id": "3",
             "name": "Creek evo cd",
             "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "cd afspiller",
+	        "sub-category": "CD Players",
             "description": "",
-	        "Price": ""
+	        "Price": "£12,345"
         },
         {
             "id": "4",
-            "name": "Exp 2010S cd",
+            "name": "Exp 2010s cd",
             "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "cd afspiller",
+	        "sub-category": "CD Players",
             "description": "",
-	        "Price": ""
+	        "Price": "£34,567"
         },
         {
             "id": "5",
             "name": "Manley mahi",
             "brandname": "Manley",
             "category": "Amplifiers",
-	        "sub-category": "effektforstaerkere",
+	        "sub-category": "Power Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£45,678"
         },
         {
             "id": "6",    
-            "name": "",
-            "brandname": "",
+            "name": "Manley neoclassic 300",
+            "brandname": "Manley",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Power Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£67,890"
         },
         {
             "id": "7",      
-            "name": "",
+            "name": "Manley snapper",
             "brandname": "",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Power Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£6,789"
         },
         {
             "id": "8",
-            "name": "",
-            "brandname": "",
+            "name": "Parasound haloa23",
+            "brandname": "Parasound",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Power Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£7,890"
         },
         {
             "id": "9",
-            "name": "",
-            "brandname": "",
+            "name": "Creek classic",
+            "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Home Cinema",
             "description": "",
-	        "Price": ""
+	        "Price": "£10,123"
         },
         {
             "id": "10",
-            "name": "",
-            "brandname": "",
+            "name": "Exposure 2010s",
+            "brandname": "Exposure",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Home Cinema",
             "description": "",
-	        "Price": ""
+	        "Price": "£17,890"
         },
         {
             "id": "11",
-            "name": "",
-            "brandname": "",
+            "name": "Parasound d200",
+            "brandname": "Parasound",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Home Cinema",
             "description": "",
-	        "Price": ""
+	        "Price": "£21,234"
         },
         {
             "id": "12", 
-            "name": "",
-            "brandname": "",
+            "name": "Parasound halod3",
+            "brandname": "Parasound",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Home Cinema",
             "description": "",
-	        "Price": ""
+	        "Price": "£29,012"
         },
         {
             "id": "13",
-            "name": "",
-            "brandname": "",
+            "name": "Creek obh 22 passive preamp",
+            "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Preamplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£30,123"
         },
         {
             "id": "14",
-            "name": "",
-            "brandname": "",
+            "name": "Parasound classic7100",
+            "brandname": "Parasound",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Preamplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£69,078"
         },
         {
             "id": "15",
-            "name": "",
-            "brandname": "",
+            "name": "Parasound halop3",
+            "brandname": "Parasound",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Preamplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£24,567"
         },
         {
             "id": "16",
-            "name": "",
-            "brandname": "",
+            "name": "Pro-ject prebox",
+            "brandname": "Pro-ject",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Preamplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£29,012"
         },
         {
             "id": "17",
-            "name": "",
-            "brandname": "",
+            "name": "Boesendorfer vcs wall",
+            "brandname": "Boesendorfer",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Speakers",
             "description": "",
-	        "Price": ""
+	        "Price": "£10,123"
         },
         {
             "id": "18",
-            "name": "",
-            "brandname": "",
+            "name": "Epos m5",
+            "brandname": "Epos",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Speakers",
             "description": "",
-	        "Price": ""
+	        "Price": "£49,200"
         },
         {
             "id": "19",
-            "name": "",
-            "brandname": "",
+            "name": "Harbeth hl7es2",
+            "brandname": "Harbeth",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Speakers",
             "description": "",
-	        "Price": ""
+	        "Price": "£39,100"
         },
         {
             "id": "20",
-            "name": "",
-            "brandname": "",
+            "name": "Harbeth monitor30",
+            "brandname": "Harbeth",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Speakers",
             "description": "",
-	        "Price": ""
+	        "Price": "£32,345"
         },
         {
             "id": "21",
-            "name": "",
-            "brandname": "",
+            "name": "Harbeth p3es2",
+            "brandname": "Harbeth",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Speakers",
             "description": "",
-	        "Price": ""
+	        "Price": "£22,250"
         },
         {
             "id": "22",
-            "name": "",
-            "brandname": "",
+            "name": "Creek a50I",
+            "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Intigrated Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£15.700"
         },
         {
             "id": "23",
-            "name": "",
-            "brandname": "",
+            "name": "Creek classic 5350SE",
+            "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Intigrated Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£10.500"
         },
         {
             "id": "24",
-            "name": "",
-            "brandname": "",
+            "name": "Creek destinyamp",
+            "brandname": "Creek",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Intigrated Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£9,500.00"
         },
         {
             "id": "25",
-            "name": "",
-            "brandname": "",
+            "name": "Manley snapper",
+            "brandname": "Manley",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Intigrated Amplifiers",
             "description": "",
-	        "Price": ""
+	        "Price": "£4,200"
         },
         {
             "id": "26",
-            "name": "",
-            "brandname": "",
+            "name": "Manley Stringray",
+            "brandname": "Manley",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Intigrated Amplifiers",
             "description": "",
 	        "Price": ""
         },
@@ -239,7 +239,7 @@
             "name": "",
             "brandname": "",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Turntables",
             "description": "",
 	        "Price": ""
         },
@@ -248,7 +248,7 @@
             "name": "",
             "brandname": "",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Turntables",
             "description": "",
 	        "Price": ""
         },
@@ -257,7 +257,7 @@
             "name": "",
             "brandname": "",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Turntables",
             "description": "",
 	        "Price": ""
         },
@@ -266,7 +266,7 @@
             "name": "",
             "brandname": "",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Turntables",
             "description": "",
 	        "Price": ""
         },
@@ -275,12 +275,48 @@
             "name": "",
             "brandname": "",
             "category": "Amplifiers",
-	        "sub-category": "",
+	        "sub-category": "Turntables",
             "description": "",
 	        "Price": ""
         },
         {
             "id": "32",
+            "name": "",
+            "brandname": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
+            "description": "",
+	        "Price": ""
+        },
+        {
+            "id": "33",
+            "name": "",
+            "brandname": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
+            "description": "",
+	        "Price": ""
+        },
+        {
+            "id": "34",
+            "name": "",
+            "brandname": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
+            "description": "",
+	        "Price": ""
+        },
+        {
+            "id": "35",
+            "name": "",
+            "brandname": "",
+            "category": "Amplifiers",
+	        "sub-category": "",
+            "description": "",
+	        "Price": ""
+        },
+        {
+            "id": "36",
             "name": "",
             "brandname": "",
             "category": "Amplifiers",
