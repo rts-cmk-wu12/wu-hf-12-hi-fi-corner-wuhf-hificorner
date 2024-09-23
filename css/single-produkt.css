@@ -143,6 +143,7 @@ background-color: rgb(227, 227, 227);
 }
 
 
+
 .single__produkt-right__table-additional_information{
     margin-top: .5rem;
     border-spacing: 0;
@@ -152,8 +153,7 @@ background-color: rgb(227, 227, 227);
     text-align: left;
     margin-bottom: .5rem;
 }
-.single__produkt-right__table-tbody{
-}
+
 .single__produkt-right__table-tbody tr th{
     text-align: left;
     background-color: var(--primary_gray);
@@ -170,6 +170,30 @@ background-color: rgb(227, 227, 227);
 
 
 .single__produkt-left__description{
-    background-color: aqua;
+    margin-bottom: 1rem;
     
+}
+.single__produkt-left__description-caption{
+    text-align: left;
+    color: var(--primary_hihglight);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.single__produkt-left__description-table tr th{
+    text-align: left;
+    font-weight: 200;
+}
+.single__produkt-left__description-table tr td{
+    text-align: right;
+}
+
+
+.single-produkt__call-wrapper{
+    background-color: black;
+    color: var(--primary_hihglight);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5rem;
+
 }
