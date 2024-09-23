@@ -29,7 +29,7 @@ productData.forEach((product) => {
     productContainer.innerHTML = `
     <img src="${product.image}" alt="${product.category}" class="product__image">
         <div class="product-info">
-            <p class="product__name">${product.product_name}</p>
+            <a href="details.html?product=${product.product_name}" class="product__name">${product.product_name}</a>
             <p class="product__price">£${product.price}</p>
             <button class="product__button">add to cart</button>
         </div>`
