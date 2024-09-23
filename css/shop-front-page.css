@@ -1,6 +1,4 @@
-body{
-   /* background-color: black; */
-}
+
 .frontpage__pics{
     display: grid;
    
@@ -11,8 +9,16 @@ body{
     
 }
 
+.frontpage__pics_box:hover{
+    transform: scale(1.17);
+}
+
+
+
 .frontpage__pics_box{
     position: relative;
+    transition: .3s;
+    
 }
 .frontpage__pics_box2{
     position: relative;

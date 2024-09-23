@@ -28,6 +28,13 @@ font-size: 43px;
     align-self: center;
     margin-top: 50px;
 }
+.main_top_image--hifi_logo:hover{
+    transform: scale(1.2);
+}
+.main_top_image--hifi_logo{
+    transition: .3s;
+}
+
 /* slider */
 .gallery-grid, .slider-grid{
     display: grid;
@@ -82,7 +89,7 @@ font-size: 43px;
         font-size: 4.5em;
         margin: 0.5em;
         cursor: pointer;
-        color: #eba101;
+        color: var(--primary_hihglight);
         order: 3;
     }
     
@@ -96,6 +103,26 @@ font-size: 43px;
    
     .fa-chevron-right,.fa-chevron-left{
         margin-top: 150px;
+        
+    }
+    #back:hover{
+        transform: scale(1.2);
+    }
+    #next:hover{
+        transform: scale(1.2);
+    }
+    #next{
+        transition: .3s;
+    }
+    
+    #back{
+        transition: .3s;
+    }
+    .caption{
+        font-size: 30px;
+        color: var(--primary_hihglight);
+        padding-left: 25px;
+        padding-bottom: 25px;
     }
 
     .sociale-medier{
@@ -111,6 +138,19 @@ font-size: 43px;
     }
  .sociale-medier-div img{
    width:100% ; 
+ }
+ .sociale-medier-div a, .sociale-medier-div img{
+    grid-row: 1/2;
+    grid-column: 1/2;
+ }
+ .sociale-medier-div a{
+    margin: 0 auto;
+    font-size: 200px;
+    align-self: center;
+    transition: .3s;
+ }
+ .sociale-medier-div a:hover{
+    transform: scale(1.17);
  }
  .buttons{
     width: 50%;
@@ -141,4 +181,12 @@ min-width: 250px;
     background-color: var(--opacity_black);
     color: var(--primary_hihglight);
     margin-bottom: 10px;
+    border-color: white;
+    border-width: 0.1px;
+    transition: .3s;
+    
 }
+.buttons div button:hover{
+    transform: scale(1.17);
+}
+

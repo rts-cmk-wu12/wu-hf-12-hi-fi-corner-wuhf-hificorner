@@ -10,6 +10,20 @@ body{
     margin: 0 auto; 
     
 }
+.frontpage__pics_box:hover{
+    transform: scale(1.17);
+}
+
+
+
+.frontpage__pics_box {
+    
+    transition: .3s;
+    z-index:10 ;
+}
+.frontpage__pics_box img{
+z-index: 11;
+}
 
 .frontpage__pics_box{
     position: relative;
