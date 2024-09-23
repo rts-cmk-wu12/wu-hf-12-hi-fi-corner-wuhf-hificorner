@@ -18,7 +18,7 @@ img {
 
 /*------------------speaker section---------------*/
 
-body {
+.frontpage__body {
     background-image: url(../images/logo/Hi-Fi_slider1.jpg);
     /*background-size: cover;
     background-position: center;
