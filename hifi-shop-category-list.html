@@ -53,25 +53,32 @@
     </header>
     <main>
         <h1><span id="category-name"></span></h1>
+        <div class="category_sort_box">
+            <p>SORT BY</p>
+            <label for="max-price">Max Price:</label>
+            <input type="number" id="max-price" placeholder="Enter max price">
+            <button id="filter-price" type="button">Filter by Price</button>
+        </div>
+
         <div class="category_box">
             <div class="category_left_box">
-                <p>Amplifiers</p>
-                <p>Speakers</p>
-                <p>Turntables</p>
-                <p>CD Players</p>
-                <p>Furniture</p>
-                <p>Streamers</p>
-                <p>Cables</p>
-                <p>Headphones</p>
-                <p>Home Cinema</p>
-                <p></p>
-                <p>Tv</p>
-                <p></p>
-                <p></p>
-
+                <p><a href="#" class="category-link" data-category="amplifiers">Amplifiers</a></p><br>
+                <p><a href="#" class="category-link" data-category="speakers">Speakers</a></p><br>
+                <p><a href="#" class="category-link" data-category="turntables">Turntables</a></p><br>
+                <p><a href="#" class="category-link" data-category="cd-players">CD Players</a></p><br>
+                <p><a href="#" class="category-link" data-category="dvd-afspiller">DVD Afspiller</a></p><br>
+                <p><a href="#" class="category-link" data-category="effektforstaerkere">Effektforstaerkere</a></p><br>
+                <p><a href="#" class="category-link" data-category="int-forstaerkere">Int forstaerkere</a></p><br>
+                <p><a href="#" class="category-link" data-category="roser-forstaerkere">Roser forstaerkere</a></p><br>
             </div>
             <div id="product-list"></div>
         </div>
+        <div class="category_left_box">
+            <h2>SHOP BY</h2>
+        </div>
+
+
+
     </main>
     <footer></footer>
 </body>

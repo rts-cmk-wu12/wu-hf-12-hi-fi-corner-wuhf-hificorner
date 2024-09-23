@@ -48,7 +48,7 @@
 #product-list{
     margin-top: 50px;
     display: flex;
-    margin-left: 300px;
+    margin-left: 200px;
     gap: 50px;
 }
 
@@ -57,12 +57,27 @@ h1{
 }
 
 
-
+#category-name{
+    margin-left: 800px;
+}
 
 .category_box{
     display: flex;
 }
 
 .category_left_box{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.555);
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.category-link{
+}
+
+.category_sort_box{
+    margin-left: 400px;
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 1000px;
+    height: 60px;
 }
