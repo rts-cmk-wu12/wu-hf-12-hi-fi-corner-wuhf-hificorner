@@ -238,25 +238,21 @@
             "brand": "pro-ject",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
             "category": "record players",
-            "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg"
-        },
-        {
-            "id": 27,
-            "name": "PRO-JECT DEBUT 3 RED",
-            "price": "£380.00",
-            "brand": "pro-ject",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
-            "category": "record players",
-            "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg"
-        },
-        {
-            "id": 28,
-            "name": "PRO-JECT DEBUT 3 YELLOW",
-            "price": "£380.00",
-            "brand": "pro-ject",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo nobis beatae illum consequuntur. Sed placeat molestias ratione pariatur praesentium quis ullam hic magni, maxime quam excepturi laudantium.Consequuntur omnis dicta sint quas, aliquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, doloribus nam? Fugiat porro dicta ipsa temporibus, distinctio voluptates eaque quae explicabo quos perferendis, provident asperiores alias impedit blanditiis, veritatis assumenda!",
-            "category": "record players",
-            "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
+            "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+            "variants": [
+                {
+                    "color": "blue",
+                    "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg"
+                },
+                {
+                    "color": "red",
+                    "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg"
+                },
+                {
+                    "color": "yellow",
+                    "img": "/images/Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
+                }
+            ]
         },
         {
             "id": 29,
