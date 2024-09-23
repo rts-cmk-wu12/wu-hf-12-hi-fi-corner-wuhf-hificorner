@@ -52,14 +52,14 @@ productData.forEach((product) => {
             product.variant.forEach((variant) => {
                 const variantImage = document.createElement('img')
                 variantImage.src = variant.image;
-                variantImage.alt = `variant-${variant.colour}`;
+                variantImage.alt = variant.colour;
 
                 variantImgContainer.appendChild(variantImage);
                 variantImage.classList.add('product-display__option-img');
 
                 const variantOptions = document.createElement('div');
                 variantOptions.innerHTML = `
-                <input type="checkbox" name="option">
+                <input type="radio" name="option" value="${variant.colour}">
                 <p>${variant.colour}</p>`
                 productVariantsContainer.appendChild(variantOptions);
                 variantOptions.classList.add('product-information__variants-options')
@@ -69,6 +69,13 @@ productData.forEach((product) => {
                 variantImage.addEventListener('click', () => {
                     productDisplayImage.src = variantImage.src
                 })
+
+                variantOptions.addEventListener('change', (e) => {
+                    if (e.target.value == variantImage.alt) {
+                        productDisplayImage.src = variantImage.src
+                    }
+                })
+                
             })
 
         }
