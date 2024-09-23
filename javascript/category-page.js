@@ -47,15 +47,25 @@ function displayProducts(product) {
             <img src="${product.img}" alt="${product.name}">
             <p>${product.name}</p>
             <p>$${product.price}</p>
-            <button onclick="addToCart(${product.id})">Add to Cart</button>
+         <button>Add to Cart</button>
         `;
-
+        productDiv.addEventListener("click", productDetail);
+        function productDetail() {
+            window.location.assign(`/single-produkt.html?name=${product.name}`)
+        };
         productList.appendChild(productDiv);
+
+        //<button onclick="addToCart(${product.id})">Add to Cart</button>
     });
 }
 
-//const categories = Array.from(document.querySelectorAll(".category-page__left_ul_li"));
-//categories.forEach(addEventListener("click",showItems ));
+const categories = Array.from(document.querySelectorAll(".category-page__left_ul_li"));
+categories.forEach(category => category.addEventListener("click", showItems));
+
+/*categories.forEach(function(category) {
+    category.addEventListener("click",showItems )
+});
+
 document.querySelector("#cd_players").addEventListener("click",showItems );
 document.querySelector("#dvd_players").addEventListener("click",showItems );
 document.querySelector("#power_amplifiers").addEventListener("click",showItems );
@@ -63,14 +73,13 @@ document.querySelector("#preamplifiers").addEventListener("click",showItems );
 document.querySelector("#speakers").addEventListener("click",showItems );
 document.querySelector("#turntables").addEventListener("click",showItems );
 document.querySelector("#record_players").addEventListener("click",showItems );
-document.querySelector("#router_amplifier").addEventListener("click",showItems );
+document.querySelector("#router_amplifier").addEventListener("click",showItems );*/
 
 function showItems() {
     const categoryName = this.textContent;
     const filteredProducts = product.filter(product =>
-        product.category.slice(0,2) === categoryName.slice(0,2));
-        displayProducts(filteredProducts);
-        //console.log("filter", filteredProducts);
-         }
-   displayProducts(product);
- 
+        product.category.slice(0, 2) === categoryName.slice(0, 2));
+    displayProducts(filteredProducts);
+    //console.log("filter", filteredProducts);
+}
+displayProducts(product);
