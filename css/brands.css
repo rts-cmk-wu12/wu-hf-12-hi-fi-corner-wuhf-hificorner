@@ -36,13 +36,14 @@
 
 .hifi-logo-section{
     margin-top: 15px;
+    margin-left: 10em;
 }
 
 .top-brands-header{
     display: grid;
     text-align: center;
     margin-top: 3.5em;
-    margin-left: 5em;
+    margin-left: 3em;
 }
 .brands-sub-text{
     color: var(--white-colour);
@@ -60,6 +61,8 @@
 }
 
 .brands-container{
+    width: 1450px;
+    margin: 0 auto;
     margin-top: 3em;
     background-color: var(--white-colour);
 }
