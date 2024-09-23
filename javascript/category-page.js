@@ -15,15 +15,14 @@ function showHide() {
         this.textContent = "View All"
     }
 }
-
 // Fetch Data
 
-const API_URL = "http://localhost:3000/"
+const API_URL = "http://localhost:3000/";
 const response = await fetch(API_URL + 'items');
 const product = await response.json();
 const productList = document.querySelector('#product-list');
 console.log(product);
-product.forEach(function(product){
+/*product.forEach(function(product){
     console.log(product.name);
     const productDiv = document.createElement('div');
             productDiv.classList.add('product');
@@ -36,36 +35,42 @@ product.forEach(function(product){
             `;
 
             productList.appendChild(productDiv);
-})
-/*  <p>$${product.price.toFixed(2)}</p>
-('json/items.json')
-    .then(response => response.json())
-    .then(products => {
-        const productList = document.getElementById('product-list');
+})*/
+//////////
+function displayProducts(product) {
+    productList.innerHTML = ''; // Clear the current list
+    product.forEach(function (product) {
+        const productDiv = document.createElement('div');
+        productDiv.classList.add('product');
 
-        products.forEach(product => {
-            const productDiv = document.createElement('div');
-            productDiv.classList.add('product');
+        productDiv.innerHTML = `
+            <img src="${product.img}" alt="${product.name}">
+            <p>${product.name}</p>
+            <p>$${product.price}</p>
+            <button onclick="addToCart(${product.id})">Add to Cart</button>
+        `;
 
-            productDiv.innerHTML = `
-                <img src="${product.img}" alt="${product.name}">
-                <h2>${product.name}</h2>
-                <h2>${product.category}</h2>
-                <p>$${product.price.toFixed(2)}</p>
-                <button onclick="addToCart(${product.id})">Add to Cart</button>
-            `;
+        productList.appendChild(productDiv);
+    });
+}
 
-            productList.appendChild(productDiv);
-        });
-    })
-    .catch(error => console.error('Error fetching the products:', error));
+//const categories = Array.from(document.querySelectorAll(".category-page__left_ul_li"));
+//categories.forEach(addEventListener("click",showItems ));
+document.querySelector("#cd_players").addEventListener("click",showItems );
+document.querySelector("#dvd_players").addEventListener("click",showItems );
+document.querySelector("#power_amplifiers").addEventListener("click",showItems );
+document.querySelector("#preamplifiers").addEventListener("click",showItems );
+document.querySelector("#speakers").addEventListener("click",showItems );
+document.querySelector("#turntables").addEventListener("click",showItems );
+document.querySelector("#record_players").addEventListener("click",showItems );
+document.querySelector("#router_amplifier").addEventListener("click",showItems );
 
-function addToCart(productId) {
-    fetch('products.json')
-        .then(response => response.json())
-        .then(products => {
-            const product = products.find(p => p.id === productId);
-            alert(`${product.name} has been added to your cart!`);
-        })
-        .catch(error => console.error('Error fetching the products:', error));
-}*/
+function showItems() {
+    const categoryName = this.textContent;
+    const filteredProducts = product.filter(product =>
+        product.category.slice(0,2) === categoryName.slice(0,2));
+        displayProducts(filteredProducts);
+        //console.log("filter", filteredProducts);
+         }
+   displayProducts(product);
+ 
