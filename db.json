@@ -293,7 +293,7 @@
         {
             "id": "30",
             "name": "Pro-ject RPM V",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/pladespillere/project-rpm-v.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -303,7 +303,7 @@
         {
             "id": "31",
             "name": "Pro-ject RPM X",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/pladespillere/project-rpm-x.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -313,7 +313,7 @@
         {
             "id": "32",
             "name": "Jolida JD-102B",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd102b.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -323,7 +323,7 @@
         {
             "id": "33",
             "name": "Jolida JD-202A",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd202a.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -333,7 +333,7 @@
         {
             "id": "34",
             "name": "Jolida JD-300B",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd300b.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -343,7 +343,7 @@
         {
             "id": "35",
             "name": "Jolida JD-302B",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd302b.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -353,7 +353,7 @@
         {
             "id": "36",
             "name": "Jolida JD-502B",
-            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd502b.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
