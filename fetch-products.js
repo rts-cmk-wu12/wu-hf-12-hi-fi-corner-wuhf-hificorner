@@ -24,19 +24,30 @@ async function fetchData() {
 }
 
 function displayProducts(products) {
-    const productContainer = document.getElementById('product-list');
-    productContainer.innerHTML = '';
+  const productContainer = document.getElementById('product-list');
+  productContainer.innerHTML = '';
 
-    products.forEach(product => {
-        const productElement = document.createElement('div');
-        productElement.innerHTML = `
-            <img src="${product.photo}" alt="${product.name}">
-            <h2>${product.name}</h2>
-            <p>Pris: ${product.price} DKK</p>
-            <p>Producent: ${product.manufacturer}</p>
-        `;
-        productContainer.appendChild(productElement);
-    });
+  products.forEach(product => {
+      const productElement = document.createElement('div');
+      productElement.innerHTML = `
+          <img src="${product.photo}" alt="${product.name}">
+          <h2>${product.name}</h2>
+          <p>Pris: ${product.price} DKK</p>
+          <p>Producent: ${product.manufacturer}</p>
+          <button class="view-details" data-product='${JSON.stringify(product)}'>Se detaljer</button>
+      `;
+      productContainer.appendChild(productElement);
+  });
+
+  // Tilføj event listener til knapperne
+  const viewDetailButtons = document.querySelectorAll('.view-details');
+  viewDetailButtons.forEach(button => {
+      button.addEventListener('click', () => {
+          const productData = JSON.parse(button.getAttribute('data-product'));
+          localStorage.setItem('selectedProduct', JSON.stringify(productData));
+          window.location.href = 'shop-single-page.html'; // Opdater stien til din detaljeside
+      });
+  });
 }
 
 // Filtrer produkter efter maksimal pris

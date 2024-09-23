@@ -72,6 +72,13 @@ h1{
     text-align: center;
     margin-bottom: 50px;
 }
+
+
+.category_left_box a{
+    color: rgb(134, 119, 33);
+    text-decoration: none;
+}
+
 .category-link{
 }
 
