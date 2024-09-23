@@ -4,11 +4,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;   
     background-color: #f0f0f0;
 }
-
 
 nav {
     width: 100vw;
