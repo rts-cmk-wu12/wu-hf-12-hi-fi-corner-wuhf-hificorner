@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper{
+    max-width: 1458px; 
+}
+
+/*------------------speaker section---------------*/
+
+body {
+    background-image: url(../images/logo/Hi-Fi_slider1.jpg);
+    /*background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;*/
+}
+
+.showroom{
+    display: grid;
+    grid-template: 1fr/1fr;
+   /* justify-items: center;
+    align-items: center; */
+    
+    
+}
+
+.showroom_img,.showroom_writing{
+    grid-area:  1/1/2/-1;
+
+}
+
+.showroom_writing{
+    text-align: center;
+   color: white;
+   margin-top: 8em;
+   font-size: xx-large;
+}
+
+/*-------------sounds------------*/
+
+.sounds{
+    height: 500px;
+    background-color: white;
+}
+
+
+
+
+/*--------------social media--------*/
+
+.social-media{
+    display: flex;
+    background-color: black;
+}
+
+.social-media a:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+/*---------info-----------*/
+
+.info{
+display: flex;
+background-color: black;
+color: white;
+font-size: small;
+text-align: center;
+height: 347px;
+align-items: center;
+
+gap: 5em;
+
+
+}
+
+.info_heading{
+    color: #9b8d67;
+    margin-left: 5em;
+    padding-bottom: 2em;
+    border: 2em;
+    border-color: white;
+    
+}
+.info_p{
+    margin-left: 7em;
+}
+
+/*-------------------footer------------*/
+

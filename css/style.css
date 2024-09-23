@@ -3,7 +3,10 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(shop-header.css);
+@import url(footer.css);
+@import url(index.css);
 @import url(shop-frontpage.css);
 @import url(shoplist.css);
 @import url(product.css);
 @import url(details.css);
+@import url(brands.css);

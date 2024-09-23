@@ -19,29 +19,19 @@
     color: var(--gold-colour);
 }
 
-.header-line {
-    width: 1458px;
-    color: var(--gold-colour);
-    border-bottom: solid thin;
-    display: grid;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
 .to-shoplist-link {
     width: 234px;
 }
 
 .link-to-shoplist {
     display: flex;
-    /* display: grid;
-   grid-template-columns: repeat(4, 16fr); */
     position: absolute;
     color: var(--white-colour);
     width: 234px;
     height: 234px;
     align-items: center;
     justify-content: center;
+    font-family: 'Museo Sans Rounded 500';
 }
 
 
@@ -57,7 +47,7 @@
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(4, 16fr);
-    width: 821px;
+    width: 935px;
 }
 
 
@@ -86,5 +76,5 @@
     margin-top: 15px;
     color: var(--white-colour);
     font-size: 20px;
-    font-weight: bold;
+    font-family: 'Museo Sans Rounded 500';
 }
