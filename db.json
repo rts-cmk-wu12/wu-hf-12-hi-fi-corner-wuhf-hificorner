@@ -3,6 +3,7 @@
         {
             "id": "1",
             "name": "Creek classic cd",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "CD Players",
@@ -13,6 +14,7 @@
             "id": "2",
             "name": "Creek destiny cd",
             "brandname": "Creek",
+            "img": "/produktbilleder/cdafspillere/creek-destiny-cd.jpg",
             "category": "Amplifiers",
 	        "sub-category": "CD Players",
             "description": "The Creek Destiny CD Player is a high-end audio component known for its smooth and balanced sound delivery. It features a robust build with a custom-extruded case and a high-quality transport mechanism. The player uses a Cirrus Logic CS4396 DAC for superior sound quality. It’s designed to pair well with Creek’s Destiny 2 amplifier for an optimal audio experience.",
@@ -21,6 +23,7 @@
         {
             "id": "3",
             "name": "Creek evo cd",
+            "img": "/produktbilleder/cdafspillere/creek-evo-cd.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "CD Players",
@@ -30,6 +33,7 @@
         {
             "id": "4",
             "name": "Exp 2010s cd",
+            "img": "/produktbilleder/cdafspillere/exp-2010S-cd.gif",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "CD Players",
@@ -39,6 +43,7 @@
         {
             "id": "5",
             "name": "Manley mahi",
+            "img": "/produktbilleder/effektforstaerkere/manley-mahi.jpg",
             "brandname": "Manley",
             "category": "Amplifiers",
 	        "sub-category": "Power Amplifiers",
@@ -48,6 +53,7 @@
         {
             "id": "6",    
             "name": "Manley neoclassic 300B",
+            "img": "/produktbilleder/effektforstaerkere/manley-neoclassic300b.jpg",
             "brandname": "Manley",
             "category": "Amplifiers",
 	        "sub-category": "Power Amplifiers",
@@ -55,8 +61,9 @@
 	        "Price": "£67,890.00"
         },
         {
-            "id": "7",      
+            "id": "7",
             "name": "Manley snapper",
+            "img": "/produktbilleder/effektforstaerkere/manley-snapper.jpg",
             "brandname": "Manley",
             "category": "Amplifiers",
 	        "sub-category": "Power Amplifiers",
@@ -66,6 +73,7 @@
         {
             "id": "8",
             "name": "Parasound haloa23",
+            "img": "/produktbilleder/effektforstaerkere/parasound-haloa23.jpg",
             "brandname": "Parasound",
             "category": "Amplifiers",
 	        "sub-category": "Power Amplifiers",
@@ -75,6 +83,7 @@
         {
             "id": "9",
             "name": "Creek classic",
+            "img": "/produktbilleder/dvdafspillere/creek-classic.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "DVD Players",
@@ -84,6 +93,7 @@
         {
             "id": "10",
             "name": "Exposure 2010s",
+            "img": "/produktbilleder/dvdafspillere/exposure-2010s.jpg",
             "brandname": "Exposure",
             "category": "Amplifiers",
 	        "sub-category": "DVD Players",
@@ -93,6 +103,7 @@
         {
             "id": "11",
             "name": "Parasound d200",
+            "img": "/produktbilleder/dvdafspillere/parasound-d200.jpg",
             "brandname": "Parasound",
             "category": "Amplifiers",
 	        "sub-category": "DVD Players",
@@ -102,6 +113,7 @@
         {
             "id": "12", 
             "name": "Parasound halod3",
+            "img": "/produktbilleder/dvdafspillere/parasound-halod3.jpg",
             "brandname": "Parasound",
             "category": "Amplifiers",
 	        "sub-category": "DVD Players",
@@ -111,6 +123,7 @@
         {
             "id": "13",
             "name": "Creek OBH-22 passive preamplifier",
+            "img": "/produktbilleder/forforstaerkere/creek-obh-22-passive-preamp.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "Preamplifiers",
@@ -120,6 +133,7 @@
         {
             "id": "14",
             "name": "Parasound Classic 7100",
+            "img": "/produktbilleder/forforstaerkere/parasound-classic7100.jpg",
             "brandname": "Parasound",
             "category": "Amplifiers",
 	        "sub-category": "Preamplifiers",
@@ -129,6 +143,7 @@
         {
             "id": "15",
             "name": "Parasound Halo P3",
+            "img": "/produktbilleder/forforstaerkere/parasound-halop3.jpg",
             "brandname": "Parasound",
             "category": "Amplifiers",
 	        "sub-category": "Preamplifiers",
@@ -138,6 +153,7 @@
         {
             "id": "16",
             "name": "Pro-ject Pre box",
+            "img": "/produktbilleder/forforstaerkere/pro-ject-prebox.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Preamplifiers",
@@ -147,6 +163,7 @@
         {
             "id": "17",
             "name": "Boesendorfer VCS Wall",
+            "img": "/produktbilleder/hojtalere/boesendorfer-vcs-wall.gif",
             "brandname": "Boesendorfer",
             "category": "Amplifiers",
 	        "sub-category": "Speakers",
@@ -156,6 +173,7 @@
         {
             "id": "18",
             "name": "Epos M5",
+            "img": "/produktbilleder/hojtalere/epos-m5.gif",
             "brandname": "Epos",
             "category": "Amplifiers",
 	        "sub-category": "Speakers",
@@ -165,6 +183,7 @@
         {
             "id": "19",
             "name": "Harbeth HL7ES2",
+            "img": "/produktbilleder/hojtalere/harbeth-hl7es2.jpg",
             "brandname": "Harbeth",
             "category": "Amplifiers",
 	        "sub-category": "Speakers",
@@ -174,6 +193,7 @@
         {
             "id": "20",
             "name": "Harbeth Monitor 30",
+            "img": "/produktbilleder/hojtalere/harbeth-monitor30.jpg",
             "brandname": "Harbeth",
             "category": "Amplifiers",
 	        "sub-category": "Speakers",
@@ -183,6 +203,7 @@
         {
             "id": "21",
             "name": "Harbeth P3ES2",
+            "img": "/produktbilleder/hojtalere/harbeth-p3es2.jpg",
             "brandname": "Harbeth",
             "category": "Amplifiers",
 	        "sub-category": "Speakers",
@@ -192,6 +213,7 @@
         {
             "id": "22",
             "name": "Creek A50i",
+            "img": "/produktbilleder/intforstaerkere/creek-a50i.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "Intigrated Amplifiers",
@@ -201,6 +223,7 @@
         {
             "id": "23",
             "name": "Creek classic 5350SE",
+            "img": "/produktbilleder/intforstaerkere/creek-classic-5350SE.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "Intigrated Amplifiers",
@@ -210,6 +233,7 @@
         {
             "id": "24",
             "name": "Creek DestinyAmp",
+            "img": "/produktbilleder/intforstaerkere/creek-destinyamp.jpg",
             "brandname": "Creek",
             "category": "Amplifiers",
 	        "sub-category": "Intigrated Amplifiers",
@@ -219,6 +243,7 @@
         {
             "id": "25",
             "name": "Manley snapper",
+            "img": "/produktbilleder/intforstaerkere/manley-snapper.jpg",
             "brandname": "Manley",
             "category": "Amplifiers",
 	        "sub-category": "Intigrated Amplifiers",
@@ -228,6 +253,7 @@
         {
             "id": "26",
             "name": "Manley Stringray",
+            "img": "/produktbilleder/intforstaerkere/manley-Stingray.jpg",
             "brandname": "Manley",
             "category": "Amplifiers",
 	        "sub-category": "Intigrated Amplifiers",
@@ -237,6 +263,7 @@
         {
             "id": "27",
             "name": "Pro-ject Debut III blue",
+            "img": "/produktbilleder/pladespillere/project-Debut-iii-blue.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -246,6 +273,7 @@
         {
             "id": "28",
             "name": "Pro-ject Debut III red",
+            "img": "/produktbilleder/pladespillere/project-Debut-iii-red.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -255,6 +283,7 @@
         {
             "id": "29",
             "name": "Pro-ject Debut III yellow",
+            "img": "/produktbilleder/pladespillere/project-Debut-iii-yellow.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -264,6 +293,7 @@
         {
             "id": "30",
             "name": "Pro-ject RPM V",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -273,6 +303,7 @@
         {
             "id": "31",
             "name": "Pro-ject RPM X",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Pro-ject",
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
@@ -282,6 +313,7 @@
         {
             "id": "32",
             "name": "Jolida JD-102B",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -291,6 +323,7 @@
         {
             "id": "33",
             "name": "Jolida JD-202A",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -300,6 +333,7 @@
         {
             "id": "34",
             "name": "Jolida JD-300B",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -309,6 +343,7 @@
         {
             "id": "35",
             "name": "Jolida JD-302B",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
@@ -318,6 +353,7 @@
         {
             "id": "36",
             "name": "Jolida JD-502B",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
             "brandname": "Jolida",
             "category": "Amplifiers",
 	        "sub-category": "Tube Amplifiers",
