@@ -46,9 +46,14 @@
 }
 
 .topnav_right{
+    text-decoration: none;
     align-items: center;
     display: flex;
     gap: 2em;
+}
+
+.topnav_right a{
+    text-decoration: none;
 }
 
 .topnav_right_icon_text {
@@ -76,8 +81,6 @@
     padding-left: 0.2em;
     width: 45px;
 }
-
-
 
 
 
