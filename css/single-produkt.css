@@ -3,6 +3,10 @@
 }
 .product-category-location{
     color: var(--primary_hihglight);
+    text-transform: uppercase;
+}
+.color-black{
+    color: black;
 }
 .product_category_commersial-img{
     width: 100%;
@@ -24,11 +28,12 @@
 
 .single__produkt-left__container-image{
     height: 30rem;
-background-color: rgb(227, 227, 227);
     border: solid 2px lightgray;
+    align-content: center;
 }
 .single__produkt-left__container-image-product{
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .single__produkt-left__container-images{
@@ -74,11 +79,15 @@ background-color: rgb(227, 227, 227);
     padding-bottom: 1rem;
 }
 .form-finish {
-    background-color: var(--primary_gray);
     width: fit-content;
     padding: .5rem;
     margin-top: .5rem;
     margin-left: 3rem;
+}
+.form__finish-one{
+    background-color: var(--primary_gray);
+    margin-bottom: .5rem;
+    padding: .3rem;
 }
 
 .single__produkt-right__contaioner-add_to_cart{
