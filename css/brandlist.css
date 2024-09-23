@@ -1,13 +1,11 @@
-
 .background{
     background-image: url(/images/background/speaker.jpg); 
-    background-size: contain;
+    background-size: cover;
+    height:100vh;
 }
 .backdrop{
     background-color: rgba(3, 53, 9, 0.522);
-}
-.main{
-height: 80vh;
+    height:100vh ;
 }
 .main_wrapper{
     width: 80%;
