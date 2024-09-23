@@ -25,10 +25,23 @@ fetch('db.json')
             productBrand.innerHTML = `See other ${productArray[index].brand} products`
             productPrice.innerHTML = `${productArray[index].price}`;
             productDescription.innerHTML = `${productArray[index].description}`;
-            
+
             productManufacturer.innerHTML = ` ${productArray[index].brand}`;
             productManufacturerLink.innerHTML = `<a href=""> ${productArray[index].brand} </a>`;
+            if(product.variants){
+                product.variants.forEach(function(variant){
+                    const variantImage = document. createElement('img');
+                    variantImage.src=variant.img 
+                    variantImage.alt=variant.color
+                    
+                    const images = document.querySelector('#container-images');
+                    images.appendChild(variantImage)
+                    variantImage.classList.add('variant-images')
+                })
 
+
+            }
         }
+
     })
 })
