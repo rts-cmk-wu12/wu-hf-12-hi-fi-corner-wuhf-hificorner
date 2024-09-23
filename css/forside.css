@@ -119,9 +119,26 @@ font-size: 43px;
     grid-template-rows: repeat(1, auto);
     margin: 0 auto;
     gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+ }
+ 
+ .shop-around{
+    background-color: rgb(29, 28, 28);
  }
 
 .buttons div{
     width: 100%;
     text-align: center;
+}
+.buttons div p{
+color: white;
+min-width: 250px;
+}
+.buttons div button{
+    width: fit-content;
+    background-color: var(--opacity_black);
+    color: var(--primary_hihglight);
+    margin-bottom: 10px;
 }
