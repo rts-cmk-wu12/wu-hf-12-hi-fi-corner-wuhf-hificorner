@@ -43,12 +43,11 @@
 
     <main id="single-produkt-main">
         <div class="main__wrapper">
-            <p class="product-category-location">HOME / <span id="product-category"></span> / <span id="product-name"></span></p>
+            <p class="product-category-location" id="product-category-location"></p>
             <img src="images/other/sale_img.png" alt="sale" class="product_category_commersial-img">
             <div class="single__produkt-left__container-all">
                 <div class="single__produkt-left">
-                    <div class="single__produkt-left__container-image">
-                        <img src="images/other/hifi_logo.svg" alt="" class="single__produkt-left__container-image-product">
+                    <div class="single__produkt-left__container-image" id="image-product">
                     </div>
                     <div class="single__produkt-left__container-images">
                         <p>MORE VIEWS</p>
@@ -56,27 +55,29 @@
                     
                 </div>
                 <div class="single__produkt-right">
-                    <p class="single__produkt-right__product-name">#PRODUCT-NAME-PLACEHOLDER#</p>
+                    <p class="single__produkt-right__product-name" id="product-name"></p>
                     <div class="single__produkt-right__product-price-wrapper">
-                        <p class="single__produkt-right__product-brand">#SEE-MORE-OF-SAME-BRAND-PLACEHOLDER#</p>
-                        <p class="single__produkt-right__product-price">#PRICE-PLACEHOLDER#</p>
+                        <p class="single__produkt-right__product-brand" id="product-brand"></p>
+                        <p class="single__produkt-right__product-price" id="product-price"></p>
                     </div>
-                    <p class="single__produkt-right__product-description">#DECRIPTION-PLACEHOLDER#</p>
+                    <p class="single__produkt-right__product-description" id="product-description"></p>
                     <div class="single__produkt-right__contaioner-buttons">
                         <button>ASK A QUESTION</button>
                         <button>PART EXCHAGE</button>
                         <button>PAY BY FINANCE</button>
                         <button>SEEN A BETTER PRICE?</button>
                     </div>
-                    <div class="single__produkt-right__contaioner-finish">
+                    <div class="single__produkt-right__contaioner-finish" id="contaioner-finish">
                         <P>Finish</P>
                         <form action="finish" class="form-finish">
-                            <input type="checkbox" value="" class="form__finish-0ne">
-                            <label for="checkbox" class="form__finish-0ne">#COLOR-PLACEHOLDER-1#</label>
-                        </form>
-                        <form action="finish-two" class="form-finish">
-                            <input type="checkbox" value="">
-                            <label for="checkbox">#COLOR-PLACEHOLDER-2#</label>
+                            <div class="form__finish-one">
+                                <input type="radio" value="color" name="color" >
+                                <label for="radio">Black</label>
+                            </div>
+                            <div class="form__finish-one">
+                                <input type="radio"value="color" name="color" >
+                                <label for="radio">White</label>
+                            </div>
                         </form>
                     </div>
                     <div class="single__produkt-right__contaioner-add_to_cart">
@@ -101,11 +102,11 @@
                         <tbody class="single__produkt-right__table-tbody">
                             <tr>
                                 <th scope="row">Manufacturer</th>
-                                <td>#MANUFACTURER-PLACEHOLDER#</td>
+                                <td id="table_td-manufacture"></td>
                             </tr>
                             <tr>
                                 <th scope="row">Manufacturer link</th>
-                                <td>#MANUFACTURER-LINK-PLACEHOLDER#</td>
+                                <td id="table_td-manufacture-link"></td>
                             </tr>
                             <tr>
                                 <th scope="row">FREE WARENTY</th>
