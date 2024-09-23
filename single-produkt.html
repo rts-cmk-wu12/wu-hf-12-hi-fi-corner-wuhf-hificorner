@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single-produkter</title>
+    <title>single-produkter</title>
     <script src="https://kit.fontawesome.com/3f51aff7a3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/single-produkt.css">
@@ -44,54 +44,60 @@
         <div class="main__wrapper">
             <p class="product-category-location">HOME / <span id="product-category"></span> / <span id="product-name"></span></p>
             <img src="images/other/sale_img.png" alt="sale" class="product_category_commersial-img">
-            <div class="Single__produkt-left__container-all">
-                <div class="Single__produkt-left">
-                    <div class="Single__produkt-left__container-image">
-                        <img src="images/other/hifi_logo.svg" alt="" class="Single__produkt-left__container-image-product">
+            <div class="single__produkt-left__container-all">
+                <div class="single__produkt-left">
+                    <div class="single__produkt-left__container-image">
+                        <img src="images/other/hifi_logo.svg" alt="" class="single__produkt-left__container-image-product">
                     </div>
-                    <div class="Single__produkt-left__container-images">
+                    <div class="single__produkt-left__container-images">
                         <p>MORE VIEWS</p>
                     </div>
                     
                 </div>
-                <div class="Single__produkt-right">
-                    <p class="Single__produkt-right__product-name">#PRODUCT-NAME-PLACEHOLDER#</p>
-                    <div>
-                        <p class="Single__produkt-right__product-brand">#SEE-MORE-OF-SAME-BRAND-PLACEHOLDER#</p>
-                        <p class="Single__produkt-right__product-price">#PRICE-PLACEHOLDER#</p>
+                <div class="single__produkt-right">
+                    <p class="single__produkt-right__product-name">#PRODUCT-NAME-PLACEHOLDER#</p>
+                    <div class="single__produkt-right__product-price-wrapper">
+                        <p class="single__produkt-right__product-brand">#SEE-MORE-OF-SAME-BRAND-PLACEHOLDER#</p>
+                        <p class="single__produkt-right__product-price">#PRICE-PLACEHOLDER#</p>
                     </div>
-                    <p class="Single__produkt-right__product-description">#DECRIPTION-PLACEHOLDER#</p>
-                    <div class="Single__produkt-right__contaioner-buttons">
+                    <p class="single__produkt-right__product-description">#DECRIPTION-PLACEHOLDER#</p>
+                    <div class="single__produkt-right__contaioner-buttons">
                         <button>ASK A QUESTION</button>
                         <button>PART EXCHAGE</button>
                         <button>PAY BY FINANCE</button>
                         <button>SEEN A BETTER PRICE?</button>
                     </div>
-                    <div class="Single__produkt-right__contaioner-finish">
+                    <div class="single__produkt-right__contaioner-finish">
                         <P>Finish</P>
-                        <form action="finish">
-                            <input type="checkbox" value="">
-                            <label for="checkbox">#COLOR-PLACEHOLDER-1#</label>
+                        <form action="finish" class="form-finish">
+                            <input type="checkbox" value="" class="form__finish-0ne">
+                            <label for="checkbox" class="form__finish-0ne">#COLOR-PLACEHOLDER-1#</label>
+                        </form>
+                        <form action="finish-two" class="form-finish">
                             <input type="checkbox" value="">
                             <label for="checkbox">#COLOR-PLACEHOLDER-2#</label>
                         </form>
                     </div>
-                    <div class="Single__produkt-right__contaioner-add_to_cart">
-                        <div>
-                            <label for="number">qnt</label>
-                            <input type="number">
-                            <button>ADD TO CART</button>
+                    <div class="single__produkt-right__contaioner-add_to_cart">
+                        <div class="single__produkt-right__contaioner-add_to_cart-wrapper">
+                            <div>
+                                <label for="number" class="single__produkt-right__contaioner-add_to_cart-number__lable">Qty:</label>
+                                <input type="number" class="single__produkt-right__contaioner-add_to_cart-number__input" value="1">
+                            </div>
+                            <div class="single__produkt-right__contaioner-add_to_cart__or">
+                                <button class="single__produkt-right__contaioner-add_to_cart-number__button">ADD TO CART</button>
+                                <p class="single__produkt-right__or-p">-OR-</p>
+                                <a class="single__produkt-right__or-a">
+                                    <img src="images/logo/paypal.png.png" alt="paypal">
+                                    Check Out
+                                </a>
+                                <p class="single__produkt-right__or-p__small">The safer, easier way to pay</p>
+                            </div>
                         </div>
-                        <p>-OR-</p>
-                        <a>
-                            <img src="images/logo/paypal.png.png" alt="paypal">
-                            CHECK OUT
-                        </a>
-                        <p>The safer, easier way to pay</p>
                     </div>
-                    <table>
+                    <table class="single__produkt-right__table-additional_information ">
                         <caption>ADDITIONAL INFORMATION</caption>
-                        <tbody>
+                        <tbody class="single__produkt-right__table-tbody">
                             <tr>
                                 <th scope="row">Manufacturer</th>
                                 <td>#MANUFACTURER-PLACEHOLDER#</td>
@@ -120,7 +126,7 @@
                     </table>
                 </div>
             </div>
-            <div class="Single__produkt-left__description">
+            <div class="single__produkt-left__description">
                     <tbody>
                         <tr>
                             <th scope="row">Power Output (8 / 4 Ohm RMS)</th>
