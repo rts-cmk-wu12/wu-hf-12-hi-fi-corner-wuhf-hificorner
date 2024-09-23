@@ -1,47 +1,74 @@
 // Hent query parameteren fra URL'en (i dette tilfælde kategorien)
 const params = new URLSearchParams(window.location.search);
-const category = params.get('category');
+let category = params.get('category');
 
 // Opdater kategori-navn i HTML'en
 document.getElementById('category-name').textContent = category;
 
-// URL til din JSON-server baseret på kategorien
-const url = `http://localhost:3000/${category}`;
-
-
+const url = (category) => `http://localhost:3000/${category}`;
 
 // Funktion til at hente og vise data
+let categoryProducts = [];
+
 async function fetchData() {
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
+    try {
+        const response = await fetch(url(category));
+        const data = await response.json();
+        categoryProducts = Array.isArray(data) ? data : data[category];
 
-    // Tjek om data er et array eller et objekt
-    let categoryProducts = Array.isArray(data) ? data : data[category];
+        console.log("Modtagne produkter:", categoryProducts);
+        displayProducts(categoryProducts);
+    } catch (error) {
+        console.error('Fejl ved hentning af data:', error);
+    }
+}
 
-    console.log("Modtagne produkter:", categoryProducts);
-
+function displayProducts(products) {
     const productContainer = document.getElementById('product-list');
     productContainer.innerHTML = '';
 
-    // Gå gennem hvert produkt og tilføj det til HTML'en
-    categoryProducts.forEach(product => {
-      const productElement = document.createElement('div');
-      productElement.innerHTML = `
-       <img src="${product.photo}" alt="${product.name}">
-        <h2>${product.name}</h2>
-        <p>Pris: ${product.price}</p>
-        <p>Producent: ${product.manufacturer}</p>
-      `;
-      productContainer.appendChild(productElement);
+    products.forEach(product => {
+        const productElement = document.createElement('div');
+        productElement.innerHTML = `
+            <img src="${product.photo}" alt="${product.name}">
+            <h2>${product.name}</h2>
+            <p>Pris: ${product.price} DKK</p>
+            <p>Producent: ${product.manufacturer}</p>
+        `;
+        productContainer.appendChild(productElement);
     });
-  } catch (error) {
-    console.error('Fejl ved hentning af data:', error);
-  }
 }
+
+// Filtrer produkter efter maksimal pris
+function filterProductsByPrice() {
+    const maxPrice = parseFloat(document.getElementById('max-price').value);
+    
+    if (!isNaN(maxPrice)) {
+        const filteredProducts = categoryProducts.filter(product => parseFloat(product.price) <= maxPrice);
+        displayProducts(filteredProducts); // Vis de filtrerede produkter
+    }
+}
+
+// Event listener til kategori links
+const categoryLinks = document.querySelectorAll('.category-link');
+categoryLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault(); // Forhindre standard link-opførsel
+        category = link.getAttribute('data-category'); // Hent den valgte kategori
+        document.getElementById('category-name').textContent = category; // Opdater kategori-navn
+        fetchData(); // Hent data for den valgte kategori
+    });
+});
+
+// Event listener til filtreringsknap
+document.getElementById('filter-price').addEventListener('click', filterProductsByPrice);
 
 // Kald fetchData for at hente data, når siden indlæses
 fetchData();
+
+
+
+
 
 
 
