@@ -1,10 +1,23 @@
 /* Nav'erne er forskellige på alle sider, men det her er den kode som går igen mest */
 
-h1{
-    font-size: 1.2em
+h1 {
+    font-size: 1.2em;
+    color: rgb(179, 117, 17);
 }
-h2{
+
+h2 {
     font-size: 1em;
+    color: rgb(179, 117, 17);
+}
+
+h3 {
+    font-size: 1.2em;
+    color: rgb(179, 117, 17);
+
+}
+
+label {
+    font-weight: 800;
 }
 
 nav {
@@ -106,14 +119,18 @@ nav {
     width: 45%;
     padding-left: 30px;
 }
-#shop-single-page-wrapper-left-image-preview{
-    width: 470px;
+
+#shop-single-page-wrapper-left-image-preview {
+    width: 100%;
     min-height: 400px;
     height: auto;
-    border: 1px solid rgb(238, 237, 237) ;
+    border: 1px solid rgb(238, 237, 237);
 }
-#shop-single-page-wrapper-left-image-preview-image{
+
+#shop-single-page-wrapper-left-image-preview-image {
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 #shop-single-page-wrapper-right {
@@ -122,13 +139,7 @@ nav {
 }
 
 
-h1 {
-    color: rgb(179, 117, 17);
-}
 
-h2 {
-    color: rgb(179, 117, 17);
-}
 
 #shop-single-page-wrapper-right-price {
     display: flex;
@@ -140,11 +151,12 @@ h2 {
     display: flex;
     text-align: center;
     gap: 0.5em;
-    font-size: 0.7em;
+    font-size: 0.9em;
     width: 90%;
     margin-top: 2em;
 }
-#shop-single-page-wrapper-right-buttons a{
+
+#shop-single-page-wrapper-right-buttons a {
     cursor: pointer;
 }
 
@@ -163,21 +175,22 @@ h2 {
 }
 
 
-label {
-    font-weight: 800;
-}
+
 
 #shop-single-page-wrapper-right-add-to-cart-checkboxes {
     width: 42%;
 }
+
 .shop-single-page-wrapper-right-add-to-cart-checkboxes-div {
     background-color: rgb(238, 237, 237);
     padding: 2%;
     margin-top: 0.5em
 }
-.checkbox-input{
+
+.checkbox-input {
     border-radius: 100%;
 }
+
 #shop-single-page-wrapper-right-add-to-cart-required {
     color: red;
 }
@@ -227,7 +240,7 @@ label {
     width: 15%;
     text-align: left;
     height: 30px;
-    
+
 }
 
 #shop-single-page-wrapper-right-add-to-cart-quantity input {
@@ -261,15 +274,22 @@ label {
     padding: 1%;
 }
 
-#shop-single-page-wrapper-bottom{
+#shop-single-page-wrapper-bottom {
     padding: 0 30px 0 30px;
     width: 600px;
 }
-.shop-single-page-wrapper-bottom-information{
+
+.shop-single-page-wrapper-bottom-information {
     justify-content: space-between;
     display: flex;
     margin-top: 0.5em;
 }
-.shop-single-page-wrapper-bottom-information{
-    
+
+.single-page-contact {
+    background-color: black;
+    color: rgb(131, 113, 7);
+    margin: 2em 30px 2em 30px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    font-size: 1.5em;
 }
