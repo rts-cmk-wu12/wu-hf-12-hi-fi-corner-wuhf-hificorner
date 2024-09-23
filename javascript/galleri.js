@@ -3,7 +3,7 @@ const caption = document.querySelectorAll(".caption")
 const prev = document.querySelector("#back").addEventListener("click", skiftSlide);
 const next = document.querySelector("#next").addEventListener("click", skiftSlide);
 let current = 0;
-captionText = slides[current].getAttribute("alt")
+
 caption.textContent = captionText;
 
 
@@ -34,7 +34,7 @@ function skiftSlide() {
             current = slides.length - 1; //(-1 er sidste element)
         }
         slides[current].classList.add("slide--active");
-    }
+    }captionText = slides[current].getAttribute("alt")
     captionText = slides[current].getAttribute("alt")
     caption.textContent = captionText
     console.log(current)
