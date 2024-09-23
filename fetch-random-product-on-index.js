@@ -9,6 +9,7 @@ productshow__arrows.forEach(element=> {
 element.addEventListener("click", slideShow)
 })
 
+
 function slideShow(th){
    console.log(this)
     const idofElement = this.getAttribute("id");
@@ -46,7 +47,7 @@ const tal =[]
 //vi kører denne tre gange, fordi vi indsætter 3 produkter
 for(let  i = 0; i<3 ;i++){
     //først opretter jeg et random tal, som jeg lager i en let
-    let nyTal = Math.floor(Math.random() * data.length) + 3; 
+    let nyTal = Math.floor(Math.random() * data.length -2) + 3 - 1 
     //her kører vi functionen som tjekker om tallet allerede er optaget
    
     checNumber(nyTal)
@@ -59,7 +60,7 @@ function checNumber(vale){
       //her tjekker jeg om valuen svarer til en af de andre ting i arrayest value
         if(tal[val] == vale){
             //hvis valuen er det samme kører den functionen igen 
-         checNumber(Math.floor(Math.random() * data.length) + 3)
+         checNumber(Math.floor(Math.random() * data.length ) + 3) - 1
         }else{
             //hvis tallet ikke er det samme, indsætte det tallet i arrayet 
             // men hvis den har indsat 3 tal, stopper hel funktionen
@@ -86,6 +87,7 @@ console.log(data[tal[0]])
 function insertProduct(){
 
 productshowHeading.textContent = data[tal[show]].name
+
 console.log(data[tal[show]])
 if(data[tal[show]] == Array){
     productshowImg.setAttribute("src","images/"+data[tal[show]].image[0])
@@ -96,4 +98,4 @@ productshowImg.setAttribute("src","images/"+data[tal[show]].image)}
 
 //den varibel der holder øje med hvilket produkt der aktuelt bliver vist 
 
-
+console.log(data.length)

@@ -453,9 +453,9 @@
             "price": 3400,
             "category": "pladespillere",
             "image": [
-                "Pro_ject_Debut_3_blue.jpg",
-                "Pro_ject_Debut_III_red_1.jpg",
-                "Pro_ject_Debut_III_yellow_1"
+                "produktbilleder/pladespillere/Pro_ject_Debut_3_blue.jpg",
+                "produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg",
+                "produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1"
             ],
             "description": "Denne pladeafspiller kombinerer moderne teknologi med brugervenlighed. Den tilbyder automatisk betjening, hvilket betyder, at pladespilleren automatisk starter og stopper, når du placerer eller fjerner en plade. Den har en indbygget phono-forforstærker, så du nemt kan tilslutte den til ethvert lydsystem uden behov for ekstra udstyr. Med et præcist tonearm og en høj kvalitet pickup, sikrer den en klar og detaljeret lydoplevelse fra dine vinylplader.",
             "company": "pro",
