@@ -21,7 +21,8 @@ const API_URL = "http://localhost:3000/";
 const response = await fetch(API_URL + 'items');
 const product = await response.json();
 const productList = document.querySelector('#product-list');
-console.log(product);
+//console.log(product);
+
 function displayProducts(product) {
     productList.innerHTML = ''; // Clear the current list
     product.forEach(function (product) {
