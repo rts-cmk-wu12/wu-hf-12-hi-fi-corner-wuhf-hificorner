@@ -13,17 +13,6 @@
         imagePreview.alt = productData.name;
         productName.textContent = productData.name;
         productPrice.textContent = `${productData.price} DKK`;
-
-        // Hvis du har flere billeder, kan du tilføje dem her
-        const moreViewsContainer = document.getElementById('shop-single-page-wrapper-left-image-preview');
-        productData.moreViews.forEach(view => {
-            const img = document.createElement('img');
-            img.src = view;
-            img.alt = `${productData.name} view`;
-            moreViewsContainer.appendChild(img);
-        });
-    } else {
-        // Hvis der ikke er produktdata, vis en fejlmeddelelse
-        console.error('Ingen produktdata fundet.');
-    }
+      
+    } 
 

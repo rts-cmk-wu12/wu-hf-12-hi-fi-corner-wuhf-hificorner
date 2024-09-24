@@ -1,13 +1,13 @@
-// Hent query parameteren fra URL'en (i dette tilfælde kategorien)
+// Vi henter query parameteren fra URL'en (i vores tilfælde kategorien)
 const params = new URLSearchParams(window.location.search);
 let category = params.get('category');
 
-// Opdater kategori-navn i HTML'en
+// Her opdater kategori-navn i HTML'en
 document.getElementById('category-name').textContent = category;
 
 const url = (category) => `http://localhost:3000/${category}`;
 
-// Funktion til at hente og vise data
+// Funktion til at hente og vise dataen
 let categoryProducts = [];
 
 async function fetchData() {
@@ -16,13 +16,12 @@ async function fetchData() {
         const data = await response.json();
         categoryProducts = Array.isArray(data) ? data : data[category];
 
-        console.log("Modtagne produkter:", categoryProducts);
         displayProducts(categoryProducts);
     } catch (error) {
         console.error('Fejl ved hentning af data:', error);
     }
 }
-
+// Function til at få indholdet placeret
 function displayProducts(products) {
   const productContainer = document.getElementById('product-list');
   productContainer.innerHTML = '';
@@ -45,7 +44,7 @@ function displayProducts(products) {
       button.addEventListener('click', () => {
           const productData = JSON.parse(button.getAttribute('data-product'));
           localStorage.setItem('selectedProduct', JSON.stringify(productData));
-          window.location.href = 'shop-single-page.html'; // Opdater stien til din detaljeside
+          window.location.href = 'shop-single-page.html'; // Opdater stien til single page siden
       });
   });
 }
@@ -65,9 +64,9 @@ const categoryLinks = document.querySelectorAll('.category-link');
 categoryLinks.forEach(link => {
     link.addEventListener('click', (event) => {
         event.preventDefault(); // Forhindre standard link-opførsel
-        category = link.getAttribute('data-category'); // Hent den valgte kategori
+        category = link.getAttribute('data-category'); // Henter den valgte kategori
         document.getElementById('category-name').textContent = category; // Opdater kategori-navn
-        fetchData(); // Hent data for den valgte kategori
+        fetchData(); // Henter data for den valgte kategori
     });
 });
 

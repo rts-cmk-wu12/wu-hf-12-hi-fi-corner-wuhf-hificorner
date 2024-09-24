@@ -79,12 +79,10 @@ h1{
     text-decoration: none;
 }
 
-.category-link{
-}
 
 .category_sort_box{
     margin-left: 400px;
     background-color: rgba(128, 128, 128, 0.466);
-    width: 1000px;
+    width: 1200px;
     height: 60px;
 }
