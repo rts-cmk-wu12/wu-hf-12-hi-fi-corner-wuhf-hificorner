@@ -79,4 +79,51 @@
     display: flex;
 }
 
+.search-movie {
+    height: 2rem;
+    width: 20rem;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product p {
+    margin: 5px 0;
+}
+.price {
+    font-weight: bold;
+    color: green;
+}
 

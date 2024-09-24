@@ -1,12 +1,35 @@
+
 const API_URL = 'http://localhost:3000/'; /*----Husk at slå autosave fra når i arbejder med JSON----*/
 const IMAGE_URL = '';
 
-const response = await fetch(API_URL + '');
-const data = await response.json();
+async function fetchProducts() {
+    try {
+        const response = await fetch('http://localhost:3000/products');
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const products = await response.json();
+        displayProducts(products);
+    } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
+    }
+}
 
-const bodyElement = document.body;
-const mainElement = document.querySelector('');
-const listElement = document.querySelector('');
+function displayProducts(products) {
+    const productsDiv = document.getElementById('products');
+    productsDiv.innerHTML = '';
 
-const productArray = data.results;
-const productName = data.results[0].name;
+    products.forEach(product => {
+        const productDiv = document.createElement('div');
+        productDiv.className = 'product';
+        productDiv.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h2>${product.name}</h2>
+            <p class="price">Price: $${product.price}</p>
+            <p>${product.description}</p>
+        `;
+        productsDiv.appendChild(productDiv);
+    });
+}
+
+fetchProducts();
