@@ -1,8 +1,31 @@
 .product-left-right-container{
-    border: red solid;
     display: flex;
 }
 
 .product-details-left, .product-details-right{
     width: 50%;
+}
+
+.details-productbox{
+    height: 10rem;   
+    border: red solid;
+    
+}
+/*------buttons--------*/
+
+.product-detail-buttons{
+    display: flex;
+   justify-content: left;
+}
+.details-button{
+    margin-right: 2px;
+    background-color: var( --primary-color);
+    height: 25px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Museo Sans Rounded';
+    font-size: 10px;
+    padding-inline: 5px;
 }
