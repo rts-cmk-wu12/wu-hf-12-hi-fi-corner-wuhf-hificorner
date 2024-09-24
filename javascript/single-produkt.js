@@ -29,6 +29,26 @@ fetch('db.json')
             productManufacturer.innerHTML = ` ${productArray[index].brand}`;
             productManufacturerLink.innerHTML = `<a href=""> ${productArray[index].brand} </a>`;
             if(product.variants){
+                const finishWrapper = document.createElement('div');
+                    finishWrapper.innerHTML = `
+                        <P>Finish</P>
+                        <form action="finish" class="form-finish">
+                            <div class="form__finish-one">
+                                <input type="radio" value="color" name="color" >
+                                <label for="radio">Blue</label>
+                            </div>
+                            <div class="form__finish-one">
+                                <input type="radio"value="color" name="color" >
+                                <label for="radio">Red</label>
+                            </div>
+                            <div class="form__finish-one">
+                                <input type="radio"value="color" name="color" >
+                                <label for="radio">Yellow</label>
+                            </div>
+                        </form>`;
+                    const finishContainer = document.querySelector('#contaioner-finish');
+                    finishContainer.appendChild(finishWrapper);
+
                 product.variants.forEach(function(variant){
                     const variantImage = document. createElement('img');
                     variantImage.src=variant.img 
@@ -37,11 +57,16 @@ fetch('db.json')
                     const images = document.querySelector('#container-images');
                     images.appendChild(variantImage)
                     variantImage.classList.add('variant-images')
+                    
+                    
+
+                    variantImage.addEventListener('click', function(){
+                        productImage.innerHTML = `<img src="${variantImage.src=variant.img}" alt="product" class="single__produkt-left__container-image-product">`;
+                    })
+
+
                 })
-
-
             }
         }
-
     })
 })
