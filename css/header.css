@@ -17,7 +17,9 @@ img {
 
 /*-------------Icons style--------*/
 
-.headeritems {
+
+.headeritems{
+    background-color: rgba(211, 211, 211, 0.189);
     color: var(--white-colour);
     display: flex;
     justify-content: flex-end;
@@ -54,9 +56,6 @@ img {
     
     
  }
-
-
- /*-------------------single view produckt header----------*/
 
 
 

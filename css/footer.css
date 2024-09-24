@@ -1,13 +1,25 @@
-footer{
-    background-color: var(--gold-colour);                                                                                                                
+                                                                                                       
+/*-------------------footer------------*/
+
+.footer_info{
+    display: flex;
+   background-color:  var(--gold-colour); 
+   gap: 2em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+.footer_address{
+    margin-left: 3em;
+    font-size: x-small;
 }
 
-.footer-link{
-    color: var(--white-colour);
+.footer_link a{
+    color: white;
 }
 
-.footer-grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+.footer_icons, .footer_icons2{
+    display: flex;
+    width: 1.5em;
+margin-left: 27em;
+gap: 0.7em;
 }
