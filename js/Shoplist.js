@@ -1,12 +1,20 @@
-const API_URL = 'http://localhost:3000/products'; /*----Husk at slå autosave fra når i arbejder med JSON----*/
-const IMAGE_URL = '';
+const singleProductContainer = document.querySelector('.single-product-container');
+const API_URL = 'http://localhost:3000/';
 
-const response = await fetch(API_URL + '');
-const data = await response.json();
+const response = await fetch(API_URL + 'products');
+const productData = await response.json();
 
-const bodyElement = document.body;
-const mainElement = document.querySelector('');
-const listElement = document.querySelector('');
+console.log(productData)
 
-const productArray = data.results;
-const productName = data.results[0].name;
+
+productData.forEach(products => {
+    singleProductContainer.innerHTML += 
+    `
+    <tr>
+    <td> ${products.name} </td> 
+    <td> ${produtcs.description} </td>
+    <td> ${videogame.genre} </td>
+    <td> ${videogame.price} </td>
+    </tr>
+    `;
+});
