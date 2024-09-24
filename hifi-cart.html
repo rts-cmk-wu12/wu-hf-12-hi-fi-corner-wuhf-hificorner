@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="module" src="hifi-cart.js"></script>
+    <link rel="stylesheet" href="CSS/hifi-cart.css">
+    <link rel="stylesheet" href="CSS/nav.css">
 </head>
 <body>
     <header>
@@ -34,6 +37,178 @@
             </ul>
         </nav>
     </header>
+    <h1>Hvad du er ved at købe</h1>
+    <div class="cart-item">
+        <img class="cart-product-image" src="" alt="Produktbillede">
+        <div class="cart-product-details">
+            <h2 class="cart-product-name">Produktnavn</h2>
+            <p class="cart-product-price">Produktpris</p>
+        </div>
+    </div>
     
+    
+
+
+
+
+
+
+    <div class="nubox">
+        <h2>Fakturering</h2>
+        <div class="Fakturering">
+
+            <form id="form1" action="hifi-tak.html" method="POST">
+                <Table class="formbox">
+                    <tr>
+                        <td>
+                            <table>
+
+
+                                <tr>
+                                    <td>
+                                        <p class="setekst"><label for="address">Adresse &ast;</label></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="text" name="address" id="address" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                        <p class="setekst"><label for="town">By &ast;</label></p>
+                                    </td>
+                                    <td>
+                                        <p class="setekst"><label for="phone">Postnummer &ast;</label></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="text" name="town" id="town" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                    <td>
+                                        <input type="number" name="phone" id="phone" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                        <p class="setekst"><label for="email1">Indtast din email
+                                                &ast;</label></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="email" name="email1" id="email1" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                </tr>
+
+
+
+
+
+                            </table>
+
+                            <div>
+                                <input type="submit" value="Bestil nu">
+                            </div>
+                            <a href="hifi-tak.html" class="knap">Til betaling</a>
+                    </tr>
+                </Table>
+
+        </div>
+
+        <div class="Fakturering1">
+            <div class="text">
+                <p>Kreditkort</p>
+                <p>Mobile pay</p>
+                <p>Paypal</p>
+            </div>
+
+            <form id="form1" action="hifi-tak.html" method="POST">
+                <Table class="formbox">
+                    <tr>
+                        <td>
+                            <table>
+
+
+                                <tr>
+                                    <td>
+                                        <p class="setekst"><label for="card">Kort nummer &ast;</label></p>
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="number" name="card" id="card" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                        <p class="setekst"><label for="date">Udløbsdato &ast;</label></p>
+                                    </td>
+                                    <td>
+                                        <p class="setekst"><label for="cvv">CVV &ast;</label></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="text" name="date" id="date" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                    <td>
+                                        <input type="number" name="cvv" id="cvv" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                        <p class="setekst"><label for="name">Navn
+                                                &ast;</label></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="text" name="name" id="name" class="textbox">
+                                        <p id="besked"></p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div>
+                                <input type="submit" value="Bestil nu">
+                            </div>
+
+
+
+
+
+
+
+                    </tr>
+                </Table>
+            </form>
+
+
+        </div>
+
 </body>
 </html>
