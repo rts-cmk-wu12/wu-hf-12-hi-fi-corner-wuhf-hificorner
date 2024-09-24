@@ -42,3 +42,5 @@ setTextContentByElementId('company', product['company']);
 setTextContentByElementId('billedoplosning', product['billedoplosning']);
 setTextContentByElementId("videoudgange", product['videoudgange']);
 setTextContentByElementId('lydudgange', product['lydudgange']);
+setTextContentByElementId('formater', product['formater']);
+setTextContentByElementId('funktioner', product['funktioner']);
