@@ -77,3 +77,50 @@
     font-size: .5rem;
     text-decoration: underline;
 }
+
+@media screen and (max-width:960px){
+    footer, .header__top{
+       display: none; 
+    }
+}
+@media screen and (max-width:588px){
+    nav{
+        height: 100%;
+        position: fixed;
+        background-color: #35532F;
+       display: grid;
+       align-items: center;
+       z-index: 10;
+       
+    }
+    
+
+    
+    nav ul {
+        display: none;
+justify-items: center;
+width: 100vw;
+margin-bottom: 34em;
+
+
+
+    }
+    nav ul li{
+        grid-column: 1/-1;
+        margin-top: 1em;
+        margin-bottom: 5em;
+    }
+
+/* vi bruger ID her så vi ik ender op med at de to javascripts og classes går ind over hindanden */
+    #xmark-nav{ 
+        display: grid;
+        position:fixed;
+            top: 5vw;
+            right: 5vw;
+            font-size: 2em;
+            z-index: 40;
+            color: orange;
+
+    }
+}
+

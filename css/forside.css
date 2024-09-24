@@ -9,6 +9,7 @@
     min-height: 500px;
     display: grid;
     align-items: center;
+    text-align: center;
 }
 a, .fa-cart-shopping, .fa-user{
     color: aliceblue;
@@ -161,6 +162,7 @@ font-size: 43px;
     gap: 100px;
     padding-top: 50px;
     padding-bottom: 100px;
+    justify-content: center;
     
  }
  
@@ -190,3 +192,84 @@ min-width: 250px;
     transform: scale(1.17);
 }
 
+#xmark-nav{
+    display: none;
+
+ }
+
+@media screen and (max-width:960px){
+    footer{
+       display: none; 
+    }
+    .buttons{
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .header__top{
+        display: none;
+    }
+    .sociale-medier-div a{
+        font-size: 100px;
+    }
+    .caption{
+        margin: 0 auto;
+    }
+    .slider{
+        text-align: center;
+    }
+    .slider img{
+        width: auto;
+    }
+    .gallery-grid{
+        padding: 0;
+    }
+    
+    } 
+    @media screen and (max-width:588px){
+        nav{
+            height: 100%;
+            position: fixed;
+            background-color: #35532F;
+           display: grid;
+           align-items: center;
+           z-index: 10;
+           
+        }
+        
+    
+        
+        nav ul {
+            display: none;
+    justify-items: center;
+    width: 100vw;
+    margin-bottom: 34em;
+    
+    
+    
+        }
+        nav ul li{
+            grid-column: 1/-1;
+            margin-top: 1em;
+            margin-bottom: 5em;
+        }
+
+    /* vi bruger ID her så vi ik ender op med at de to javascripts og classes går ind over hindanden */
+        #xmark-nav{ 
+            display: grid;
+            position:fixed;
+                top: 5vw;
+                right: 5vw;
+                font-size: 2em;
+                z-index: 40;
+                color: orange;
+    
+        }
+        .main_top_image--hifi_logo{
+            display: none;
+        }
+        .hero{
+            height: 0;
+        }
+    }
