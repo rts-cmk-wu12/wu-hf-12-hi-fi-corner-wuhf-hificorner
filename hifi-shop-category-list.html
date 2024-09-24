@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/Shoplist.js"></script>
     <title>hifi-shop-category-list</title>
 </head>
 <body>
@@ -11,10 +12,14 @@
         <div class="shop-categories-header">
                 <div class="shoplist-hifilogo">
                     <a href="index.html">
-                    <img class="ss" src="/iconsimage/Hifi-logo.png" alt="Hifi-logo">
+                    <img src="/iconsimage/Hifi-logo.png" alt="Hifi-logo">
                     </a>
                     </div>
                         <div class="shoplist-header-logos">
+                            <div class="search">
+                                <input class="search-movie" type="text" placeholder  ="Search entlre store here"/>
+                            </div>
+
                         <a href="#" class="shop-account"><img src="./iconsimage/icons8-account-90.png" class="header-icons" alt="Account">Account</a>
                         <a href="#" class="shop-account"><img src="./iconsimage/icons8-cart-96.png" class="header-icons" alt="">Cart</a>
                         <a href="#"><img src="./iconsimage/icons8-gps-100.png" class="header-icons" alt="location"></a>
@@ -27,7 +32,7 @@
            <ul>
                <li><a href="index.html">Home</a></li>
                <li><a href="">About us</a></li>
-               <li><a href="">Brands</a></li>
+               <li><a href="brand.html">Brands</a></li>
                <li><a href="hifi-shop-category-list.html">blog</a></li>
                <li><a href="">events</a></li>
                <li><a href="shop.html">shop</a></li>
@@ -92,5 +97,10 @@
             <a class="a-list" href="">Jolida</a>
         </aside>
     </nav>
+
+    <h1>Product List</h1>
+    <div id="products" class="product-grid"></div>
+
+   
 </body>
 </html>
