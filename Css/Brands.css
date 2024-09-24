@@ -59,7 +59,7 @@
     height: auto;
 }
 
-h1 {
+.brands-title{
     position: absolute;
     top: 50%;
     left: 15%;
@@ -74,7 +74,7 @@ h1 {
     right: 5%;
 }
 
-.brands {
+.brands-second-title {
     margin: 0 auto;
     margin-left: 7em;
     margin-right: 7em;
@@ -102,7 +102,7 @@ h1 {
     background-image: url(black-background-with-speaker.avif);
     padding-right: 20px;
 }
-h2{
+.brands h2{
     color: #9d7a40;
 }
 .more-brands{
