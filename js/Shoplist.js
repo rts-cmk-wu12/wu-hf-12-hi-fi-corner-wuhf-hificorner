@@ -23,9 +23,9 @@ function displayProducts(products) {
         const productDiv = document.createElement('div');
         productDiv.className = 'product';
         productDiv.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
+            <img src="${product.img}" alt="${product.name}">
             <h2>${product.name}</h2>
-            <p class="price">Price: $${product.price}</p>
+            <p class="price">Price: ${product.Price}</p>
             <p>${product.description}</p>
         `;
         productsDiv.appendChild(productDiv);
