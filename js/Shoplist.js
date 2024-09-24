@@ -1,4 +1,7 @@
 
+const API_URL = 'http://localhost:3000/'; /*----Husk at slå autosave fra når i arbejder med JSON----*/
+const IMAGE_URL = '';
+
 async function fetchProducts() {
     try {
         const response = await fetch('http://localhost:3000/products');
