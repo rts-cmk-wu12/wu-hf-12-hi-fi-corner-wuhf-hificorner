@@ -204,8 +204,13 @@ grid-row: 1/-1;
         justify-self: start;
         grid-row: 2/3;
         margin-left: 5rem;
-        max-width: 100px;
+        max-width: 300px;
         font-size: 2rem;
+    }
+    .product-show__productImg{
+        height: 400px;
+        width: 500px;
+        background: none;
     }
     /*Nu kommer vi til socials ikonerne*/
     .social-and-news__socials{
