@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/products'; /*----Husk at slå autosave fra når i arbejder med JSON----*/
+const API_URL = 'http://localhost:3000/'; /*----Husk at slå autosave fra når i arbejder med JSON----*/
 const IMAGE_URL = '';
 
 const response = await fetch(API_URL + '');
