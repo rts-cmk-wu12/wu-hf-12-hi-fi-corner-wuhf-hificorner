@@ -19,15 +19,15 @@ fetch('db.json')
     const productArray = productData.items;
     productArray.forEach(function(product, index){
         if(productData.items[index].name == selectedProduct){
-            productCategoryLocation.innerHTML = ` home <span class="color-black">/</span> ${productArray[index].category} <span class="color-black">/ ${productArray[index].name}</span>`;
+            productCategoryLocation.innerHTML = ` <a href="shop-frontpage.html">home</a> <span class="color-black">/</span> <a href="shop-kategori-liste.html">${productArray[index].category}</a> <span class="color-black">/ ${productArray[index].name}</span>`;
             productImage.innerHTML = `<img src="${productArray[index].img}" alt="product" class="single__produkt-left__container-image-product">`;
             productName.innerHTML = `${productArray[index].name}`;
             productBrand.innerHTML = `See other ${productArray[index].brand} products`
             productPrice.innerHTML = `${productArray[index].price}`;
             productDescription.innerHTML = `${productArray[index].description}`;
-
             productManufacturer.innerHTML = ` ${productArray[index].brand}`;
             productManufacturerLink.innerHTML = `<a href=""> ${productArray[index].brand} </a>`;
+
             if(product.variants){
                 const finishWrapper = document.createElement('div');
                     finishWrapper.innerHTML = `
@@ -63,8 +63,6 @@ fetch('db.json')
                     variantImage.addEventListener('click', function(){
                         productImage.innerHTML = `<img src="${variantImage.src=variant.img}" alt="product" class="single__produkt-left__container-image-product">`;
                     })
-
-
                 })
             }
         }
