@@ -42,6 +42,7 @@
     height: 7rem;
     width: auto;
     margin: .5rem;
+    cursor: pointer;
 }
 .single__produkt-left__container-images{
     height: 5rem;
@@ -138,7 +139,7 @@
 .single__produkt-right__or-p{
     color: var(--primary_hihglight);
 }
-.single__produkt-right__or-a{
+.single__produkt-right__or-button{
     display: flex;
     width: fit-content;
     align-content: center;
@@ -147,9 +148,11 @@
     padding-right: .6rem;
     padding-left: .6rem;
     border-radius: 1rem;
+    border: none;
     margin-top: 1rem;
+    cursor: pointer;
 }
-.single__produkt-right__or-a img{
+.single__produkt-right__or-button img{
     height: 1rem;
     margin-right: .5rem;
 }
