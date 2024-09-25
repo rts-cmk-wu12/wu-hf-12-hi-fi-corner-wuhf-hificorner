@@ -8,7 +8,7 @@ nav {
 
 }
 
-.nav_list {
+nav ul {
     display: grid;
     grid-auto-flow: column;
     margin: 0 auto;
@@ -16,11 +16,11 @@ nav {
 
 }
 
-.nav_list :hover {
+nav ul :hover {
     color: var(--yellow);
 }
 
-.nav_list_item {
+nav ul li {
     list-style: none;
     color: aliceblue;
     text-transform: uppercase;
@@ -48,6 +48,9 @@ height: 65px;
 
 
 .header_div a {
+    color: white;
+}
+nav ul li a{
     color: white;
 }
 
