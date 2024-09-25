@@ -6,6 +6,7 @@
     <title>single product view page</title>
     <script type="module" src="single-product-view-page.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="single-product-view-page.css">
 </head>
 <body>
@@ -20,33 +21,84 @@
             </div>
             <nav class="navbar">
                 <ul class="navbar_list">
-                    <li><a class="navbar_active" href="#">HOME</a></li>
+                    <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT US</a></li>
                     <li><a href="#">BRANDS</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    <li><a class="navbar_active" href="#">SHOP</a></li>
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-
-    <div id="name"></div>
-    <div id="price"></div>
-    <div id="category"></div>
-    <div id="image"></div>
+<div class="cols">
+    <div>
+            <div class="img-container" id="image"></div>
+    </div>
+    
+    <div>
+    <h3 class="title" id="name"></h3>
+    <h2 class="price" id="price"></h2>
+    <!-- <div id="category"></div> -->
     <div id="description"></div>
-    <div id="company"></div>
-    <div id="billedoplosning"></div>
-    <div id="videoudgange"></div>
-    <div id="lydudgange"></div>
-    <div id="formater"></div>
-    <div id="funktioner"></div>
-    <div id="stromforbrug"></div>
-    <div id="skaermtype"></div>
-    <div id="mediekontroller"></div>
-    <div id="kompatible_regioner"></div>
+    <div class="buttons">
+        <input type="button" value="stil et spørgsmål">
+        <input type="button" value="del ombytning">
+        <input type="button" value="betal med økonomi">
+        <input type="button" value="set en bedre pris?">
+    </div>
+    <div class="border">
+        <input class="input-number" type="number" value="1">
+        <input class="button-border" type="button" value="tilføj til vogn">
+    </div>
+    <h3 class="title">ekstra info</h3>
+
+    <div class="info-box">
+        <div class="info-box-left">firma</div>
+        <div id="company"></div>
+
+        <div class="info-box-left">billedopløsning</div>
+        <div id="billedoplosning"> </div>
+
+        <div class="info-box-left">videoudgange</div>
+        <div id="videoudgange"></div>
+
+        <div class="info-box-left">lydudgange</div>
+        <div id="lydudgange"></div>
+
+        <div class="info-box-left">formater</div>
+        <div id="formater"></div>
+
+        <div class="info-box-left">funktioner</div>
+        <div id="funktioner"></div>
+    </div>    
+    
+</div>
+<div>
+<h2 class="title">beskrivelse</h2>
+
+<div class="des-box">
+
+    <div>strømforbrug</div>
+    <div class="des-box-right" id="stromforbrug"></div>
+
+    <div>skærmtype</div>
+    <div class="des-box-right" id="skaermtype"></div>
+
+    <div>mediekontroller</div>
+    <div class="des-box-right" id="mediekontroller"></div>
+
+    <div>kompatible regioner</div>
+    <div class="des-box-right" id="kompatible_regioner"></div>
+</div>
+
+</div>
+</div>
+
+<h1 class="call">
+<a href="tel:+1234567890"><i class="fas fa-phone"></i>CALL US ABOUT THIS PRODUCT</a>
+</h1>
 
     <footer>
         <div class="footer_container">
