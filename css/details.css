@@ -172,9 +172,18 @@
     text-transform: uppercase;
     color: var(--white-colour);
     background-color: var(--gold-colour);
-    padding: 0.3rem;
-    padding-inline: 0.5rem;
+    padding: 0.3rem 0.5rem;
     border: none;
+    transition: background-color 500ms ease,
+    border 200ms linear,
+    color 600ms ease-in-out;
+}
+
+.product-information__button:hover {
+    background: none;
+    border: 1px solid var(--gold-colour);
+    padding: 0.245rem 0.445rem;
+    color: var(--gold-colour);
 }
 
 .product-information__options-text {

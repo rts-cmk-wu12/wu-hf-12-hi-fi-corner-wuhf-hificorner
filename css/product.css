@@ -56,4 +56,14 @@
     color: var(--white-colour);
     padding: 0.5rem;
     text-transform: uppercase;
+    transition: background-color 500ms ease,
+    border 200ms linear,
+    color 600ms ease-in-out;
+}
+
+.product__button:hover {
+    background: none;
+    border: 1px solid var(--gold-colour);
+    padding: 0.445rem;
+    color: var(--gold-colour);
 }
