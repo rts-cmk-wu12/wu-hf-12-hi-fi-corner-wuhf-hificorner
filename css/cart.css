@@ -1,0 +1,22 @@
+.cart-products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
+
+.products-cart-main__heading {
+    text-transform: capitalize;
+    color: var(--gold-colour);
+}
+
+.cart-information {
+    margin-top: 6rem;
+    background-color: var(--grey-colour);
+    padding: 0.5rem;
+    height: fit-content;
+}
+
+.cart-information__heading {
+    text-transform: capitalize;
+    color: var(--gold-colour);
+}
