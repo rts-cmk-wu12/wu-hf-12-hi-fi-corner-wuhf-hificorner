@@ -7,7 +7,7 @@
     <!---<script type="module" src="Shoplist.js"></script>--->
     <title>Product Details</title>
 </head>
-<body>
+<body class="background-color">
     <!-------Header-------->
     <header>
         <div class="shop-categories-header">
@@ -18,7 +18,7 @@
             </div>
                     <div class="shoplist-header-logos">
                         <div class="search">
-                            <input class= "search-movie" type= "text" placeholder= "Search entlre store here"/>
+                            <input class= "search-movie" type= "text" placeholder= "Search entire store here"/>
                         </div>
                        
                     <a href="#" class="shop-account"><img src="./iconsimage/icons8-account-90.png" class="header-icons" alt="Account">Account</a>
@@ -50,11 +50,11 @@
         </p>
     </div>
     <div>
-        <img src="/Backgroundimages/ad-banner.jpg" alt="ad-banner">
+        <img class="adbanner" src="/Backgroundimages/ad-banner.jpg" alt="ad-banner">
     </div>
 </body>
 <!----Left and right container---->
-<main>
+<main class="background-color">
     <div class="product-left-right-container">
         <div class="product-details-left">
             
@@ -83,36 +83,43 @@
 
             </div>
 
-            <div>
-                <p>Qty:</p>
-                <input type="number" value="1">
-                <button>Add to cart</button>
+            <div class="quantity-box">
+                <div class="Upper-addtocart-box">
+                    <p>Qty:</p>
+                    <input type="number" value="1" min="1" max="10">
+                    <button>Add to cart</button>
+                </div>
+
                 <p>-OR-</p>
                 <button><img src="" alt="">Check out</button>
                 <p>The safer, eaiser way to pay</p>
             </div>
             <div>
                 <p>Addtional information</p>
-                <table>
+                <table class="info-table">
                     <tr>
-                        <td>sad</td>
-                        <td>sdaw</td>
+                        <td class="table-field-left">manufacturers</td>
+                        <td class="table-field-right">sdaw</td>
                     </tr>
                     <tr>
-                        <td>sad</td>
-                        <td>sdaw</td>
+                        <td class="table-field-left">manufacturer link</td>
+                        <td class="table-field-right">sdaw</td>
                     </tr>
                     <tr>
-                        <td>sad</td>
-                        <td>sdaw</td>
+                        <td class="table-field-left">Free warranty</td>
+                        <td class="table-field-right">3 years</td>
                     </tr>
                     <tr>
-                        <td>sad</td>
-                        <td>sdaw</td>
+                        <td class="table-field-left">Delivery charge</td>
+                        <td class="table-field-right">Free</td>
                     </tr>
                     <tr>
-                        <td>sad</td>
-                        <td>sdaw</td>
+                        <td class="table-field-left">1-5 Working Days</td>
+                        <td class="table-field-right">sdaw</td>
+                    </tr>
+                    <tr>
+                        <td class="table-field-left">Card subccharges</td>
+                        <td class="table-field-right">No</td>
                     </tr>
                 </table>
             </div>

@@ -84,10 +84,20 @@
     width: 20rem;
 }
 
+.shopnow-button{
+    background-color: var(--primary-color);
+    border: none;
+    color: white ;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.shopnow-button:hover{
+background-color: #333;
+cursor: pointer;
+}
 
 
-
-body {
+.shoplist-body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;

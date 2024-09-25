@@ -23,10 +23,10 @@ function displayProducts(products) {
         const productDiv = document.createElement('div');
         productDiv.className = 'product';
         productDiv.innerHTML = `
-            <img src="${product.img}" alt="${product.name}">
+            <a href="product-details.html"> <img src="${product.img}" alt="${product.name}"></a>  
             <h2>${product.name}</h2>
             <p class="price">Price: ${product.Price}</p>
-            <p>${product.description}</p>
+            <button class="shopnow-button">Add to cart</button>
         `;
         productsDiv.appendChild(productDiv);
     });
