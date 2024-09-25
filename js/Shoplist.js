@@ -27,7 +27,9 @@ function displayProducts(products) {
         productDiv.innerHTML = `
             <img src="${product.img}" alt="${product.name}">
             <h2>${product.name}</h2>
+
             <p class="price">${product.Price}</p>
+
         `;
         productsDiv.appendChild(productDiv);
     });
