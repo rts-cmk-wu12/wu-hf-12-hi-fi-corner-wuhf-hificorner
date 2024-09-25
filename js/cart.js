@@ -1,6 +1,7 @@
 const API_URL = 'http://localhost:3000/';
 
 const productsContainerElement = document.querySelector('#products-main');
+const checkoutTotalPriceElement = document.querySelector('#cart-information__total-price')
 
 const response = await fetch(API_URL + 'products');
 const productData = await response.json();
@@ -20,6 +21,10 @@ productData.forEach((product) => {
 
             productsContainerElement.appendChild(productContainer);
             productContainer.classList.add('product');
+
+            let totalPrice = Number(checkoutTotalPriceElement.innerHTML);
+            totalPrice = totalPrice + product.price;
+            checkoutTotalPriceElement.innerHTML = totalPrice;
         }
     }
 })
