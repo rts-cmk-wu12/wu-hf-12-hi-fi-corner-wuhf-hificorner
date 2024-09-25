@@ -76,7 +76,7 @@ img{
     width: 100%;
     display: block;
 }
- 
+
 .img-container > img {
     flex: 50%;
     max-width: 76%;
@@ -141,6 +141,51 @@ header{
 .navbar .navbar_active{
     color: #958153;
 }
+
+.call {
+    background-color: #000;
+    color: #a39161; /* Gold text */
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    /* position: relative; */
+    margin: 3%;
+}
+
+.call i {
+    margin-right: 10px;
+}
+
+.call a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.call a:hover {
+    text-decoration: underline;
+}
+
+.des-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.des-box-right {
+    text-align: end;
+    margin-right: 50%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+@media (max-width: 768px) {
+  .cols {
+    grid-template-columns: 1fr;
+}
+
+}
+
 footer {
     list-style: none;
     padding: 1em;
