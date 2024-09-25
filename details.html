@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product details</title>
     <script type="module" src="js/product-details.js"></script>
+    <script src="js/add-to-cart.js" defer></script>
     <script defer src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -23,9 +24,8 @@
                     <li class="header__item2 header__item2--last2"><img class="header_img"
                             src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
 
-                    <li class="header__item2 header__item2--last2"><img class="header_img"
-                            src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</li>
-
+                    <li class="header__item2 header__item2--last2"><a href="cart.html" class="header__item-cart"><img class="header_img"
+                            src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</a></li>
 
                     <li class="header__item2 header__item2--last"><img class="header_img"
                             src="Icons/location-pin-svgrepo-com.svg" alt="loction">
@@ -103,18 +103,18 @@
             <section class="product-information__basic-info" id="product-information__basic-info">
                 
             </section>
-            <form>
+            <form id="form">
                 <div class="product-information__variants" id="product-information__variants">
                     
                 </div>
                 <div class="product-information__checkout">
                     <label for="quantity" class="checkout__label">qty:</label>
                     <input type="number" name="quantity" id="quantity" class="checkout__quantity">
-                    <div class="product-information__cart">
+                    <div class="product-information__cart" id="product-information__cart">
                         <button type="submit" class="product-information__button" id="product-information__button">add
                             to cart</button>
                         <p class="product-information__options-text">-or-</p>
-                        <button class="product-information__paypal"><img src="images/paypal-logo.png" alt="paypal">Check
+                        <button class="product-information__paypal" id="product-information__paypal"><img src="images/paypal-logo.png" alt="paypal">Check
                             out</button>
                         <p class="product-information__text">The safer, easier way to pay</p>
                     </div>

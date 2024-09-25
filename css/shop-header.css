@@ -33,6 +33,14 @@ img {
     align-items: center;
 }
 
+.header__item-cart {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--white-colour);
+    text-decoration: none;
+}
+
 .headeritems1__form {
     background-color:white;
     display: flex;

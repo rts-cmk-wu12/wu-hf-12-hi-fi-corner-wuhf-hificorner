@@ -81,6 +81,11 @@ img {
     text-decoration: none;
     color: var(--white-colour);
     font-size: smaller;
+    transition: 200ms;
+}
+
+.menu__link:hover {
+    color: var(--gold-colour);
 }
 
 [aria-current="page"] {
