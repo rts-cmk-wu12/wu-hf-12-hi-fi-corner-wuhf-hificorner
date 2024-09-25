@@ -198,15 +198,15 @@ min-width: 250px;
  }
 
 @media screen and (max-width:960px){
-    footer{
-       display: none; 
-    }
+  
     .buttons{
         flex-direction: column;
         display: flex;
         gap: 20px;
     }
-    
+    footer{
+        display: none; 
+     }
     .header__top{
         display: none;
     }
@@ -266,10 +266,23 @@ min-width: 250px;
                 color: orange;
     
         }
+        
         .main_top_image--hifi_logo{
             display: none;
         }
         .hero{
             height: 0;
+        }
+        .caption{
+            padding-left: 0;
+            padding-right: 50px;
+            display: block;
+        }
+        .slider, .slider-grid{
+            display: none;
+        }
+        .buttons div p{
+          min-width: 0;
+          width: 100%;
         }
     }
