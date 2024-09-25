@@ -21,16 +21,33 @@
     border: 1px solid var(--grey-colour);
 }
 
+.product-cart-top-details {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
 .products-cart-main .product__name {
-    margin-top: 1rem;
+    margin-top: 0;
     text-transform: uppercase;
-    cursor: pointer;
     text-decoration: none;
-    color: var(--black-colour);
+}
+
+.remove-product {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.product-cart-details {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
 }
 
 .products-cart-main .product__price {
-    margin-top: 1rem;
+    margin-top: 0;
     color: var(--gold-colour);
 }
 
