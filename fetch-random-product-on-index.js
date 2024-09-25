@@ -88,8 +88,8 @@ function insertProduct(){
 
 productshowHeading.textContent = data[tal[show]].name
 
-console.log(data[tal[show]])
-if(data[tal[show]] == Array){
+console.log(data[tal[show]].image)
+if(Array.isArray(data[tal[show]].image)){
     productshowImg.setAttribute("src","images/"+data[tal[show]].image[0])
 }else{
 productshowImg.setAttribute("src","images/"+data[tal[show]].image)}

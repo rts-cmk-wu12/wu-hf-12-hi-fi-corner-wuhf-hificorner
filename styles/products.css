@@ -14,10 +14,11 @@
 }
 
 #searchinput{
+    display: none;
     height: 1.5em;
     width: 20em;
     border-radius: 2px;
-    display: flex;
+    
     justify-content: space-between;
     border: none;
     padding: 0.2em;
@@ -301,6 +302,9 @@
     main{
         width: 95%;
         margin: 0 auto;
+    }
+    #searchinput{
+        display: flex;
     }
     .productBox{
         grid-template-columns: repeat(3,1fr);
