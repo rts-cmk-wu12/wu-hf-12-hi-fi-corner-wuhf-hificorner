@@ -75,15 +75,15 @@ categoryFilterContainerElement.addEventListener('click', (e) => {
 })
 
 priceFilterContainerElement.addEventListener('click', (e) => {
-    if (e.target.classList.contains("filter-item")) {
-        productFilter = `products/price/lowest/${e.target.children[0].innerHTML}/highest/${e.target.lastChild.innerHTML}`
-        categoryHeading.innerHTML = 'all';
-        productNavigationContainerElement.innerHTML = `
+    const priceElement = e.target.closest('li')
+    productFilter = `products/price/lowest/${priceElement.children[0].innerHTML}/highest/${priceElement.lastChild.innerHTML}`
+    categoryHeading.innerHTML = 'all';
+    productNavigationContainerElement.innerHTML = `
         <span class="products-path__link">home</span>
         <span> / </span>
-        <span class="products-path__filter">${e.target.innerHTML}</span>`
-        fetchProducts()
-    }
+        <span class="products-path__filter">${priceElement.innerHTML}</span>`
+    fetchProducts()
+
 })
 
 producerFilterContainerElement.addEventListener('click', (e) => {
