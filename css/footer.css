@@ -14,7 +14,13 @@
 }
 
 .footer_link a{
-    color: white;
+    color: var( --white-colour);
+
+}
+.first_link{
+    border-right: 2px solid white;
+    padding-right: 0.5em;
+    
 }
 
 .footer_icons, .footer_icons2{
