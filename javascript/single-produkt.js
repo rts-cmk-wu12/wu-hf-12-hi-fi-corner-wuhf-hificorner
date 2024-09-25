@@ -66,13 +66,25 @@ fetch('db.json')
             }
 
             //localstorage
-            addToCart.addEventListener('click', function(){
-                //set item in localstorage
-                localStorage.setItem("product-image", `${productArray[index].img}`);
-                localStorage.setItem("product-name", `${productArray[index].name}`);
-                localStorage.setItem("product-price", `${productArray[index].price}`);
-            })
 
+            // Convert to a JSON file format
+            let cartItems = JSON.parse(localStorage.getItem("cartItems")) || []; //The || [] provides a default value (an empty array []) in case the cartItems key is not found in local storage. This ensures that cartItems will always be an array, preventing errors when you try to add new items to it later in the code.
+            
+            addToCart.addEventListener('click', function(){
+                // Create a new product object.
+                let addedProduct = {
+                    img: productArray[index].img,
+                    name: productArray[index].name,
+                    price: productArray[index].price
+                };
+
+                // Add the new product to the cartItems array.
+                cartItems.push(addedProduct);
+
+                // Store the updated cartItems array back to local storage.
+                localStorage.setItem("cartItems", JSON.stringify(cartItems));
+            });
+            
         }
     })
 })

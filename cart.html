@@ -44,37 +44,19 @@
     
         <main>
             <div class="cart__container">
-                <div class="cart__container-items__list-wrapper">
-                    <div class="cart__container-items__list-container">
-                        <div class="cart__container-items__list-product__container">
-                            <img src="" alt="product">
-                            <p>#NAME#</p>
-                        </div>
-                        <p class="cart__container-items__list-price">#PRICE#</p>
+                <div class="cart__container-items__list-wrapper" >
+                    <div class="items__container" id="items__container">
                     </div>
-                    <div class="cart__container-items__list-container">
-                        <div class="cart__container-items__list-product__container">
-                            <img src="" alt="product">
-                            <p>#NAME#</p>
-                        </div>
-                        <p class="cart__container-items__list-price">#PRICE#</p>
-                    </div>
-                    <div class="cart__container-items__list-container">
-                        <div class="cart__container-items__list-product__container">
-                            <img src="" alt="product">
-                            <p>#NAME#</p>
-                        </div>
-                        <p class="cart__container-items__list-price">#PRICE#</p>
-                    </div>
-                    <div class="cart__container-items__list-price__container">
+         
+                    <div class="cart__container-items__list-total__price__container">
                         <p>Total</p>
-                        <p>#TOTAL PRICE#</p>
+                        <p id="total__price">#TOTAL PRICE#</p>
                     </div>
                 </div>
     
     
-                <div class="cart__container-pay-container">
-                    <div class="cart__container-pay-wrapper">
+                <div class="cart__container-pay-wrapper">
+                    <div class="cart__container-pay-container">
                         <form action="payInfo" class="cart__form">
                             <label for="text">First Name</label>
                             <input type="text" class="inputInfo" required>
