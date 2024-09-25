@@ -103,7 +103,7 @@
 
 .product-information__variants {
     margin-top: 1rem;
-    border: 1px solid #c6c6c6;
+    border: 1px solid var(--dark-grey-colour);
     padding: 0.5rem;
     padding-bottom: 1rem;
 }
@@ -141,7 +141,7 @@
 }
 
 .product-information__checkout {
-    border: 1px solid #c6c6c6;
+    border: 1px solid var(--dark-grey-colour);
     border-top: 0px;
     padding: 0.5rem;
     padding-bottom: 3rem;
@@ -161,7 +161,7 @@
     height: 1.8rem;
     padding-left: 0.3rem;
     border-radius: 0;
-    border: 1px solid #c6c6c6;
+    border: 1px solid var(--dark-grey-colour);
 }
 
 .product-information__cart {
@@ -221,15 +221,15 @@
 }
 
 .product-information__table {
-    border: 1px solid #c6c6c6;
+    border: 1px solid var(--dark-grey-colour);
     border-bottom: 0;
     border-spacing: 0;
     width: 100%;
 }
 
 .table__heading {
-    border-bottom: 1px solid #c6c6c6;
-    border-right: 1px solid #c6c6c6;
+    border-bottom: 1px solid var(--dark-grey-colour);
+    border-right: 1px solid var(--dark-grey-colour);
     background-color: var(--grey-colour);
     font-weight: normal;
     text-transform: uppercase;
@@ -240,7 +240,7 @@
 }
 
 .table__data {
-    border-bottom: 1px solid #c6c6c6;
+    border-bottom: 1px solid var(--dark-grey-colour);
     padding: 0.3rem;
     padding-block: 0.5rem;
     text-transform: capitalize;
