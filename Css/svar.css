@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2;
+    font-size: 1em;
+    /* 1em = 16px, som er nuværende standard i alle browsere */
+    color: #000;
+    background-color: #a8a883;
+  
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+
+
+
+/*header*/
+
+.shop-categories-header{
+    background-color: black;
+    border-bottom: var(--primary-color) 1px solid;
+    display: flex;
+    width: 100%;
+    height: 83px;
+    padding: 10px;
+    align-items: end;
+    justify-content: space-between;
+}
+.shop-categories-header a{
+    color: white;
+    text-decoration: none;
+}
+.shop-account{
+   display: flex;
+   align-items: start;
+}
+.envolope-margin{
+    margin-right: 20px;
+}
+.shoplist-hifilogo img{
+    width: 28px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.shoplist-header-logos{
+    display: flex;
+}
+ 
+.search-movie {
+    height: 2rem;
+    width: 20rem;
+}
+
+
+
+/*.....*/ 
+.success {
+    padding: 9em 0 5em;
+    color:#a39161 ;
+}
+.success__heading,
+.success__text {
+    max-width: 470px;
+    margin: 0 auto;
+}
+.success__heading {
+    font-size: 4.5rem;
+}
+.success__text {
+    font-size: 2.25rem;
+}
+
+/*Footer*/
+footer {
+    background-color: #a39161;
+    color: #D1C6A8;
+    padding: 20px;
+    text-align: left;
+}
+ 
+.footer-img {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+ 
+footer .footer-img img {
+   
+    width: 2rem;
+}
+ 
+.footer-payment {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+    gap: 3px;
+    top: 1.5rem;
+}
+ 
+.footer-address {
+    margin: 10px 0;
+    font-size: 12px;
+    color: black;
+}
+ 
+.footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 18rem;
+    gap: 5px;
+}
+footer a {
+    color: white;
+}
+.payment-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+ 
+}
+.payment-icons img {
+    height: 30px;
+    margin: 0 5px;
+}
+ 
+.shop-header-underline {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 100%;
+    top: 0px;
+    height: 40px;
+    align-items: center;
+    justify-content: right;
+    border-bottom: solid 1px var(--primary-color);
+    padding: 1rem;
+}
+ 
