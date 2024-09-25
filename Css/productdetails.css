@@ -1,0 +1,8 @@
+.product-left-right-container{
+    border: red solid;
+    display: flex;
+}
+
+.product-details-left, .product-details-right{
+    width: 50%;
+}
