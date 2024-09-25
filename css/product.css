@@ -1,12 +1,4 @@
-.products-main.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    row-gap: 4rem;
-    margin-top: 1rem;
-}
-
-.products-main.flex {
+.products-main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
