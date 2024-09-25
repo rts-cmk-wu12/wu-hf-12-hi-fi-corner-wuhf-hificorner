@@ -1,13 +1,11 @@
-/* colors */
-
 :root{
-    --blue-color: #1697f1;
+    --blue-colour: #1697f1;
     --black-colour: #000000;
     --gold-colour: #9b8d67;
     --white-colour: #ffffff;
     --pink-colour: #c0ab9f;
     --grey-colour: #e1e1e1;
     --yellow-colour: #ffc439;
-    --brown-color: #685225;
+    --brown-colour: #685225;
     --common-font: "Museo Sans Rounded 500";
 }
