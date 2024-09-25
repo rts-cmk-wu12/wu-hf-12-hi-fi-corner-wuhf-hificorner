@@ -139,5 +139,16 @@ function validate(evt) {
 }
 
 
+// Tilføj denne funktion til at gemme produktnavnet ved formularens afsendelse
+document.querySelector("#form1").addEventListener("submit", function(evt) {
+    const cartProduct = JSON.parse(localStorage.getItem('cartProduct'));
+
+    if (cartProduct) {
+        // Gem produktnavnet i localStorage til "tak"-siden
+        localStorage.setItem('purchasedProductName', cartProduct.name);
+    }
+});
+
+
 
 
