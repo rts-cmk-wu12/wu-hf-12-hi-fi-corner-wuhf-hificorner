@@ -122,5 +122,16 @@ margin-bottom: 34em;
             color: orange;
 
     }
+    .main_top{
+        display:block;
+        margin-top: 0;
+    }
+    .backdrop,.background{
+        
+        padding: 0;
+    }
+    .main_bottom_container-white{
+        padding: 0;
+    }
 }
 

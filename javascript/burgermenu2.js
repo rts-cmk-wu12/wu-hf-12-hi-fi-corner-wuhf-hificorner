@@ -16,7 +16,7 @@ burgerIcon.addEventListener("click", showHideMenu)
 
 function showHideMenu() {
     console.log(this)
-    if (window.innerWidth < 588)
+    if (window.innerWidth < 626)
 
 
 
@@ -49,7 +49,7 @@ function showHideMenu() {
 window.addEventListener("resize", updateBurgerMenu)
 
 function updateBurgerMenu() {
-    if (window.innerWidth > 588) {
+    if (window.innerWidth > 625) {
         burgerMenu.style.display = "grid"
 
     }
