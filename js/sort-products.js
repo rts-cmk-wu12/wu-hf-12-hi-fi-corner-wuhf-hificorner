@@ -119,7 +119,7 @@ async function fetchProducts(query = '') {
             <div class="product-info">
                 <a href="details.html?product=${product.product_name}" class="product__name">${product.product_name}</a>
                 <p class="product__price">£${product.price}</p>
-                <button class="product__button">add to cart</button>
+                <button onclick="addProduct(this)" class="product__button">add to cart</button>
             </div>`
 
         productsContainerElement.appendChild(productContainer);
