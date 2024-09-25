@@ -7,8 +7,9 @@ const productName = document.querySelector('#product-name');
 const productBrand = document.querySelector('#product-brand');
 const productPrice = document.querySelector('#product-price');
 const productDescription = document.querySelector('#product-description');
-const productManufacturer = document.querySelector('#table_td-manufacture')
-const productManufacturerLink = document.querySelector('#table_td-manufacture-link')
+const productManufacturer = document.querySelector('#table_td-manufacture');
+const productManufacturerLink = document.querySelector('#table_td-manufacture-link');
+const addToCart = document.querySelector('#add_to_cart__button');
 
 fetch('db.json')
 .then(function(response){
@@ -58,13 +59,20 @@ fetch('db.json')
                     images.appendChild(variantImage)
                     variantImage.classList.add('variant-images')
                     
-                    
-
                     variantImage.addEventListener('click', function(){
                         productImage.innerHTML = `<img src="${variantImage.src=variant.img}" alt="product" class="single__produkt-left__container-image-product">`;
                     })
                 })
             }
+
+            //localstorage
+            addToCart.addEventListener('click', function(){
+                //set item in localstorage
+                localStorage.setItem("product-image", `${productArray[index].img}`);
+                localStorage.setItem("product-name", `${productArray[index].name}`);
+                localStorage.setItem("product-price", `${productArray[index].price}`);
+            })
+
         }
     })
 })
