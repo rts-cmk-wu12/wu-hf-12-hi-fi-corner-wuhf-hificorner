@@ -1,143 +1,143 @@
+// Funktion til at vise produktdata fra localStorage
+function displayProductData() {
+    // Hent det gemte produkt fra localStorage
+    const cartProduct = JSON.parse(localStorage.getItem('cartProduct'));
+
+    // Hvis der er et produkt i kurven, vis det
+    if (cartProduct) {
+        // Find elementerne hvor produktdataene skal vises
+        const cartProductName = document.querySelector('.cart-product-name');
+        const cartProductPrice = document.querySelector('.cart-product-price');
+        const cartProductImage = document.querySelector('.cart-product-image');
+
+        // Opdater elementerne med produktdataene
+        cartProductName.textContent = cartProduct.name;
+        cartProductPrice.textContent = `${cartProduct.price} DKK`;
+        cartProductImage.src = cartProduct.photo;
+        cartProductImage.alt = cartProduct.name;
+    }
+}
+
+// Kald displayProductData, når siden indlæses
+window.onload = displayProductData;
+
+// Valideringskoden, der kører ved submit
 document.querySelector("#form1").addEventListener("submit", validate);
-const messageField = document.querySelector("#besked")
+const messageField = document.querySelector("#besked");
 
 function validate(evt) {
     let error;
 
+    // Hent felter
+    const address = document.getElementById("address");
+    const town = document.getElementById("town");
+    const phone = document.getElementById("phone");
+    const email1 = document.getElementById("email1");
+    const card = document.getElementById("card");
+    const date = document.getElementById("date");
+    const cvv = document.getElementById("cvv");
+    const name = document.getElementById("name");
 
-
-    // Det her er til validering 
-    if (this.address.value == "") {
+    // Validering
+    if (address.value == "") {
         evt.preventDefault();
-        error = "udfyld venligst din adresse!";
+        error = "Udfyld venligst din adresse!";
         messageField.textContent = error;
-        this.address.focus();
+        address.focus();
         return false;
     }
 
-    if (this.town.value == "") {
+    if (town.value == "") {
         evt.preventDefault();
         error = "Skriv venligst din By!";
         messageField.textContent = error;
-        this.town.focus();
+        town.focus();
         return false;
     }
 
-
-    if (this.phone.value == "") {
+    if (phone.value == "") {
         evt.preventDefault();
-        error = "udfyld venligst dit postnummer!";
+        error = "Udfyld venligst dit postnummer!";
         messageField.textContent = error;
-        this.phone.focus();
+        phone.focus();
         return false;
     }
 
-
-
-    if (isNaN(this.phone.value)) {
+    if (isNaN(phone.value)) {
         evt.preventDefault();
-        error = "dit telefonnummer skal være med tal !";
+        error = "Dit telefonnummer skal være med tal!";
         messageField.textContent = error;
-        this.phone.focus();
+        phone.focus();
         return false;
     }
 
-
-    if (this.email1.value == "") {
+    if (email1.value == "") {
         evt.preventDefault();
-        error = "udfyld venligst din e-mail adresse!";
+        error = "Udfyld venligst din e-mail adresse!";
         messageField.textContent = error;
-        this.email1.focus();
+        email1.focus();
         return false;
     }
 
-    const atpos = this.email1.value.indexOf("@");
-    const dotpos = this.email1.value.lastIndexOf(".");
-    if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= this.email1.value.length) {
+    const atpos = email1.value.indexOf("@");
+    const dotpos = email1.value.lastIndexOf(".");
+    if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email1.value.length) {
         evt.preventDefault();
-        error = "din e-mail adresse skal være gyldig (fx navn@mail.dk)!";
+        error = "Din e-mail adresse skal være gyldig (fx navn@mail.dk)!";
         messageField.textContent = error;
-        this.email1.focus();
+        email1.focus();
+        return false;
+    }
+
+    if (card.value == "") {
+        evt.preventDefault();
+        error = "Udfyld venligst dit kortnummer!";
+        messageField.textContent = error;
+        card.focus();
+        return false;
+    }
+
+    if (card.value.length < 16) {
+        evt.preventDefault();
+        error = "Dit kortnummer skal være mindst 16 cifre!";
+        messageField.textContent = error;
+        card.focus();
+        return false;
+    }
+
+    if (date.value == "") {
+        evt.preventDefault();
+        error = "Skriv venligst din udløbsdato på dit kort!";
+        messageField.textContent = error;
+        date.focus();
+        return false;
+    }
+
+    if (cvv.value == "") {
+        evt.preventDefault();
+        error = "Udfyld venligst dit CVV nummer!";
+        messageField.textContent = error;
+        cvv.focus();
+        return false;
+    }
+
+    if (cvv.value.length < 3) {
+        evt.preventDefault();
+        error = "Dit CVV skal være mindst 3 cifre!";
+        messageField.textContent = error;
+        cvv.focus();
+        return false;
+    }
+
+    if (name.value == "") {
+        evt.preventDefault();
+        error = "Udfyld venligst dit navn!";
+        messageField.textContent = error;
+        name.focus();
         return false;
     }
 }
 
 
-// if (this.card.value == "") {
-//     evt.preventDefault();
-//     error = "udfyld venligst dit kort nummer!";
-//     messageField.textContent = error;
-//     this.card.focus();
-//     return false;
-// }
-
-
-
-
-// if (this.card.value.length < 16) {
-//     evt.preventDefault();
-//     error = "Dit kort nummer skal være mindst 16 cifre!";
-//     messageField.textContent = error;
-//     this.card.focus();
-//     return false;
-// }
-
-
-// if (this.date.value == "") {
-//     evt.preventDefault();
-//     error = "Skriv venligst din udløbsdato på dit kort!";
-//     messageField.textContent = error;
-//     this.date.focus();
-//     return false;
-// }
-
-
-// if (this.cvv.value == "") {
-//     evt.preventDefault();
-//     error = "udfyld venligst dit CVV nummer!";
-//     messageField.textContent = error;
-//     this.cvv.focus();
-//     return false;
-// }
-
-// if (this.cvv.value.length < 3) {
-//     evt.preventDefault();
-//     error = "Dit CVV skal være mindst 3 cifre!";
-//     messageField.textContent = error;
-//     this.cvv.focus();
-//     return false;
-// }
-
-
-// if (this.name.value == "") {
-//     evt.preventDefault();
-//     error = "udfyld venligst dit navn!";
-//     messageField.textContent = error;
-//     this.name.focus();
-//     return false;
-// }
-
-
-
-
-
-
-
-// Hent det gemte produkt fra localStorage
-const cartProduct = JSON.parse(localStorage.getItem('cartProduct'));
-
-// Hvis der er et produkt i kurven, vis det
-if (cartProduct) {
-    // Find elementerne hvor produktdataene skal vises
-    const cartProductName = document.querySelector('.cart-product-name');
-    const cartProductPrice = document.querySelector('.cart-product-price');
-    const cartProductImage = document.querySelector('.cart-product-image');
-
-    // Opdater elementerne med produktdataene
-    cartProductName.textContent = cartProduct.name;
-    cartProductPrice.textContent = `${cartProduct.price} DKK`;
-    cartProductImage.src = cartProduct.photo;
-    cartProductImage.alt = cartProduct.name;
-}
 
 
