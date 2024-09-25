@@ -6,7 +6,7 @@ function validate(evt) {
 
 
 
-// Det her er til validering 
+    // Det her er til validering 
     if (this.address.value == "") {
         evt.preventDefault();
         error = "udfyld venligst din adresse!";
@@ -63,59 +63,59 @@ function validate(evt) {
 }
 
 
-if (this.card.value == "") {
-    evt.preventDefault();
-    error = "udfyld venligst dit kort nummer!";
-    messageField.textContent = error;
-    this.card.focus();
-    return false;
-}
+// if (this.card.value == "") {
+//     evt.preventDefault();
+//     error = "udfyld venligst dit kort nummer!";
+//     messageField.textContent = error;
+//     this.card.focus();
+//     return false;
+// }
 
 
 
 
-if (this.card.value.length < 16) {
-    evt.preventDefault();
-    error = "Dit kort nummer skal være mindst 16 cifre!";
-    messageField.textContent = error;
-    this.card.focus();
-    return false;
-}
+// if (this.card.value.length < 16) {
+//     evt.preventDefault();
+//     error = "Dit kort nummer skal være mindst 16 cifre!";
+//     messageField.textContent = error;
+//     this.card.focus();
+//     return false;
+// }
 
 
-if (this.date.value == "") {
-    evt.preventDefault();
-    error = "Skriv venligst din udløbsdato på dit kort!";
-    messageField.textContent = error;
-    this.date.focus();
-    return false;
-}
+// if (this.date.value == "") {
+//     evt.preventDefault();
+//     error = "Skriv venligst din udløbsdato på dit kort!";
+//     messageField.textContent = error;
+//     this.date.focus();
+//     return false;
+// }
 
 
-if (this.cvv.value == "") {
-    evt.preventDefault();
-    error = "udfyld venligst dit CVV nummer!";
-    messageField.textContent = error;
-    this.cvv.focus();
-    return false;
-}
+// if (this.cvv.value == "") {
+//     evt.preventDefault();
+//     error = "udfyld venligst dit CVV nummer!";
+//     messageField.textContent = error;
+//     this.cvv.focus();
+//     return false;
+// }
 
-if (this.cvv.value.length < 3) {
-    evt.preventDefault();
-    error = "Dit CVV skal være mindst 3 cifre!";
-    messageField.textContent = error;
-    this.cvv.focus();
-    return false;
-}
+// if (this.cvv.value.length < 3) {
+//     evt.preventDefault();
+//     error = "Dit CVV skal være mindst 3 cifre!";
+//     messageField.textContent = error;
+//     this.cvv.focus();
+//     return false;
+// }
 
 
-if (this.name.value == "") {
-    evt.preventDefault();
-    error = "udfyld venligst dit navn!";
-    messageField.textContent = error;
-    this.name.focus();
-    return false;
-}
+// if (this.name.value == "") {
+//     evt.preventDefault();
+//     error = "udfyld venligst dit navn!";
+//     messageField.textContent = error;
+//     this.name.focus();
+//     return false;
+// }
 
 
 
