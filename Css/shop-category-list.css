@@ -84,8 +84,17 @@
     width: 20rem;
 }
 
-
-
+.shopnow-button{
+    background-color: var(--primary-color);
+    border: none;
+    color: white ;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.shopnow-button:hover{
+background-color: #333;
+cursor: pointer;
+}
 
 .products {
     font-family: Arial, sans-serif;
