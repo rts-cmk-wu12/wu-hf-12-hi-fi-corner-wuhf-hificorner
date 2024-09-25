@@ -33,19 +33,19 @@ function displayProducts(products) {
     });
 }
 
-function updateItemCount(count) {
-    document.getElementById('itemCount').innerText = `${count} Item(s)`;
-}
-const sort = document.querySelector('sort')
-sort.addEventListener('change', (event) => {
-    const sortBy = event.target.value;
-    if (sortBy === 'asc') {
-        products.sort((a, b) => a.price - b.price);
-    } else if (sortBy === 'desc') {
-        products.sort((a, b) => b.price - a.price);
-    }
-    displayProducts(products);
-});
+// function updateItemCount(count) {
+//     document.getElementById('itemCount').innerText = `${count} Item(s)`;
+// }
+// const sort = document.querySelector('sort')
+// sort.addEventListener('change', (event) => {
+//     const sortBy = event.target.value;
+//     if (sortBy === 'asc') {
+//         products.sort((a, b) => a.price - b.price);
+//     } else if (sortBy === 'desc') {
+//         products.sort((a, b) => b.price - a.price);
+//     }
+//     displayProducts(products);
+// });
 
 
 fetchProducts();
