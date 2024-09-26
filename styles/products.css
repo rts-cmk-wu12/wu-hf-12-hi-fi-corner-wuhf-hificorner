@@ -13,8 +13,9 @@
     width: 24em;
 }
 
-#searchinput{
-    display: none;
+
+#searchinput{  
+
     height: 1.5em;
     width: 20em;
     border-radius: 2px;

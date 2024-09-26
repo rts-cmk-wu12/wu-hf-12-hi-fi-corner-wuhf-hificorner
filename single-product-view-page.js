@@ -16,7 +16,11 @@ console.log(product)
 function setTextContentByElementId (elementId, TextContent) {
     const elementInHTML = document.getElementById(elementId);
 
-    elementInHTML.textContent = TextContent;
+    if(typeof(TextContent) == 'string') {
+        elementInHTML.textContent = TextContent;
+    } else {
+        elementInHTML.textContent = TextContent.join(", ");
+    }    
 }
 
 function setInnerHTMLByElementId (elementId, innerHTML) {
@@ -32,6 +36,14 @@ setInnerHTMLByElementId(
 
 setTextContentByElementId('name', product['name']);
 setTextContentByElementId('price', product['price']);
-setTextContentByElementId('category', product['category']);
 setTextContentByElementId('description', product['description']);
 setTextContentByElementId('company', product['company']);
+setTextContentByElementId('billedoplosning', product['billedoplosning']);
+setTextContentByElementId("videoudgange", product['videoudgange']);
+setTextContentByElementId('lydudgange', product['lydudgange']);
+setTextContentByElementId('formater', product['formater']);
+setTextContentByElementId('funktioner', product['funktioner']);
+setTextContentByElementId( "stromforbrug", product["stromforbrug"]);
+setTextContentByElementId( "skaermtype", product["skaermtype"]);
+setTextContentByElementId( "mediekontroller", product["mediekontroller"]);
+setTextContentByElementId( "kompatible_regioner", product["kompatible_regioner"]);
