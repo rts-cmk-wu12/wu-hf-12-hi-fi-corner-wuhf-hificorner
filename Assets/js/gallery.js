@@ -1,38 +1,40 @@
-let slider = document.querySelector(".slider .list");
-let items = document.querySelectorAll(".slider .list .item");
-let next = document.getElementById("next");
-let prev = document.getElementById("prev");
+let slider = document.querySelector(".gallery-slider .gallery-list");
+let items = document.querySelectorAll(".gallery-slider .gallery-list .gallery-item");
+let nextButton = document.querySelector(".next-slide");
+let prevButton = document.querySelector(".prev-slide");
 
-let lengthItems = items.length - 1;
 let active = 0;
 
-if (next) {
-  next.onclick = function () {
-    active = active + 1 <= lengthItems ? active + 1 : 0;
-    reloadSlider();
-  };
+function updateSlider() {
+  slider.style.left = -active * items[0].offsetWidth + "px";
 }
 
-if (prev) {
-  prev.onclick = function () {
-    active = active - 1 >= 0 ? active - 1 : lengthItems;
-    reloadSlider();
-  };
+function nextSlide() {
+  active++;
+  if (active >= items.length) {
+    active = 0;
+  }
+  updateSlider();
 }
 
-let refreshInterval = setInterval(() => {
-  if (next) next.click();
-}, 3000);
-
-function reloadSlider() {
-  slider.style.left = -items[active].offsetLeft + "px";
-  
-  clearInterval(refreshInterval);
-  refreshInterval = setInterval(() => {
-    if (next) next.click();
-  }, 3000);
+function prevSlide() {
+  active--;
+  if (active < 0) {
+    active = items.length - 1;
+  }
+  updateSlider();
 }
 
-window.onresize = function (event) {
-  reloadSlider();
+if (nextButton) {
+  nextButton.onclick = nextSlide;
+}
+
+if (prevButton) {
+  prevButton.onclick = prevSlide;
+}
+
+let autoSlide = setInterval(nextSlide, 3000);
+
+window.onresize = function() {
+  updateSlider();
 };
