@@ -56,6 +56,8 @@
     height: 234px;
 }
 
+/* button*/
+
 #shop-frontpage-button {
     display: flex;
     margin: 0 auto;
@@ -67,7 +69,7 @@
     border: none;
     text-decoration: none;
 }
-/* button*/
+
 
 #shop-frontpage-button span {
     display: flex;
