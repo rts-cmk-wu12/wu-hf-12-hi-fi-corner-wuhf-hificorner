@@ -25,7 +25,7 @@ function displayProducts(products) {
         const productDiv = document.createElement('div');
         productDiv.className = 'product';
         productDiv.innerHTML = `
-            <a href="product-details.html?=product-name=${product.name}"> <img src="${product.img}" alt="${product.name}"></a>  
+            <a href="product-details.html?product-id=${product.id}"> <img src="${product.img}" alt="${product.name}"></a>  
             <h2>${product.name}</h2>
             <p class="price">${product.Price}</p>
             <button class="shopnow-button">Add to cart</button>
