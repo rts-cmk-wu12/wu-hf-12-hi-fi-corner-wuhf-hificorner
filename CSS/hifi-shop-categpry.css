@@ -52,6 +52,12 @@
     gap: 50px;
 }
 
+#product-list button{
+    background-color: rgb(131, 113, 7);
+    color: white;
+    padding: 1%;
+}
+
 h1{
     margin-top: 50px;
 }
