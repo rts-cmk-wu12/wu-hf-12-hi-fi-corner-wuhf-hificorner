@@ -29,6 +29,11 @@
 }
 .goldentext{
     color: var(--primary-color);
+    text-decoration: none;
+}
+.advanced-descreption-icon{
+    width: auto;
+    height: 24px;
 }
 /*------buttons--------*/
 
@@ -36,12 +41,20 @@
     display: flex;
    justify-content: left;
    border: #f2f2f2 0.5px solid;
-
 }
+
 .add-to-cart-button{
     background-color: var(--primary-color);
     border: none;
     color: white;
+    margin-left: 10px;
+    padding-inline: 20px;
+    text-transform: uppercase;
+}
+.add-to-cart-button:hover{
+    background-color: var(--primary-color);
+    border: none;
+    background-color: #333;;
     margin-left: 10px;
     padding-inline: 20px;
     text-transform: uppercase;
@@ -62,6 +75,10 @@
     font-size: 11px;
     box-shadow: 3px;
 }
+.paypal-button:hover{
+    color: white;
+    background-color: #333;
+}
 .paypal-button img{
     height: auto;
     width: 45px;
@@ -74,7 +91,16 @@
     color: white;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Museo Sans Rounded';
+    font-size: 10px;
+    padding-inline: 5px;
+}
+.details-button:hover{
+    margin-right: 2px;
+    height: 25px;
+    border: none;
+    background-color: #333;
+    text-transform: uppercase;
+    text-align: center;
     font-size: 10px;
     padding-inline: 5px;
 }
@@ -123,4 +149,9 @@
 .table-field-right{
     width: 76%;
     padding: 10px;
+}
+.table-advancedfield-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
