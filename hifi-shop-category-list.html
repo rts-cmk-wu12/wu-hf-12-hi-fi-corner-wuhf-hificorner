@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/Shoplist.js"></script>
+    <script src="js/Shoplist.js" defer></script>
     <title>hifi-shop-category-list</title>
 </head>
 <body class="shoplist-body">
+
     <header>
         <div class="shop-categories-header">
                 <div class="shoplist-hifilogo">
@@ -43,6 +44,7 @@
 
 
     <nav>
+        
         <aside>
             <aside class="left-box-1">
                <h1 class="aside-overskrift">Amplifiers</h1>
@@ -96,11 +98,45 @@
             <a class="a-list" href="">Harbeth</a>
             <a class="a-list" href="">Jolida</a>
         </aside>
+
+        <aside>
+            <h2>MANUFACTURER</h2>
+            <ul>
+                <li><a href="#">ARCAM</a></li>
+                <li><a href="#">ASTELL AND KERN</a></li>
+                <li><a href="#">ATC</a></li>
+                <li><a href="#">AUDIOLAB</a></li>
+                <li><a href="#">AVID</a></li>
+                <li><a href="#">CHORD ELECTRONICS</a></li>
+                <li><a href="#">CLASSÉ</a></li>
+            </ul>
+            <div class="view-all"><a href="#">View All</a></div>
+        </aside>
     </nav>
-
-    <h1>Product List</h1>
-    <div id="products" class="product-grid"></div>
-
-   
+    <section class="">
+        <h1 class="filter">AMPLIFIERS</h1>
+        <div class="filter-bar">
+            <div class="sort-by">
+                <label for="sort">SORT BY:</label>
+                <select id="sort">
+                    <option value="default">Select</option>
+                    <option value="asc">Price: Low to High</option>
+                    <option value="desc">Price: High to Low</option>
+                </select>
+            </div>
+            <div class="item-count">
+                <span id="itemCount">133 Item(s)</span>
+                <label for="show">SHOW:</label>
+                <select id="show">
+                    <option value="30">30</option>
+                    <option value="20">20</option>
+                    <option value="10">10</option>
+                    <option value="all">all</option>
+                </select>
+            </div>
+        </div>
+        
+        <div id="products" class="product-grid"></div>
+    </section>
 </body>
 </html>
