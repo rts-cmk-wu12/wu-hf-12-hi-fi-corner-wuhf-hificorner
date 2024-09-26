@@ -47,3 +47,14 @@ setTextContentByElementId( "stromforbrug", product["stromforbrug"]);
 setTextContentByElementId( "skaermtype", product["skaermtype"]);
 setTextContentByElementId( "mediekontroller", product["mediekontroller"]);
 setTextContentByElementId( "kompatible_regioner", product["kompatible_regioner"]);
+//her kommer køb fuktionen
+
+const buyButton= document.querySelector("#buy")
+
+buyButton.addEventListener("click", buyItem)
+
+function buyItem(){
+    localStorage.setItem("cart",product['name']+ ":"+ product['price']+ ":"+product['image']+":"+ 2 )
+    console.log(product['image'])
+    window.open("products.html", "_self");
+}
