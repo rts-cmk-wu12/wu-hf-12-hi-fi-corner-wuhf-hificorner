@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Style.css">
     <!---<script type="module" src="Shoplist.js"></script>--->
+    <script type="module" src="js/productdetails.js"></script>
     <title>Product Details</title>
 </head>
 <body class="background-color">
@@ -43,11 +44,11 @@
     </header>
     <div>
         <p> 
-            <a href="index.html">Home </a>
+            <a class="goldentext" href="index.html">Home </a>
             / 
-            <a href="hifi-shop-category-list.html">Amplifier</a>
+            <a class="goldentext" href="hifi-shop-category-list.html">Amplifier</a>
             /
-            <p>#Name#</p>
+            <a class="product-title">#Name#</a>
         </p>
     </div>
     <div>
@@ -68,12 +69,12 @@
         </div>
 
         <div class="product-details-right">
-            <p>#name#</p>
+            <p class="product-title">#name#</p>
             <div class="See-other">
-                <p>See other #brand# products</p>
+                <p>See other <span class="brandname">#brand#</span> products</p>
             </div>
 
-            <p>#Details#</p>
+            <p class="getdetails">#Details#</p>
             
             <div class="product-detail-buttons">
                 <button class="details-button">Ask A Question</button>
@@ -99,11 +100,11 @@
                 <table class="info-table">
                     <tr>
                         <td class="table-field-left">manufacturers</td>
-                        <td class="table-field-right">#brand#</td>
+                        <td class="table-field-right brandname">#brand#</td>
                     </tr>
                     <tr>
                         <td class="table-field-left">manufacturer link</td>
-                        <td class="table-field-right">#brandlink#</td>
+                        <td class="table-field-right brandname">#brandlink#</td>
                     </tr>
                     <tr>
                         <td class="table-field-left">Free warranty</td>
@@ -134,7 +135,7 @@
         </tr>
         <tr>
             <td class="table-advancedfield-left">Frequency Response</td>
-            <td class="table-advancedfield-right"><img src="/iconsimage/icons8-x-64.png" alt="no"> 70 kHz</td>
+            <td class="table-advancedfield-right"><img class="advanced-descreption-icon" src="/iconsimage/icons8-x-64.png" alt="no"> 70 kHz</td>
         </tr>
         <tr>
             <td class="table-advancedfield-left">Total Harmonic Distortion</td>
@@ -150,11 +151,11 @@
         </tr>
         <tr>
             <td class="table-advancedfield-left">Input Sensetivity: MC</td>
-            <td class="table-advancedfield-right"><img src="/iconsimage/icons8-x-64.png" alt="no"></td>
+            <td class="table-advancedfield-right"><img class="advanced-descreption-icon" src="/iconsimage/icons8-x-64.png" alt="no"></td>
         </tr>
         <tr>
             <td class="table-advancedfield-left">Signal to Noise Ratio: MM / MC</td>
-            <td class="table-advancedfield-right">83 dB / X</td>
+            <td class="table-advancedfield-right">83 dB / <img class="advanced-descreption-icon" src="/iconsimage/icons8-x-64.png" alt="no"></td>
         </tr>
         <tr>
             <td class="table-advancedfield-left">Input Sensetivity: High level</td>
@@ -162,15 +163,15 @@
         </tr>
         <tr>
             <td class="table-advancedfield-left">Input Sensetivity: Balanced High level</td>
-            <td class="table-advancedfield-right"><img src="/iconsimage/icons8-x-64.png" alt="no"></td>
+            <td class="table-advancedfield-right"><img class="advanced-descreption-icon" src="/iconsimage/icons8-x-64.png" alt="no"></td>
         </tr>
         <tr>
             <td class="table-advancedfield-left">Input Sensetivity: Power Amp Direct IN</td>
-            <td class="table-advancedfield-right"><img src="/iconsimage/icons8-x-64.png" alt="no"></td>
+            <td class="table-advancedfield-right"><img class="advanced-descreption-icon" src="/iconsimage/icons8-x-64.png" alt="no"></td>
         </tr>
         <tr>
             <td class="table-advancedfield-left">Input Sensetivity: MC</td>
-            <td class="table-advancedfield-right"><img src="/iconsimage/icons8-x-64.png" alt="no"></td>
+            <td class="table-advancedfield-right"><img class="advanced-descreption-icon" src="/iconsimage/icons8-x-64.png" alt="no"></td>
         </tr>
 
     </table>
@@ -205,4 +206,3 @@
 </footer>
 
 </html>
->>>>>>> 58311fe97336e8ef06dd6e4fee1db48083e4e87d

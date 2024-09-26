@@ -29,6 +29,11 @@
 }
 .goldentext{
     color: var(--primary-color);
+    text-decoration: none;
+}
+.advanced-descreption-icon{
+    width: auto;
+    height: 24px;
 }
 /*------buttons--------*/
 
@@ -123,4 +128,9 @@
 .table-field-right{
     width: 76%;
     padding: 10px;
+}
+.table-advancedfield-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
