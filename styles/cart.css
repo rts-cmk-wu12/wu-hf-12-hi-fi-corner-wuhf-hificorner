@@ -55,12 +55,17 @@ h2 {
     display: block;
     width: 100%;
     padding: 1rem;
-    background-color: #a49372;
+    background-color: #958153;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
+}
+.checkout_btn:hover {
+    scale: 1.02;
+    transition-duration: 600ms;
+    background-color: #a89774;
 }
 
 
@@ -89,6 +94,11 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 3px;
     font-size: 1rem;
+}
+.form_group input:hover {
+    scale: 1.01;
+    transition-duration: 600ms;
+    border-color: #a49372;
 }
 
 .form_group input:focus {
