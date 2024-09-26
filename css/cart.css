@@ -89,3 +89,71 @@ main{
     border-radius: 1rem;
     cursor: pointer;
 }
+@media screen and (max-width:960px){
+    footer, .header__top{
+       display: none; 
+    }
+}
+@media screen and (max-width:588px){
+    nav{
+        height: 100%;
+        position: fixed;
+        background-color: #35532F;
+       display: grid;
+       align-items: center;
+       z-index: 10;
+       
+    }
+    
+
+      /* height 100vh så den ul fylder hele siden(samme med width) */
+    nav ul {
+        display: none;
+justify-items: center;
+width: 100vw;
+margin-bottom: 34em;
+
+height: 100vh;
+
+    }
+
+    /* height 0 + og margin 10% så alle li passer ind i nav ul */
+    nav ul li{
+        grid-column: 1/-1;
+        height: 0;
+    
+
+    }
+
+/* vi bruger ID her så vi ik ender op med at de to javascripts og classes går ind over hindanden */
+    #xmark-nav{ 
+        display: grid;
+        position:fixed;
+            top: 5vw;
+            right: 5vw;
+            font-size: 2em;
+            z-index: 40;
+            color: orange;
+
+    }
+    .main_top{
+        display:block;
+        margin-top: 0;
+    }
+    .backdrop,.background{
+        
+        padding: 0;
+    }
+    .main_bottom_container-white{
+        padding: 0;
+    }
+    .background{
+        height: 100%;
+        margin-bottom: 0;
+    }
+  .main_top img{
+    display: none;
+  }
+
+}
+

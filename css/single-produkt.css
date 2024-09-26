@@ -230,8 +230,14 @@
 
 }
 @media screen and (max-width:960px){
+    .single__produkt-left__description-caption{
+text-align: center;
+    }
     footer, .header__top{
        display: none; 
+    }
+    .right__contaioner-add_to_cart__button{
+        margin-top: 10px;
     }
 }
 @media screen and (max-width:588px){
@@ -290,5 +296,23 @@ height: 100vh;
   .product_category_commersial-img{
     width: 100vw;
   }
+  .single__produkt-left{
+    display: none;
+  }
+  .product_category_commersial-img{
+    margin-top: 0;
+  }
+  
+
 }
+@media screen and (max-width:400px){
+.single__produkt-right__contaioner-add_to_cart-wrapper{
+    display: grid;
+}
+.single__produkt-left__description{
+    width: 90%;
+    margin: 0 auto;
+}
+}
+
 
