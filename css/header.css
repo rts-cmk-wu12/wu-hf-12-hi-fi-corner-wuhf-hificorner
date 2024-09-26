@@ -25,7 +25,7 @@ img {
     justify-content: flex-end;
     gap: 30px;
     list-style: none;
-    background-color: black;
+   /* background-color: black;*/
 }
 
 .header_img{
@@ -38,9 +38,7 @@ img {
 
  .header__item--last1{
     display: flex;
-    background-color: var(--button-blue-color);
-    color: var(--white-colour);
-    background-color: var(--button-blue-color);
+    background-color: var(--blue-colour);
     color: var(--white-colour);
     height: 1.7em;
     width: 7em;
@@ -48,17 +46,17 @@ img {
     margin-top: 0.6em;
     border-radius: 3%;
     align-items: center;
-    gap: 1em;
+    gap: 0.5em;
     
     
  }
 
 
 
+
 /*------------------menu style----------*/
 
 .menu {
-    background-color: var(--black-colour);
     background-color: var(--black-colour);
     display: flex;
     justify-content: center;
