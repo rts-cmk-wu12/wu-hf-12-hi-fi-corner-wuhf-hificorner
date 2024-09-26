@@ -1,0 +1,177 @@
+@import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
+
+/* Navigation */
+
+nav {
+    width: 100%;
+}
+
+#top-navigation {
+    display: flex;
+    list-style: none;
+    padding: 1.5rem;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#top-navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+#contact-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-size: 1.6em;
+}
+
+.newsletter-btn {
+    background: linear-gradient(#1696F1, #21ACF5);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-btn span {
+    margin: 0.25rem;
+    color: black;
+}
+
+/* Navigation */
+#bottom-navigation {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid #413b26;
+}
+
+#bottom-navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 550;
+    transition: all 0.2s;
+    font-family: 'Museo Sans Rounded 500';
+
+}
+
+.selected-page {
+    color: #b69a6a;
+}
+
+.nav-link:hover {
+    color: #b69a6a;
+}
+
+
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #b69a6a;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.footer-address p {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+    font-family: "Museo Sans Rounded 500";
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.footer-links span {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-payment i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    align-items: center;
+}
+
+.social-media-icons i {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f7f7f7;
+}
+
+.social-media-icons i:hover {
+    background-color: #a29061;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-info {
+    display: flex;
+    gap: 3.5rem;
+}

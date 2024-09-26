@@ -1,3 +1,6 @@
+@import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
+@import url(/assets/css/nav-footer.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -9,33 +12,34 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Museo Sans Rounded 100";
     background-color: #f7f7f7;
 }
 
-/* Header Section */
-header {
+/* Hero Section */
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-image: url('/assets/img/hifi-frontpage.png');
     background-size: cover;
-    background-position: bottom center;
-    min-height: 500px;
+    background-position: center;
+}
+#hero img {
+    margin: auto;
+}
+#hero img:hover {
+    transition: all 0.1s;
+    scale: 1.01;
 }
 
-#top-navigation {
+header {
+    width: 100%; 
+    height: 450px;    
     display: flex;
-    list-style: none;
-    padding: 1rem;
-    gap: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
-    justify-content: flex-end;
-}
-
-#top-navigation a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.2s;
+    justify-content: start;
+    flex-direction: column;
 }
 
 #contact-icons {
@@ -59,41 +63,7 @@ header {
 
 .newsletter-btn span {
     margin: 0.25rem;
-    color: black;
-}
-
-/* Navigation */
-#bottom-navigation {
-    background-color: rgba(0, 0, 0, 1);
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem;
-    border-top: 1px solid #413b26;
-}
-
-#bottom-navigation ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem;
-    gap: 2rem;
-}
-
-.nav-link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 1.1rem;
-    transition: all 0.2s;
-}
-
-#bottom-navigation li:nth-child(1) a {
-    color: #b69a6a;
-}
-
-.nav-link:hover {
-    color: #b69a6a;
+    color: rgba(0, 0, 0, .25);
 }
 
 /* Announcement Section */
@@ -111,6 +81,7 @@ header {
 }
 
 h1 {
+    font-family: 'Museo Sans Rounded 300';
     display: flex;
     text-align: center;
     margin: auto;
@@ -140,11 +111,15 @@ h1 {
     transition: 1s;
 }
 
+.gallery-item {
+    width: 100vw;
+}
+
 .gallery-list img {
     object-position: center;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .gallery-buttons {
@@ -163,9 +138,10 @@ h1 {
     border: none;
     font-family: monospace;
     font-weight: bold;
-    font-size: 6.5rem;
+    font-size: 6rem;
     background-color: rgba(255, 255, 255, 0);
 }
+
 
 /* Media Section */
 .media-wrapper {
@@ -211,6 +187,7 @@ h1 {
     font-size: 13rem;
 }
 
+
 /* Promotions Section */
 #promo-section {
     background-color: #111111;
@@ -239,9 +216,10 @@ h1 {
 }
 
 .promo-btn {
+    font-family: 'Museo Sans Rounded 500';
     text-decoration: none;
     color: #a29061;
-    border: #a29061 1.9px solid;
+    border: white 1.9px solid;
     padding: 0.5rem 2rem;
     font-size: 2rem;
     margin-bottom: 0.75rem;
@@ -253,6 +231,7 @@ h1 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
+    max-width: 300px;
 }
 
 .promo-btn:hover,
@@ -267,75 +246,68 @@ h1 {
     color: #fff;
 }
 
-/* Footer Section */
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #b69a6a;
-    color: #fff;
-    padding: 20px;
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    /* Adjust for tablets */
+    .media-icon {
+        width: 50%;
+    }
+
+    .promo-card {
+        width: 40%;
+    }
 }
 
-.footer-content {
-    display: flex;
-    gap: 3.5rem;
-}
+@media (max-width: 768px) {
 
-.footer-address p {
-    font-size: 1.1rem;
-    color: black;
-    font-weight: bold;
-}
+    .media-wrapper {
+        flex-direction: column;
+    }
 
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
+    .media-icon {
+        width: 100%;
+        height: 100%;
+    }
 
-.footer-links a {
-    color: #fff;
-    font-weight: bold;
-}
+    .media-icon i:hover {
+        backdrop-filter: blur(0px);
+    }
 
-.footer-links span {
-    color: #fff;
-    margin: 0 10px;
-}
+    .promo-wrapper {
+        flex-direction: column;
+        padding: 1rem;
+    }
 
-.footer-payment {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
+    .promo-card {
+        width: 100%;
+        margin: 2rem 0;
+    }
 
-.footer-payment i {
-    font-size: 25px;
-    color: #fff;
-}
+    h1 {
+        font-size: 2.5rem;
+    }
 
-.footer-info {
-    display: flex;
-    gap: 3rem;
-}
+    #announcement-section {
+        min-height: 200px;
+    }
 
-.social-media-icons {
-    display: flex;
-    gap: 5px;
-}
+    .gallery-slider {
+        height: 200px;
+    }
+    
+    .gallery-item img {
+        object-fit: contain;  
+      }
 
-.social-media-icons i {
-    font-size: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    border-radius: 50%;
-    transition: background-color 0.3s;
-    height: 20px;
-    width: 20px;
-    border: 1px solid #f7f7f7;
-}
+      .footer-content {
+        flex-direction: column;
+        justify-content: space-between;
+
+      } 
+      .footer-info {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+      }
+}   

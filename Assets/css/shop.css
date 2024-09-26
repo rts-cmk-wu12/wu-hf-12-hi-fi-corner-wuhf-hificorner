@@ -1,3 +1,6 @@
+@import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
+@import url(/assets/css/nav-footer.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -9,81 +12,30 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000; /* Black background for the entire page */
-    color: #fff; /* White text */
+    font-family: 'Museo Sans Rounded 300';
+    background-color: #000; 
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Top Navigation */
-#top-nav {
-    display: flex;
-    list-style: none;
-    padding: 1rem;
-    gap: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-#top-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.2s;
-}
-
-#top-nav-links {
-    display: flex;
-    justify-content: end;
-    list-style: none;
-    gap: 2rem;
-    color: white;
-    font-size: 1.6em;
-    top: end;
-}
-
-#top-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 1rem;
-}
-
-#top-nav ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-}
-
-#top-nav a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.4rem; /* Adjust font size */
-}
-
+/* Header */
 header {
     width: 100%;
-    padding: 1rem;
 }
 
-/* Grid Container */
+/* Main Section (Grid Container for Shop Items) */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
     width: 100%; 
 }
 
 /* Grid Items */
 .grid-item {
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .grid-item a {
@@ -96,7 +48,7 @@ header {
     width: 100%;
     height: auto;
     display: block;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .grid-item figcaption {
@@ -105,82 +57,27 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 1.4rem; /* Adjust font size */
-    text-align: center; /* Center align text */
-    text-transform: uppercase; /* Uppercase text */
-    text-decoration: underline; /* Add underline to text */
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration: underline;
 }
 
 /* Button */
-button.shop-now {
-    width: 90%;
+.shop-now {
     color: #fff;
     border: none;
-    margin-top: 8rem;
-    padding: 15px 0; /* Adjust padding to match the image height */
+    padding: 15px 15px;
     cursor: pointer;
-    background-color: #5c5237; /* Button color */
-    font-size: 1.6rem; /* Button text size */
+    background-color: #685324;
+    font-size: 1.6rem; 
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto; /* Ensure the button height matches the image height */
-    padding-inline: 2rem;
+    font-family: 'Museo Sans Rounded 500';
 }
 
 .button-item {
     background-color: #a39161;
-}
-
-/* Footer */
-.footer {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #b69a6a; /* Footer background color */
-    color: #fff;
-    padding: 20px;
-}
-
-.footer-content {
-    display: flex;
-    gap: 2rem;
-}
-
-.footer-address pre {
-    margin-bottom: 5px;
-    line-height: 1.5rem;
-    color: black;
-}
-
-.footer-links {
-    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.footer-links a {
-    color: #fff; /* Link color */
-}
-
-.footer-links span {
-    color: #fff;
-    margin: 0 10px;
-}
-
-.footer-info {
-    display: flex;
-    gap: 3rem;
-}
-
-/* Social Media Icons */
-.social-media-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-media-icons i {
-    font-size: 2rem; /* Adjust icon size */
-    color: #fff; /* Icon color */
 }
