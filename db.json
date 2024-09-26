@@ -169,7 +169,7 @@
         },
         {
             "name": "manley mahi",
-            "price": 650,
+            "price": "650kr",
             "category": "effektforstaerkere",
             "image": "images/Produktbilleder/effektforstaerkere/manley_mahi.jpg",
             "description": "Denne kompakte effektforstærker leverer en imponerende mængde effekt trods sin lille størrelse. Den er designet til at drive både små og mellemstore højttalere med lethed, og tilbyder en ren, kraftfuld lyd med høj klarhed og præcision. Med en robust konstruktion og moderne kølesystem, sikrer den stabil ydeevne uden overophedning. Den har en række tilslutningsmuligheder, herunder både balancerede og ubalancerede indgange, hvilket gør den alsidig i ethvert audio-setup.",
@@ -187,7 +187,7 @@
         },
         {
             "name": "manley neoclassic300b",
-            "price": 800,
+            "price": "800kr",
             "category": "effektforstaerkere",
             "image": "images/Produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg",
             "description": "Denne high-end effektforstærker er udstyret med et dual-mono design, som betyder, at hver kanal har sin egen dedikerede forstærkerkreds. Dette design sikrer en overlegen stereo-separation og minimal crosstalk, hvilket giver en uovertruffen lydkvalitet. Den leverer en kraftfuld og dynamisk lyd med rig bas og klar diskant. Med avanceret kølingsteknologi og højkvalitets komponenter, er denne forstærker bygget til at levere exceptionel præstation og langvarig pålidelighed.",
@@ -204,7 +204,7 @@
         },
         {
             "name": "manley snapper",
-            "price": 820,
+            "price":"820kr",
             "category": "effektforstaerkere",
             "image": "images/Produktbilleder/effektforstaerkere/manley_snapper.jpg",
             "description": "Denne rør-effektforstærker kombinerer klassisk rørteknologi med moderne funktionalitet. Den leverer en varm, fyldig lyd med en rig klangkarakteristik, som rørforstærkere er kendt for. Den har en elegant design med eksponerede rør, der giver et visuelt indtryk af vintage charme. Med indbyggede sikkerhedsfunktioner og en kraftfuld udgangseffekt, kan den drive en bred vifte af højttalere og tilføre en autentisk varme til din musikoplevelse.",
@@ -221,7 +221,7 @@
         },
         {
             "name": "parasound haloa23",
-            "price": 420,
+            "price": "420kr",
             "category": "effektforstaerkere",
             "image": "images/Produktbilleder/effektforstaerkere/parasound_haloa23.jpg",
             "description": "Denne modulære effektforstærker tilbyder fleksibilitet med sine justerbare udgangs-parametre. Du kan tilpasse udgangseffekten og tilføje ekstra moduler for at tilpasse forstærkeren til dine specifikke behov. Den leverer en præcis og kraftfuld lyd med mulighed for at finjustere output til forskellige højttalerkonfigurationer. Med en robust konstruktion og avanceret kølesystem, sikrer den pålidelig ydeevne og langvarig holdbarhed.",
@@ -238,7 +238,7 @@
         },
         {
             "name": "creek OBH 22 Passive Preamp",
-            "price": 820,
+            "price": "820kr",
             "category": "forforstaerkere",
             "image": "images/Produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
             "description": "Denne kompakte forforstærker er designet til at levere en imponerende lydkvalitet, trods dens lille størrelse. Den tilbyder en ren og klar lydgengivelse med minimal signalforvrængning, takket være dens præcise elektroniske kredsløb. Forforstærkeren har flere analoge og digitale indgange, hvilket gør den alsidig og nem at integrere i ethvert lydsystem. Den har en brugervenlig kontrolpanel og en elegant finish, der passer ind i enhver moderne hjemmebiograf eller hi-fi setup.",
@@ -255,7 +255,7 @@
         },
         {
             "name": "parasound classic7100",
-            "price": 1020,
+            "price": "1020kr",
             "category": "forforstaerkere",
             "image": "images/Produktbilleder/forforstaerkere/parasound_classic7100.jpg",
             "description": "Denne high-end forforstærker er designet til dem, der søger det bedste inden for analog lydkvalitet. Den er udstyret med avancerede analoge kredsløb, der sikrer en varm, fyldig lyd med en fremragende dynamik og detaljer. Den har også en integreret phono-forforstærker, så du kan tilslutte en pladespiller direkte. Med en solid konstruktion og høj kvalitet komponenter er den bygget til at levere en exceptionel lydoplevelse og til at forbedre enhver audiophile opsætning.",
@@ -273,7 +273,7 @@
         },
         {
             "name": "parasound halop3",
-            "price": 1220,
+            "price": "1220kr",
             "category": "forforstaerkere",
             "image": "images/Produktbilleder/forforstaerkere/parasound_halop3.jpg",
             "description": "Denne modulære forforstærker tilbyder fleksibilitet og tilpasningsevne med sin udskiftelige modulopbygning. Du kan opgradere eller ændre moduler for at tilføje nye funktioner eller forbedre lydkvaliteten. Den kommer med forskellige indgangsmoduler, herunder både analoge og digitale, samt justerbare tonekontroller og balanceindstillinger. Denne alsidighed gør den ideel til dem, der ønsker at skræddersy deres lydoplevelse og holde sig opdateret med de nyeste teknologier.",
@@ -290,7 +290,7 @@
         },
         {
             "name": "project prebox",
-            "price": 1230,
+            "price": "1230kr",
             "category": "forforstaerkere",
             "image": "images/Produktbilleder/forforstaerkere/Project_prebox.jpg",
             "description": "Denne forforstærker integrerer moderne teknologi med klassisk lydkvalitet. Den leverer en fremragende lydoplevelse med klarhed og præcision, samtidig med at den understøtter trådløs kontrol via en dedikeret app. Du kan justere lydindstillinger, vælge indgange og styre din musikafspilning direkte fra din smartphone eller tablet. Forforstærkeren har også en række tilslutningsmuligheder, herunder både analoge og digitale inputs, samt en indbygget DAC for optimal lydkvalitet.",
@@ -307,7 +307,7 @@
         },
         {
             "name": "boesendorfer vcs wall",
-            "price": 1530,
+            "price": "1530kr",
             "category": "hojtalere",
             "image": "images/Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif",
             "description": "Denne kompakte højttaler kombinerer fremragende lydkvalitet med stemmestyring. Den er udstyret med to forstærkere og både diskant- og basdrivere, hvilket sikrer en klar og fyldig lyd. Højttaleren understøtter stemmestyring gennem både Amazon Alexa og Google Assistant, så du kan kontrollere musik og smarte hjem-enheder med din stemme. Den integreres let med streamingtjenester og andre enheder i et multi-room system.",
@@ -324,7 +324,7 @@
         },
         {
             "name": "epos m5",
-            "price": 1430,
+            "price": "1430kr",
             "category": "hojtalere",
             "image": "images/Produktbilleder/hojtalere/epos_m5.gif",
             "description": "Denne bærbare højttaler tilbyder 360-graders lyd, hvilket giver en jævn lydoplevelse fra alle vinkler. Den er vandafvisende og ideel til udendørs brug, med en robust konstruktion og bærehank for nem transport. Batterilevetiden er op til 17 timer, og den leverer en kraftfuld bas, som gør den velegnet til både indendørs og udendørs aktiviteter.",
@@ -332,7 +332,7 @@
         },
         {
             "name": "harbeth hl7es2",
-            "price": 1340,
+            "price": "1340kr",
             "category": "hojtalere",
             "image": "images/Produktbilleder/hojtalere/harbeth_hl7es2.jpg",
             "description": "Denne kraftfulde Bluetooth-højttaler er kendt for sin holdbarhed og lydstyrke. Den er udstyret med basradiatorer og et forbedret lydsystem, som sikrer dyb bas og klar lyd. Højttaleren er både vand- og støvafvisende, hvilket gør den perfekt til udendørs brug. Med en batterilevetid på op til 20 timer kan den også fungere som en powerbank til opladning af andre enheder.",
@@ -349,7 +349,7 @@
         },
         {
             "name": "harbeth monitor30",
-            "price": 1370,
+            "price": "1370kr",
             "category": "hojtalere",
             "image": "images/Produktbilleder/hojtalere/harbeth_monitor30.jpg",
             "description": "Denne højttaler har et stilfuldt, kugleformet design med en transparent kabinet, der ikke kun ser moderne ud, men også leverer en balanceret lydoplevelse. Den er udstyret med en stor woofer og flere diskanter, som sikrer en fyldig og klar lyd. Højttaleren understøtter Bluetooth-tilslutning og fungerer både som en visuel og lydmæssig opgradering til enhver indretning.",
@@ -357,7 +357,7 @@
         },
         {
             "name": "harbeth p3es2",
-            "price": 1270,
+            "price": "1270kr",
             "category": "hojtalere",
             "image": "images/Produktbilleder/hojtalere/harbeth_p3es2.jpg",
             "description": "Denne lille, trådløse højttaler tilbyder en fremragende lydoplevelse trods sin kompakte størrelse. Den er udstyret med en præcisionsdriver og en passiv radiator, som sikrer en klar og balanceret lyd med en overraskende basrespons. Den har en elegant og minimalistisk design, der passer godt ind i enhver indretning. Højttaleren understøtter Bluetooth-forbindelse og har en batterilevetid på op til 12 timer, hvilket gør den praktisk til både hjemmebrug og on-the-go. Den er også udstyret med en integreret mikrofon til håndfri opkald og stemmestyring.",
@@ -374,7 +374,7 @@
         },
         {
             "name": "creek a50I",
-            "price": 1070,
+            "price": "1070kr",
             "category": "int-forstaerkere",
             "image": "images/Produktbilleder/int-forstaerkere/creek_a50I.jpg",
             "description": "Denne integrerede forstærker tilbyder en kompakt design uden at gå på kompromis med lydkvaliteten. Den har en kraftfuld indbygget forstærker, der leverer ren og præcis lyd med en høj signal-til-støj-forhold. Med flere inputmuligheder, herunder både analoge og digitale forbindelser, kan den nemt tilsluttes en bred vifte af kilder. Desuden har den en brugervenlig fjernbetjening og en intuitiv kontrolgrænseflade.",
@@ -391,7 +391,7 @@
         },
         {
             "name": "creek classic5350SE",
-            "price": 800,
+            "price": "800kr",
             "category": "int-forstaerkere",
             "image": "images/Produktbilleder/int-forstaerkere/creek_classic5350SE.jpg",
             "description": "Denne high-end integrerede forstærker er designet til audiophile, der kræver den bedste lydoplevelse. Den tilbyder avancerede streamingfunktioner og understøtter højopløselige lydformater. Med en robust konstruktion og topmoderne DAC (digital-til-analog-konverter), sikrer den en uovertruffen lydkvalitet. Den har også indbyggede netværksfunktioner og kan tilsluttes trådløst til dine yndlingsmusikstreamingtjenester.",
@@ -425,7 +425,7 @@
         },
         {
             "name": "manley snapper",
-            "price": 1000,
+            "price": "1000kr",
             "category": "int-forstaerkere",
             "image": "images/Produktbilleder/int-forstaerkere/manley_snapper.jpg",
             "description": "Denne integrerede forstærker er udstyret med moderne smart-teknologi og kan styres via en dedikeret app. Appen giver dig mulighed for at justere lydindstillinger, vælge indgange og endda styre musikafspilning direkte fra din smartphone eller tablet. Forstærkeren har en kraftfuld indbygget forstærker, der leverer klar og fyldig lyd, og understøtter både Wi-Fi og Bluetooth til trådløs musikstreaming.",
@@ -442,7 +442,7 @@
         },
         {
             "name": "manley Stingray",
-            "price": 2000,
+            "price": "2000kr",
             "category": "int-forstaerkere",
             "image": "images/Produktbilleder/int-forstaerkere/Manley_Stingray.jpg",
             "description": "Denne forstærker har en klassisk, analog konstruktion, der appellerer til dem, der foretrækker den varme lydkarakteristik af traditionelle komponenter. Med en kraftfuld indbygget forstærker og høj kvalitet analoge kredsløb, leverer den en rig og detaljeret lydoplevelse. Den har et elegant design med en analog volumenknap og knapper til indgangsvalg, samt en enkel men effektiv kontrolpanelet, der giver dig en autentisk og tidløs lydoplevelse.",
@@ -450,7 +450,7 @@
         },
         {
             "name": "pro ject Debut III 1",
-            "price": 3400,
+            "price": "3400kr",
             "category": "pladespillere",
             "image": [
                 "images/Produktbilleder/pladespillere/Pro_ject_Debut_3_blue.jpg",
@@ -472,7 +472,7 @@
         },
         {
             "name": "pro ject rpm 5",
-            "price": 2000,
+            "price": "2000kr",
             "category": "pladespillere",
             "image": "images/Produktbilleder/pladespillere/Pro_ject_rpm_5.jpg",
             "description": "Denne pladeafspiller har en klassisk, manuel betjening, der appellerer til dem, der værdsætter den traditionelle oplevelse af at spille vinyl. Den er designet med et elegant trækabinet, der ikke kun ser stilfuldt ud, men også hjælper med at minimere vibrationer og forbedre lydkvaliteten. Med en justerbar tonearm og en kvalitetspickup kan du nyde en varm og autentisk lyd. Den har også en indbygget antiskating-funktion for at sikre optimal lydgengivelse og lang levetid for dine plader.",
@@ -489,7 +489,7 @@
         },
         {
             "name": "pro ject rpm 10",
-            "price": 2200,
+            "price": "2200kr",
             "category": "pladespillere",
             "image": "images/Produktbilleder/pladespillere/Pro_ject_rpm10.jpg",
             "description": "Denne high-end pladeafspiller er designet til audiophile, der ønsker den bedste lydoplevelse. Den er udstyret med avanceret teknologi, herunder en præcis direkte drev-motor og en vibration-absorberende base, der sikrer minimal rumlen og høj lydkvalitet. Den har en avanceret tonearm med mulighed for finjustering, og en high-end pickup, der kan håndtere selv de mest delikate plader. Pladeafspilleren tilbyder også en separat phono-forforstærker med forskellige tilpasningsmuligheder for at optimere lydoplevelsen. ",
@@ -506,7 +506,7 @@
         },
         {
             "name": "jolida JD102b",
-            "price": 2300,
+            "price": "2300kr",
             "category": "roer-forstaerkere",
             "image": "images/Produktbilleder/roer-forstaerkere/jolida_JD102b.jpg",
             "description": "Denne kompakte rør-forstærker kombinerer klassisk vintage-udseende med moderne funktionalitet. Den er udstyret med en håndfuld kvalitetstransformatorer og en selektion af selektive rør, der sikrer en varm og fyldig lyd. Den har en elegant kabinet af børstet aluminium og en glasklar frontplade, der giver et visuelt præg af retro charme. Med indbyggede tilslutningsmuligheder og en intuitiv kontrolpanel, tilbyder den en lydoplevelse, der appellerer til både øjet og øret.",
@@ -523,7 +523,7 @@
         },
         {
             "name": "jolida JD202a",
-            "price": 2100,
+            "price": "2100kr",
             "category": "roer-forstaerkere",
             "image": "images/Produktbilleder/roer-forstaerkere/jolida_JD202a.jpg",
             "description": "Denne high-end rør-forstærker er designet til dem, der kræver maksimal præcision og klarhed. Den har uafhængige forstærkerkanaler, der giver en enestående stereo-separation og detaljegrad. Rør-forstærkeren er udstyret med avancerede kredsløb og kvalitetsrør, der leverer en fremragende lydoplevelse med dybde og rigdom. Den har også indbygget bias-justering for optimal ydeevne og lang levetid på rørene, samt en solid konstruktion, der minimerer vibrationer.",
@@ -540,7 +540,7 @@
         },
         {
             "name": "jolida JD300b",
-            "price": 1800,
+            "price": "1800kr",
             "category": "roer-forstaerkere",
             "image": "images/Produktbilleder/roer-forstaerkere/jolida_JD300b.jpg",
             "description": "Oplev studiokvalitet i dit eget hjem med denne professionelle CD-afspiller, der er udstyret med avancerede funktioner som højopløselig lydoutput og præcisionsmodulatorer. Den elegante, minimalistiske design og brugervenlige grænseflade beriger din lytteoplevelse",
@@ -557,7 +557,7 @@
         },
         {
             "name": "jolida JD302b",
-            "price": 1800,
+            "price": "1800kr",
             "category": "roer-forstaerkere",
             "image": "images/Produktbilleder/roer-forstaerkere/jolida_JD302b.jpg",
             "description": "Denne modulære rør-forstærker giver dig mulighed for at tilpasse og opgradere komponenter efter behov. Den har et fleksibelt design, hvor du kan skifte rør og tilføje ekstra moduler for at tilpasse forstærkerens karakteristika til dine præferencer. Den leverer en varm, rig lyd med en detaljeret bas og klar diskant, og dens modulære struktur gør det nemt at opgradere eller reparere. Den er også udstyret med en omfattende række tilslutningsmuligheder, hvilket gør den alsidig i ethvert hi-fi system.",
@@ -574,7 +574,7 @@
         },
         {
             "name": "jolida JD502b",
-            "price": 1700,
+            "price": "1700kr",
             "category": "roer-forstaerkere",
             "image": "images/Produktbilleder/roer-forstaerkere/jolida_JD502b.jpg",
             "description": "Denne klassiske rør-forstærker er kendt for sin enkle men effektive konstruktion med punkt-til-punkt kabling. Denne metode reducerer signalforvrængning og giver en renere lydoplevelse. Forstærkeren er udstyret med kvalitetstransformatorer og rør, der sammen skaber en varm, autentisk lyd med fremragende dynamik. Den har et tidløst design med en solid metal kabinet og en klar front, der fremhæver de udsatte rør, så du kan nyde både lyden og det visuelle indtryk.",

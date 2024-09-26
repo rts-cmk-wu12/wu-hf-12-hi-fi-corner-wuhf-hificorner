@@ -16,7 +16,7 @@ console.log(product)
 function setTextContentByElementId (elementId, TextContent) {
     const elementInHTML = document.getElementById(elementId);
 
-    if(typeof(TextContent) == 'string') {
+    if(typeof(TextContent) == 'string', Array) {
         elementInHTML.textContent = TextContent;
     } else {
         elementInHTML.textContent = TextContent.join(", ");
