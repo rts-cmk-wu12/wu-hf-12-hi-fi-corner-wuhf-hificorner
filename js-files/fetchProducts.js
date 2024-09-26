@@ -292,7 +292,7 @@ function insertProduct(product){
      const productLink = document.createElement("a")
      productLink.textContent = "view more"
      productLink.classList.add("product__link")
-     productLink.setAttribute("href", "hifi-shop-single-product-view?name=" + product.name)
+     productLink.setAttribute("href", "single-product-view-page.html?name=" + product.name)
      productDiv.appendChild(productLink)
 
 }
