@@ -95,7 +95,7 @@ header{
     height: 3em;
     justify-content: right;
     padding-right: 1em;
-    background-color: rgba(0, 0, 0, 0.595);
+    background-color: black;
     align-items: center;
     display: flex;
     gap: 2em;
