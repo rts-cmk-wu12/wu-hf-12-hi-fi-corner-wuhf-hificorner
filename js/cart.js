@@ -1,7 +1,7 @@
 const API_URL = 'http://localhost:3000/';
 
 const productsContainerElement = document.querySelector('#products-main');
-const checkoutTotalPriceElement = document.querySelector('#cart-information__total-price')
+const checkoutTotalPriceElement = document.querySelector('#cart-information__total-price');
 
 const response = await fetch(API_URL + 'products');
 const productData = await response.json();
@@ -13,13 +13,13 @@ productData.forEach((product) => {
             const productInfo = localStorage.getItem(localStorage.key(i)).split(',');
             const quantity = productInfo[0];
             const version = productInfo[1];
-            let productImage = product.image
+            let productImage = product.image;
             let productName = product.product_name;
 
             if (version !== 'default') {
                 const variantIndex = product.variant.findIndex((variant) => variant.colour == version);
                 productImage = product.variant[variantIndex].image;
-                productName = `${product.product_name}: ${version}`
+                productName = `${product.product_name}: ${version}`;
             }
 
             productContainer.innerHTML = `

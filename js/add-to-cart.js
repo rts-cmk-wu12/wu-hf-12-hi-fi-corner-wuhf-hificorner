@@ -12,7 +12,7 @@ let productVariant = 'default';
 
 productVariantsContainer.addEventListener('click', (e) => {
     if (e.target.matches("input[type='radio']")) {
-        productVariant = e.target.value;
+        productVariant = e.target.value;;
     }
 })
 
