@@ -31,6 +31,12 @@
     color: var(--primary-color);
     text-decoration: none;
 }
+.goldentitle{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
 .advanced-descreption-icon{
     width: auto;
     height: 24px;
@@ -40,7 +46,7 @@
 .product-detail-buttons{
     display: flex;
    justify-content: left;
-   border: #f2f2f2 0.5px solid;
+   margin-bottom: 20px;
 }
 
 .add-to-cart-button{
@@ -132,6 +138,13 @@
 .Upper-addtocart-box input{
     padding: 5px;
     width: 45px;
+}
+.see-other{
+display: flex;
+justify-content: space-between;
+}
+.see-other p:last-of-type{
+margin-right: 20px;
 }
 
 /*------Table------*/

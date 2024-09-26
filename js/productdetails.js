@@ -11,9 +11,15 @@ const PRODUCT_ID_DATA = product.id;
 const nameElement = document.querySelectorAll('.product-title');
 const brandNameElement = document.querySelectorAll('.brandname');
 const detailsElement = document.querySelector('.getdetails');
-const imageElement = document.querySelector('.img')
+const imageElement = document.querySelector('.img-swap')
+const priceElement = document.querySelector('.detail-price')
+const discountElement = document.querySelector('.discount-price')
 
-console.log(product);
+console.log(imageElement);
+
+imageElement.src = product.img;
+
+priceElement.innerHTML = product.Price
 
 nameElement.forEach( names => names.innerText = product.name);
 
