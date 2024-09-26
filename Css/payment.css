@@ -1,41 +1,41 @@
-
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
+}*/
 
 body {
     font-family: 'Rubik', sans-serif;
     line-height: 1.2;
     font-size: 1em;
-    /* 1em = 16px, som er nuværende standard i alle browsere */
+    
     color: #000;
-    background-color: #a8a883;
+    background-color: #000;
 }
-/*
+
 img {
     width: 100%;
     max-width: 100%;
     height: auto;
     display: block;
 }
-*/
+
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #a8a883;
 }
 
 
-
+/*header*/
 
 .shop-categories-header{
     background-color: black;
     border-bottom: var(--primary-color) 1px solid;
     display: flex;
-    width: 100%;
+    
     height: 83px;
     padding: 10px;
     align-items: end;
@@ -53,7 +53,7 @@ img {
     margin-right: 20px;
 }
 .shoplist-hifilogo img{
-    width: 28px;
+    width: 5rem;
     height: auto;
     display: flex;
     align-items: center;
@@ -66,7 +66,17 @@ img {
     height: 2rem;
     width: 20rem;
 }
+
+
+.header-icons{
+    width: 25px;
+    height: auto;
+    color: white;
+    margin-left: 40px;
  
+}
+
+
 /*Button*/
 
 .button {
