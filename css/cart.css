@@ -50,6 +50,9 @@ main{
     display: flex;
     justify-content: space-between;
 }
+.price__and__icon{
+    display: flex;
+}
 
 .cart__container-pay-wrapper{
     width: 50%;
@@ -76,4 +79,13 @@ main{
     border-radius: .2rem;
     
     background-color: var(--primary_gray);
+}
+.cart__container-pay-container-button{
+    border: solid 2px var(--primary_gray);
+    background-color: var(--opacity_black);
+    color: var(--primary_gray);
+    padding: .5rem;
+    width: 4rem;
+    border-radius: 1rem;
+    cursor: pointer;
 }

@@ -21,9 +21,18 @@ if (storedCartItems) {
         const itemWrapper = document.querySelector('#items__container');
         itemWrapper.appendChild(itemContainer);
         itemContainer.classList.add('cart__container-items__list-container');
+        
+
+        /* Total price */
+        const totalPriceElement = document.querySelector('#total__price');
+        const totalPriceNumber = Number(product.price.slice(1)); //Make product.price string to number
+        let totalPrice =  Number(totalPriceElement.innerHTML); //totalPrice = nul as deafault
+        totalPrice = totalPrice + totalPriceNumber; //Adds the total price
+     
+        console.log(totalPrice);
+        totalPriceElement.innerHTML = `${totalPrice}`; 
     });
+    
+    
 };
 
-
-
-const totalPrice = document.querySelector('#total__price');
