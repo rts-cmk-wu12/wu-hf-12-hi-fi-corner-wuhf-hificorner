@@ -1,3 +1,4 @@
+
 .shopfront {
     background-color: var(--black-colour);
 }
@@ -52,6 +53,8 @@
     height: 234px;
 }
 
+/* button*/
+
 #shop-frontpage-button {
     display: flex;
     margin: 0 auto;
@@ -64,6 +67,7 @@
     text-decoration: none;
 }
 
+
 #shop-frontpage-button span {
     display: flex;
     margin: 0 auto;
@@ -72,3 +76,25 @@
     font-size: 20px;
     font-family: 'Museo Sans Rounded 500';
 }
+
+/* @media only screen and (min-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 600px;
+    }
+
+    .grid-container{
+        width: 600px;
+    }
+} */
