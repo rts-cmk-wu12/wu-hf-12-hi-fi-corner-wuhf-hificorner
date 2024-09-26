@@ -31,7 +31,7 @@ function setInnerHTMLByElementId (elementId, innerHTML) {
 
 setInnerHTMLByElementId(
     'image',
-    `<img src=${product['image']}>`
+    `<img src=images/${product['image']}>`
 );
 
 setTextContentByElementId('name', product['name']);
