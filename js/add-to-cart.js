@@ -7,7 +7,6 @@ const productInfoPaypalBtn = document.querySelector('#product-information__paypa
 const productInfoQuantity = document.querySelector('#quantity');
 const productVariantsContainer = document.querySelector('#product-information__variants');
 
-let productQty = 1;
 let productVariant = 'default';
 
 productVariantsContainer.addEventListener('click', (e) => {
@@ -19,10 +18,8 @@ productVariantsContainer.addEventListener('click', (e) => {
 productInfoCart.addEventListener('click', (e) => {
     if (e.target == productInfoBtn || e.target == productInfoPaypalBtn) {
         e.preventDefault()
-        if (productInfoQuantity.value >= 1) {
-            productQty = productInfoQuantity.value;
-            console.log(productQty);
-        }
+        const productQty = productInfoQuantity.value;
+        console.log(productQty);
 
         localStorage.setItem(chosenProduct, `${productQty},${productVariant}`);
     }
