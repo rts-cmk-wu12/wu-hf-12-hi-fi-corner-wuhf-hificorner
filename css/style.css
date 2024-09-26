@@ -9,4 +9,6 @@
 @import url(shoplist.css);
 @import url(product.css);
 @import url(details.css);
+@import url(cart.css);
+@import url(cart-product.css);
 @import url(brands.css);

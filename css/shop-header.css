@@ -11,6 +11,7 @@ img {
 
 /*-------------Icons style--------*/
 
+
 .headeritems1{
     background-color: black;
     display: flex;
@@ -29,6 +30,14 @@ img {
     display: flex;
     color: white;
     align-items: center;
+}
+
+.header__item-cart {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--white-colour);
+    text-decoration: none;
 }
 
 .headeritems1__form {

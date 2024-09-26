@@ -75,15 +75,15 @@ categoryFilterContainerElement.addEventListener('click', (e) => {
 })
 
 priceFilterContainerElement.addEventListener('click', (e) => {
-    if (e.target.classList.contains("filter-item")) {
-        productFilter = `products/price/lowest/${e.target.children[0].innerHTML}/highest/${e.target.lastChild.innerHTML}`
-        categoryHeading.innerHTML = 'all';
-        productNavigationContainerElement.innerHTML = `
+    const priceElement = e.target.closest('li');
+    productFilter = `products/price/lowest/${priceElement.children[0].innerHTML}/highest/${priceElement.lastChild.innerHTML}`;
+    categoryHeading.innerHTML = 'all';
+    productNavigationContainerElement.innerHTML = `
         <span class="products-path__link">home</span>
         <span> / </span>
-        <span class="products-path__filter">${e.target.innerHTML}</span>`
-        fetchProducts()
-    }
+        <span class="products-path__filter">${priceElement.innerHTML}</span>`
+    fetchProducts()
+
 })
 
 producerFilterContainerElement.addEventListener('click', (e) => {
@@ -98,7 +98,7 @@ producerFilterContainerElement.addEventListener('click', (e) => {
 
 productNavigationContainerElement.addEventListener('click', (e) => {
     if (e.target.innerHTML == 'home') {
-        productFilter = 'products/home'
+        productFilter = 'products/home';
         categoryHeading.innerHTML = 'all';
         productNavigationContainerElement.innerHTML = `
         <span class="products-path__link">home</span>`
@@ -119,14 +119,14 @@ async function fetchProducts(query = '') {
             <div class="product-info">
                 <a href="details.html?product=${product.product_name}" class="product__name">${product.product_name}</a>
                 <p class="product__price">£${product.price}</p>
-                <button class="product__button">add to cart</button>
+                <button onclick="addProduct(this)" class="product__button">add to cart</button>
             </div>`
 
         productsContainerElement.appendChild(productContainer);
         productContainer.classList.add('product');
     })
 
-    itemsElement.innerHTML = `${productData.length} Item(s)`
+    itemsElement.innerHTML = `${productData.length} Item(s)`;
 }
 
 searchInput.addEventListener('input', (e) => {
