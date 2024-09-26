@@ -20,7 +20,7 @@ img {
 header {
     font-family: 'Roboto', sans-serif;
 }
-
+/*Her kommer css koden til burgermenuen*/
 .topnav {
     height: 3em;
     justify-content: right;
@@ -48,7 +48,6 @@ header {
     border: none;
     border-radius: 5px;
 }
-
 .navbar {
     font-size: 13px;
     justify-content: center;
@@ -58,10 +57,52 @@ header {
     display: flex;
 }
 
-.navbar_list {
+.navbar_list li{
+    display: none;
+    
+
+}
+
+.burgermneuButton{
+    font-size: 2rem;
+    color: white;
+    justify-self: flex-start;
+    order: 10;
+}
+/*her erstylingen til  x knappen, altså den knap det lukker burgermenuen*/
+.burgermneuCloseButton{
+    display: none;
+}
+.burgermneuCloseButton--open{
+    display: block;
+    font-size: 4rem;
+    color: white;
+    position: fixed;
+    top: 5rem;
+    right: 3rem;
+   z-index: 101;
+}
+/*Dette er stylingen menuen i burger menuen*/
+.navbar_list--burger {
+    position: fixed;
+   margin: 0;
+    padding-top: 60rem;
+    background-color: black;
+    width: 100vw;
+    justify-items: center; 
+    z-index: 100;
+    font-size: 2rem;
+    text-align: center;
     list-style: none;
     display: flex;
-    gap: 2em;
+    padding-bottom: 10rem;
+    flex-direction: column;
+    gap: 5.5rem;
+}
+.navbar_list--burger li a{
+    display: flex;
+    display: block;
+    text-align: center;
 }
 
 .navbar a {
@@ -72,6 +113,9 @@ header {
 .navbar .navbar_active {
     color: #958153;
 }
+
+/*Her kommer koden til footeren */
+
 
 footer {
     list-style: none;
@@ -121,3 +165,37 @@ footer {
     padding: 0.5em;
     border: 1px solid white;
 }
+@media only screen and (min-width: 600px) {
+    
+    
+    .navbar {
+        font-size: 13px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 4em;
+        display: flex;
+    }
+    
+    .navbar_list {
+        list-style: none;
+        display: flex;
+        gap: 2em;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar .navbar_active {
+        color: #958153;
+    }
+    .burgermneuButton{
+        display: none; 
+    }
+    .navbar_list li{
+        display: block;
+    
+    }
+    }

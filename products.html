@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-    <link rel="stylesheet" href="styles/products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles/products.css">
     <script src="js-files/fetchProducts.js" type="module"></script>
     <script src="js-files/showWindOrList.js" type="module"></script>
+    <script defer src="burgermenu.js"></script>
 
 </head>
 
@@ -28,6 +30,8 @@
                         <input type="text" placeholder="Search entire store here..." name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
+                    <i class="fa-solid fa-bars burgermneuButton"></i>
+                    <i class="fa-solid fa-xmark burgermneuCloseButton"></i>
 
                     <p class="topnav_right_icon_text"><i class="fa-solid fa-user" style="color: #999999;"></i> ACCOUNT</p>
                     <a href="cart.html"><p class="topnav_right_icon_text"><i class="fa-solid fa-cart-shopping" style="color: #999999;"></i>CART</p></a>
