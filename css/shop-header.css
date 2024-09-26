@@ -5,13 +5,12 @@ img {
     display: block;
 }
 
-.wrapper{
-    max-width: 1458px;
+#wrapper{
     margin: 0 auto;
-    
 }
 
 /*-------------Icons style--------*/
+
 
 .headeritems1{
     background-color: black;

@@ -14,14 +14,14 @@ const productFlexElement = document.querySelector('#product-display__flex');
 const itemsElement = document.querySelector('#products-display__items-text');
 
 productGridElement.addEventListener('click', () => {
-    productsContainerElement.classList.replace('flex', 'grid')
+    productsContainerElement.classList.replace('flex', 'grid');
 })
 
 productFlexElement.addEventListener('click', () => {
-    productsContainerElement.classList.replace('grid', 'flex')
+    productsContainerElement.classList.replace('grid', 'flex');
 })
 
-itemsElement.innerHTML = `${productData.length} Item(s)`
+itemsElement.innerHTML = `${productData.length} Item(s)`;
 
 productData.forEach((product) => {
     const productContainer = document.createElement('article');
@@ -55,15 +55,15 @@ displayLists();
 
 viewAllProducersBtn.addEventListener('click', () => {
         producerContainerElement.innerHTML = uniqueProducers.map(producer => `<li class="products-producer__list-item">${producer}</li>`).join('');
-        viewAllProducersBtn.style.display="none"
-        productsProducersElement.appendChild(viewLessProducersBtn)
-        viewLessProducersBtn.innerHTML = 'View less'
-        viewLessProducersBtn.classList.add('products-producer__button')
-        viewLessProducersBtn.style.display="block"
+        viewAllProducersBtn.style.display="none";
+        productsProducersElement.appendChild(viewLessProducersBtn);
+        viewLessProducersBtn.innerHTML = 'View less';
+        viewLessProducersBtn.classList.add('products-producer__button');
+        viewLessProducersBtn.style.display="block";
 })
 
 viewLessProducersBtn.addEventListener('click', () => {
     displayLists()
-    viewAllProducersBtn.style.display="block"
-    viewLessProducersBtn.style.display="none"
+    viewAllProducersBtn.style.display="block";
+    viewLessProducersBtn.style.display="none";
 })

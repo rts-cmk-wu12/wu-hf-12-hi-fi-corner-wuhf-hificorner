@@ -75,8 +75,8 @@ categoryFilterContainerElement.addEventListener('click', (e) => {
 })
 
 priceFilterContainerElement.addEventListener('click', (e) => {
-    const priceElement = e.target.closest('li')
-    productFilter = `products/price/lowest/${priceElement.children[0].innerHTML}/highest/${priceElement.lastChild.innerHTML}`
+    const priceElement = e.target.closest('li');
+    productFilter = `products/price/lowest/${priceElement.children[0].innerHTML}/highest/${priceElement.lastChild.innerHTML}`;
     categoryHeading.innerHTML = 'all';
     productNavigationContainerElement.innerHTML = `
         <span class="products-path__link">home</span>
@@ -98,7 +98,7 @@ producerFilterContainerElement.addEventListener('click', (e) => {
 
 productNavigationContainerElement.addEventListener('click', (e) => {
     if (e.target.innerHTML == 'home') {
-        productFilter = 'products/home'
+        productFilter = 'products/home';
         categoryHeading.innerHTML = 'all';
         productNavigationContainerElement.innerHTML = `
         <span class="products-path__link">home</span>`
@@ -126,7 +126,7 @@ async function fetchProducts(query = '') {
         productContainer.classList.add('product');
     })
 
-    itemsElement.innerHTML = `${productData.length} Item(s)`
+    itemsElement.innerHTML = `${productData.length} Item(s)`;
 }
 
 searchInput.addEventListener('input', (e) => {
