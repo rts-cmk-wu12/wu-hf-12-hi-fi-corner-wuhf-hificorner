@@ -35,7 +35,7 @@ img {
 
  .header__item--last1{
     display: flex;
-    background-color: var(--button-blue-color);
+    background-color: var(--blue-colour);
     color: var(--white-colour);
     height: 1.7em;
     width: 7em;
@@ -43,10 +43,11 @@ img {
     margin-top: 0.6em;
     border-radius: 3%;
     align-items: center;
-    gap: 1em;
+    gap: 0.5em;
     
     
  }
+
 
 
 

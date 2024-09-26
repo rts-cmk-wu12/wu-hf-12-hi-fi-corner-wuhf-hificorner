@@ -12,29 +12,20 @@ img {
     display: block;
 }
 
+
+.wrapper{
+    max-width: 1200px; 
+}
+
 /*------------------speaker section---------------*/
 body.index, .speaker {
-   background-image: url(../images/logo/hifi-logo1.png);
-   background-repeat: no-repeat;  
+    background-image: url(../images/logo/hifi-logo1.png);
+   
+   background-repeat: no-repeat; 
    height: 100vh; 
    background-position-x: center;
-   display: block;
+   display: block; 
 }
-
-.frontpage__body {
-    background-image: url(../images/logo/Hi-Fi_slider1.jpg);
-    /*background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    position: relative;*/
-}
-
-
 
 
 .showroom{
