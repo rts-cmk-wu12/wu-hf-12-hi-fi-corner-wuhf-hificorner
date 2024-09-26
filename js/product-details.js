@@ -24,15 +24,15 @@ productData.forEach((product) => {
 
         productNavigationContainerElement.addEventListener('click', (e) => {
             if (e.target.innerHTML == 'home') {
-                location.assign('shoplist.html')
+                location.assign('shoplist.html');
             }
             else if (e.target.innerHTML == product.category) {
-                location.assign(`shoplist.html?category=${e.target.innerHTML}`)
+                location.assign(`shoplist.html?category=${e.target.innerHTML}`);
             }
         })
 
         productDisplayViewContainer.innerHTML = `
-        <img src="${product.image}" alt="product-img" class="product-display__img" id="product-display__img">`
+        <img src="${product.image}" alt="product-img" class="product-display__img" id="product-display__img">`;
 
         if (product.variant) {
             const productDisplayVariants = document.createElement('section');
@@ -50,7 +50,7 @@ productData.forEach((product) => {
                     </div>`
             
             product.variant.forEach((variant) => {
-                const variantImage = document.createElement('img')
+                const variantImage = document.createElement('img');
                 variantImage.src = variant.image;
                 variantImage.alt = variant.colour;
 
@@ -60,19 +60,19 @@ productData.forEach((product) => {
                 const variantOptions = document.createElement('div');
                 variantOptions.innerHTML = `
                 <input type="radio" name="option" value="${variant.colour}">
-                <p>${variant.colour}</p>`
+                <p>${variant.colour}</p>`;
                 productVariantsContainer.appendChild(variantOptions);
-                variantOptions.classList.add('product-information__variants-options')
+                variantOptions.classList.add('product-information__variants-options');
 
                 const productDisplayImage = document.querySelector('#product-display__img');
 
                 variantImage.addEventListener('click', () => {
-                    productDisplayImage.src = variantImage.src
+                    productDisplayImage.src = variantImage.src;
                 })
 
                 variantOptions.addEventListener('change', (e) => {
                     if (e.target.value == variantImage.alt) {
-                        productDisplayImage.src = variantImage.src
+                        productDisplayImage.src = variantImage.src;
                     }
                 })
                 
