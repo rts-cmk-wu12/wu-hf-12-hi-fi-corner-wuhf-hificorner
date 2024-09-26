@@ -12,15 +12,6 @@ img {
     display: block;
 }
 
-.wrapper{
-    max-width: 1200px; 
-}
-
-
-
-
-
-
 /*------------------speaker section---------------*/
 body.index, .speaker {
    background-image: url(../images/logo/hifi-logo1.png);
