@@ -142,7 +142,8 @@ background-color: #333;
 cursor: pointer;
 }
 
-.products {
+
+.shoplist-body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
@@ -213,7 +214,7 @@ cursor: pointer;
     padding: 20px;
     max-width: 60%;
 }
-.product {
+.product{
     background: white;
     border: 1px solid #ccc;
     border-radius: 5px;
