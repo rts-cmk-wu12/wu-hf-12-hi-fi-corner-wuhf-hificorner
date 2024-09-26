@@ -95,20 +95,23 @@
     }
     
 
-    
+      /* height 100vh så den ul fylder hele siden(samme med width) */
     nav ul {
         display: none;
 justify-items: center;
 width: 100vw;
 margin-bottom: 34em;
 
-
+height: 100vh;
 
     }
+
+    /* height 0 + og margin 10% så alle li passer ind i nav ul */
     nav ul li{
         grid-column: 1/-1;
-        margin-top: 1em;
-        margin-bottom: 5em;
+        height: 0;
+    
+
     }
 
 /* vi bruger ID her så vi ik ender op med at de to javascripts og classes går ind over hindanden */
@@ -133,5 +136,12 @@ margin-bottom: 34em;
     .main_bottom_container-white{
         padding: 0;
     }
+    .background{
+        height: 100%;
+        margin-bottom: 0;
+    }
+  .main_top img{
+    display: none;
+  }
 }
 
