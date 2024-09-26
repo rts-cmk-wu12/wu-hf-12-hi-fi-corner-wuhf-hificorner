@@ -41,8 +41,9 @@
     background-color: #a39161;
 }
 
-.shop_frontpage_container_shop_now button{
+.shop_frontpage_container_shop_now a{
     background-color: #685225;
+    text-decoration: none;
     border: none;
     padding: 0.75em;
     color: white;
