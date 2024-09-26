@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 1rem;
     row-gap: 4rem;
-    margin-top: 1rem;
+    margin-block: 1rem;
 }
 
 .products-cart-main .product {
