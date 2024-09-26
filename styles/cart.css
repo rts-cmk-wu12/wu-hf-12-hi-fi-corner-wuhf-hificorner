@@ -105,4 +105,18 @@ h2 {
     outline: none;
     border-color: #a49372;
 }
+.cartProduct{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.cartProduct img{
+    width: 300px;
+}
+.cartProduct input{
+    height: 40px;
+    align-self: center;
+}
 
