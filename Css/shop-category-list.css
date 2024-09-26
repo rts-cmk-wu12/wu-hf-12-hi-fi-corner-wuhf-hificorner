@@ -3,7 +3,7 @@
     display: flex;
     justify-content: start;
     margin-right:74.6rem;
-    width: 2rem;
+    width: 10rem;
 }
 .aside-price {
     display: flex;
@@ -46,6 +46,52 @@
     background-color: #e1e1e1;
     padding-inline: 2rem;
 }
+
+
+
+ 
+
+
+aside {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Optional margin for spacing */
+}
+
+aside h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #a89c7d;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 5px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+.view-all {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #a89c7d;
+}
+
+
 
 /* header */
 .shop-categories-header{
@@ -102,7 +148,7 @@ cursor: pointer;
     margin: 20px;
     background-color: #f4f4f4;
 }
-h1 {
+.list {
     text-align: center;
     color: #333;
 }
@@ -112,7 +158,7 @@ h1 {
     gap: 20px;
     padding: 20px;
 }
-.product{
+.product {
     background: white;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -134,6 +180,59 @@ h1 {
 }
 .price {
     font-weight: bold;
-    color: green;
+    color:var(--primary-color);
 }
+
+
+
+.filter {
+    text-align: center;
+    color: #333;
+}
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-width: 60%;
+}
+.filter-bar div {
+    display: flex;
+    align-items: center;
+
+}
+.filter-bar label {
+    margin-right: 5px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 60%;
+}
+.product{
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product p {
+    margin: 5px 0;
+}
+
 
