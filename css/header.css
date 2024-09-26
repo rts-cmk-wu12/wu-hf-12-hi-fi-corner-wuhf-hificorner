@@ -28,10 +28,8 @@ img {
     background-color: black;
 }
 
-.header_img {
-    width: 3em;
-}
 .header_img{
+    width: 3em;
     max-width: 2em;
     margin-bottom: 0.5em;
 }
@@ -40,6 +38,8 @@ img {
 
  .header__item--last1{
     display: flex;
+    background-color: var(--button-blue-color);
+    color: var(--white-colour);
     background-color: var(--button-blue-color);
     color: var(--white-colour);
     height: 1.7em;
@@ -58,6 +58,7 @@ img {
 /*------------------menu style----------*/
 
 .menu {
+    background-color: var(--black-colour);
     background-color: var(--black-colour);
     display: flex;
     justify-content: center;

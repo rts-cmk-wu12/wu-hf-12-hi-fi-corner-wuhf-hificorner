@@ -14,7 +14,13 @@ img {
 
 .wrapper{
     max-width: 1200px; 
+    max-width: 1200px; 
 }
+
+
+
+
+
 
 
 
@@ -26,6 +32,13 @@ body.index, .speaker {
     background-image: url(../images/logo/hifi-logo1.png);
    
    background-repeat: no-repeat;  
+}
+body.index, .speaker {
+   background-image: url(../images/logo/hifi-logo1.png);
+   background-repeat: no-repeat;  
+   height: 100vh; 
+   background-position-x: center;
+   display: block;
 }
 
 .frontpage__body {
@@ -44,6 +57,9 @@ body.index, .speaker {
     display: block;
 
 }
+
+
+
 
 
 
