@@ -1,5 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const chosenCategory = params.get('category');
+const chosenProducer = params.get('producer')
 
 const API_URL = 'http://localhost:3000/';
 let sort = 'price';
@@ -23,10 +24,15 @@ if (chosenCategory) {
     if (chosenCategory !== 'all') {
         productFilter = `products/category/${chosenCategory}`;
         productNavigationContainerElement.innerHTML = `
-        <span class="products-path__home">home</span>
+        <span class="products-path__link">home</span>
         <span> / </span>
         <span class="products-path__filter">${chosenCategory}</span>`
     }
+    fetchProducts()
+}
+
+if (chosenProducer) {
+    productFilter = `products/producer/${chosenProducer}`;
     fetchProducts()
 }
 
@@ -62,29 +68,29 @@ categoryFilterContainerElement.addEventListener('click', (e) => {
     productFilter = `products/category/${e.target.innerHTML}`
     categoryHeading.innerHTML = e.target.innerHTML;
     productNavigationContainerElement.innerHTML = `
-    <span class="products-path__home">home</span>
+    <span class="products-path__link">home</span>
     <span> / </span>
     <span class="products-path__filter">${e.target.innerHTML}</span>`
     fetchProducts()
 })
 
 priceFilterContainerElement.addEventListener('click', (e) => {
-    if (e.target.classList.contains("filter-item")) {
-        productFilter = `products/price/lowest/${e.target.children[0].innerHTML}/highest/${e.target.lastChild.innerHTML}`
-        categoryHeading.innerHTML = 'all';
-        productNavigationContainerElement.innerHTML = `
-        <span class="products-path__home">home</span>
+    const priceElement = e.target.closest('li')
+    productFilter = `products/price/lowest/${priceElement.children[0].innerHTML}/highest/${priceElement.lastChild.innerHTML}`
+    categoryHeading.innerHTML = 'all';
+    productNavigationContainerElement.innerHTML = `
+        <span class="products-path__link">home</span>
         <span> / </span>
-        <span class="products-path__filter">${e.target.innerHTML}</span>`
-        fetchProducts()
-    }
+        <span class="products-path__filter">${priceElement.innerHTML}</span>`
+    fetchProducts()
+
 })
 
 producerFilterContainerElement.addEventListener('click', (e) => {
     productFilter = `products/producer/${e.target.innerHTML}`
     categoryHeading.innerHTML = 'all';
     productNavigationContainerElement.innerHTML = `
-    <span class="products-path__home">home</span>
+    <span class="products-path__link">home</span>
     <span> / </span>
     <span class="products-path__filter">${e.target.innerHTML}</span>`
     fetchProducts()
@@ -95,7 +101,7 @@ productNavigationContainerElement.addEventListener('click', (e) => {
         productFilter = 'products/home'
         categoryHeading.innerHTML = 'all';
         productNavigationContainerElement.innerHTML = `
-        <span class="products-path__home">home</span>`
+        <span class="products-path__link">home</span>`
         fetchProducts()
     }
 })
@@ -111,9 +117,9 @@ async function fetchProducts(query = '') {
         productContainer.innerHTML = `
         <img src="${product.image}" alt="${product.category}" class="product__image">
             <div class="product-info">
-                <p class="product__name">${product.product_name}</p>
+                <a href="details.html?product=${product.product_name}" class="product__name">${product.product_name}</a>
                 <p class="product__price">£${product.price}</p>
-                <button class="product__button">add to cart</button>
+                <button onclick="addProduct(this)" class="product__button">add to cart</button>
             </div>`
 
         productsContainerElement.appendChild(productContainer);

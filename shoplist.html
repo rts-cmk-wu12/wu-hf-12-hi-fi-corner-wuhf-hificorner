@@ -7,8 +7,8 @@
     <title>Shop</title>
     <script type="module" src="js/fetch-products.js"></script>
     <script type="module" src="js/sort-products.js"></script>
+    <script src="js/add-to-cart.js" defer></script>
     <script defer src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
-    <script src="js/fetch-products.js" type="module"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -22,23 +22,23 @@
                         placeholder="Search entire store here...." id="product-search-input"><i
                         class="fas fa-search"></i></form>
                 <ul class="headeritems1__list">
-                    <li class="header__item2 header__item2--last2"><img class="header_img"
-                            src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
 
-                    <li class="header__item2 header__item2--last2"><img class="header_img"
-                            src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</li>
+                <li class="header__item2 header__item2--last2"><img class="header_img"
+                        src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
 
+                <li class="header__item2 header__item2--last2"><a href="cart.html" class="header__item-cart"><img class="header_img"
+                    src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</a></li>
 
-                    <li class="header__item2 header__item2--last"><img class="header_img"
-                            src="Icons/location-pin-svgrepo-com.svg" alt="loction">
-                    </li>
-                    <li class="header__item2 header__item2--last"><img class="header_img"
-                            src="Icons/telephone-svgrepo-com.svg" alt="telephone">
-                    </li>
-                    <li class="header__item2 header__item2--last"><img class="header_img"
-                            src="Icons/envelope-svgrepo-com.svg" alt="envelope">
-                    </li>
-                </ul>
+                <li class="header__item2 header__item2--last"><img class="header_img"
+                        src="Icons/location-pin-svgrepo-com.svg" alt="loction">
+                </li>
+                <li class="header__item2 header__item2--last"><img class="header_img"
+                        src="Icons/telephone-svgrepo-com.svg" alt="telephone">
+                </li>
+                <li class="header__item2 header__item2--last"><img class="header_img"
+                        src="Icons/envelope-svgrepo-com.svg" alt="envelope">
+                </li>
+            </ul>
             </div>
             <hr class="header_line">
 
@@ -49,7 +49,7 @@
                     <li class="menu__item"><a class="menu__link" href="brands.html">BRANDS</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#" aria-current="page">SHOP</a></li>
+                    <li class="menu__item"><a class="menu__link" href="shop-frontpage.html" aria-current="page">SHOP</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">CONTACT US</a></li>
 
                 </ul>
@@ -58,7 +58,7 @@
     </div>
 
     <nav class="products-path" id="products-path">
-        <span class="products-path__home">home</span>
+        <span class="products-path__link">home</span>
     </nav>
     <div class="products-wrapper">
         <aside class="products-filter">
