@@ -19,13 +19,12 @@ img {
 
 
 .headeritems{
-    background-color: rgba(211, 211, 211, 0.189);
     color: var(--white-colour);
     display: flex;
     justify-content: flex-end;
     gap: 30px;
     list-style: none;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header_img {
