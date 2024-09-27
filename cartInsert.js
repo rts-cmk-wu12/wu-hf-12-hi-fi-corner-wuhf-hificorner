@@ -32,6 +32,11 @@ myArray.forEach( element => {
     const image = document.createElement("img")
     image.setAttribute("src", "images/" + opdelt[2])
     parentDiv.appendChild(image)
+    //her indsætter vi slet knappe
+    const delbutton = document.createElement("button")
+    delbutton.textContent   ="Slet produktet"
+    delbutton.addEventListener("click", delItem)
+    parentDiv.appendChild(delbutton)
     cart_items.appendChild(parentDiv)
 
 } )
@@ -54,4 +59,24 @@ function changeValue(){
     localStorage.setItem("cart", myArray)
     console.log(myArray)
     
+}
+//her kommer function der sletter hvert item fra vognene
+
+function delItem(){
+    //her laver vi en variabel, hvor vi tager fat i navnet på produktet, så vi har et kendetegn
+    let productName = this.parentElement.querySelector("h2").textContent
+    console.log(productName)
+    //her tjekker vi hver element i localstorage igennem
+    //vi bruger bare my array fra tidligere fordi, det har vi fat i alle items
+    myArray.forEach(element => {
+        //her bruger vi den samme split metode 
+        const elementIntoArray = element.split(":")
+        if(elementIntoArray[0] == productName){
+           const indexDelete =  myArray.indexOf(element)
+           myArray.splice(indexDelete, 1)
+        }
+console.log(myArray)
+localStorage.setItem("cart", myArray)
+location.reload()
+    })
 }
