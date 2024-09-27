@@ -1,4 +1,5 @@
 //først tager jeg fat i diven ehvor produkterne skal være i
+const checkout_btn = document.querySelector(".checkout_btn")
 const totalAmount = document.querySelector("#total-amount")
 const subtotalAmount = document.querySelector("#subtotal-amount")
 const buyedproducts = ["varer:1:Produktbilleder/cd-afspillere/creek_Destiny_CD.jpg:12", "højtaler:2:Produktbilleder/cd-afspillere/creek_Destiny_CD.jpg:2"]
@@ -98,3 +99,9 @@ location.reload()
 }
 subtotalAmount.textContent = priceOfALL + ".kr";
 totalAmount.textContent = priceOfALL + ".kr";
+
+
+//hernede laver jeg functionen der sender en til checkout siden
+checkout_btn.addEventListener("click", function(){
+    window.open("checkout.html", "_self")
+})
