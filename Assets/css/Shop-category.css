@@ -14,7 +14,8 @@ body {
     color: #fff; /* White text */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center main content horizontally */
+    justify-content: flex-start; /* Align main content to the top */
 }
 
 /* Header Styling */
@@ -67,7 +68,7 @@ header {
 
 /* Indicator Line */
 .indicator-line {
-    border-top: 1px solid rgba(128, 128, 128, 0.188);
+    border-top: 1px solid rgba(128, 128, 128, 0.354);
     margin-top: 1rem;
 }
 
@@ -96,6 +97,56 @@ header {
 
 #top-nav a.active {
     color: #99905f;
+}
+
+.aside-overskrift {
+    padding-inline: 1.5rem;
+    color: black;
+    padding-block: 2rem;
+}
+
+.aside-price {
+    color: #000;
+}
+
+/* ========= side boxes =========== */
+ 
+.a-list {
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+    color: #b69e71;
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+ 
+.left-box-1 {
+    width: 22rem;
+    text-decoration: none;
+    display: block;
+    color: #b69e71;
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+ 
+.left-box-2 {
+    margin-top: 2rem;
+    width: 22rem;
+    text-decoration: none;
+    display: block;
+    color: #b69e71;
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+
+/* Main Content Styling */
+.main-content {
+    background-color: #fff; 
+    color: #000; 
+    width: 80%;
+    max-width: 1200px; 
+    padding: 2rem; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 /* Footer Styling */
@@ -153,3 +204,35 @@ header {
     font-size: 2rem;
     color: #fff;
 }
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+}
+
+.a-home-color {
+    color: #b69e71;
+}
+.a-home-color2 {
+    color: black;
+}
+
+
+
+
