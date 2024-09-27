@@ -34,13 +34,15 @@ function updateItemCount(count) {
     document.getElementById('itemCount').innerText = `${count} Item(s)`;
 }
 const sort = document.querySelector('#sort')
-console.log(sort)
 sort.addEventListener('change', (event) => {
+
+    console.log(products);
+    
     const sortBy = event.target.value;
     if (sortBy === 'asc') {
-        products.sort((a, b) => a.price - b.price);
+        products.sort((a, b) => a.Price - b.Price);
     } else if (sortBy === 'desc') {
-        products.sort((a, b) => b.price - a.price);
+        products.sort((a, b) => b.Price - a.Price);
     }
     displayProducts(products);
 });
