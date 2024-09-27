@@ -1,3 +1,6 @@
+@import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
+@import url(/assets/css/nav-footer.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -9,13 +12,14 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000; /* Black background for the entire page */
-    color: #fff; /* White text */
+    font-family: 'Museo Sans Rounded 300';
+    background-color: #000; 
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 /*========= Top Navigation ============*/
 #top-nav {
@@ -77,8 +81,8 @@ body {
 
 header {
     width: 100%;
-    padding: 1rem;
 }
+
 
 /*======== Grid Container ==========*/
 .grid-container {
@@ -90,7 +94,7 @@ header {
 /* Grid Items */
 .grid-item {
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .grid-item a {
@@ -103,7 +107,7 @@ header {
     width: 100%;
     height: auto;
     display: block;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .grid-item figcaption {
@@ -112,20 +116,26 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 1.4rem; /* Adjust font size */
-    text-align: center; /* Center align text */
-    text-transform: uppercase; /* Uppercase text */
-    text-decoration: underline; /* Add underline to text */
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration: underline;
 }
 
 /* Button */
+.shop-now {
 button.shop-now {
     width: 70%;
     color: #fff;
     border: none;
-    margin-top: 8rem;
-    padding: 15px 0; /* Adjust padding to match the image height */
+    padding: 15px 15px;
     cursor: pointer;
+
+    background-color: #685324;
+    font-size: 1.6rem; 
+    text-transform: uppercase;
+    font-family: 'Museo Sans Rounded 500';
+
     background-color: #5c5237; 
     font-size: 1.6rem; 
     text-transform: uppercase;
@@ -167,8 +177,11 @@ button.shop-now {
 
 .footer-links {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+
 
 .footer-links a {
     color: #fff; /* Link color */

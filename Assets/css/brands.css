@@ -1,3 +1,6 @@
+@import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
+@import url(/assets/css/nav-footer.css);
+
 :root{
     --primary-yellow : #b69a6a;
 }
@@ -20,66 +23,9 @@ body {
 
 /* ---------------------------------------------------nav-------------------------------------------------- */
 
-#top-nav {
-    display: flex;
-    list-style: none;
-    padding: 1rem;
-    gap: 2rem;
+#top-navigation {
     background-color: black;
-    align-items: center;
-    justify-content: flex-end;
 }
-
-#top-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.2s;
-}
-
-#top-nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2rem;
-    color: white;
-    font-size: 1.6em;
-}
-
-#top-nav a,
-.nav-link {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1rem;
-    transition: all 0.2s;
-}
-
-.nav-link:hover {
-    color: #b69a6a;
-}
-
-#bot-nav {
-    background-color: rgba(0, 0, 0, 1);
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem;
-    border-top: 1px solid #413b26;
-}
-
-#bot-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem;
-    gap: 2rem;
-}
-
-.active{
-    color: var(--primary-yellow);
-}
-
 
 h2{
     color: white;

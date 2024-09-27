@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Hi-Fi Corner offers the best audio equipment in Edinburgh and beyond."
+    />
+
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="Hi-Fi Corner" />
+    <meta
+      property="og:description"
+      content="Discover the latest audio equipment."
+    />
+    <meta property="og:image" content="assets/img/hifi-frontpage.png" />
+
+    <!-- Title -->
+    <title>Hi-Fi Corner</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/brand/hifilogo.png" />
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -13,114 +32,207 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- JavaScript files -->
+    <script src="assets/js/gallery.js" defer></script>
+    <script src="assets/js/bruger.js" defer></script>
   </head>
+
   <body>
     <section id="hero">
       <header>
-        <nav>
-          <div id="top-nav">
-            <div id="top-nav-links">
-              <i class="fa-solid fa-location-dot"></i>
-              <i class="fa-solid fa-phone"></i>
-              <i class="fa-solid fa-envelope"></i>
+        <div class="navigation-container">
+          <nav>
+            <div id="top-navigation">
+              <div id="top-navigation-wrapper">
+                <ul id="contact-icons">
+                  <li><i class="fa-solid fa-location-dot"></i></li>
+                  <li><i class="fa-solid fa-phone"></i></li>
+                  <li><i class="fa-solid fa-envelope"></i></li>
+                </ul>
+                <a class="newsletter-btn" href="#">
+                  <i class="fa-solid fa-envelope"></i> <span>❙</span> Subscribe
+                </a>
+              </div>
+              <input type="checkbox" id="toggle-nav" />
+              <label for="toggle-nav">
+                <i id="toggle-nav-btn-open" class="fas fa-bars"></i>
+                <i id="toggle-nav-btn-close" class="fas fa-times"></i>
+              </label>
             </div>
-            <a class="newsletter-button" href="#">
-              <i class="fa-solid fa-envelope"></i> <span>|</span>Subscribe</a
-            >
-          </div>
-          <div id="bot-nav">
-            <ul>
-              <li><a class="nav-link" href="/home.html">Home</a></li>
-              <li><a class="nav-link" href="#About-us">About us</a></li>
-              <li><a class="nav-link" href="brands.html">Brands</a></li>
-              <li><a class="nav-link" href="#Blog">Blogs</a></li>
-              <li><a class="nav-link" href="#Events">Events</a></li>
-              <li><a class="nav-link" href="shop.html">Shop</a></li>
-              <li><a class="nav-link" href="#Contact-us">Contat us</a></li>
-            </ul>
-          </div>
-        </nav>
+            <div id="bottom-navigation">
+              <ul>
+                <li>
+                  <a class="nav-link selected-page" href="/home.html">Home</a>
+                </li>
+                <li><a class="nav-link" href="#about-us">About us</a></li>
+                <li><a class="nav-link" href="brands.html">Brands</a></li>
+                <li><a class="nav-link" href="#blog">Blogs</a></li>
+                <li><a class="nav-link" href="#events">Events</a></li>
+                <li><a class="nav-link" href="shop.html">Shop</a></li>
+                <li><a class="nav-link" href="#contact-us">Contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </header>
+      <img src="assets/img/brand/hifilogo.png" alt="" />
+    </section>
 
-      <section id="announcement">
+    <main>
+      <!-- Announcement Section -->
+      <section id="announcement-section">
         <h1>
-          Our Edinburgh showroom has now moved to stunning new premises on joppa
-          road
+          Our Edinburgh showroom has now moved to stunning new premises on Joppa
+          Road
         </h1>
       </section>
-      <section id="gallery"></section>
 
-      <section id="media-section"></section>
+      <!-- Gallery Section -->
+      <section id="gallery-section">
+        <div class="gallery-slider">
+          <div class="gallery-list">
+            <div class="gallery-item">
+              <img src="assets/img/gallery/g1.png" alt="Gallery Image 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/gallery/g2.png" alt="Gallery Image 2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/gallery/g3.png" alt="Gallery Image 3" />
+            </div>
+          </div>
 
+          <div class="gallery-buttons">
+            <button class="prev-slide" aria-label="Previous Slide">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="next-slide" aria-label="Next Slide">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Media Section -->
       <section id="media-section">
         <div class="media-wrapper">
-          <a href="facebook.com">
+          <a
+            class="media-icon"
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
             <i class="fa-brands fa-square-facebook"></i>
           </a>
-          <a href="blogger.com">
+          <a
+            class="media-icon"
+            href="https://blogger.com"
+            rel="noopener noreferrer"
+            aria-label="Blogger"
+          >
             <i class="fa-brands fa-blogger"></i>
           </a>
-          <a href="twitter.com">
+          <a
+            class="media-icon"
+            href="https://x.com/hifiklubben?lang=en"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
+          >
             <i class="fa-brands fa-square-twitter"></i>
           </a>
         </div>
       </section>
 
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-address">
-            <pre>
-Hi-Fi Corner
-Edinburgh 2 Joppa Road EH15 2EU
-Falkirk 44 Cow Wynd FK1 1PU</pre
+      <!-- Promotions Section -->
+      <section id="promo-section">
+        <div class="promo-wrapper">
+          <div class="promo-card">
+            <a class="promo-btn" href="#">History</a>
+            <p class="promo-info">
+              Established in the late 1960s, our family-owned business is based
+              in Edinburgh and Falkirk, servicing customers across the UK.
+            </p>
+          </div>
+          <div class="promo-card">
+            <a class="promo-btn" href="#">News</a>
+            <p class="promo-info">
+              Check out our latest news stories for all the up-to-date Hi-Fi
+              Corner products and launches.
+            </p>
+          </div>
+          <div class="promo-card">
+            <a class="promo-btn" href="#">Shop</a>
+            <p class="promo-info">
+              Have a look in our online shop for great products and deals.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-address">
+          <p>
+            Hi-Fi Corner <br />
+            Edinburgh 2 Joppa Road EH15 2EU <br />
+            Falkirk 44 Cow Wynd FK1 1PU
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Returns & Refunds</a>
+          <span>|</span>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-payment">
+          <i class="fab fa-cc-visa" aria-hidden="true"></i>
+          <i class="fab fa-cc-mastercard" aria-hidden="true"></i>
+          <i class="fab fa-cc-paypal" aria-hidden="true"></i>
+          <i class="fas fa-credit-card" aria-hidden="true"></i>
+        </div>
+        <ul class="social-media-icons">
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Facebook"
             >
-
-      <footer>
-
-        <footer class="footer">
-          <div class="footer-content">
-              <div class="footer-address">
-                  <p>Hi-Fi Corner</p>
-                  <p>Edinburgh 2 Joppa Road EH15 2EU</p>
-                  <p>Falkirk 44 Cow Wynd FK1 1PU</p>
-              </div>
-              <div class="footer-links">
-                  <a href="#">Returns & Refunds</a>
-                  <span>|</span>
-                  <a href="#">Privacy Policy</a>
-              </div>
-
-          </div>
-          <div class="footer-links">
-            <a href="#">Returns & Refunds</a>
-            <span>|</span>
-            <a href="#">Privacy Policy</a>
-          </div>
-        </div>
-        <div class="footer-info">
-          <div class="footer-payment">
-            <i class="fab fa-cc-visa" aria-hidden="true"></i>
-            <i class="fab fa-cc-mastercard" aria-hidden="true"></i>
-            <i class="fab fa-cc-paypal" aria-hidden="true"></i>
-            <i class="fas fa-credit-card" aria-hidden="true"></i>
-          </div>
-
-          <ul class="social-media-icons">
-            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-            <i class="fab fa-youtube" aria-hidden="true"></i>
-            <i class="fab fa-twitter" aria-hidden="true"></i>
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-          </ul>
-        </div>
-
-        
-        <!-- Make sure to include Font Awesome in your HTML -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        
-
-        
-      </footer>
-
-    </section>
+              <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              aria-label="YouTube"
+            >
+              <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
