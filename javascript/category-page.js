@@ -111,5 +111,15 @@ document.querySelectorAll('.category-page__left__li-shop_by-price').forEach(func
 });
 
 
+document.querySelector('.row_icon-white').addEventListener('click', function() {
+            document.getElementById('product-list').classList.remove('product-list');
+        });
+
+        document.querySelector('.grid_icon-gold').addEventListener('click', function() {
+            document.getElementById('product-list').classList.add('product-list');
+        });
+
+ 
+
 
 
