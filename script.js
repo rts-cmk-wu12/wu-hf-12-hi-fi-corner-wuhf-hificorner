@@ -1,39 +1,26 @@
-// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    // Fetch the JSON data from the local file
+    fetch('db.json')
+        .then(response => response.json())
+        .then(data => {
+            displayProducts(data.products);
+        })
+        .catch(error => console.error('Error fetching the data:', error));
+});
 
-// Function to fetch product data from the API
-async function fetchProducts() {
-    try {
-        const response = await fetch('http://localhost:3000/products');
-        
-        // Check if the response is ok (status code 200-299)
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-
-        const products = await response.json(); // Parse the JSON data
-        displayProducts(products); // Call function to display products
-    } catch (error) {
-        console.error('There was a problem with the fetch operation:', error);
-    }
-}
-
-// Function to display products on the page
 function displayProducts(products) {
-    const productDisplay = document.getElementById('product-display');
+    const container = document.getElementById('products-container');
 
     products.forEach(product => {
         const productCard = document.createElement('div');
         productCard.classList.add('product-card');
+
         productCard.innerHTML = `
             <img src="${product.img}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>Category: ${product.category}</p>
-            <p>Price: ${product.Price}</p>
-            <button>Add to Cart</button>
+            <h2>${product.name}</h2>
+            <p><strong>Price:</strong> ${product.Price}</p>
         `;
-        productDisplay.appendChild(productCard);
+
+        container.appendChild(productCard);
     });
 }
-
-// Call the fetchProducts function when the window loads
-window.onload = fetchProducts;
