@@ -1,11 +1,15 @@
-.grid-container-brands {
-    display: flex;
-    justify-content: space-evenly;
-}
 
+
+/*Her har jeg body et background image*/
 .brands-body {
     background-image: url(/images/brandsbg.jpg);
     background-repeat: no-repeat;
+}
+
+/*Her koder jeg TOP BRANDS headeren og hifi logoet*/
+.grid-container-brands {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .top-brands-header {
@@ -42,6 +46,8 @@
     text-align: center;
     margin-top: 3.5em;
 }
+
+/*Her koder jeg brands delen af siden*/
 
 .brands-sub-text {
     color: var(--white-colour);
