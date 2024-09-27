@@ -20,12 +20,71 @@ body {
     align-items: center;
 }
 
-/* Header */
+
+/*========= Top Navigation ============*/
+#top-nav {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+#top-nav a.active {
+    color: #99905f;
+}
+
+.idigator-line {
+    border: solid 1px rgba(128, 128, 128, 0.308);
+    margin-top: 10px;
+}
+
+#top-nav-links {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-size: 1.6em;
+    top: end;
+}
+
+#top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+
+#top-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem; /* Adjust font size */
+}
+
 header {
     width: 100%;
 }
 
-/* Main Section (Grid Container for Shop Items) */
+
+/*======== Grid Container ==========*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -65,19 +124,86 @@ header {
 
 /* Button */
 .shop-now {
+button.shop-now {
+    width: 70%;
     color: #fff;
     border: none;
     padding: 15px 15px;
     cursor: pointer;
+
     background-color: #685324;
     font-size: 1.6rem; 
     text-transform: uppercase;
     font-family: 'Museo Sans Rounded 500';
+
+    background-color: #5c5237; 
+    font-size: 1.6rem; 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Ensure the button height matches the image height */
+    padding-inline: 2rem;
+    position: absolute;
+    left: 32px;
 }
 
 .button-item {
     background-color: #a39161;
+    position: relative;
+}
+
+/*============= Footer ===============*/
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #b69a6a; /* Footer background color */
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.footer-links {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.footer-links a {
+    color: #fff; /* Link color */
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+/*============= Social Media Icons ==============*/
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icons i {
+    font-size: 2rem; /* Adjust icon size */
+    color: #fff; /* Icon color */
 }

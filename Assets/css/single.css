@@ -1,0 +1,477 @@
+:root{
+    --primary-yellow : #b69a6a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+
+
+/* ---------------------------------------------------nav-------------------------------------------------- */
+
+
+/* Header Styling */
+header {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #000;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust logo size if needed */
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.search-bar input {
+    width: 370px; /* Adjust the width as needed */
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.icon-links i {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* Indicator Line */
+.indicator-line {
+    border-top: 1px solid rgba(128, 128, 128, 0.188);
+    margin-top: 1rem;
+}
+
+/* Top Navigation */
+#top-nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+#top-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    transition: color 0.2s;
+}
+
+#top-nav a.active {
+    color: #99905f;
+}
+
+.active{
+    color: var(--primary-yellow);
+}
+
+
+.top-logobox{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.fa{
+    color: white;
+}
+
+/* ----------------------------------------------main---------------------------------------------- */
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+.sale{
+    width: 100%;
+    /* margin-left: 110px; */
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+/* --------------------------------------------left---------------------------------------------------  */
+
+.product-pics{
+    width: 50%;
+}
+
+.product-details{
+    width: 50%;
+}
+
+.main-image{
+    width: 95%;
+    border: 1px solid rgb(180, 180, 180);
+    margin-left: 10px;
+}
+
+.type1, .type2{
+    width: 7rem;
+    height: 5rem;
+    margin-left: 10px;
+}
+
+.more-views-pics{
+     display: flex;
+}
+
+.more-views-text{
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--primary-yellow);
+    margin: 10px;
+    
+}
+
+h3{
+    margin-left: 10px ;
+    color: var(--primary-yellow);
+    font-size: 18px;
+}
+
+.descripton-table{
+    margin-top: 23%;
+}
+
+.actual-table{
+    margin-left: 10px;
+    font-size: 9px;
+   
+}
+
+.th2{
+     text-align: left; 
+     
+}
+
+
+.td2{
+    text-align: right;
+}
+
+
+
+
+/* --------------------------------call------------------------------- */
+
+.before-footer{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h4{
+    color: var(--primary-yellow);
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* ----------------------------------------------------------------------right---------------------------------------------------------------- */
+
+.finish-required-container{
+    margin-top: 20px;
+    border: 1px solid grey;
+    width: 95%;
+    height: 25rem;
+}
+
+.product-details-text{
+
+}
+
+.top-text{
+    font-size: 20px; 
+    color: var(--primary-yellow);
+    margin-bottom: 20px;
+}
+
+.see{
+    font-size: 14px; 
+    color: var(--primary-yellow);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.description{
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.product-buttons{
+    background-color: var(--primary-yellow);
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* ---------------------------------------------------------color-------------------------------------------------------- */
+.required{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: var(--primary-yellow);
+    font-size: 11px;
+}
+
+.red{
+    color: red;
+}
+
+
+.black, .silver{
+  width: 20rem;
+  background-color: rgb(204, 204, 204);
+  margin: 10px;
+  padding: 5px;
+  font-size: 13px;
+
+}
+
+/* --------------------------------------------------------------quantity------------------------------------------------------ */
+
+.quantity{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.quantity-top{
+    display: flex;
+    margin: 10px;
+}
+
+.quantity-bottom{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.quantity-text{ 
+    color: var(--primary-yellow);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.quantity-number{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.add-to-cart{
+    margin-top: -5px;
+    background-color: var(--primary-yellow);
+    border: none;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.or{
+    color: var(--primary-yellow);
+    font-size: 13px;
+    margin-left: 11rem;
+}
+
+.check-out{
+  width: 10rem;
+  background-color: rgb(240, 199, 18);
+  border: none;
+  padding: 4px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.small-text{
+    font-size: 10px;
+    margin-left: 55px;
+}
+
+
+/* -----------------------------------------------------------------additional---------------------------------------------------------- */
+
+
+.additional-information{
+    font-size: 18px;
+    color: var(--primary-yellow);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.additional {
+    width: 95%;
+    margin: 50px a;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+  }
+  
+
+  .th {
+    background-color: rgb(201, 201, 201);
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 30%; 
+    border: 1px solid grey;
+    font-size: 12px;
+  }
+  
+
+  .td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid grey;
+    color: #333;
+  }
+
+  
+ 
+
+/*------------------------------------------------ footer -----------------------------------------------*/
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    background-color: #b69a6a;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links a {
+    color: #fff; /* Link color */
+    font-weight: bold;
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center; /* Center payment logos */
+    justify-content: center; /* Center all icons */
+    gap: 15px; /* Space between payment icons */
+}
+
+.footer-payment img {
+    margin-left: 10px; /* Space between payment logos */
+    height: 30px; /* Set a uniform height for logos */
+}
+
+.footer-payment i {
+    font-size: 25px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.social-media-icons i {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f7f7f7;
+}
