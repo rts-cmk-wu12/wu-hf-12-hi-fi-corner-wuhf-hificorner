@@ -51,19 +51,24 @@ body.index, .speaker {
 
 .slider{
  height: 400px;
-  position: relative;
+ position: relative;
   margin: auto;
   background-color:white ;
   display: flex;
   justify-content: center;
   align-items: center;
+  
  
+}
+.product_name{
+    color: var(--gold-colour);
+      
 }
 
 
 
 .slides {
-    width: 400px;
+    width: 300px;
 
 }
 
