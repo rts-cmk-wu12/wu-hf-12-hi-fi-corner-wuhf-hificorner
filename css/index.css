@@ -49,8 +49,12 @@ body.index,
   align-items: center;
 }
 
+.product_name{
+    color: var(--gold-colour);
+}
+
 .slides {
-  width: 400px;
+    width: 300px;
 }
 
 .prev,
