@@ -22,7 +22,7 @@ function displayProducts(products) {
         productDiv.className = 'product';
         productDiv.innerHTML = `
             <a href="product-details.html?product-id=${product.id}"> <img src="${product.img}" alt="${product.name}"></a>  
-            <h2>${product.name}</h2>
+             <a class="product-links" href="product-details.html?product-id=${product.id}"><h2>${product.name}</h2></a>
             <p class="price">${product.Price}</p>
             <button class="shopnow-button">Add to cart</button>
         `;

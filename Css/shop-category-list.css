@@ -182,6 +182,13 @@ cursor: pointer;
     font-weight: bold;
     color:var(--primary-color);
 }
+.product-links{
+    text-decoration: none;
+    color: black;
+}
+.product-links:hover{
+    color: var(--primary-color);
+}
 
 
 

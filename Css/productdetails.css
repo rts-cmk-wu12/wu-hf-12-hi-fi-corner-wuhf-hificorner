@@ -19,6 +19,7 @@
 }
 
 .product-details-left{
+    margin-top: 5px;
     margin-left: 18px;
 }
 .details-productbox{
@@ -40,7 +41,7 @@
     color: var(--primary-color);
     font-weight: 500;
     font-size: 23px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -115,14 +116,7 @@ margin-bottom: 10px;
     padding-inline: 12px;
 }
 .details-button:hover{
-    margin-right: 2px;
-    height: 25px;
-    border: none;
     background-color: #333;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 10px;
-    padding-inline: 5px;
 }
 
 /*-----quantity container------*/
@@ -175,7 +169,7 @@ margin-right: 20px;
     font-weight: 500;
 }
 .table-field-right{
-    width: 76%;
+    width: 70%;
     padding: 10px;
 }
 .table-advancedfield-right{
