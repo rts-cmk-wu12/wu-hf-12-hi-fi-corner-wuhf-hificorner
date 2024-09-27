@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name": "Yamaha R-N803 Network HiFi Receiver",
-            "img": "/produktbilleder/receivers/yamaha-r-n803.jpg",
+            "img": "/Assets/img/Produktbilleder/receivers/yamaha-r-n803.jpg",
             "brandname": "Yamaha",
             "category": "Receivers",
             "sub-category": "Network HiFi",
@@ -13,7 +13,7 @@
         {
             "id": "2",
             "name": "Rotel A10 Stereo Amplifier",
-            "img": "/produktbilleder/amplifiers/rotel-a10.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/rotel-a10.jpg",
             "brandname": "Rotel",
             "category": "Amplifiers",
             "sub-category": "Stereo Amplifiers",
@@ -23,7 +23,7 @@
         {
             "id": "3",
             "name": "Marantz PM6006 UK Edition Integrated Amplifier",
-            "img": "/produktbilleder/amplifiers/marantz-pm6006.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/marantz-pm6006.jpg",
             "brandname": "Marantz",
             "category": "Amplifiers",
             "sub-category": "Integrated Amplifiers",
@@ -33,7 +33,7 @@
         {
             "id": "4",
             "name": "Yamaha A-S701 Stereo Amplifier",
-            "img": "/produktbilleder/amplifiers/yamaha-a-s701.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/yamaha-a-s701.jpg",
             "brandname": "Yamaha",
             "category": "Amplifiers",
             "sub-category": "Stereo Amplifiers",
@@ -43,7 +43,7 @@
         {
             "id": "5",
             "name": "Audiolab 6000A Stereo Integrated Amplifier",
-            "img": "/produktbilleder/amplifiers/audiolab-6000a.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/audiolab-6000a.jpg",
             "brandname": "Audiolab",
             "category": "Amplifiers",
             "sub-category": "Integrated Amplifiers",
@@ -53,7 +53,7 @@
         {
             "id": "6",
             "name": "Quad Vena Mini HiFi System",
-            "img": "/produktbilleder/systems/quad-vena.jpg",
+            "img": "/Assets/img/Produktbilleder/systems/quad-vena.jpg",
             "brandname": "Quad",
             "category": "Systems",
             "sub-category": "Mini HiFi Systems",
@@ -63,7 +63,7 @@
         {
             "id": "7",
             "name": "Marantz MM7025 Power Amplifier",
-            "img": "/produktbilleder/amplifiers/marantz-mm7025.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/marantz-mm7025.jpg",
             "brandname": "Marantz",
             "category": "Amplifiers",
             "sub-category": "Power Amplifiers",
@@ -73,7 +73,7 @@
         {
             "id": "8",
             "name": "Arcam HDA SA30 Integrated Amplifier",
-            "img": "/produktbilleder/amplifiers/arcam-sa30.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/arcam-sa30.jpg",
             "brandname": "Arcam",
             "category": "Amplifiers",
             "sub-category": "Integrated Amplifiers",
@@ -83,7 +83,7 @@
         {
             "id": "9",
             "name": "Rotel A12 Stereo Amplifier",
-            "img": "/produktbilleder/amplifiers/rotel-a12.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/rotel-a12.jpg",
             "brandname": "Rotel",
             "category": "Amplifiers",
             "sub-category": "Stereo Amplifiers",
@@ -93,7 +93,7 @@
         {
             "id": "10",
             "name": "Naim NAP 100 Power Amplifier",
-            "img": "/produktbilleder/amplifiers/naim-nap100.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/naim-nap100.jpg",
             "brandname": "Naim",
             "category": "Amplifiers",
             "sub-category": "Power Amplifiers",
@@ -103,7 +103,7 @@
         {
             "id": "11",
             "name": "Meridian 218 Zone Controller",
-            "img": "/produktbilleder/controllers/meridian-218.jpg",
+            "img": "/Assets/img/Produktbilleder/controllers/meridian-218.jpg",
             "brandname": "Meridian",
             "category": "Controllers",
             "sub-category": "Zone Controllers",
@@ -113,7 +113,7 @@
         {
             "id": "12",
             "name": "Rotel RB 1552 MKII Stereo Amplifier",
-            "img": "/produktbilleder/amplifiers/rotel-rb1552.jpg",
+            "img": "/Assets/img/Produktbilleder/amplifiers/rotel-rb1552.jpg",
             "brandname": "Rotel",
             "category": "Amplifiers",
             "sub-category": "Stereo Amplifiers",
