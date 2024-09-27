@@ -21,60 +21,86 @@ body {
 
 /* ---------------------------------------------------nav-------------------------------------------------- */
 
+
+/* Header Styling */
+header {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #000;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust logo size if needed */
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.search-bar input {
+    width: 370px; /* Adjust the width as needed */
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.icon-links i {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* Indicator Line */
+.indicator-line {
+    border-top: 1px solid rgba(128, 128, 128, 0.188);
+    margin-top: 1rem;
+}
+
+/* Top Navigation */
 #top-nav {
     display: flex;
-    list-style: none;
-    padding: 1rem;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+#top-nav ul {
+    display: flex;
     gap: 2rem;
-    background-color: black;
-    align-items: center;
-    justify-content: flex-end;
+    list-style: none;
 }
 
 #top-nav a {
-    color: white;
     text-decoration: none;
-    font-size: 1rem;
-    transition: all 0.2s;
-}
-
-#top-nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2rem;
-    color: white;
-    font-size: 1.6em;
-}
-
-#top-nav a,
-.nav-link {
-    text-decoration: none;
-    color: white;
+    color: #fff;
     text-transform: uppercase;
-    font-size: 1rem;
-    transition: all 0.2s;
+    font-size: 1.4rem;
+    transition: color 0.2s;
 }
 
-.nav-link:hover {
-    color: #b69a6a;
-}
-
-#bot-nav {
-    background-color: rgba(0, 0, 0, 1);
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem;
-    border-top: 1px solid #413b26;
-}
-
-#bot-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 1rem;
-    gap: 2rem;
+#top-nav a.active {
+    color: #99905f;
 }
 
 .active{
@@ -93,9 +119,13 @@ body {
     margin-top: 20px;
 }
 
+.fa{
+    color: white;
+}
+
 /* ----------------------------------------------main---------------------------------------------- */
 main{
-    width: 150rem;
+    width: 80%;
     margin: 0 auto;
     background-color: white;
 }
@@ -123,13 +153,15 @@ main{
 }
 
 .main-image{
-    margin-left: 50px;
+    width: 95%;
     border: 1px solid rgb(180, 180, 180);
+    margin-left: 10px;
 }
 
 .type1, .type2{
-    width: 10rem;
+    width: 7rem;
     height: 5rem;
+    margin-left: 10px;
 }
 
 .more-views-pics{
@@ -137,8 +169,41 @@ main{
 }
 
 .more-views-text{
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--primary-yellow);
+    margin: 10px;
+    
 }
+
+h3{
+    margin-left: 10px ;
+    color: var(--primary-yellow);
+    font-size: 18px;
+}
+
+.descripton-table{
+    margin-top: 23%;
+}
+
+.actual-table{
+    margin-left: 10px;
+    font-size: 9px;
+   
+}
+
+.th2{
+     text-align: left; 
+     
+}
+
+
+.td2{
+    text-align: right;
+}
+
+
+
 
 /* --------------------------------call------------------------------- */
 
@@ -147,8 +212,6 @@ main{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    width: 140rem;
-    margin: 0 auto;
 }
 
 h4{
@@ -162,7 +225,7 @@ h4{
 .finish-required-container{
     margin-top: 20px;
     border: 1px solid grey;
-    width: 72rem;
+    width: 95%;
     height: 25rem;
 }
 
@@ -193,8 +256,8 @@ h4{
     background-color: var(--primary-yellow);
     color: white;
     border: none;
-    padding: 10px;
-    font-size: 13px;
+    padding: 8px;
+    font-size: 12px;
 }
 
 /* ---------------------------------------------------------color-------------------------------------------------------- */
@@ -252,6 +315,7 @@ h4{
     margin-right: 6px;
     margin-left: 6px;
     margin-top: -5px;
+    text-align: center;
 }
 
 .add-to-cart{
@@ -300,7 +364,7 @@ h4{
 
 
 .additional {
-    width: 69rem;
+    width: 95%;
     margin: 50px a;
     border-collapse: collapse;
     font-family: 'Arial', sans-serif;
