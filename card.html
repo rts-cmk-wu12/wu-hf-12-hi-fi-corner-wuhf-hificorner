@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="Assets/css/card.css">
+    <script src="Assets/js/payment.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div id="top-nav">
+            <div id="top-nav-links">
+              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+          </div>
+          <div id="bot-nav">
+            <ul>
+              <li><a class="nav-link" href="/home.html">Home</a></li>
+              <li><a class="nav-link" href="#About-us">About us</a></li>
+              <li><a class="nav-link " href="brands.html">Brands</a></li>
+              <li><a class="nav-link" href="#Blog">Blogs</a></li>
+              <li><a class="nav-link" href="#Events">Events</a></li>
+              <li><a class="nav-link" href="shop.html">Shop</a></li>
+              <li><a class="nav-link" href="#Contact-us">Contat us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        
+<div class="container">
+    <h3>Choose Your Payment Method</h3>
+    
+    <div class="payment-option">
+        <button class="btn btn-paypal" onclick="showPayPalForm()">Pay with PayPal </button>
+        <button class="btn btn-credit-card" onclick="showCreditCardForm()">Pay with Credit Card</button>
+    </div>
+
+    <div id="paypal-form" class="form">
+        <h3>PayPal Payment</h3>
+        <input type="email" placeholder="PayPal Email" required>
+        <button class="btn btn-paypal">Submit PayPal Payment</button>
+    </div>
+
+  
+    <div id="credit-card-form" class="form">
+        <h3>Credit Card Payment</h3>
+        <form id="payment-form" action="#" method="post">
+            <input type="text" id="fname"  placeholder="Name on Card" >
+            <p id="errorName"></p>
+            
+            <input type="text" placeholder="Card Number" id="cardnumber" maxlength="16" >
+            <p id="errorCardNumber"></p>
+            
+            <input type="text" placeholder="Expiration Date (MMYY)" id="date" maxlength="4" >
+            <p id="errorDate"></p>
+            
+            <input type="text" placeholder="CVV" id="cvv" maxlength="3" >
+            <p id="errorCVV"></p>
+            
+            <button onClick="validation(event)" type="submit" class="btn btn-credit-card" >Submit Payment</button>
+        </form>
+    </div>
+    
+</div>
+
+      </main>
+
+      <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-address">
+                <pre>
+Hi-Fi Corner
+Edinburgh 2 Joppa Road EH15 2EU
+Falkirk 44 Cow Wynd FK1 1PU</pre>
+            </div>
+            <div class="footer-links">
+                <a href="#">Returns & Refunds</a>
+                <span>|</span>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="footer-payment">
+                <i class="fab fa-cc-visa" aria-hidden="true"></i>
+                <i class="fab fa-cc-mastercard" aria-hidden="true"></i>
+                <i class="fab fa-cc-paypal" aria-hidden="true"></i>
+                <i class="fas fa-credit-card" aria-hidden="true"></i>
+            </div>
+            <ul class="social-media-icons">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </ul>
+        </div>
+      </footer>
+
+</body>
+</html> 
+
