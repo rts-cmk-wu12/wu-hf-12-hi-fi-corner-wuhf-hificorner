@@ -11,6 +11,7 @@ const productManufacturer = document.querySelector('#table_td-manufacture');
 const productManufacturerLink = document.querySelector('#table_td-manufacture-link');
 const addToCart = document.querySelector('#add_to_cart__button');
 
+
 fetch('db.json')
 .then(function(response){
     return response.json();

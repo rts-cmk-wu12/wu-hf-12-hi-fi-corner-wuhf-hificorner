@@ -63,9 +63,21 @@ nav ul li a{
     height: 65%;
 }
 
+
+
 .fa-user,
 .fa-cart-shopping {
     margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.shopping__cart-items__number{
+    margin-left: .1rem;
+    background-color: white;
+    border-radius: 3rem;
+    padding: .3rem .5rem;
+    font-size: .1rem;
 }
 @media screen and (max-width:960px){
     footer, .header__top{

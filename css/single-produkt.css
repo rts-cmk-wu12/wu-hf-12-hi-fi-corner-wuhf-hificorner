@@ -143,6 +143,10 @@
     margin-bottom: 1rem;
     cursor: pointer;
 }
+.single__produkt-right__contaioner-add_to_cart__button:active{
+    scale: .9;
+}
+
 .single__produkt-right__or-p{
     color: var(--primary_hihglight);
 }
