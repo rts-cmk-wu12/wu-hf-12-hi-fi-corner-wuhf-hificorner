@@ -290,7 +290,7 @@ function insertProduct(product){
      productDiv.appendChild(productPrice)
      //nu tilføjer vi linket til knappen
      const productLink = document.createElement("a")
-     productLink.textContent = "view more"
+     productLink.textContent = "View more"
      productLink.classList.add("product__link")
      productLink.setAttribute("href", "single-product-view-page.html?name=" + product.name)
      productDiv.appendChild(productLink)
