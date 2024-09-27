@@ -82,6 +82,7 @@ let limit = params.get("limit")
 
 //her tager jeg fat i headingen som jeg så ændrer til den valgte kategori
 if(trueCategory == null){
+    //i denne if condition, sætter jeg h1'eren på side til den valgte kategori
 document.querySelector(".productSelec__heading").textContent = "Alle produkter"
 }else{
     document.querySelector(".productSelec__heading").textContent = trueCategory
@@ -113,12 +114,12 @@ if(limit == null){
 const response =  await fetch("http://localhost:3000/products" + newFetch + order + limit);
 const data = await response.json();
 
-
+//her kører jeg en foreach for hvert produkt
 data.forEach(product => {
 
-    //her tjekker den for om den er over den valgte price eller firma
+    //her tjekker den for om den er over den valgte price, firma eller category
      if(lessThanPrice !== null || trueCompany !== null || trueCategory !== null){
-(product.company == trueCompany)
+
      
     if(Number(product.price) < Number(lessThanPrice) || product.company == trueCompany || product.category == trueCategory ){
        
