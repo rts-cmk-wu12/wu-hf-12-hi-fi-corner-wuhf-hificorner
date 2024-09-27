@@ -268,7 +268,11 @@
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
             "description": "The Pro-ject Debut III Blue is a sleek, entry-level turntable that combines stylish design with high-quality audio performance. It features a precision belt drive system, a lightweight carbon tonearm, and a custom-made Ortofon cartridge for exceptional sound clarity. The striking blue finish adds a modern touch to any setup. Ideal for both vinyl newcomers and seasoned enthusiasts, it offers a seamless listening experience.",
-	        "Price": "£520.00"
+	        "Price": "£520.00",
+            "options": {
+                "red": "28",
+                "yellow": "29"
+            }
         },
         {
             "id": "28",
@@ -278,7 +282,11 @@
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
             "description": "The Pro-ject Debut III Red is a stylish, entry-level turntable that combines vintage aesthetics with modern performance. Featuring a high-quality wooden plinth and a striking red finish, it’s designed for both visual appeal and superior sound quality. Its precision-engineered tonearm and quality cartridge ensure an enjoyable listening experience, making it an ideal choice for vinyl enthusiasts. Easy to set up and use, it’s perfect for anyone looking to dive into the world of analog music.",
-	        "Price": "£900.00"
+	        "Price": "£520.00",
+            "options": {
+                "blue": "27",
+                "yellow": "29"
+            }
         },
         {
             "id": "29",
@@ -288,7 +296,11 @@
             "category": "Amplifiers",
 	        "sub-category": "Turntables",
             "description": "The Pro-Ject Debut III Yellow is a stylish, high-performance turntable designed for vinyl enthusiasts. Its vibrant yellow finish adds a pop of color to any space while housing a precision-engineered tonearm and cartridge for exceptional sound quality. With a user-friendly setup and a solid wooden plinth, it minimizes vibrations for optimal playback.",
-	        "Price": "£750.00"
+	        "Price": "£520.00",
+            "options": {
+                "blue": "27",
+                "red": "28"
+            }
         },
         {
             "id": "30",

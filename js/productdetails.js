@@ -14,6 +14,19 @@ const detailsElement = document.querySelector('.getdetails');
 const imageElement = document.querySelector('.img-swap')
 const priceElement = document.querySelector('.detail-price')
 const discountElement = document.querySelector('.discount-price')
+const optionsElement = document.querySelector('.options-container')
+
+const options = product.options !== undefined ? Object.keys(product.options) : [];
+
+/* if (product.options !== null) {
+    options = Object.keys(product.options)
+} else {
+    options = [];
+}
+ */
+
+
+console.log(options)
 
 console.log(imageElement);
 
@@ -26,3 +39,22 @@ nameElement.forEach( names => names.innerText = product.name);
 brandNameElement.forEach(brand => brand.innerText = product.brandname);
 
 detailsElement.innerHTML = product.description;
+
+
+
+options.forEach(option => {
+
+    const labelElement = document.createElement('label');
+    const inputElement = document.createElement('input');
+
+    inputElement.type = 'radio';
+    imageElement.name = 'color';
+    labelElement.classList.add('option-styling')
+
+    labelElement.textContent = option;
+
+    inputElement.addEventListener('change', () => window.location.href = "product-details.html?product-id=" + product.options[option])
+
+    labelElement.append(inputElement);
+    optionsElement.append(labelElement);
+});
