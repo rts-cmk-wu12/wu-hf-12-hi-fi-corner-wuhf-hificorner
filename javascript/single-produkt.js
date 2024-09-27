@@ -68,7 +68,7 @@ fetch('db.json')
             //localstorage
 
             // Convert to a JSON file format
-            let cartItems = JSON.parse(localStorage.getItem("cartItems")) || []; //The || [] provides a default value (an empty array []) in case the cartItems key is not found in local storage. This ensures that cartItems will always be an array, preventing errors when you try to add new items to it later in the code.
+            let cartItems = JSON.parse(localStorage.getItem(productArray[index].name)) || []; //The || [] provides a default value (an empty array []) in case the cartItems key is not found in local storage. This ensures that cartItems will always be an array, preventing errors when you try to add new items to it later in the code.
             
             addToCart.addEventListener('click', function(){
                 // Create a new product object.
@@ -82,7 +82,7 @@ fetch('db.json')
                 cartItems.push(addedProduct);
 
                 // Store the updated cartItems array back to local storage.
-                localStorage.setItem("cartItems", JSON.stringify(cartItems));
+                localStorage.setItem(productArray[index].name, JSON.stringify(cartItems));
             });
             
         }

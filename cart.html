@@ -60,7 +60,7 @@
     
                 <div class="cart__container-pay-wrapper">
                     <div class="cart__container-pay-container">
-                        <form action="payInfo" class="cart__form">
+                        <form action="payInfo" class="cart__form" id="form">
                             <label for="text">First Name</label>
                             <input type="text" class="inputInfo" onkeydown="return /[a-zA-Z]/i.test(event.key)" required>
                             
@@ -87,11 +87,16 @@
                             <input 
                                 type="tel" 
                                 class="inputInfo"  
-                                onkeydown="return //i.test(event.key)"
+                                onkeydown="return i.test(event.key)"
                                 required>
                             
                             <label for="text">Card Number</label>
-                            <input type="text" placeholder="**** **** **** ****" class="inputInfo" required>
+                            <input type="text"  
+                            maxlength="16"
+                            min="16"
+                            placeholder="**** **** **** ****" 
+                            class="inputInfo" 
+                            required>
                             
                             <label for="text">valid Until</label>
                             <input type="text" placeholder="Month/Year" class="inputInfo" required>
@@ -103,12 +108,21 @@
                             <input type="text" placeholder="Name and Surname on card"  class="inputInfo" onkeydown="return /[a-zA-Z]/i.test(event.key)" required>
                             
                             <button class="cart__container-pay-container-button">Buy</button>
+                            
                         </form>
+                        
     
                     </div>
                 </div>
             </div>
         </main>
+
+        <dialog id="dialog" class="dialog">
+            <div class="dialog__wrapper">
+                <p>Thank you for your purchase</p>
+            </div>
+        </dialog>
+
     </div>
     
     <footer>
