@@ -82,12 +82,15 @@
     footer, .header__top{
        display: none; 
     }
+    .fa-bars{
+        display: none;
+    }
 }
 @media screen and (max-width:588px){
     nav{
         height: 100%;
         position: fixed;
-        background-color: #35532F;
+        background-color: black;
        display: grid;
        align-items: center;
        z-index: 10;

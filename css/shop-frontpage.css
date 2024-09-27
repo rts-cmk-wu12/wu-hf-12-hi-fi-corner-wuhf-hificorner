@@ -109,7 +109,7 @@ height: 267.5px;
     nav{
         height: 100%;
         position: fixed;
-        background-color: #35532F;
+        background-color: black;
        display: grid;
        align-items: center;
        z-index: 10;
