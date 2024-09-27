@@ -12,29 +12,43 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="assets/js/bruger.js" defer></script>
   </head>
   <body>
     <header>
-      <nav>
-        <div id="top-navigation">
-          <ul id="contact-icons">
-            <li><i class="fa-solid fa-location-dot"></i></li>
-            <li><i class="fa-solid fa-phone"></i></li>
-            <li><i class="fa-solid fa-envelope"></i></li>
-          </ul>
-        </div>
-        <div id="bottom-navigation">
-          <ul>
-            <li><a class="nav-link" href="/">Home</a></li>
-            <li><a class="nav-link" href="#about-us">About us</a></li>
-            <li><a class="nav-link" href="brands.html">Brands</a></li>
-            <li><a class="nav-link" href="#blog">Blogs</a></li>
-            <li><a class="nav-link" href="#events">Events</a></li>
-            <li><a class="nav-link selected-page" href="shop.html">Shop</a></li>
-            <li><a class="nav-link" href="#contact-us">Contact us</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="navigation-container">
+        <nav>
+          <div id="top-navigation">
+            <div id="top-navigation-wrapper">
+              <ul id="contact-icons">
+                <li><i class="fa-solid fa-location-dot"></i></li>
+                <li><i class="fa-solid fa-phone"></i></li>
+                <li><i class="fa-solid fa-envelope"></i></li>
+              </ul>
+            </div>
+            <input type="checkbox" id="toggle-nav" />
+            <label for="toggle-nav">
+              <i id="toggle-nav-btn-open" class="fas fa-bars"></i>
+              <i id="toggle-nav-btn-close" class="fas fa-times"></i>
+            </label>
+          </div>
+          <div id="bottom-navigation">
+            <ul>
+              <li>
+                <a class="nav-link" href="/home.html">Home</a>
+              </li>
+              <li><a class="nav-link" href="#about-us">About us</a></li>
+              <li><a class="nav-link" href="brands.html">Brands</a></li>
+              <li><a class="nav-link" href="#blog">Blogs</a></li>
+              <li><a class="nav-link" href="#events">Events</a></li>
+              <li>
+                <a class="nav-link selected-page" href="shop.html">Shop</a>
+              </li>
+              <li><a class="nav-link" href="#contact-us">Contact us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main>

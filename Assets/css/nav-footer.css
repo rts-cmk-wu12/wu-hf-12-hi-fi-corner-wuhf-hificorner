@@ -1,9 +1,32 @@
 @import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
 
-/* Navigation */
-
+/* General Navigation Styles */
 nav {
     width: 100%;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+/* Hide toggle elements by default */
+#toggle-nav,
+#toggle-nav-btn-open,
+#toggle-nav-btn-close {
+    display: none;
+}
+
+#toggle-nav-btn-open,
+#toggle-nav-btn-close {
+    font-size: 4rem;
+    color: white;
+}
+
+#top-navigation-wrapper {
+    display: flex;
+    gap: 3rem;
 }
 
 #top-navigation {
@@ -14,6 +37,8 @@ nav {
     background-color: rgba(0, 0, 0, 0.65);
     align-items: center;
     justify-content: flex-end;
+    border-bottom: 1px solid #413b26;
+
 }
 
 #top-navigation a {
@@ -32,29 +57,15 @@ nav {
     font-size: 1.6em;
 }
 
-.newsletter-btn {
-    background: linear-gradient(#1696F1, #21ACF5);
-    color: white;
-    padding: 0.25rem 0.5rem;
-    border: none;
-    border-radius: 2.5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.newsletter-btn span {
-    margin: 0.25rem;
-    color: black;
-}
-
-/* Navigation */
+/* Bottom Navigation */
 #bottom-navigation {
     background-color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 1rem;
-    border-top: 1px solid #413b26;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
 }
 
 #bottom-navigation ul {
@@ -71,9 +82,8 @@ nav {
     color: white;
     font-size: 1.1rem;
     font-weight: 550;
-    transition: all 0.2s;
     font-family: 'Museo Sans Rounded 500';
-
+    transition: all 0.2s;
 }
 
 .selected-page {
@@ -83,7 +93,6 @@ nav {
 .nav-link:hover {
     color: #b69a6a;
 }
-
 
 /* Footer Section */
 .footer {
@@ -148,16 +157,15 @@ nav {
 
 .social-media-icons i {
     font-size: 10px;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     border-radius: 50%;
-    transition: background-color 0.3s;
     height: 20px;
     width: 20px;
     border: 1px solid #f7f7f7;
+    transition: background-color 0.3s;
 }
 
 .social-media-icons i:hover {
@@ -170,8 +178,70 @@ nav {
     height: 100%;
 }
 
-
 .footer-info {
     display: flex;
     gap: 3.5rem;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+
+    #toggle-nav-btn-open {
+        display: inline-block;
+    }
+
+    #toggle-nav:checked ~ label #toggle-nav-btn-open {
+        display: none;
+    }
+
+    #toggle-nav:checked ~ label #toggle-nav-btn-close {
+        display: inline-block;
+    }
+
+    #toggle-nav-btn-open, #toggle-nav-btn-close {
+        font-size: 4rem;
+    }
+
+    #bottom-navigation {
+        position: absolute;
+        width: 100%;
+        height: 100vw;
+        background-color: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(5px);
+        padding: 0;
+        opacity: 0;
+        height: 100vw;
+        z-index: 1;
+    }
+
+    #bottom-navigation ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0 2rem;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+    #bottom-navigation a {
+        font-size: 3.5rem;
+    }
+
+    #top-navigation {
+        justify-content: space-between;
+        backdrop-filter: blur(5px);
+    }
+
+    .navigation-container {
+        flex-direction: column;
+        z-index: 1;
+        width: 100%;
+
+    }
+
+    .footer-content,
+    .footer-info {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }

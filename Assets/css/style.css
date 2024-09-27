@@ -16,6 +16,21 @@ body {
     background-color: #f7f7f7;
 }
 
+.newsletter-btn {
+    background: linear-gradient(#1696F1, #21ACF5);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 2.5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-btn span {
+    margin: 0.25rem;
+    color: black;
+}
+
 /* Hero Section */
 #hero {
     display: flex;
@@ -24,6 +39,7 @@ body {
     background-image: url('/assets/img/hifi-frontpage.png');
     background-size: cover;
     background-position: center;
+    height: 450px
 }
 #hero img {
     margin: auto;
@@ -35,7 +51,6 @@ body {
 
 header {
     width: 100%; 
-    height: 450px;    
     display: flex;
     align-items: center;
     justify-content: start;
