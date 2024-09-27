@@ -1,8 +1,9 @@
 //først tager jeg fat i diven ehvor produkterne skal være i
-
-
+const totalAmount = document.querySelector("#total-amount")
+const subtotalAmount = document.querySelector("#subtotal-amount")
 const buyedproducts = ["varer:1:Produktbilleder/cd-afspillere/creek_Destiny_CD.jpg:12", "højtaler:2:Produktbilleder/cd-afspillere/creek_Destiny_CD.jpg:2"]
-
+//her laver jeg en varibel, det tæller prisen i alt
+let priceOfALL = 0
 console.log(buyedproducts)
 const cart_items = document.querySelector(".cart_items")
 //først deler jeg det array op, der er indsat
@@ -38,6 +39,11 @@ myArray.forEach( element => {
     delbutton.addEventListener("click", delItem)
     parentDiv.appendChild(delbutton)
     cart_items.appendChild(parentDiv)
+    //her sætter jeg prisen
+    
+    let productAllPrice = Number(opdelt[3]) * Number(opdelt[1])
+    console.log(productAllPrice)
+    priceOfALL = priceOfALL + productAllPrice
 
 } )
 
@@ -53,7 +59,17 @@ function changeValue(){
         console.log(opdelt[0] ==nameofElement)
         if(opdelt[0] ==nameofElement){
             opdelt[1] = this.value
-            console.log(myArray.indexof(element))
+            //nu skal vi vide hvor i arrayet dette produkt er 
+            let chosenArray = myArray[myArray.indexOf(element)]
+            console.log(chosenArray)
+            //nu splitter jeg arrayet
+            const splittedchossenArray = chosenArray.split(":")
+            console.log(splittedchossenArray[3])
+            splittedchossenArray[3] = this.value
+            //nu sætter vi så arrayet ind igen
+            console.log(splittedchossenArray)
+            myArray.splice(myArray.indexOf(element), 1, splittedchossenArray.join(":"))
+            console.log(myArray)
         }
     })
     localStorage.setItem("cart", myArray)
@@ -80,3 +96,5 @@ localStorage.setItem("cart", myArray)
 location.reload()
     })
 }
+subtotalAmount.textContent = priceOfALL + ".kr";
+totalAmount.textContent = priceOfALL + ".kr";
