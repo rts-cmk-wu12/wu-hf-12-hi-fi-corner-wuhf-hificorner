@@ -110,6 +110,25 @@ main{
     cursor: pointer;
 }
 
+/*  */
+
+.dialog{
+    margin: 0 auto;
+     padding: none;
+     margin-top: 45vh;
+     
+     border-radius: 1rem;
+     border: solid var(--primary_gray) 2px;
+     background-color: black;
+     color: var(--primary_gray);
+ }
+ .dialog::backdrop{
+     background-color: var(--opacity_black);
+     backdrop-filter: blur(4px);
+ }
+
+ /*  */
+
 @media screen and (max-width:960px){
     footer, .header__top{
        display: none; 
