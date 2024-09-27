@@ -84,6 +84,10 @@ fetch('db.json')
 
                 // Store the updated cartItems array back to local storage.
                 localStorage.setItem(productArray[index].name, JSON.stringify(cartItems));
+                
+                //reload page so item counter updates
+                location.reload()
+            
             });
             
         }
