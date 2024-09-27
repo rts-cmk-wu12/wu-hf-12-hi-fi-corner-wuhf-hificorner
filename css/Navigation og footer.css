@@ -67,3 +67,19 @@ nav ul li a{
 .fa-cart-shopping {
     margin-right: 5px;
 }
+@media screen and (max-width:960px){
+    footer, .header__top{
+       display: none; 
+    }    }
+    @media screen and (max-width:588px){
+        nav{
+            height: 100%;
+            position: fixed;
+            background-color: #35532F;
+        }
+        nav ul{
+             display: none;
+        }
+    }
+
+
