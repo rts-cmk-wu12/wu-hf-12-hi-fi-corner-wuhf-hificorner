@@ -1,6 +1,9 @@
-
 .shopfront {
     background-color: var(--black-colour);
+}
+
+.shop-wrapper {
+    margin-bottom: 4rem;
 }
 
 #grid-item-image {
@@ -8,7 +11,6 @@
     width: 234px;
     height: 234px;
 }
-
 
 .current-website {
     color: var(--gold-colour);
@@ -29,7 +31,6 @@
     font-family: 'Museo Sans Rounded 500';
 }
 
-
 .grid-item {
     display: grid;
     align-items: center;
@@ -46,7 +47,6 @@
 }
 
 
-
 .grid-container section:last-of-type {
     background-color: var(--gold-colour);
     width: 234px;
@@ -61,12 +61,11 @@
     margin-top: 90px;
     width: 162px;
     height: 54px;
-    background-color: var(--brown-color);
+    background-color: var(--brown-colour);
     outline: none;
     border: none;
     text-decoration: none;
 }
-
 
 #shop-frontpage-button span {
     display: flex;
