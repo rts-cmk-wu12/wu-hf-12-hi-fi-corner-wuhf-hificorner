@@ -160,8 +160,6 @@ h1 {
 
 /* Media Section */
 .media-wrapper {
-.footer {
-
     display: flex;
     justify-content: center;
 }

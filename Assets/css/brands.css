@@ -79,7 +79,7 @@ body{
 .top-box{
     background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(56, 56, 56));
     width: 50%;
-    height: 370px;
+    height: 330px;
 }
 
 .bottom-box{
@@ -108,17 +108,7 @@ h3{
     margin-left: 20px;
 }
 
-.brand-logo {
-    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(56, 56, 56));
-}
 
-
-.logo-image {
-    width: 100%;
-    max-width: 80px;
-    height: auto; 
-    
-}
 
 
 /*------------------------------------------------ footer -----------------------------------------------*/
