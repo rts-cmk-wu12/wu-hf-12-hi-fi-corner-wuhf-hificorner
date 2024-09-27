@@ -75,7 +75,8 @@ nav ul li a{
         nav{
             height: 100%;
             position: fixed;
-            background-color: #35532F;
+            background-color: black;
+            padding-top: 4%;
         }
         nav ul{
              display: none;
