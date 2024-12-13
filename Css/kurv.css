@@ -1,0 +1,265 @@
+.baskets {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 9em 0 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.baskets__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+    order: 1;
+}
+
+.baskets__heading {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.basket {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 2.25em;
+    padding: 0.675em;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 15px;
+    background-color: #fff;
+    order: 2;
+}
+
+.basket__imgcontainer {
+    background-color: #FFE9E9;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875em;
+    border-radius: 5px;
+    margin-left: -60px;
+    min-width: 280px;
+    max-width: 280px;
+    grid-column: 1/3;
+}
+.basket__content {
+    display: flex;
+    flex-direction: column;
+}
+.basket__img {
+    width: 108px;
+}
+
+.basket__text {
+    color: #A7B0B4;
+    margin-top: 0.5em;
+}
+
+.basket__counter {
+    display: flex;
+    max-width: 170px;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #F9C4D2;
+}
+
+
+.basket__minus,
+.basket__count,
+.basket__plus {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basket__minus,
+.basket__plus {
+    cursor: pointer;
+}
+.basket__count {
+    background-color: #F9C4D2;
+    color: #fff;
+}
+
+.basket__button {
+    order: 3;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2em;
+}
+
+body { 
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2;
+    font-size: 1em;
+   
+    color: #000;
+    background-color: #070700;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/*header*/
+
+.shop-categories-header{
+    background-color: black;
+    border-bottom: var(--primary-color) 1px solid;
+    display: flex;
+    
+    height: 83px;
+    padding: 10px;
+    align-items: end;
+    justify-content: space-between;
+}
+.shop-categories-header a{
+    color: white;
+    text-decoration: none;
+}
+.shop-account{
+   display: flex;
+   align-items: start;
+}
+.envolope-margin{
+    margin-right: 20px;
+}
+.shoplist-hifilogo img{
+    width: 5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.shoplist-header-logos{
+    display: flex;
+}
+ 
+.search-movie {
+    height: 2rem;
+    width: 20rem;
+}
+
+
+.header-icons{
+    width: 25px;
+    height: auto;
+    color: white;
+    margin-left: 40px;
+ 
+}
+
+
+
+
+ 
+/*Button*/
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    background: linear-gradient(226.96deg, #e1e5060d 27.89%, #a88a08 83.86%);
+    box-shadow: 0px 20px 40px rgba(13, 18, 39, 0.3);
+    border-radius: 30px;
+    padding: 22px;
+    text-decoration: none;
+    outline: none;
+    border: 0px;
+    color: #000;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0px 5px 10px rgba(13, 18, 39, 0.3);
+    transform: scale(0.95);
+    transition: 200ms;
+}
+
+.error::placeholder {
+    color: crimson;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #a39161;
+    color: #D1C6A8;
+    padding: 20px;
+    text-align: left;
+}
+ 
+.footer-img {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+ 
+footer .footer-img img {
+   
+    width: 2rem;
+}
+ 
+.footer-payment {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+    gap: 3px;
+    top: 1.5rem;
+}
+ 
+.footer-address {
+    margin: 10px 0;
+    font-size: 12px;
+    color: black;
+}
+ 
+.footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 18rem;
+    gap: 5px;
+}
+footer a {
+    color: white;
+}
+.payment-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+ 
+}
+.payment-icons img {
+    height: 30px;
+    margin: 0 5px;
+}
+ 
+.shop-header-underline {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 100%;
+    top: 0px;
+    height: 40px;
+    align-items: center;
+    justify-content: right;
+    border-bottom: solid 1px var(--primary-color);
+    padding: 1rem;
+}
+ 

@@ -1,0 +1,376 @@
+{
+    "products":[
+        {
+            "id": "1",
+            "name": "Creek classic cd",
+            "img": "/produktbilleder/cdafspillere/creek-classic-cd.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "CD Players",
+            "description": "The Creek Classic CD Player is a mid-priced audio component known for its neutral and detailed sound. It features improved circuitry, low-noise regulators, and twin mains transformers for excellent isolation. The player offers both analogue and digital outputs, ensuring versatile connectivity. Its compact design and high-quality build make it a reliable choice for audiophiles",
+	        "Price": "£1,234.00"
+        },
+        {
+            "id": "2",
+            "name": "Creek destiny cd",
+            "brandname": "Creek",
+            "img": "/produktbilleder/cdafspillere/creek-destiny-cd.jpg",
+            "category": "Amplifiers",
+	        "sub-category": "CD Players",
+            "description": "The Creek Destiny CD Player is a high-end audio component known for its smooth and balanced sound delivery. It features a robust build with a custom-extruded case and a high-quality transport mechanism. The player uses a Cirrus Logic CS4396 DAC for superior sound quality. It’s designed to pair well with Creek’s Destiny 2 amplifier for an optimal audio experience.",
+	        "Price": "£5,678.00"
+        },
+        {
+            "id": "3",
+            "name": "Creek evo cd",
+            "img": "/produktbilleder/cdafspillere/creek-evo-cd.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "CD Players",
+            "description": "The Creek Evolution 50CD is a high-quality CD player and digital pre-amplifier. It features top-of-the-line 24-bit 192 kHz DACs for exceptional sound quality, supports multiple digital sources, and includes both balanced and unbalanced outputs. Its custom CD transport ensures bit-perfect performance, making it a versatile hub for your audio system.",
+	        "Price": "£12,345.00"
+        },
+        {
+            "id": "4",
+            "name": "Exp 2010s cd",
+            "img": "/produktbilleder/cdafspillere/exp-2010S-cd.gif",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "CD Players",
+            "description": "The Exposure 2010S CD player is renowned for its high-resolution sound quality, featuring 24-bit DACs for detailed audio reproduction. It offers a natural, transparent sound with excellent imaging and minimal digital harshness. The player is well-regarded for its robust build and reliable performance, making it a favorite among audiophiles.",
+	        "Price": "£34,567.00"
+        },
+        {
+            "id": "5",
+            "name": "Manley mahi",
+            "img": "/produktbilleder/effektforstaerkere/manley-mahi.jpg",
+            "brandname": "Manley",
+            "category": "Amplifiers",
+	        "sub-category": "Power Amplifiers",
+            "description": "The Manley MAHI® Power Amplifier is a compact yet powerful tube amplifier, delivering 20 watts in TRIODE mode and 40 watts in Ultra-Linear mode. Known for its nimble and lively sound, it features custom transformers and a variable feedback switch for a versatile sonic palette. The MAHI is celebrated for its tight, fast, and deep bass response1. Sold in pairs, these amplifiers are a favorite among audiophiles for their exceptional performance and build quality.",
+	        "Price": "£45,678.00"
+        },
+        {
+            "id": "6",    
+            "name": "Manley neoclassic 300B",
+            "img": "/produktbilleder/effektforstaerkere/manley-neoclassic300b.jpg",
+            "brandname": "Manley",
+            "category": "Amplifiers",
+	        "sub-category": "Power Amplifiers",
+            "description": "The Manley Neo-Classic 300B Preamplifier is a high-end tube preamp known for its smooth, natural sound. It features the classic 300B and 6SL7GT tubes, running in pure Class A operation. This preamp is celebrated for its exceptional build quality, including gold-plated RCA connectors and custom-designed output transformers. Ideal for both headphones and loudspeakers, it delivers a rich, musical experience.",
+	        "Price": "£67,890.00"
+        },
+        {
+            "id": "7",
+            "name": "Manley snapper",
+            "img": "/produktbilleder/effektforstaerkere/manley-snapper.jpg",
+            "brandname": "Manley",
+            "category": "Amplifiers",
+	        "sub-category": "Power Amplifiers",
+            "description": "The Manley Snapper is a 100-watt monoblock tube power amplifier known for its robust performance and exceptional sound quality. It features a quartet of EL34 tubes, a wide frequency response from 15 Hz to 40 kHz, and flexible input options. The Snapper’s unique 19-layer output transformer ensures superior sound. It’s a favorite among audiophiles for its natural and immersive audio experience.",
+	        "Price": "£6,789.00"
+        },
+        {
+            "id": "8",
+            "name": "Parasound haloa23",
+            "img": "/produktbilleder/effektforstaerkere/parasound-haloa23.jpg",
+            "brandname": "Parasound",
+            "category": "Amplifiers",
+	        "sub-category": "Power Amplifiers",
+            "description": "The Parasound Halo A23 is a high-performance power amplifier delivering 125 watts per channel into 8 ohms and 200 watts per channel into 4 ohms. It features high bias Class A/AB amplification, a MOSFET driver stage, and a JFET input stage for superior sound quality. With balanced XLR inputs and no capacitors or inductors in the signal path, it ensures clean and transparent audio. The amplifier also includes rear-mounted gain controls and a ground lift switch for added flexibility.",
+	        "Price": "£7,890.00"
+        },
+        {
+            "id": "9",
+            "name": "Creek classic",
+            "img": "/produktbilleder/dvdafspillere/creek-classic.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "DVD Players",
+            "description": "The Creek Classic is a versatile and compact CD player, measuring 430x70x317mm and weighing 6kg. It features both analogue and digital outputs (optical and coaxial), ensuring compatibility with various audio systems. Known for its neutral tonal character, it delivers a balanced and accurate sound reproduction. The design is sleek and user-friendly, making it a great addition to any hi-fi setup.",
+	        "Price": "£10,123.00"
+        },
+        {
+            "id": "10",
+            "name": "Exposure 2010s",
+            "img": "/produktbilleder/dvdafspillere/exposure-2010s.jpg",
+            "brandname": "Exposure",
+            "category": "Amplifiers",
+	        "sub-category": "DVD Players",
+            "description": "The Exposure 2010S is a solid-state integrated amplifier delivering 75 watts per channel into 8 ohms. It features a neutral tonal balance, excellent rhythmic and dynamic performance, and a holographic soundstage. With six line inputs and a minimalist design, it focuses on high-quality sound reproduction. The 2010S is well-suited for rock music but may be less ideal for more subtle genres.",
+	        "Price": "£17,890.00"
+        },
+        {
+            "id": "11",
+            "name": "Parasound d200",
+            "img": "/produktbilleder/dvdafspillere/parasound-d200.jpg",
+            "brandname": "Parasound",
+            "category": "Amplifiers",
+	        "sub-category": "DVD Players",
+            "description": "The Parasound D200 is a versatile DVD player featuring HDMI 1.1 digital output and simultaneous analog video output. It supports 480p, 720p, and 1080i scan rates with Faroudja DCDi processing for enhanced video quality. The player offers 5.1 multi-channel output and 192 kHz/24-bit audio DACs for superior sound. It also includes RS-232C communication port and IR repeater inputs for integration into home automation systems.",
+	        "Price": "£21,234.00"
+        },
+        {
+            "id": "12", 
+            "name": "Parasound halod3",
+            "img": "/produktbilleder/dvdafspillere/parasound-halod3.jpg",
+            "brandname": "Parasound",
+            "category": "Amplifiers",
+	        "sub-category": "DVD Players",
+            "description": "The Parasound Halo D3 is a high-performance three-channel power amplifier designed by John Curl. It delivers 250 watts per channel at 8 ohms and 400 watts per channel at 4 ohms. The amplifier features balanced XLR and unbalanced RCA inputs, high bias class A/AB operation, and a robust build quality. Ideal for home theater setups, it ensures exceptional sound clarity and power.",
+	        "Price": "£29,012.00"
+        },
+        {
+            "id": "13",
+            "name": "Creek OBH-22 passive preamplifier",
+            "img": "/produktbilleder/forforstaerkere/creek-obh-22-passive-preamp.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "Preamplifiers",
+            "description": "The Creek Audio OBH-22 is a passive preamplifier designed for high-fidelity audio systems. It features a motorized volume potentiometer and gold-plated relays for input selection, ensuring minimal signal interference. The unit includes two stereo inputs, a tape loop, and can be controlled via an infrared remote. Its design prioritizes simplicity and purity of sound, making it an excellent choice for audiophiles.",
+	        "Price": "£30,123.00"
+        },
+        {
+            "id": "14",
+            "name": "Parasound Classic 7100",
+            "img": "/produktbilleder/forforstaerkere/parasound-classic7100.jpg",
+            "brandname": "Parasound",
+            "category": "Amplifiers",
+	        "sub-category": "Preamplifiers",
+            "description": "The Parasound Classic 7100 is a THX Ultra2 certified 7.1 channel surround sound processor. It supports various surround sound formats, including Dolby Digital and DTS, and features multiple analog and digital inputs for versatile connectivity. The unit is designed for high-fidelity home theater systems, offering precise audio decoding and processing. Its robust build and user-friendly interface make it a reliable choice for audiophiles.",
+	        "Price": "£69,078.00"
+        },
+        {
+            "id": "15",
+            "name": "Parasound Halo P3",
+            "img": "/produktbilleder/forforstaerkere/parasound-halop3.jpg",
+            "brandname": "Parasound",
+            "category": "Amplifiers",
+	        "sub-category": "Preamplifiers",
+            "description": "The Parasound Halo P3 is a high-performance stereo preamplifier known for its sleek aluminum design and pale blue glowing controls. It features six line inputs, including a switchable MM phono input, and both balanced and unbalanced outputs. The P3 offers excellent sound quality with a built-in phono stage and high-resolution headphone section. Its user-friendly interface and robust build make it a favorite among audiophiles.",
+	        "Price": "£24,567.00"
+        },
+        {
+            "id": "16",
+            "name": "Pro-ject Pre box",
+            "img": "/produktbilleder/forforstaerkere/pro-ject-prebox.jpg",
+            "brandname": "Pro-ject",
+            "category": "Amplifiers",
+	        "sub-category": "Preamplifiers",
+            "description": "The Pro-Ject Pre Box is a compact, high-quality stereo preamplifier designed for audiophiles, offering detailed sound with minimal distortion. It features multiple analog and digital inputs, allowing versatile connectivity for various audio sources. With its clean, minimalist design and premium components, it ensures precise volume control and dynamic audio performance.",
+	        "Price": "£29,012.00"
+        },
+        {
+            "id": "17",
+            "name": "Boesendorfer VCS Wall",
+            "img": "/produktbilleder/hojtalere/boesendorfer-vcs-wall.gif",
+            "brandname": "Boesendorfer",
+            "category": "Amplifiers",
+	        "sub-category": "Speakers",
+            "description": "The Boesendorfer VCS Wall is a sleek, wall-mounted sound system designed to deliver immersive, high-quality audio. Its minimalistic design complements modern interiors, while the superior craftsmanship ensures clear acoustics and deep, resonant tones. Integrated with advanced technology, it allows for seamless connectivity and user control. Ideal for audiophiles seeking both form and function in a compact, space-saving package.",
+	        "Price": "£10,123.00"
+        },
+        {
+            "id": "18",
+            "name": "Epos M5",
+            "img": "/produktbilleder/hojtalere/epos-m5.gif",
+            "brandname": "Epos",
+            "category": "Amplifiers",
+	        "sub-category": "Speakers",
+            "description": "The Epos M5 is a high-performance bookshelf speaker designed for audiophiles, offering clear, dynamic sound in a compact form. With a sleek, minimalist design, it features a 5.25-inch mid-bass driver and 1-inch tweeter for rich audio detail and balanced frequencies. Its robust build ensures enhanced acoustic precision, making it ideal for home audio setups. The Epos M5 delivers immersive, room-filling sound despite its small size.",
+	        "Price": "£49,200.00"
+        },
+        {
+            "id": "19",
+            "name": "Harbeth HL7ES2",
+            "img": "/produktbilleder/hojtalere/harbeth-hl7es2.jpg",
+            "brandname": "Harbeth",
+            "category": "Amplifiers",
+	        "sub-category": "Speakers",
+            "description": "The Harbeth HL7ES2 is a high-end, British-made bookshelf speaker renowned for its natural, clear sound and exceptional midrange detail. With its 8-inch bass/midrange driver and 1-inch soft dome tweeter, it delivers a well-balanced audio experience, perfect for audiophiles seeking transparency and warmth. Its compact yet elegant design makes it ideal for smaller spaces while maintaining impressive sonic depth.",
+	        "Price": "£39,100.00"
+        },
+        {
+            "id": "20",
+            "name": "Harbeth Monitor 30",
+            "img": "/produktbilleder/hojtalere/harbeth-monitor30.jpg",
+            "brandname": "Harbeth",
+            "category": "Amplifiers",
+	        "sub-category": "Speakers",
+            "description": "The Harbeth Monitor 30 is a high-end two-way loudspeaker designed for professional studio use and critical listening. It features a 200mm RADIAL™ bass/mid driver and a 25mm soft-dome tweeter, delivering natural, uncolored sound with remarkable clarity and detail. With a compact size and neutral tonality, it's ideal for smaller spaces while still offering exceptional performance.",
+	        "Price": "£32,345.00"
+        },
+        {
+            "id": "21",
+            "name": "Harbeth P3ES2",
+            "img": "/produktbilleder/hojtalere/harbeth-p3es2.jpg",
+            "brandname": "Harbeth",
+            "category": "Amplifiers",
+	        "sub-category": "Speakers",
+            "description": "The Harbeth P3ES2 is a compact, two-way bookshelf speaker known for its natural sound and exceptional midrange clarity. It features a 5-inch bass/midrange driver and a 0.75-inch tweeter, delivering smooth, detailed audio with a warm tonal balance. Its compact size makes it ideal for smaller spaces while maintaining high fidelity. Renowned for its transparency, it’s a favorite among audiophiles for critical listening.",
+	        "Price": "£2,225.00"
+        },
+        {
+            "id": "22",
+            "name": "Creek A50i",
+            "img": "/produktbilleder/intforstaerkere/creek-a50i.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "Intigrated Amplifiers",
+            "description": "The Creek A50i is a high-performance integrated amplifier, designed for audiophiles seeking premium sound quality. With 55 watts per channel, it delivers clean and dynamic audio output, suitable for a variety of speakers. Its minimalist design features high-quality components, ensuring reliable performance and user-friendly operation.",
+	        "Price": "£15.700.00"
+        },
+        {
+            "id": "23",
+            "name": "Creek classic 5350SE",
+            "img": "/produktbilleder/intforstaerkere/creek-classic-5350SE.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "Intigrated Amplifiers",
+            "description": "The Creek Classic 5350SE is an audiophile-grade integrated amplifier known for its high-quality sound and robust performance. It delivers 90 watts per channel, offering clear, detailed audio with minimal distortion. The design features a sleek, minimalist aesthetic with a focus on simplicity and functionality. Its versatility and refined sound make it ideal for discerning music enthusiasts.",
+	        "Price": "£10,598.00"
+        },
+        {
+            "id": "24",
+            "name": "Creek DestinyAmp",
+            "img": "/produktbilleder/intforstaerkere/creek-destinyamp.jpg",
+            "brandname": "Creek",
+            "category": "Amplifiers",
+	        "sub-category": "Intigrated Amplifiers",
+            "description": "Creek DestinyAmp is a high-performance integrated amplifier designed for audiophiles, offering crystal-clear sound and rich dynamics. With 120W per channel and advanced circuitry, it ensures superior audio quality across a wide frequency range. Its sleek, minimalist design combines functionality with aesthetic appeal, while providing versatile connectivity options.",
+	        "Price": "£9,500.00"
+        },
+        {
+            "id": "25",
+            "name": "Manley snapper",
+            "img": "/produktbilleder/intforstaerkere/manley-snapper.jpg",
+            "brandname": "Manley",
+            "category": "Amplifiers",
+	        "sub-category": "Intigrated Amplifiers",
+            "description": "The Manley Snapper is a high-performance tube integrated amplifier designed for audiophiles seeking rich, detailed sound. It delivers 100 watts of power per channel with EL34 output tubes, providing a warm and dynamic audio experience. Known for its precise craftsmanship and minimalist design, the Snapper features balanced inputs, custom transformers, and point-to-point wiring.",
+	        "Price": "£4,200.00"
+        },
+        {
+            "id": "26",
+            "name": "Manley Stringray",
+            "img": "/produktbilleder/intforstaerkere/manley-Stingray.jpg",
+            "brandname": "Manley",
+            "category": "Amplifiers",
+	        "sub-category": "Intigrated Amplifiers",
+            "description": "The Manley Stingray is a versatile tube guitar amplifier known for its warm, rich tones and dynamic response. Featuring both clean and overdrive channels, it excels in delivering vintage-inspired sounds ideal for rock and blues. Its straightforward controls make it user-friendly, while the rugged construction ensures durability on stage.",
+	        "Price": "£469.00"
+        },
+        {
+            "id": "27",
+            "name": "Pro-ject Debut III blue",
+            "img": "/produktbilleder/pladespillere/project-Debut-iii-blue.jpg",
+            "brandname": "Pro-ject",
+            "category": "Amplifiers",
+	        "sub-category": "Turntables",
+            "description": "The Pro-ject Debut III Blue is a sleek, entry-level turntable that combines stylish design with high-quality audio performance. It features a precision belt drive system, a lightweight carbon tonearm, and a custom-made Ortofon cartridge for exceptional sound clarity. The striking blue finish adds a modern touch to any setup. Ideal for both vinyl newcomers and seasoned enthusiasts, it offers a seamless listening experience.",
+	        "Price": "£520.00",
+            "options": {
+                "red": "28",
+                "yellow": "29"
+            }
+        },
+        {
+            "id": "28",
+            "name": "Pro-ject Debut III red",
+            "img": "/produktbilleder/pladespillere/project-Debut-iii-red.jpg",
+            "brandname": "Pro-ject",
+            "category": "Amplifiers",
+	        "sub-category": "Turntables",
+            "description": "The Pro-ject Debut III Red is a stylish, entry-level turntable that combines vintage aesthetics with modern performance. Featuring a high-quality wooden plinth and a striking red finish, it’s designed for both visual appeal and superior sound quality. Its precision-engineered tonearm and quality cartridge ensure an enjoyable listening experience, making it an ideal choice for vinyl enthusiasts. Easy to set up and use, it’s perfect for anyone looking to dive into the world of analog music.",
+	        "Price": "£520.00",
+            "options": {
+                "blue": "27",
+                "yellow": "29"
+            }
+        },
+        {
+            "id": "29",
+            "name": "Pro-ject Debut III yellow",
+            "img": "/produktbilleder/pladespillere/project-Debut-iii-yellow.jpg",
+            "brandname": "Pro-ject",
+            "category": "Amplifiers",
+	        "sub-category": "Turntables",
+            "description": "The Pro-Ject Debut III Yellow is a stylish, high-performance turntable designed for vinyl enthusiasts. Its vibrant yellow finish adds a pop of color to any space while housing a precision-engineered tonearm and cartridge for exceptional sound quality. With a user-friendly setup and a solid wooden plinth, it minimizes vibrations for optimal playback.",
+	        "Price": "£520.00",
+            "options": {
+                "blue": "27",
+                "red": "28"
+            }
+        },
+        {
+            "id": "30",
+            "name": "Pro-ject RPM V",
+            "img": "produktbilleder/pladespillere/project-rpm-v.jpg",
+            "brandname": "Pro-ject",
+            "category": "Amplifiers",
+	        "sub-category": "Turntables",
+            "description": "Pro-ject RPM V is a high-fidelity turntable designed for audiophiles, featuring a precision-engineered platter and advanced motor technology for minimal vibration. Its sleek, modern design combines functionality with aesthetics, while an adjustable tonearm ensures optimal tracking and sound quality. The turntable supports a variety of cartridges, allowing for personalized listening experiences. ",
+	        "Price": "£18,900.00"
+        },
+        {
+            "id": "31",
+            "name": "Pro-ject RPM X",
+            "img": "produktbilleder/pladespillere/project-rpm-x.jpg",
+            "brandname": "Pro-ject",
+            "category": "Amplifiers",
+	        "sub-category": "Turntables",
+            "description": "Pro-ject RPM X is a high-performance turntable designed for audiophiles, featuring a precision-engineered platter and a state-of-the-art tonearm. Its innovative design minimizes resonance and enhances sound clarity, delivering an immersive listening experience. The RPM X also boasts customizable options for cartridges, allowing users to tailor their setup.",
+	        "Price": "£41,869.00"
+        },
+        {
+            "id": "32",
+            "name": "Jolida JD-102B",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd102b.jpg",
+            "brandname": "Jolida",
+            "category": "Amplifiers",
+	        "sub-category": "Tube Amplifiers",
+            "description": "The Jolida JD-102B is a sleek, tube-integrated amplifier known for its warm, rich sound. Featuring EL34 power tubes, it delivers a smooth, dynamic performance that enhances any audio setup. Its elegant design includes a vintage-style front panel and blue LED accents. With multiple input options, it's versatile enough for both vinyl and digital sources.",
+	        "Price": "£3,520.00"
+        },
+        {
+            "id": "33",
+            "name": "Jolida JD-202A",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd202a.jpg",
+            "brandname": "Jolida",
+            "category": "Amplifiers",
+	        "sub-category": "Tube Amplifiers",
+            "description": "The Jolida JD-202A is a sleek, compact tube amplifier renowned for its warm, rich sound and striking aesthetics. With a power output of 20 watts per channel, it delivers exceptional clarity and detail, enhancing any audio setup. Its all-tube design not only adds vintage charm but also provides a smooth listening experience.",
+	        "Price": "£8.960.00"
+        },
+        {
+            "id": "34",
+            "name": "Jolida JD-300B",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd300b.jpg",
+            "brandname": "Jolida",
+            "category": "Amplifiers",
+	        "sub-category": "Tube Amplifiers",
+            "description": "The Jolida JD-300B is a high-quality tube amplifier renowned for its warm, rich sound and vintage aesthetic. Featuring classic 300B output tubes, it delivers a smooth, dynamic audio experience ideal for both music enthusiasts and audiophiles. Its elegant design includes a durable chassis and premium components, ensuring longevity and performance.",
+	        "Price": "£54,100.00"
+        },
+        {
+            "id": "35",
+            "name": "Jolida JD-302B",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd302b.jpg",
+            "brandname": "Jolida",
+            "category": "Amplifiers",
+	        "sub-category": "Tube Amplifiers",
+            "description": "The Jolida JD-302B is a versatile tube amplifier that combines vintage charm with modern performance. Its elegant design features a classic tube topology, delivering rich, warm sound with dynamic range. With a power output of 30 watts per channel, it drives a variety of speakers effortlessly. Ideal for both audiophiles and casual listeners, it enhances any audio setup with its inviting aesthetic and robust sound.",
+	        "Price": "£19.820.00"
+        },
+        {
+            "id": "36",
+            "name": "Jolida JD-502B",
+            "img": "produktbilleder/roer-forstaerkere/jolida-jd502b.jpg",
+            "brandname": "Jolida",
+            "category": "Amplifiers",
+	        "sub-category": "Tube Amplifiers",
+            "description": "The Jolida JD-502B is a versatile tube amplifier known for its warm, rich sound and classic design. It features a robust 50-watt output, ideal for driving a variety of speakers. With its easy-to-use controls and attractive aesthetics, it enhances any audio setup. Whether for music lovers or audiophiles, the JD-502B delivers a dynamic listening experience.",
+	        "Price": "£60,320.00"
+        }
+    ]
+}
