@@ -1,0 +1,374 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Yamaha R-N803 Network HiFi Receiver",
+            "img": "Assets/img/Produktbilleder/cd_afspillere/creek_classic_cd.jpg",
+            "brandname": "Yamaha",
+            "category": "Receivers",
+            "sub-category": "Network HiFi",
+            "description": "The Yamaha R-N803 is a versatile network receiver that combines high-quality audio with streaming capabilities. It features a robust amplifier, built-in Wi-Fi, and Bluetooth connectivity, allowing users to enjoy their favorite music from various sources.",
+            "Price": "£329.00"
+        },
+        {
+            "id": "2",
+            "name": "Rotel A10 Stereo Amplifier",
+            "img": "Assets/img/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel A10 is a compact stereo amplifier that delivers powerful sound and excellent performance. It features multiple inputs and a built-in phono stage for vinyl enthusiasts, making it a great choice for any audio setup.",
+            "Price": "£389.95"
+        },
+        {
+            "id": "3",
+            "name": "Marantz PM6006 UK Edition Integrated Amplifier",
+            "img": "/Assets/img/Produktbilleder/cd_afspillere/creek_evo_cd.jpg",
+            "brandname": "Marantz",
+            "category": "Amplifiers",
+            "sub-category": "Integrated Amplifiers",
+            "description": "The Marantz PM6006 is an integrated amplifier designed for audiophiles. It features high-quality components and a powerful amplifier section, providing rich and detailed sound. The sleek design and multiple input options make it a versatile addition to any audio system.",
+            "Price": "£429.00"
+        },
+        {
+            "id": "4",
+            "name": "Yamaha A-S701 Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/cd_afspillere/Exp_2010S_cd.gif",
+            "brandname": "Yamaha",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Yamaha A-S701 is a high-performance stereo amplifier with a classic design. It offers a robust power output and a range of connectivity options, ensuring compatibility with various audio sources.",
+            "Price": "£579.00"
+        },
+        {
+            "id": "5",
+            "name": "Audiolab 6000A Stereo Integrated Amplifier",
+            "img": "/Assets/img/Produktbilleder/dvdafspillere/creek_classic.jpg",
+            "brandname": "Audiolab",
+            "category": "Amplifiers",
+            "sub-category": "Integrated Amplifiers",
+            "description": "The Audiolab 6000A is a versatile integrated amplifier that combines high-quality audio performance with modern connectivity options. It features a built-in DAC and supports streaming from various sources.",
+            "Price": "£599.00"
+        },
+        {
+            "id": "6",
+            "name": "Quad Vena Mini HiFi System",
+            "img": "/Assets/img/Produktbilleder/dvdafspillere/exposure_2010S.jpg",
+            "brandname": "Quad",
+            "category": "Systems",
+            "sub-category": "Mini HiFi Systems",
+            "description": "The Quad Vena is a compact HiFi system that delivers impressive sound quality. It features a built-in amplifier and multiple input options, making it ideal for smaller spaces without compromising on audio performance.",
+            "Price": "£599.00"
+        },
+        {
+            "id": "7",
+            "name": "Marantz MM7025 Power Amplifier",
+            "img": "/Assets/img/Produktbilleder/dvdafspillere/parasound_d200.jpg",
+            "brandname": "Marantz",
+            "category": "Amplifiers",
+            "sub-category": "Power Amplifiers",
+            "description": "The Marantz MM7025 is a powerful stereo amplifier designed to provide high-quality sound. It features a robust construction and advanced circuitry, ensuring reliable performance for any audio setup.",
+            "Price": "£699.00"
+        },
+        {
+            "id": "8",
+            "name": "Arcam HDA SA30 Integrated Amplifier",
+            "img": "/Assets/img/Produktbilleder/dvdafspillere/parasound_halod3.jpg",
+            "brandname": "Arcam",
+            "category": "Amplifiers",
+            "sub-category": "Integrated Amplifiers",
+            "description": "The Arcam HDA SA30 is a high-end integrated amplifier that offers exceptional sound quality and versatility. It features advanced digital processing and a range of connectivity options for modern audio sources.",
+            "Price": "£699.00"
+        },
+        {
+            "id": "9",
+            "name": "Rotel A12 Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/effektforstaerkere/manley_mahi.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel A12 is a powerful stereo amplifier that delivers high-quality audio performance. It features multiple inputs and a sleek design, making it a great addition to any audio system.",
+            "Price": "£799.00"
+        },
+        {
+            "id": "10",
+            "name": "Naim NAP 100 Power Amplifier",
+            "img": "/Assets/img/Produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg",
+            "brandname": "Naim",
+            "category": "Amplifiers",
+            "sub-category": "Power Amplifiers",
+            "description": "The Naim NAP 100 is a compact power amplifier that provides exceptional sound quality. It is designed to work seamlessly with Naim's other audio components for an optimal listening experience.",
+            "Price": "£799.00"
+        },
+        {
+            "id": "11",
+            "name": "Meridian 218 Zone Controller",
+            "img": "/Assets/img/Produktbilleder/effektforstaerkere/manley_snapper.jpg",
+            "brandname": "Meridian",
+            "category": "Controllers",
+            "sub-category": "Zone Controllers",
+            "description": "The Meridian 218 Zone Controller is designed for multi-room audio systems. It features advanced connectivity options and high-quality audio processing for an exceptional listening experience.",
+            "Price": "£800.00"
+        },
+        {
+            "id": "12",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/effektforstaerkere/parasound_haloa23.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "13",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/forforstaerkere/Creek_OBH_22_passive_Preamp.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "14",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/forforstaerkere/parasound_classic7100.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "15",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/forforstaerkere/parasound_halop3.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "16",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/forforstaerkere/Project_prebox.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "17",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "18",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/hojtalere/epos_m5.gif",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "19",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/hojtalere/harbeth_hl7es2.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "20",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/hojtalere/harbeth_monitor30.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "21",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/hojtalere/harbeth_p3es2.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "22",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/int_forstaerkere/Manley_stingray.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "23",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/int_forstaerkere/creek_classic5350SE.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "24",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/int_forstaerkere/creek_classic5350SE.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "25",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/int_forstaerkere/creek_destinyamp.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "26",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/int_forstaerkere/manley_snapper.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "27",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/int_forstaerkere/mmmm.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "28",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "29",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "30",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "31",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/pladespillere/Pro_ject_rpm_5.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "32",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/pladespillere/Pro_ject_rpm10.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "33",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/roer_forstaerkere/jolida_JD102b.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "34",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/roer_forstaerkere/jolida_JD202a.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "35",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/roer_forstaerkere/jolida_JD300b.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "36",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/roer_forstaerkere/jolida_JD302b.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        },
+        {
+            "id": "36",
+            "name": "Rotel RB 1552 MKII Stereo Amplifier",
+            "img": "/Assets/img/Produktbilleder/roer_forstaerkere/jolida_JD502b.jpg",
+            "brandname": "Rotel",
+            "category": "Amplifiers",
+            "sub-category": "Stereo Amplifiers",
+            "description": "The Rotel RB 1552 MKII is a high-performance stereo amplifier that delivers powerful sound and excellent build quality. It is designed for audiophiles seeking superior audio performance.",
+            "Price": "£845.00"
+        }
+    ]
+}

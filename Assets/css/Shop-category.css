@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background for the entire page */
+    color: #fff; /* White text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center main content horizontally */
+    justify-content: flex-start; /* Align main content to the top */
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #000;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust logo size if needed */
+}
+
+.icon-links {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 2rem;
+}
+
+.search-bar input {
+    width: 370px; /* Adjust the width as needed */
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.icon-links i {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* Indicator Line */
+.indicator-line {
+    border-top: 1px solid rgba(128, 128, 128, 0.354);
+    margin-top: 1rem;
+}
+
+/* Top Navigation */
+#top-nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+#top-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+#top-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    transition: color 0.2s;
+}
+
+#top-nav a.active {
+    color: #99905f;
+}
+
+.aside-overskrift {
+    padding-inline: 1.5rem;
+    color: black;
+    padding-block: 2rem;
+}
+
+.aside-price {
+    color: #000;
+}
+
+/* ========= side boxes =========== */
+ 
+.a-list {
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+    color: #b69e71;
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+ 
+.left-box-1 {
+    width: 25rem;
+    text-decoration: none;
+    display: block;
+    color: #b69e71;
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+ 
+.left-box-2 {
+    margin-top: 2rem;
+    width: 25rem;
+    text-decoration: none;
+    display: block;
+    color: #b69e71;
+    background-color: #e1e1e1;
+    padding-inline: 2rem;
+}
+
+/* Main Content Styling */
+.main-content {
+    background-color: #fff; 
+    color: #000; 
+    width: 80%;
+    max-width: 1500px; 
+    padding: 2rem; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #b69a6a;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-payment i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icons i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+}
+
+.a-home-color {
+    color: #b69e71;
+}
+.a-home-color2 {
+    color: black;
+}
+
+
+
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin: 5px 0;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    gap: 20px; /* Adjust the gap between items as needed */
+    padding: 20px; /* Optional: Add padding around the grid */
+}

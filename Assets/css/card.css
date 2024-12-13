@@ -1,0 +1,241 @@
+:root{
+    --primary-yellow : #b69a6a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(40, 40, 40);
+    background-image: url(/Assets/img/clash.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* ---------------------------------------------------nav-------------------------------------------------- */
+
+#top-nav {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+#top-nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-size: 1.6em;
+}
+
+#top-nav a,
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: #b69a6a;
+}
+
+#bot-nav {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid #413b26;
+}
+
+#bot-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.active{
+    color: var(--primary-yellow);
+}
+
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.top-logobox{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+/* ----------------------------------------main--------------------------------------------- */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    background: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 295px;
+    color: var(--primary-yellow);
+    font-size: 14px;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-option {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(0, 57, 148);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-credit-card {
+    background-color: rgb(0, 93, 0);
+}
+.btn-paypal:hover {
+    background-color: blue;
+}
+.btn-credit-card:hover {
+    background-color: green;
+}
+.form {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type="text"], input[type="number"], input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+/* --------------------------------------footer------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    background-color: #b69a6a;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-address pre {
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links a {
+    color: #fff; 
+    font-weight: bold;
+}
+
+.footer-links span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-payment {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.footer-payment img {
+    margin-left: 10px; 
+    height: 30px; 
+}
+
+.footer-payment i {
+    font-size: 25px; 
+    color: #fff; 
+}
+
+.footer-info {
+    display: flex;
+    gap: 3rem;
+}
+
+
+.social-media-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.social-media-icons i {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f7f7f7;
+}

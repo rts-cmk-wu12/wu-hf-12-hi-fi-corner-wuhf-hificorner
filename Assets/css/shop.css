@@ -1,0 +1,83 @@
+@import url(/assets/fonts/museo-sans-rounded-webfont/style.css);
+@import url(/assets/css/nav-footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Museo Sans Rounded 300';
+    background-color: #000; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+}
+
+/* Main Section (Grid Container for Shop Items) */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%; 
+}
+
+/* Grid Items */
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.grid-item figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration: underline;
+}
+
+/* Button */
+.shop-now {
+    color: #fff;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    background-color: #685324;
+    font-size: 1.6rem; 
+    text-transform: uppercase;
+    font-family: 'Museo Sans Rounded 500';
+}
+
+.button-item {
+    background-color: #a39161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
