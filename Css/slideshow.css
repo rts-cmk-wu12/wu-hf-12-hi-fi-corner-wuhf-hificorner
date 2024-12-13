@@ -1,0 +1,83 @@
+/* Slideshow container */
+.slideshow-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 486px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center center;
+    width: auto;
+    padding: 16px;
+    color: #c0ab9f;
+    font-weight: bold;
+    font-size: 100px;
+    transition: 0.2s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    line-height: 100px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .prev:active, .next:active {
+    transform:translateY(-50%) scale(0.70) ;
+  }
+  
+  /* Caption text */
+  .text {
+    color: var(--primary-color);
+    font-size: 40px;
+    width: 200px;
+    padding: 8px 12px;
+    top: 2px;
+    left: 200px;
+    min-width: none;
+    max-width: fit-content;
+    position: absolute;
+  }
+
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .slide-picture{
+    height: 250px;
+    width: auto;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.sliderbox{
+  position: relative;
+}

@@ -1,0 +1,230 @@
+
+.background-color{
+    background-color: white;
+}
+.adbanner{
+    max-width: 100%;
+    filter:sepia(0.5) 
+}
+.product-left-right-container{
+    display: flex;
+    height: 40em;
+}
+
+.product-details-left, .product-details-right{
+    width: 50%;
+}
+.product-details-right{
+    margin-inline: 10px;
+}
+
+.product-details-left{
+    margin-top: 5px;
+    margin-left: 18px;
+}
+.details-productbox{
+    height: 30rem;   
+    border: #f2f2f2 0.5px solid;
+    background-color: white;
+    width: 97%;
+}
+.details-productbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.goldentext{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.goldentitle{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.description-styling{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.advanced-descreption-icon{
+    width: auto;
+    height: 24px;
+}
+/*------buttons--------*/
+
+.product-detail-buttons{
+    display: flex;
+   justify-content: left;
+   margin-bottom: 20px;
+}
+
+.add-to-cart-button{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    margin-inline: 5px;
+    padding-inline: 30px;
+    text-transform: uppercase;
+    width: auto;
+    height: 30px;
+}
+
+.add-to-cart-button:hover{
+    background-color: var(--primary-color);
+    border: none;
+    background-color: #333;;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.paypal-button{
+    display: flex;
+    background-color: #ffc439;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 120px;
+    padding-inline: 5px;
+    border-radius: 20px;
+    border: none;
+    justify-content: space-evenly;
+    margin-inline: 114px;
+    font-weight: 500;
+    font-size: 11px;
+    box-shadow: 3px;
+}
+.paypal-button:hover{
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+}
+.paypal-button img{
+    height: auto;
+    width: 45px;
+}
+.details-button{
+    margin-right: 2px;
+    background-color: var( --primary-color);
+    height: 25px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    padding-inline: 12px;
+}
+.details-button:hover{
+    background-color: #333;
+}
+
+/*-----quantity container------*/
+.quantity-box{
+    border: solid 0.5px;
+    width: 97%;
+    background-color: #e1e1e1;
+    height: 180px;
+}
+.quantity-aligntext:first-of-type{
+margin-left: 153px;
+}
+.quantity-aligntext:last-of-type{
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 113px;
+}
+.options-container{
+    border-bottom: solid 0.2px;
+    height: 50px;
+    width: auto;
+    background-color: white;
+}
+.option-styling{
+    display: flex;
+    margin-inline: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.Upper-addtocart-box{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    margin-inline: 10px;
+}
+.Upper-addtocart-box p{
+    align-self: center;
+    margin-right: 10px;
+}
+.Upper-addtocart-box input{
+    padding: 5px;
+    width: 45px;
+}
+.see-other{
+display: flex;
+justify-content: space-between;
+}
+.see-other p:last-of-type{
+margin-right: 20px;
+}
+
+/*------Table------*/
+.info-table, .table-field-left, .table-field-right {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-field-left{
+    background-color: #e1e1e1;
+    text-transform: uppercase;
+    font-family: 'Museo Sans Rounded';
+    padding-inline: 20px ;
+    font-weight: 500;
+}
+.table-field-right{
+    width: 70%;
+    padding: 10px;
+}
+.table-advancedfield-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**-----Advanced Info table-----*/
+.advanced-info-table{
+    margin-inline: 18px;
+}
+.phone-call-icon{
+    width: auto;
+    height: 20px;
+}
+.description-title{
+    margin-left: 18px;
+}
+
+
+/*-----call us container-----*/
+.call-us-container{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: var(--primary-color);
+    align-items: center;
+    font-size: 20px;
+    height: 35px;
+    text-transform: uppercase;
+    margin-inline: 20px;
+    padding-inline: 200px;
+    margin-bottom: 40px;
+}
+.call-us-container a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.call-us-container a:hover{
+  color: white;
+}
+.phone-call-icon{
+    margin-right: 7px;
+}
