@@ -1,0 +1,140 @@
+.products-path {
+    margin-left: 2rem;
+    margin-block: 1rem;
+}
+
+.products-path__link {
+    color: var(--gold-colour);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.products-path__filter {
+    text-transform: capitalize;
+}
+
+.products-path__link:hover {
+    text-decoration: underline;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding-inline: 2rem;
+    margin-bottom: 1rem;
+}
+
+.products-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.products-filter__categories {
+    background-color: var(--grey-colour);
+    padding: 1rem;
+    color: var(--gold-colour);
+    list-style: none;
+    text-transform: capitalize;
+    
+}
+
+
+.products-filter__shop-by {
+    background-color: var(--grey-colour);
+    padding: 2rem 4rem 1rem 1rem;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.shop-by__heading {
+    font-size: 1.2em;
+    color: var(--gold-colour);
+    text-transform: uppercase;
+}
+
+.products__under-heading {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.shop-by__price-list, .shop-by__producer-list {
+    color: var(--gold-colour);
+    list-style: none;
+}
+
+.category-heading {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.products-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey-colour);
+    padding: 0.5rem;
+}
+
+.products-display__left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.products-display__right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.products-display__text {
+    text-transform: uppercase;
+}
+
+.products-display__icon {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.products-producer__under-heading {
+    color: var(--gold-colour);
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.products-producer__list {
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.products-producer__list-item:not(:last-of-type) {
+    margin-bottom: 0.3rem;
+}
+
+.products-producer__button {
+    background: none;
+    border: none;
+    color: var(--gold-colour);
+    font-size: 1em;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+
+.products-producer__button:hover {
+    text-decoration: underline;
+}
+
+.filter-item {
+    cursor: pointer;
+}
+
+.filter-item:hover {
+    text-decoration: underline;
+}

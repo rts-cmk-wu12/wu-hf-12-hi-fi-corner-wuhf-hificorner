@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your cart</title>
+    <script type="module" src="js/cart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="headeritems1">
+                <img class="headeritems1_logo" src="images/logo/logo_sml.gif" alt="logo">
+
+                <form class="headeritems1__form"><input class="headeritems__input" type="search"
+                        placeholder="Search entire store here...." id="product-search-input"><i
+                        class="fas fa-search"></i></form>
+                <ul class="headeritems1__list">
+                    <li class="header__item2 header__item2--last2"><img class="header_img"
+                            src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
+
+                    <li class="header__item2 header__item2--last2"><a href="cart.html" class="header__item-cart"
+                            aria-current="page"><img class="header_img" src="Icons/cart-minus-svgrepo-com.svg"
+                                alt="cart">CART</a></li>
+
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/location-pin-svgrepo-com.svg" alt="loction">
+                    </li>
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/telephone-svgrepo-com.svg" alt="telephone">
+                    </li>
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/envelope-svgrepo-com.svg" alt="envelope">
+                    </li>
+                </ul>
+            </div>
+            <hr class="header_line">
+
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+                    <li class="menu__item"><a class="menu__link" href="brands.html">BRANDS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="shop-frontpage.html">SHOP</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">CONTACT US</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main class="cart-products-wrapper">
+        <section class="products-cart-main" id="products-main">
+            <h1 class="products-cart-main__heading">your cart</h1>
+
+        </section>
+
+        <section class="cart-information">
+            <h2 class="cart-information__heading">checkout</h2>
+            <div class="cart-information__pricing">
+                <p class="cart-information__total">total price:</p>
+                <div class="cart-information__currency">
+                    <p class="cart-information__total-price">£</p>
+                    <p class="cart-information__total-price" id="cart-information__total-price">0</p>
+                </div>
+            </div>
+            <button class="cart-information__btn">checkout</button>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer_info">
+            <div class="footer-top">
+                <div class="footer_address">
+                    <p>Hi-Fi Corner</p>
+                    <p>Edingburgh 2 Joppa Road EH15 2EU</p>
+                    <p>Falkirk 44 Cow Wynd FK1 1PU</p>
+                </div>
+
+                <small class="footer_link">
+                    <a class="first_link" href="#">Returns & Refunds</a>
+
+                    <a href="#">Privacy Policy</a>
+                </small>
+            </div>
+
+            <div class="footer_icons">
+                <img src="Icons/visa-svgrepo-com.svg" alt="visa">
+                <img src="Icons/mastercard-svgrepo-com.svg" alt="mastercard">
+                <img src="Icons/maestro-old-1-svgrepo-com.svg" alt="maestro">
+                <img src="Icons/jcb-svgrepo-com(2).svg" alt="jcb">
+                <img src="Icons/paypal-logo-svgrepo-com.svg" alt="paypal">
+                <img src="Icons/facebook-svgrepo-com.svg" alt="facebook">
+                <img src="Icons/youtube-svgrepo-com.svg" alt="youtube">
+                <img src="Icons/twitter-svgrepo-com.svg" alt="twitter">
+                <img src="Icons/instagram-svgrepo-com.svg" alt="instagram">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

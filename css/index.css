@@ -1,0 +1,125 @@
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*------------------speaker section---------------*/
+
+body.index,
+.speaker {
+  background-image: url(../images/logo/hifi-logo1.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position-x: center;
+  overflow-x: hidden;
+}
+
+
+.showroom {
+  display: grid;
+  grid-template: 1fr/1fr;
+  height: 500px;
+
+}
+
+.showroom_img,
+.showroom_writing {
+  grid-area: 1/1/2/-1;
+}
+
+.showroom_writing {
+  text-align: center;
+  color: var(--white-colour);
+  margin-top: 8em;
+  font-size: xx-large;
+}
+
+/*-------------sounds------------*/
+/*img {vertical-align: middle;}*/
+
+.slider {
+  height: 400px;
+  position: relative;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_name{
+    color: var(--gold-colour);
+}
+
+.slides {
+    width: 300px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  padding: 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+
+/*--------------social media--------*/
+
+.social-media {
+  display: flex;
+  background-color: var(--black-colour);
+}
+
+.social-media a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/*---------info-----------*/
+
+.info {
+  display: flex;
+  background-color: var(--black-colour);
+  color: var(--white-colour);
+  font-size: small;
+  text-align: center;
+  height: 347px;
+  align-items: center;
+  gap: 5em;
+}
+
+.info_heading {
+  color: var(--gold-colour);
+  margin-left: 5em;
+  padding-bottom: 2em;
+  border: 2em;
+  border-color: var(--white-colour);
+
+}
+
+.info_p {
+  margin-left: 7em;
+}

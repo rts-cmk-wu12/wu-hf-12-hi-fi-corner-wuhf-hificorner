@@ -1,0 +1,77 @@
+/*Her koder jeg de billeder med links der fører til shopping siden*/
+.shopfront {
+    background-color: var(--black-colour);
+}
+
+.shop-wrapper {
+    margin-bottom: 4rem;
+}
+
+.grid-item-image {
+    display: block;
+    width: 234px;
+    height: 234px;
+}
+
+.current-website {
+    color: var(--gold-colour);
+}
+
+.to-shoplist-link {
+    width: 234px;
+}
+
+.link-to-shoplist {
+    display: flex;
+    position: absolute;
+    color: var(--white-colour);
+    width: 234px;
+    height: 234px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Museo Sans Rounded 500';
+}
+
+.grid-item {
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    width: 234px;
+    height: 234px;
+}
+
+.grid-container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 16fr);
+    width: 935px;
+}
+
+.grid-item-last {
+    background-color: var(--gold-colour);
+    width: 234px;
+    height: 234px;
+}
+
+/* Her koder jeg button til shopping side */
+
+#shop-frontpage-button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 162px;
+    height: 54px;
+    background-color: var(--brown-colour);
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+#shop-frontpage-button span {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: var(--white-colour);
+    font-size: 20px;
+    font-family: 'Museo Sans Rounded 500';
+}

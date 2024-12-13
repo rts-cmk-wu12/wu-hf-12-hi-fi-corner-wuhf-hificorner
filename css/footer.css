@@ -1,0 +1,37 @@
+.footer_info {
+   display: flex;
+   background-color:  var(--gold-colour); 
+   align-items: center;
+   justify-content: space-between;
+   gap: 2em;
+   padding: 1em;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer_address {
+    font-size: x-small;
+}
+
+.footer_link a {
+    color: var( --white-colour);
+
+}
+.first_link {
+    border-right: 2px solid white;
+    padding-right: 0.5em;
+    
+}
+
+.footer_icons {
+    display: flex;
+    gap: 0.7em;
+}
+
+.footer_icons img {
+    width: 1.5rem;
+}

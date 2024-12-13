@@ -1,0 +1,106 @@
+
+
+/*Her har jeg body et background image*/
+.brands-body {
+    background-image: url(/images/brandsbg.jpg);
+    background-repeat: no-repeat;
+}
+
+/*Her koder jeg TOP BRANDS headeren og hifi logoet*/
+.grid-container-brands {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-brands-header {
+    color: var(--white-colour);
+    font-family: 'Museo Sans Rounded 100';
+}
+
+.hifi-logo-header {
+    color: var(--white-colour);
+    margin-top: 75px;
+    margin-left: 10px;
+    font-size: 45px;
+    font-family: 'Museo Sans Rounded 500';
+}
+
+.hifi-link-text {
+    color: var(--white-colour);
+    letter-spacing: 1.8px;
+    font-family: 'Museo Sans Rounded 100';
+}
+
+.hifi-logo {
+    width: 173px;
+    height: 186px;
+    border-style: solid;
+    color: var(--white-colour);
+}
+
+.hifi-logo-section {
+    margin-top: 15px;
+}
+
+.top-brands-header {
+    text-align: center;
+    margin-top: 3.5em;
+}
+
+/*Her koder jeg brands delen af siden*/
+
+.brands-sub-text {
+    color: var(--white-colour);
+    margin: 30px;
+    font-family: 'Museo Sans Rounded 100';
+}
+
+.grid-container-brands-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 425px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.brands-container {
+    padding-inline: 1rem;
+    margin: 0 auto;
+    margin-top: 3em;
+    background-color: var(--white-colour);
+}
+
+.stock-brands {
+    background-color: var(--black-colour);
+    height: 375px;
+}
+
+.brands-image {
+    height: 300px;
+}
+
+.brands-sub-header {
+    font-family: 'Museo Sans Rounded 100';
+    color: var(--gold-colour);
+    margin: 30px;
+}
+
+.brands-sub {
+    background-image: url(/images/brandsbg.jpg);
+}
+
+.brands-sub-link {
+    color: var(--gold-colour);
+    margin: 30px;
+    font-family: 'Museo Sans Rounded 500';
+}
+
+.stock-brands-text {
+    color: var(--gold-colour);
+    margin: 30px;
+    font-family: 'Museo Sans Rounded 500';
+}
+
+.brands-div {
+    height: 345px;
+}

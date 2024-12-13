@@ -1,0 +1,69 @@
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*-------------Icons style--------*/
+
+.headeritems {
+    color: var(--white-colour);
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header_img {
+    width: 3em;
+    max-width: 2em;
+    margin-bottom: 0.5em;
+}
+
+.header__item--last1 {
+    display: flex;
+    background-color: var(--blue-colour);
+    color: var(--white-colour);
+    height: 1.7em;
+    width: 7em;
+    margin-right: 0.3em;
+    margin-top: 0.6em;
+    border-radius: 3%;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+/*------------------menu style----------*/
+
+.menu {
+    background-color: var(--black-colour);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 27px;
+    height: 3em;
+    padding-top: 1em;
+}
+
+.menu__item {
+    display: flex;
+
+}
+
+.menu__link {
+    font-family: 'Museo Sans Rounded 500';
+    text-decoration: none;
+    color: var(--white-colour);
+    font-size: smaller;
+    transition: 200ms;
+}
+
+.menu__link:hover {
+    color: var(--gold-colour);
+}
+
+[aria-current="page"] {
+    color: var(--gold-colour);
+}

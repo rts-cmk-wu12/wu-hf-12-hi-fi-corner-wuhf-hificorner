@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product details</title>
+    <script type="module" src="js/product-details.js"></script>
+    <script src="js/add-to-cart.js" defer></script>
+    <script defer src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="headeritems1">
+                <img class="headeritems1_logo" src="images/logo/logo_sml.gif" alt="logo">
+
+                <form class="headeritems1__form"><input class="headeritems__input" type="search"
+                        placeholder="Search entire store here...." id="product-search-input"><i
+                        class="fas fa-search"></i></form>
+                <ul class="headeritems1__list">
+                    <li class="header__item2 header__item2--last2"><img class="header_img"
+                            src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
+
+                    <li class="header__item2 header__item2--last2"><a href="cart.html" class="header__item-cart"><img
+                                class="header_img" src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</a></li>
+
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/location-pin-svgrepo-com.svg" alt="loction">
+                    </li>
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/telephone-svgrepo-com.svg" alt="telephone">
+                    </li>
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/envelope-svgrepo-com.svg" alt="envelope">
+                    </li>
+                </ul>
+            </div>
+            <hr class="header_line">
+
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+                    <li class="menu__item"><a class="menu__link" href="brands.html">BRANDS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="shop-frontpage.html" aria-current="page">SHOP</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">CONTACT US</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <nav class="products-path" id="products-path">
+        <span class="products-path__link">home</span>
+        <span> / </span>
+    </nav>
+
+    <main class="details-main">
+        <div class="product-display">
+            <div id="product-display__view">
+
+            </div>
+            <section>
+                <h2 class="product-display__heading">description</h2>
+                <div class="product-display__info">
+                    <p>power output(8 / 4 ohm RMS)</p>
+                    <p>45 w / 60 w</p>
+                    <p>frequency response</p>
+                    <img src="Icons/cross-icon.svg" alt="cross" class="product-display__info-img">
+                    <p>total harmonic distortion</p>
+                    <p>0.08%</p>
+                    <p>damping factor</p>
+                    <p>100</p>
+                    <p>input sensitvity: MM</p>
+                    <p>2.2 mV / 47 kOhm</p>
+                    <p>input sensitvity: MC</p>
+                    <img src="Icons/cross-icon.svg" alt="cross" class="product-display__info-img">
+                    <p>signal to noise ratio: MM / MC</p>
+                    <div class="product-display__info-detail">
+                        <p>83 dB /</p>
+                        <img src="Icons/cross-icon.svg" alt="cross" class="product-display__info-img">
+                    </div>
+                    <p>input sensitvity: high level</p>
+                    <p>200mV / 20 kOhm</p>
+                    <p>input sensitvity: balanced and high level</p>
+                    <img src="Icons/cross-icon.svg" alt="cross" class="product-display__info-img">
+                    <p>signal to noise ratio: high level</p>
+                    <p>102dB(2V input)</p>
+                    <p>input sensitvity: power amp direct IN</p>
+                    <img src="Icons/cross-icon.svg" alt="cross" class="product-display__info-img">
+                    <p>signal to noise ratio: power amp direct IN</p>
+                    <img src="Icons/cross-icon.svg" alt="cross" class="product-display__info-img">
+                </div>
+            </section>
+        </div>
+        <div class="product-information">
+            <div class="product-information__basic-info" id="product-information__basic-info">
+
+            </div>
+            <form id="form">
+                <div class="product-information__variants" id="product-information__variants">
+
+                </div>
+                <div class="product-information__checkout">
+                    <label for="quantity" class="checkout__label">qty:</label>
+                    <input type="number" name="quantity" value="1" id="quantity" class="checkout__quantity" min="1"
+                        max="20">
+                    <div class="product-information__cart" id="product-information__cart">
+                        <button type="submit" class="product-information__button" id="product-information__button">add
+                            to cart</button>
+                        <p class="product-information__options-text">-or-</p>
+                        <button class="product-information__paypal" id="product-information__paypal"><img
+                                src="images/paypal-logo.png" alt="paypal">Check
+                            out</button>
+                        <p class="product-information__text">The safer, easier way to pay</p>
+                    </div>
+                </div>
+            </form>
+            <section>
+                <h2 class="product-information__heading">additional information</h2>
+                <table class="product-information__table" id="product-information__table">
+
+                </table>
+            </section>
+        </div>
+    </main>
+    <div class="product-contact">
+        <a href="tel:+4511223344" class="product-contact__link"><img src="Icons/phone-icon.svg" alt="phone">call us
+            about this product</a>
+    </div>
+
+    <footer>
+        <div class="footer_info">
+            <div class="footer-top">
+                <div class="footer_address">
+                    <p>Hi-Fi Corner</p>
+                    <p>Edingburgh 2 Joppa Road EH15 2EU</p>
+                    <p>Falkirk 44 Cow Wynd FK1 1PU</p>
+                </div>
+
+                <small class="footer_link">
+                    <a class="first_link" href="#">Returns & Refunds</a>
+
+                    <a href="#">Privacy Policy</a>
+                </small>
+            </div>
+
+            <div class="footer_icons">
+                <img src="Icons/visa-svgrepo-com.svg" alt="visa">
+                <img src="Icons/mastercard-svgrepo-com.svg" alt="mastercard">
+                <img src="Icons/maestro-old-1-svgrepo-com.svg" alt="maestro">
+                <img src="Icons/jcb-svgrepo-com(2).svg" alt="jcb">
+                <img src="Icons/paypal-logo-svgrepo-com.svg" alt="paypal">
+                <img src="Icons/facebook-svgrepo-com.svg" alt="facebook">
+                <img src="Icons/youtube-svgrepo-com.svg" alt="youtube">
+                <img src="Icons/twitter-svgrepo-com.svg" alt="twitter">
+                <img src="Icons/instagram-svgrepo-com.svg" alt="instagram">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

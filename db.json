@@ -1,0 +1,290 @@
+{
+    "products": [
+      {
+        "product_name": "Retro CD Player",
+        "description": "A vintage-style CD player with modern functionality, offering crisp audio and multiple playback options.",
+        "price": 89.99,
+        "producer": "Classic Audio Co.",
+        "category": "cd players",
+        "image": "/images/cd_players/creek_classic_cd.jpg"
+      },
+      {
+        "product_name": "Portable CD Walkman",
+        "description": "Lightweight and compact, this portable CD player is perfect for on-the-go music lovers.",
+        "price": 49.99,
+        "producer": "Classic Audio Co.",
+        "category": "cd players",
+        "image": "/images/cd_players/creek_Destiny_CD.jpg"
+      },
+      {
+        "product_name": "Hi-Fi CD Player",
+        "description": "High-fidelity CD player designed for audiophiles seeking unmatched sound quality and durability.",
+        "price": 149.99,
+        "producer": "Elite Sound Inc.",
+        "category": "cd players",
+        "image": "/images/cd_players/creek_evo_cd.jpg"
+      },
+      {
+        "product_name": "Wireless CD Player",
+        "description": "A modern CD player with wireless connectivity and built-in Bluetooth speakers.",
+        "price": 129.99,
+        "producer": "Elite Sound Inc.",
+        "category": "cd players",
+        "image": "/images/cd_players/Exp_2010S_CD.gif"
+      },
+      {
+        "product_name": "Ultra DVD Player",
+        "description": "A high-definition DVD player that supports 4K video output and Dolby audio.",
+        "price": 99.99,
+        "producer": "Home Theatre Systems",
+        "category": "dvd players",
+        "image": "/images/dvd_players/creek_classic.jpg"
+      },
+      {
+        "product_name": "Compact DVD Player",
+        "description": "Space-saving, compact DVD player with HDMI output for crystal-clear viewing.",
+        "price": 59.99,
+        "producer": "Home Theatre Systems",
+        "category": "dvd players",
+        "image": "/images/dvd_players/exposure_2010S.jpg"
+      },
+      {
+        "product_name": "Blu-ray/DVD Combo Player",
+        "description": "A versatile player that supports both Blu-ray and DVD formats for high-quality entertainment.",
+        "price": 129.99,
+        "producer": "Entertainment Hub",
+        "category": "dvd players",
+        "image": "/images/dvd_players/parasound_d200.jpg"
+      },
+      {
+        "product_name": "Multi-Region DVD Player",
+        "description": "Play DVDs from any region with this versatile, multi-region DVD player.",
+        "price": 79.99,
+        "producer": "Entertainment Hub",
+        "category": "dvd players",
+        "image": "/images/dvd_players/parasound_halod3.jpg"
+      },
+      {
+        "product_name": "Reverb Effect Booster",
+        "description": "Enhance your sound with rich reverb effects, perfect for live performances and recording.",
+        "price": 69.99,
+        "producer": "Sonic Gear",
+        "category": "effect boosters",
+        "image": "/images/effect_boosters/manley_mahi.jpg"
+      },
+      {
+        "product_name": "Distortion Effect Booster",
+        "description": "Add intense distortion effects to your sound, ideal for rock and metal music.",
+        "price": 74.99,
+        "producer": "Sonic Gear",
+        "category": "effect boosters",
+        "image": "/images/effect_boosters/manley_neoclassic300b.jpg"
+      },
+      {
+        "product_name": "Chorus Effect Booster",
+        "description": "Create lush, swirling soundscapes with this versatile chorus effect booster.",
+        "price": 79.99,
+        "producer": "Melody Masters",
+        "category": "effect boosters",
+        "image": "/images/effect_boosters/manley_snapper.jpg"
+      },
+      {
+        "product_name": "Delay Effect Booster",
+        "description": "Produce captivating echoes and delays for your music with this easy-to-use booster.",
+        "price": 89.99,
+        "producer": "Melody Masters",
+        "category": "effect boosters",
+        "image": "/images/effect_boosters/parasound_haloa23.jpg"
+      },
+      {
+        "product_name": "Strength FOR Booster",
+        "description": "Increase your strength and endurance with this potent FOR booster.",
+        "price": 39.99,
+        "producer": "Power Performance Labs",
+        "category": "for boosters",
+        "image": "/images/for_boosters/Creek_OBH_22_Passive_Preamp.jpg"
+      },
+      {
+        "product_name": "Energy FOR Booster",
+        "description": "Boost your energy levels with this all-natural FOR booster supplement.",
+        "price": 29.99,
+        "producer": "Power Performance Labs",
+        "category": "for boosters",
+        "image": "/images/for_boosters/parasound_classic7100.jpg"
+      },
+      {
+        "product_name": "Endurance FOR Booster",
+        "description": "Maximize your workout endurance with this advanced FOR booster formula.",
+        "price": 34.99,
+        "producer": "Athlete’s Choice",
+        "category": "for boosters",
+        "image": "/images/for_boosters/parasound_halop3.jpg"
+      },
+      {
+        "product_name": "Power FOR Booster",
+        "description": "Unleash your inner power with this high-performance FOR booster.",
+        "price": 44.99,
+        "producer": "Athlete’s Choice",
+        "category": "for boosters",
+        "image": "/images/for_boosters/Project_prebox.jpg"
+      },
+      {
+        "product_name": "Intelligence INT Booster",
+        "description": "Sharpen your cognitive abilities with this brain-enhancing INT booster.",
+        "price": 49.99,
+        "producer": "NeuroLabs",
+        "category": "int boosters",
+        "image": "/images/int_boosters/creek_a50I.jpg"
+      },
+      {
+        "product_name": "Memory INT Booster",
+        "description": "Enhance your memory retention with this advanced INT booster supplement.",
+        "price": 42.99,
+        "producer": "NeuroLabs",
+        "category": "int boosters",
+        "image": "/images/int_boosters/creek_classic5350SE.jpg"
+      },
+      {
+        "product_name": "Focus INT Booster",
+        "description": "Improve your concentration and focus with this powerful INT booster.",
+        "price": 39.99,
+        "producer": "Clarity Health",
+        "category": "int boosters",
+        "image": "/images/int_boosters/creek_destinyamp.jpg"
+      },
+      {
+        "product_name": "Creativity INT Booster",
+        "description": "Unlock your creative potential with this unique INT booster formula.",
+        "price": 54.99,
+        "producer": "Clarity Health",
+        "category": "int boosters",
+        "image": "/images/int_boosters/manley_snapper.jpg"
+      },
+      {
+        "product_name": "Brainpower INT Booster",
+        "description": "Increase your overall brainpower and mental acuity with this INT booster.",
+        "price": 59.99,
+        "producer": "Genius Labs",
+        "category": "int boosters",
+        "image": "/images/int_boosters/Manley_Stingray.jpg"
+      },
+      {
+        "product_name": "Vintage Record Player",
+        "description": "A retro-style record player with modern features for the ultimate vinyl experience.",
+        "price": 119.99,
+        "producer": "Retro Audio",
+        "category": "record players",
+        "image": "/images/record_players/Pro_ject_Debut_3_bl.jpg",
+        "variant": [
+            {
+                "colour": "blue",
+                "image": "/images/record_players/Pro_ject_Debut_3_bl.jpg"
+            },
+            {
+                "colour": "red",
+                "image": "/images/record_players/Pro_ject_Debut_III_red_1.jpg"
+            },
+            {
+                "colour": "yellow",
+                "image": "/images/record_players/Pro_ject_Debut_III_yellow_1.jpg"
+            }
+        ]
+      },
+      {
+        "product_name": "Hi-Fi Record Player",
+        "description": "A high-fidelity record player designed for true audiophiles.",
+        "price": 199.99,
+        "producer": "Modern Audio Solutions",
+        "category": "record players",
+        "image": "/images/record_players/Pro_ject_rpm_5.jpg"
+      },
+      {
+        "product_name": "All-in-One Record Player",
+        "description": "A versatile record player with built-in speakers, radio, and CD player.",
+        "price": 179.99,
+        "producer": "AllPlay Audio",
+        "category": "record players",
+        "image": "/images/record_players/Pro_ject_rpm10.jpg"
+      },
+      {
+        "product_name": "Regeneration ROER Booster",
+        "description": "Regenerate your cells and revitalize your body with this advanced ROER booster.",
+        "price": 69.99,
+        "producer": "Health Innovations",
+        "category": "roer boosters",
+        "image": "/images/roer_boosters/jolida_JD102b.jpg"
+      },
+      {
+        "product_name": "Resistance ROER Booster",
+        "description": "Boost your body’s resistance against ailments with this ROER booster.",
+        "price": 59.99,
+        "producer": "Health Innovations",
+        "category": "roer boosters",
+        "image": "/images/roer_boosters/jolida_JD202a.jpg"
+      },
+      {
+        "product_name": "Recovery ROER Booster",
+        "description": "Speed up your recovery with this specially formulated ROER booster.",
+        "price": 64.99,
+        "producer": "Rapid Recoveries Inc.",
+        "category": "roer boosters",
+        "image": "/images/roer_boosters/jolida_JD300b.jpg"
+      },
+      {
+        "product_name": "Vitality ROER Booster",
+        "description": "Improve overall vitality and energy levels with this ROER booster.",
+        "price": 74.99,
+        "producer": "Rapid Recoveries Inc.",
+        "category": "roer boosters",
+        "image": "/images/roer_boosters/jolida_JD302b.jpg"
+      },
+      {
+        "product_name": "Strength ROER Booster",
+        "description": "Enhance physical strength and endurance with this powerful ROER booster.",
+        "price": 79.99,
+        "producer": "Max Health Ltd.",
+        "category": "roer boosters",
+        "image": "/images/roer_boosters/jolida_JD502b.jpg"
+      },
+      {
+        "product_name": "Portable Bluetooth Speaker",
+        "description": "Compact and portable Bluetooth speaker with powerful sound output.",
+        "price": 39.99,
+        "producer": "AudioFlex",
+        "category": "speakers",
+        "image": "/images/speakers/boesendorfer_vcs_wall.gif"
+      },
+      {
+        "product_name": "Wireless Smart Speaker",
+        "description": "Smart speaker with voice control, Wi-Fi connectivity, and immersive sound.",
+        "price": 99.99,
+        "producer": "Smart Home Audio",
+        "category": "speakers",
+        "image": "/images/speakers/epos_m5.gif"
+      },
+      {
+        "product_name": "High-Fidelity Bookshelf Speakers",
+        "description": "Premium bookshelf speakers for crystal-clear audio in any room.",
+        "price": 249.99,
+        "producer": "Elite Acoustics",
+        "category": "speakers",
+        "image": "/images/speakers/harbeth_hl7es2.jpg"
+      },
+      {
+        "product_name": "Outdoor Waterproof Speaker",
+        "description": "Durable and waterproof speaker, perfect for outdoor adventures.",
+        "price": 59.99,
+        "producer": "Outdoor Sound Co.",
+        "category": "speakers",
+        "image": "/images/speakers/harbeth_monitor30.jpg"
+      },
+      {
+        "product_name": "360-Degree Surround Sound Speaker",
+        "description": "A speaker that delivers 360-degree surround sound for an immersive experience.",
+        "price": 199.99,
+        "producer": "Surround Sound Systems",
+        "category": "speakers",
+        "image": "/images/speakers/harbeth_p3es2.jpg"
+      }
+    ]
+}

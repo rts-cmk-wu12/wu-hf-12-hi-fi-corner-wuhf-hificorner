@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <script type="module" src="js/fetch-products.js"></script>
+    <script type="module" src="js/sort-products.js"></script>
+    <script src="js/add-to-cart.js" defer></script>
+    <script defer src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="headeritems1">
+                <img class="headeritems1_logo" src="images/logo/logo_sml.gif" alt="logo">
+
+                <form class="headeritems1__form"><input class="headeritems__input" type="search"
+                        placeholder="Search entire store here...." id="product-search-input"><i
+                        class="fas fa-search"></i></form>
+                <ul class="headeritems1__list">
+                    <li class="header__item2 header__item2--last2"><img class="header_img"
+                            src="Icons/user-svgrepo-com.svg" alt="account">ACCOUNT</li>
+
+                    <li class="header__item2 header__item2--last2"><a href="cart.html" class="header__item-cart"><img
+                                class="header_img" src="Icons/cart-minus-svgrepo-com.svg" alt="cart">CART</a></li>
+
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/location-pin-svgrepo-com.svg" alt="loction">
+                    </li>
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/telephone-svgrepo-com.svg" alt="telephone">
+                    </li>
+                    <li class="header__item2 header__item2--last"><img class="header_img"
+                            src="Icons/envelope-svgrepo-com.svg" alt="envelope">
+                    </li>
+                </ul>
+            </div>
+            <hr class="header_line">
+
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+                    <li class="menu__item"><a class="menu__link" href="brands.html">BRANDS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">BLOG</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">EVENTS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="shop-frontpage.html" aria-current="page">SHOP</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">CONTACT US</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <nav class="products-path" id="products-path">
+        <span class="products-path__link">home</span>
+    </nav>
+    <div class="products-wrapper">
+        <aside class="products-filter">
+            <ul class="products-filter__categories" id="products-filter__categories">
+
+
+            </ul>
+
+            <section class="products-filter__shop-by" id="products-filter__shop-by">
+                <h2 class="shop-by__heading">shop by</h2>
+                <h3 class="products__under-heading">price</h3>
+                <ul class="shop-by__price-list" id="shop-by__price-list">
+                    <li class="filter-item">£<span>0</span> - £<span>250</span></li>
+                    <li class="filter-item">£<span>40</span> - £<span>100</span></li>
+                    <li class="filter-item">£<span>100</span> - £<span>250</span></li>
+                </ul>
+                <h3 class="products__under-heading">manufacturer</h3>
+                <ul class="shop-by__producer-list" id="shop-by__producer-list">
+
+                </ul>
+            </section>
+        </aside>
+
+        <section>
+            <h1 class="category-heading" id="category-heading">all</h1>
+            <div class="products-display">
+                <div class="products-display__left">
+                    <p class="products-display__text">sort by:</p>
+                    <select name="sorter" id="products-sorter">
+                        <option>Price: Ascending</option>
+                        <option>Price: Descending</option>
+                        <option>Name: A-Z</option>
+                        <option>Name: Z-A</option>
+                    </select>
+                    <p class="products-display__text">view as:</p>
+                    <img src="Icons/gridbox-icon.svg" alt="gridbox-icon" class="products-display__icon"
+                        id="product-display__grid">
+                    <img src="Icons/flexbox-icon.svg" alt="flexbox-icon" class="products-display__icon"
+                        id="product-display__flex">
+                </div>
+                <div class="products-display__right">
+                    <p class="products-display__items-text" id="products-display__items-text">items</p>
+                    <p class="products-display__text">show:</p>
+                    <select name="limiter" id="products-limiter">
+                        <option>34</option>
+                        <option>25</option>
+                        <option>10</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-main grid" id="products-main">
+            </div>
+        </section>
+
+        <aside class="products-producer" id="products-producer">
+            <h3 class="products-producer__under-heading">manufacturer</h3>
+            <ul class="products-producer__list" id="products-producer__list">
+
+
+            </ul>
+            <button class="products-producer__button" id="products-producer__button">view all</button>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer_info">
+            <div class="footer-top">
+                <div class="footer_address">
+                    <p>Hi-Fi Corner</p>
+                    <p>Edingburgh 2 Joppa Road EH15 2EU</p>
+                    <p>Falkirk 44 Cow Wynd FK1 1PU</p>
+                </div>
+
+                <small class="footer_link">
+                    <a class="first_link" href="#">Returns & Refunds</a>
+
+                    <a href="#">Privacy Policy</a>
+                </small>
+            </div>
+
+            <div class="footer_icons">
+                <img src="Icons/visa-svgrepo-com.svg" alt="visa">
+                <img src="Icons/mastercard-svgrepo-com.svg" alt="mastercard">
+                <img src="Icons/maestro-old-1-svgrepo-com.svg" alt="maestro">
+                <img src="Icons/jcb-svgrepo-com(2).svg" alt="jcb">
+                <img src="Icons/paypal-logo-svgrepo-com.svg" alt="paypal">
+                <img src="Icons/facebook-svgrepo-com.svg" alt="facebook">
+                <img src="Icons/youtube-svgrepo-com.svg" alt="youtube">
+                <img src="Icons/twitter-svgrepo-com.svg" alt="twitter">
+                <img src="Icons/instagram-svgrepo-com.svg" alt="instagram">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
